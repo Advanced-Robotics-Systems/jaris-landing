@@ -29,6 +29,7 @@ const config: Config = {
 				"jaris-blue": "#1C406F",
         "jaris-blue-light": "#3B5174",
         "jaris-blue-dark": "#233D64",
+				"jaris-blue-hover": "#1C406F20",
 				"jaris-gold": "#DD8F27",
         "jaris-gold-dark": "#B1721F",
 				"jaris-red": "#ED4A45",
