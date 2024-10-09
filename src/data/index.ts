@@ -40,7 +40,51 @@ export const navItems = [
 		sublinks: [
 			{
 				name: "Admission Info",
-				link: "/",
+				link: "#",
+			},
+			{
+				name: "Classera",
+				link: "#",
+				sublinks: [
+					{
+						name: "Registration",
+						link: "#",
+					},
+					{
+						name: "Support",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "FAQ",
+				link: "#",
+			},
+			{
+				name: "Curriculum",
+				link: "#",
+				sublinks: [
+					{
+						name: "British",
+						link: "#",
+					},
+					{
+						name: "American",
+						link: "#",
+					},
+					{
+						name: "Pakistan",
+						link: "#",
+					},
+					{
+						name: "Sudan",
+						link: "#",
+					},
+					{
+						name: "Egypt",
+						link: "#",
+					},
+				],
 			},
 		],
 	},
