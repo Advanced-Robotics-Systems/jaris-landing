@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const DiscoverJaris = () => {
 	return (
-		<div className="md:h-screen relative padding-x py-32 w-full flex flex-col justify-center items-center gap-8">
+		<div className="md:h-screen relative padding-x py-32 w-full flex flex-col justify-center items-center gap-8 overflow-hidden">
 			<video
-				className="absolute top-0 left-0 w-full h-full object-cover z-0"
+				className="absolute top-0 left-0 w-full h-full object-cover z-0 scale-110"
 				src="/videos/discover-jaris-bg.mp4"
 				autoPlay
 				loop
