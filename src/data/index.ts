@@ -204,18 +204,18 @@ export const ctaSchoolsCarouselItems = [
 		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
 	},
 	{
-		title: "INSPIRATION",
-		subtitle: "I fell in love with photography in ninth grade at HW.",
-		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+		title: "LEADERSHIP",
+		subtitle: "I have grown so much as an entrepreneur and person leading the HW Inc. summer entrepreneurship camp.",
+		imgUrl: "/images/home/cta-school-carousel-slide-2.jpeg",
 	},
 	{
-		title: "INSPIRATION",
-		subtitle: "I fell in love with photography in ninth grade at HW.",
-		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+		title: "TEAMWORK",
+		subtitle: "I tried tackle football this year and really enjoyed it.",
+		imgUrl: "/images/home/cta-school-carousel-slide-3.jpeg",
 	},
 	{
-		title: "INSPIRATION",
-		subtitle: "I fell in love with photography in ninth grade at HW.",
-		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+		title: "RESILIENCE",
+		subtitle: "I have definitely grown academically at Harvard-Westlake and learned how to manage my time better.",
+		imgUrl: "/images/home/cta-school-carousel-slide-4.jpeg",
 	},
 ];
