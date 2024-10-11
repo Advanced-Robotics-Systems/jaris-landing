@@ -94,7 +94,7 @@ export const navItems = [
 	},
 	{
 		name: "About",
-		link: "/link",
+		link: "/about",
 	},
 	{
 		name: "Contact",
