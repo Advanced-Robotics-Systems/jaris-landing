@@ -16,6 +16,9 @@ import Counts from "./home/counts";
 import CTASchools from "./shared/cta-schools";
 import HomeGallery from "./home/home-gallery";
 
+// About
+import AboutMission from "./about/about-mission";
+
 export {
   Header,
   Hero,
@@ -29,4 +32,5 @@ export {
   HomeGallery,
   Explore,
   DiscoverJaris,
+  AboutMission,
 }
