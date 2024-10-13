@@ -18,6 +18,7 @@ import HomeGallery from "./home/home-gallery";
 
 // About
 import AboutMission from "./about/about-mission";
+import AboutFounder from "./about/about-founder";
 
 export {
   Header,
@@ -33,4 +34,5 @@ export {
   Explore,
   DiscoverJaris,
   AboutMission,
+  AboutFounder,
 }

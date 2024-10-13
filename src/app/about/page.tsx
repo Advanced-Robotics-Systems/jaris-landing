@@ -1,4 +1,4 @@
-import { AboutMission, Header } from '@/sections'
+import { AboutFounder, AboutMission, Header } from '@/sections'
 import React from 'react'
 
 const About = () => {
@@ -7,6 +7,7 @@ const About = () => {
       <Header />
       <main>
         <AboutMission />
+        <AboutFounder />
       </main>
     </>
   )
