@@ -18,17 +18,22 @@ const Header = () => {
 
 	const [isNavbarVisible, setNavbarVisible] = useState(true);
 	const [lastScrollPos, setLastScrollPos] = useState(0);
+	const [isScrolledPast, setScrolledPast] = useState(false);
 
 	useEffect(() => {
-		// Handle scroll to show/hide navbar
 		const handleScroll = () => {
-			const currentScrollPos = window.pageYOffset;
+			const currentScrollPos = window.scrollY;
 
-			if (currentScrollPos > lastScrollPos && currentScrollPos > 70) {
-				// Scrolling down and past 70px, hide navbar
-				setNavbarVisible(false);
+			if (currentScrollPos > 0) {
+				setScrolledPast(true);
+
+				if (currentScrollPos < lastScrollPos) {
+					setNavbarVisible(true);
+				} else {
+					setNavbarVisible(false); 
+				}
 			} else {
-				// Scrolling up, show navbar
+				setScrolledPast(false);
 				setNavbarVisible(true);
 			}
 
@@ -71,7 +76,7 @@ const Header = () => {
 		setOpenMobileSubSubMenu(openMobileSubSubMenu === name ? null : name);
 	};
 
-	// Framer Motion animations for dropdown
+	// Animations for dropdown
 	const dropdownVariants = {
 		hidden: { opacity: 0, y: -20 },
 		visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
@@ -92,15 +97,23 @@ const Header = () => {
 
 	return (
 		<nav
-			className={`bg-bg-primary w-full shadow fixed top-0 z-50 h-[70px] transition-transform duration-300 ${
-				isNavbarVisible ? "translate-y-0" : "-translate-y-full"
-			}`}
+			className={`bg-bg-primary w-full shadow z-50 h-[70px] transition-transform duration-300 ${
+				isScrolledPast ? "fixed top-0" : ""
+			} ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
 		>
 			<div className="container mx-auto flex justify-between items-center h-full gap-10">
 				<div className="navbar-brand flex items-center h-full">
 					<Link href="/" className="text-2xl font-bold text-jaris-blue px-4">
-						<Image src='/logos/jaris-logo-full.png' alt='Jawahir International School' className='max-lg:hidden' />
-						<Image src='/logos/jaris-logo.png' alt='Jawahir International School' className='lg:hidden' />
+						<Image
+							src="/logos/jaris-logo-full.png"
+							alt="Jawahir International School"
+							className="max-lg:hidden"
+						/>
+						<Image
+							src="/logos/jaris-logo.png"
+							alt="Jawahir International School"
+							className="lg:hidden"
+						/>
 					</Link>
 				</div>
 
