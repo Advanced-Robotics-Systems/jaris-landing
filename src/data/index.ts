@@ -26,7 +26,7 @@ export const navItems = [
 						name: "TJARIS",
 						link: "/",
 					},
-				]
+				],
 			},
 			{
 				name: "Facilities",
@@ -205,7 +205,8 @@ export const ctaSchoolsCarouselItems = [
 	},
 	{
 		title: "LEADERSHIP",
-		subtitle: "I have grown so much as an entrepreneur and person leading the HW Inc. summer entrepreneurship camp.",
+		subtitle:
+			"I have grown so much as an entrepreneur and person leading the HW Inc. summer entrepreneurship camp.",
 		imgUrl: "/images/home/cta-school-carousel-slide-2.jpeg",
 	},
 	{
@@ -215,7 +216,42 @@ export const ctaSchoolsCarouselItems = [
 	},
 	{
 		title: "RESILIENCE",
-		subtitle: "I have definitely grown academically at Harvard-Westlake and learned how to manage my time better.",
+		subtitle:
+			"I have definitely grown academically at Harvard-Westlake and learned how to manage my time better.",
 		imgUrl: "/images/home/cta-school-carousel-slide-4.jpeg",
+	},
+];
+
+// About
+export const coreValues = [
+	{
+		title: "Diversity",
+		description:
+			"We recognize, respect, and value diversity as a positive learning influence in developing active thinkers and learners.",
+	},
+	{
+		title: "Growth",
+		description:
+			"We create an environment in which continuous improvement is embedded in our culture for teaching life, not just exams.",
+	},
+	{
+		title: "Communication",
+		description:
+			"We believe in an environment where all stakeholders are given the opportunity for ongoing, open, two-way communication.",
+	},
+	{
+		title: "Passion",
+		description:
+			"We believe that each employee and parent understands their role to actively support student learning and eliminate passive thinking from teachers, parents, and students.",
+	},
+	{
+		title: "Logical",
+		description:
+			"We believe that decisions based on facts, data, and input from parents and teachers are in the best interest of the students.",
+	},
+	{
+		title: "Safety",
+		description:
+			"We believe that a safe, clean, and healthy environment is necessary for learning.",
 	},
 ];
