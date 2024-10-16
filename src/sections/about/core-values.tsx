@@ -1,6 +1,5 @@
 import { coreValues } from "@/data";
 import { Image } from "@nextui-org/react";
-import React from "react";
 
 const CoreValues = () => {
 	return (
@@ -43,11 +42,8 @@ const CoreValues = () => {
 					src="/images/about/about-core-values.jpeg"
 					alt="Core Values"
 					className="rounded-lg object-cover"
-					width={352} // Fixed width for larger screens
-					height={616} // Fixed height to match the design
-					style={{
-						borderRadius: "8px 0px 0px 0px",
-					}}
+					width={352}
+					height={616}
 				/>
 			</div>
 		</div>
