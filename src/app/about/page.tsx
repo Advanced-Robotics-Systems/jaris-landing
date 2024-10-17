@@ -6,6 +6,8 @@ import {
 	AboutSJaris,
 	AboutTJaris,
 	CoreValues,
+	DiscoverJaris,
+	Explore,
 	Facilities,
 	Header,
 	NavbarPlaceholder,
@@ -26,6 +28,8 @@ const About = () => {
 				<AboutFJaris />
 				<AboutSJaris />
 				<AboutTJaris />
+				<Explore />
+				<DiscoverJaris />
 			</main>
 		</>
 	);
