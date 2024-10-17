@@ -1,9 +1,11 @@
 // Navbar
 import Header from "./shared/header";
+import NavbarPlaceholder from "./shared/navbar-placeholder";
 
 // Shared
 import Explore from "./shared/explore";
 import DiscoverJaris from "./shared/discover-jaris";
+import CTASchools from "./shared/cta-schools";
 
 // Home
 import Hero from "./home/hero";
@@ -13,7 +15,6 @@ import Mission from "./home/mission";
 import CTACommunity from "./home/cta-community";
 import Experience from "./home/experience";
 import Counts from "./home/counts";
-import CTASchools from "./shared/cta-schools";
 import HomeGallery from "./home/home-gallery";
 
 // About
@@ -28,6 +29,7 @@ import AboutTJaris from "./about/about-t-jaris";
 
 export {
   Header,
+  NavbarPlaceholder,
   Hero,
   Discover,
   JoinUs,
