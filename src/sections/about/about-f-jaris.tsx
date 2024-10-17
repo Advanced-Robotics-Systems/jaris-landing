@@ -4,7 +4,7 @@ import React from "react";
 
 const AboutFJaris = () => {
 	return (
-		<div className="bg-jaris-blue padding lg:px-32 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8">
+		<div className="bg-jaris-blue padding lg:px-48 xl:px-56 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8">
 			<div className="lg:w-2/3">
 				<h1 className="heading-md font-bold text-white">1st JARIS</h1>
 				<h2 className="text-jaris-gold heading-secondary font-semibold mt-2">
