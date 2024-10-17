@@ -5,6 +5,7 @@ const About = () => {
 	return (
 		<>
 			<Header />
+      <div className="h-[70px]" />
 			<main>
 				<AboutMission />
 				<AboutFounder />
