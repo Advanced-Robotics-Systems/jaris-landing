@@ -30,7 +30,7 @@ const Header = () => {
 				if (currentScrollPos < lastScrollPos) {
 					setNavbarVisible(true);
 				} else {
-					setNavbarVisible(false); 
+					setNavbarVisible(false);
 				}
 			} else {
 				setScrolledPast(false);
@@ -97,8 +97,8 @@ const Header = () => {
 
 	return (
 		<nav
-			className={`bg-bg-primary w-full shadow z-50 h-[70px] transition-transform duration-300 ${
-				isScrolledPast ? "fixed top-0" : ""
+			className={`bg-bg-primary w-full shadow z-50 h-[70px] fixed top-0 transition-transform duration-300 ${
+				isScrolledPast ? "" : "translate-y-0"
 			} ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
 		>
 			<div className="container mx-auto flex justify-between items-center h-full gap-10">
