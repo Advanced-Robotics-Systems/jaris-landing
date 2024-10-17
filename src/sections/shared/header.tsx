@@ -97,7 +97,7 @@ const Header = () => {
 
 	return (
 		<nav
-			className={`bg-bg-primary/30 backdrop-blur-lg w-full shadow z-50 h-[70px] fixed top-0 transition-transform duration-300 ${
+			className={`bg-bg-primary/50 backdrop-blur-lg w-full z-50 h-[70px] fixed top-0 transition-transform duration-300 ${
 				isScrolledPast ? "" : "translate-y-0"
 			} ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
 		>
@@ -220,7 +220,7 @@ const Header = () => {
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0 }}
 							transition={{ duration: 0.3 }}
-							className="fixed top-[70px] inset-0 bg-jaris-blue bg-opacity-50 backdrop-blur-md z-40"
+							className="fixed top-[70px] inset-0 bg-jaris-blue bg-opacity-50 backdrop-blur-md z-40 h-screen"
 							onClick={() => setMobileMenuOpen(false)}
 						/>
 						<motion.ul
