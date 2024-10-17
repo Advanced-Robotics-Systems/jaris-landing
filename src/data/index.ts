@@ -319,19 +319,15 @@ export const tJarisCurriculumImages = [
 		imgSrc: "/logos/jaris-logo-solid.jpeg",
 	},
 	{
-		title: "College Board",
-		imgSrc: "/images/home/collegeoard.png",
+		title: "Islamabad",
+		imgSrc: "/images/home/islamabad-board.png",
 	},
 	{
-		title: "AP",
-		imgSrc: "/images/home/ap-logo.jpeg",
+		title: "Edexcel",
+		imgSrc: "/images/home/edexcel.png"
 	},
 	{
-		title: "SAT",
-		imgSrc: "/images/home/sat.png",
-	},
-	{
-		title: "Cognia",
-		imgSrc: "/images/home/cognia.png",
+		title: "Cambridge",
+		imgSrc: "/images/about/cambridge-white.png",
 	},
 ];
