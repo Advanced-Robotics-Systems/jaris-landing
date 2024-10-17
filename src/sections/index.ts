@@ -22,6 +22,9 @@ import AboutFounder from "./about/about-founder";
 import CoreValues from "./about/core-values";
 import Facilities from "./about/facilities";
 import AboutExploreSchool from "./about/about-explore-school";
+import AboutFJaris from "./about/about-f-jaris";
+import AboutSJaris from "./about/about-s-jaris";
+import AboutTJaris from "./about/about-t-jaris";
 
 export {
   Header,
@@ -41,4 +44,7 @@ export {
   CoreValues,
   Facilities, 
   AboutExploreSchool,
+  AboutFJaris,
+  AboutSJaris,
+  AboutTJaris,
 }
