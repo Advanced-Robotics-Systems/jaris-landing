@@ -4,6 +4,7 @@ import {
 	AboutFounder,
 	AboutMission,
 	AboutSJaris,
+	AboutTJaris,
 	CoreValues,
 	Facilities,
 	Header,
@@ -24,6 +25,7 @@ const About = () => {
 				<AboutExploreSchool />
 				<AboutFJaris />
 				<AboutSJaris />
+				<AboutTJaris />
 			</main>
 		</>
 	);
