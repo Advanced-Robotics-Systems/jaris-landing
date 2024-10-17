@@ -288,4 +288,50 @@ export const fJarisCurriculumImages = [
 		title: "Cambridge",
 		imgSrc: "/images/about/cambridge-white.png",
 	},
-]
+];
+
+export const sJarisCurriculumImages = [
+	{
+		title: "Jawahir",
+		imgSrc: "/logos/jaris-logo-solid.jpeg",
+	},
+	{
+		title: "College Board",
+		imgSrc: "/images/home/collegeboard.png",
+	},
+	{
+		title: "AP",
+		imgSrc: "/images/home/ap-logo.jpeg",
+	},
+	{
+		title: "SAT",
+		imgSrc: "/images/home/sat.png",
+	},
+	{
+		title: "Cognia",
+		imgSrc: "/images/home/cognia.png",
+	},
+];
+
+export const tJarisCurriculumImages = [
+	{
+		title: "Jawahir",
+		imgSrc: "/logos/jaris-logo-solid.jpeg",
+	},
+	{
+		title: "College Board",
+		imgSrc: "/images/home/collegeoard.png",
+	},
+	{
+		title: "AP",
+		imgSrc: "/images/home/ap-logo.jpeg",
+	},
+	{
+		title: "SAT",
+		imgSrc: "/images/home/sat.png",
+	},
+	{
+		title: "Cognia",
+		imgSrc: "/images/home/cognia.png",
+	},
+];
