@@ -75,7 +75,7 @@ const AboutFJaris = () => {
 				<div className="p-4 flex flex-col items-center bg-white/20 backdrop-blur-lg rounded-lg">
 					<h3 className="text-white font-semibold text-lg heading-secondary uppercase">Curriculum</h3>
           <hr className="left-1/2 w-full mt-2 border-t-[1px] border-white opacity-60" />
-					<div className="flex lg:flex-col gap-4 mt-4 items-center justify-center flex-wrap">
+					<div className="flex lg:flex-col gap-6 mt-4 items-center justify-center flex-wrap">
 						{fJarisCurriculumImages.map((curriculum, index) => (
 							<Image
 								key={index}
