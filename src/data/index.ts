@@ -274,3 +274,18 @@ export const facilities = [
 		imgUrl: "/images/about/facility-computer.jpeg",
 	},
 ];
+
+export const fJarisCurriculumImages = [
+	{
+		title: "Jawahir",
+		imgSrc: "/logos/jaris-logo-solid.jpeg",
+	},
+	{
+		title: "Islamabad",
+		imgSrc: "/images/home/islamabad-board.png",
+	},
+	{
+		title: "Cambridge",
+		imgSrc: "/images/about/cambridge-white.png",
+	},
+]

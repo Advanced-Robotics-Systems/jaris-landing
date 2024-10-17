@@ -1,4 +1,4 @@
-import { AboutExploreSchool, AboutFounder, AboutMission, CoreValues, Facilities, Header } from "@/sections";
+import { AboutExploreSchool, AboutFJaris, AboutFounder, AboutMission, CoreValues, Facilities, Header } from "@/sections";
 import React from "react";
 
 const About = () => {
@@ -11,6 +11,7 @@ const About = () => {
 				<CoreValues />
         <Facilities />
         <AboutExploreSchool />
+        <AboutFJaris />
 			</main>
 		</>
 	);
