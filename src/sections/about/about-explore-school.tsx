@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutExploreSchool = () => {
 	return (
-		<div className="bg-jaris-blue padding lg:px-48 xl:px-56 flex flex-col items-start">
+		<div className="bg-jaris-blue-dark padding lg:px-48 xl:px-56 flex flex-col items-start">
 			{/* Section Title */}
 			<h3 className="text-jaris-white heading-secondary font-semibold">Our Schools</h3>
 
