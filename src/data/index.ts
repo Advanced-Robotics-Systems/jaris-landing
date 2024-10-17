@@ -255,3 +255,22 @@ export const coreValues = [
 			"We believe that a safe, clean, and healthy environment is necessary for learning.",
 	},
 ];
+
+export const facilities = [
+	{
+		title: "Chemistry Lab",
+		imgUrl: "/images/about/facility-chemistry.jpeg",
+	},
+	{
+		title: "Physics Lab",
+		imgUrl: "/images/about/facility-physics.jpeg",
+	},
+	{
+		title: "Biology Lab",
+		imgUrl: "/images/about/facility-biology.jpeg",
+	},
+	{
+		title: "Computer Lab",
+		imgUrl: "/images/about/facility-computer.jpeg",
+	},
+];

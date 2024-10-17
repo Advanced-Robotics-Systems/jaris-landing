@@ -20,6 +20,7 @@ import HomeGallery from "./home/home-gallery";
 import AboutMission from "./about/about-mission";
 import AboutFounder from "./about/about-founder";
 import CoreValues from "./about/core-values";
+import Facilities from "./about/facilities";
 
 export {
   Header,
@@ -37,4 +38,5 @@ export {
   AboutMission,
   AboutFounder,
   CoreValues,
+  Facilities, 
 }
