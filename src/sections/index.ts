@@ -21,6 +21,7 @@ import AboutMission from "./about/about-mission";
 import AboutFounder from "./about/about-founder";
 import CoreValues from "./about/core-values";
 import Facilities from "./about/facilities";
+import AboutExploreSchool from "./about/about-explore-school";
 
 export {
   Header,
@@ -39,4 +40,5 @@ export {
   AboutFounder,
   CoreValues,
   Facilities, 
+  AboutExploreSchool,
 }
