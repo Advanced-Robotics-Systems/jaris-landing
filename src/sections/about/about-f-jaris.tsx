@@ -10,8 +10,8 @@ const AboutFJaris = () => {
 				<h2 className="text-jaris-gold heading-secondary font-semibold mt-2">
 					British/Pakistani curriculums
 				</h2>
-				<p className="text-bg-text mt-4 subtitle">Boys: grade 6-12</p>
-				<p className="text-bg-text mt-4 leading-7 subtitle">
+				<p className="text-bg-text mt-4 subtitle font-light">Boys: grade 6-12</p>
+				<p className="text-bg-text mt-4 leading-7 subtitle font-[400]">
 					Jawahir Al-Riyadh International School (JARIS) is a subsidiary of
 					Jawahir Al-Riyadh Educational Company (JAREC). JARIS founders are
 					included in the First Batch of Saudi Educationists getting licenses as
