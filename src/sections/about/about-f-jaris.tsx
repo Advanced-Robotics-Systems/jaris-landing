@@ -5,7 +5,6 @@ import React from "react";
 const AboutFJaris = () => {
 	return (
 		<div className="bg-jaris-blue padding lg:px-32 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8">
-			{/* Left Content Section */}
 			<div className="lg:w-2/3">
 				<h1 className="heading-md font-bold text-white">1st JARIS</h1>
 				<h2 className="text-jaris-gold heading-secondary font-semibold mt-2">
@@ -20,7 +19,6 @@ const AboutFJaris = () => {
 					International Schools.
 				</p>
 
-				{/* Buttons */}
 				<div className="flex gap-4 mt-6 flex-wrap">
 					<Link href="#">
 						<Button
