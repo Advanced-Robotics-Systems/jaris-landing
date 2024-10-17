@@ -97,7 +97,7 @@ const Header = () => {
 
 	return (
 		<nav
-			className={`bg-bg-primary w-full shadow z-50 h-[70px] fixed top-0 transition-transform duration-300 ${
+			className={`bg-bg-primary/30 backdrop-blur-lg w-full shadow z-50 h-[70px] fixed top-0 transition-transform duration-300 ${
 				isScrolledPast ? "" : "translate-y-0"
 			} ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
 		>
