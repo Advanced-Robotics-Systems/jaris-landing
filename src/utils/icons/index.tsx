@@ -4,6 +4,13 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import { MdChevronRight } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import {
+	FaInstagram,
+	FaLinkedin,
+	FaXTwitter,
+	FaYoutube,
+} from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export const ICONS = {
 	student: <PiStudent />,
@@ -12,4 +19,9 @@ export const ICONS = {
 	link_right: <MdChevronRight />,
 	menu: <IoMenu />,
 	close: <IoClose />,
+	instagram: <FaInstagram />,
+	twitter: <FaXTwitter />,
+	youtube: <FaYoutube />,
+	linkedin: <FaLinkedin />,
+	arrow_right: <FaArrowRightLong />,
 };

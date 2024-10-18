@@ -102,6 +102,47 @@ export const navItems = [
 	},
 ];
 
+// Footer
+export const footerLinks = {
+	contact: [
+		{ name: "Contact Us", link: "/contact" },
+		{ name: "Staff Contact", link: "/staff-contact" },
+		{ name: "Our Schools", link: "/schools" },
+		{ name: "FAQ", link: "/faq" },
+	],
+	explore: [
+		{ name: "About", link: "/about" },
+		{ name: "Admission", link: "/admission" },
+		{ name: "Academy", link: "/academy" },
+		{ name: "Photo Gallery", link: "/gallery" },
+		{ name: "News", link: "/news" },
+	],
+	login: [
+		{ name: "Student Login", link: "/student-login" },
+		{ name: "Teacher Login", link: "/teacher-login" },
+		{ name: "Staff Login", link: "/staff-login" },
+	],
+};
+
+export const footerSocials = [
+	{
+		icon: ICONS.instagram,
+		link: "https://www.instagram.com",
+	},
+	{
+		icon: ICONS.twitter,
+		link: "https://www.twitter.com",
+	},
+	{
+		icon: ICONS.youtube,
+		link: "https://www.youtube.com",
+	},
+	{
+		icon: ICONS.linkedin,
+		link: "https://www.linkedin.com",
+	},
+];
+
 // Shared
 export const exploreItems = [
 	{
@@ -324,7 +365,7 @@ export const tJarisCurriculumImages = [
 	},
 	{
 		title: "Edexcel",
-		imgSrc: "/images/home/edexcel.png"
+		imgSrc: "/images/home/edexcel.png",
 	},
 	{
 		title: "Cambridge",

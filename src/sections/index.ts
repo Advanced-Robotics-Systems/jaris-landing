@@ -2,6 +2,9 @@
 import Header from "./shared/header";
 import NavbarPlaceholder from "./shared/navbar-placeholder";
 
+// Footer
+import Footer from "./shared/footer";
+
 // Shared
 import Explore from "./shared/explore";
 import DiscoverJaris from "./shared/discover-jaris";
@@ -30,6 +33,7 @@ import AboutTJaris from "./about/about-t-jaris";
 export {
   Header,
   NavbarPlaceholder,
+  Footer,
   Hero,
   Discover,
   JoinUs,

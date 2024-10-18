@@ -9,6 +9,7 @@ import {
 	DiscoverJaris,
 	Explore,
 	Facilities,
+	Footer,
 	Header,
 	NavbarPlaceholder,
 } from "@/sections";
@@ -31,6 +32,7 @@ const About = () => {
 				<Explore />
 				<DiscoverJaris />
 			</main>
+			<Footer />
 		</>
 	);
 };
