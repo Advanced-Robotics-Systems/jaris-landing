@@ -25,7 +25,7 @@ const AdmissionProcedure = () => {
 					<Button
 						size="lg"
 						radius="full"
-						className="mt-6 bg-jaris-red text-white"
+						className="mt-6 bg-jaris-red-dark text-white"
 					>
 						Admission form
 					</Button>
