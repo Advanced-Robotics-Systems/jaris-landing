@@ -36,7 +36,7 @@ const HeroCarousel = ({carouselItems} : {carouselItems: any}) => {
 									style={{ backgroundImage: `linear-gradient(180deg, rgba(177, 34, 31, 0.1) 10%, rgba(28, 64, 111, 1) 100%), url(${item.imgUrl})`, }}
 								/>
 								<div className="relative z-20 h-full padding flex flex-col items-center justify-end gap-5">
-									<h1 className="title font-bold text-bg-text">{item.title}</h1>
+									<h1 className="title font-bold text-bg-text uppercase">{item.title}</h1>
 									<p className="subtitle text-bg-primary text-center">
 										{item.subtitle}
 									</p>
