@@ -14,7 +14,7 @@ const AdmissionProcedure = () => {
 					<h2 className="heading-md text-jaris-gold mt-2">
 						Admission Procedure
 					</h2>
-					<p className="text-jaris-blue-dark subtitle mt-4 md:leading-8">
+					<p className="text-jaris-blue-dark subtitle mt-4 leading-6 md:leading-8">
 						The school registers interested candidates who can easily apply
 						online via the link{" "}
 						<span className="underline-animated-small">online admission</span>.
