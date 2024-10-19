@@ -265,27 +265,27 @@ export const ctaSchoolsCarouselItems = [
 
 // About
 export const aboutHeroCarouselItems = [
-		{
-			title: "About Us",
-			subtitle: "Find out more about JARIS",
-			imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
-		},
-		{
-			title: "About Us",
-			subtitle: "Find out more about JARIS",
-			imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
-		},
-		{
-			title: "About Us",
-			subtitle: "Find out more about JARIS",
-			imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
-		},
-		{
-			title: "About Us",
-			subtitle: "Find out more about JARIS",
-			imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
-		},
-]
+	{
+		title: "About Us",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+	},
+	{
+		title: "About Us",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+	},
+	{
+		title: "About Us",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+	},
+	{
+		title: "About Us",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
+	},
+];
 
 export const coreValues = [
 	{
@@ -393,5 +393,29 @@ export const tJarisCurriculumImages = [
 	{
 		title: "Cambridge",
 		imgSrc: "/images/about/cambridge-white.png",
+	},
+];
+
+// Admission
+export const admissionHeroCarouselItems = [
+	{
+		title: "Admission",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+	},
+	{
+		title: "Admission",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+	},
+	{
+		title: "Admission",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+	},
+	{
+		title: "Admission",
+		subtitle: "Find out more about JARIS",
+		imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
 	},
 ];
