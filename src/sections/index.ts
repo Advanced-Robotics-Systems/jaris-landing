@@ -6,6 +6,7 @@ import NavbarPlaceholder from "./shared/navbar-placeholder";
 import Footer from "./shared/footer";
 
 // Shared
+import HeroCarousel from "./shared/hero-carousel";
 import Explore from "./shared/explore";
 import DiscoverJaris from "./shared/discover-jaris";
 import CTASchools from "./shared/cta-schools";
@@ -43,6 +44,7 @@ export {
   Counts,
   CTASchools,
   HomeGallery,
+  HeroCarousel,
   Explore,
   DiscoverJaris,
   AboutMission,

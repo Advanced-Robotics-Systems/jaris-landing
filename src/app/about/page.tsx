@@ -1,3 +1,4 @@
+import { aboutHeroCarouselItems } from "@/data";
 import {
 	AboutExploreSchool,
 	AboutFJaris,
@@ -11,6 +12,7 @@ import {
 	Facilities,
 	Footer,
 	Header,
+	HeroCarousel,
 	NavbarPlaceholder,
 } from "@/sections";
 import React from "react";
@@ -21,6 +23,7 @@ const About = () => {
 			<Header />
 			<NavbarPlaceholder />
 			<main>
+				<HeroCarousel carouselItems={aboutHeroCarouselItems} />
 				<AboutMission />
 				<AboutFounder />
 				<CoreValues />
