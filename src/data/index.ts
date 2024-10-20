@@ -419,3 +419,36 @@ export const admissionHeroCarouselItems = [
 		imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
 	},
 ];
+
+export const admissionProcedureSteps = [
+	{
+		id: "01",
+		title: "FCFS",
+		description:
+			"Admissions are offered to everyone on first-come-first-serve basis irrespective of nationality, color, caste, creed, race, origin, and social status.",
+	},
+	{
+		id: "02",
+		title: "Assessment Test",
+		description:
+			"The school uses entry test (assessment) as a main tool for admission, however, there is still room for talented students to convince the school leaders about their potential. They can either present their past records or provide enough evidence to justify their unsatisfactory performance in entry test. However, the concerned vice principal may form a committee to decide such cases.",
+	},
+	{
+		id: "03",
+		title: "Samples",
+		description:
+			"Some specimen of the assesment of core subjects have been uploaded on our website for parents/students review in order to prepare for entry test.",
+	},
+	{
+		id: "04",
+		title: "Interview",
+		description:
+			"The entrance test is mandatory whereas interview is aimed at assessing the general intelligence and behavior. Core subjects such as English, Mathematics, Science, Arabic/Urdu and part of General Knowledge are included for assessment and admission. ",
+	},
+	{
+		id: "05",
+		title: "Qualified",
+		description:
+			"After passing the assessment/evaluation, admission will be offered provisionally by issuing a folder to the qualifying students.",
+	},
+];
