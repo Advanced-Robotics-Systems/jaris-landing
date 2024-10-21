@@ -4,7 +4,7 @@ import React from 'react'
 
 const AdmissionProcedureSteps = () => {
   return (
-    <div className="relative padding bg-bg-primary lg:h-screen flex flex-col items-center justify-center gap-10 md:gap-16 lg:gap-20 lg:px-56 xl:px-72">
+    <div className="relative padding bg-bg-primary lg:min-h-screen flex flex-col items-center justify-center gap-10 md:gap-16 lg:gap-20 lg:px-56 xl:px-72">
       <div className="self-start">
         <h2 className="heading-secondary font-bold text-jaris-blue">Admission Procedure</h2>
       </div>
