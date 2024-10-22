@@ -452,3 +452,25 @@ export const admissionProcedureSteps = [
 			"After passing the assessment/evaluation, admission will be offered provisionally by issuing a folder to the qualifying students.",
 	},
 ];
+
+export const admissionFeesData = [
+	{
+		title: "Secondary",
+		grades: "(10-12)",
+		fee: "19,550",
+		vat: "17,000 + 2550 VAT",
+	},
+	{ title: "Middle", grades: "(7-9)", fee: "17,250", vat: "15,000 + 2250 VAT" },
+	{
+		title: "Primary",
+		grades: "(1-6)",
+		fee: "14,950",
+		vat: "13,000 + 1950 VAT",
+	},
+	{
+		title: "Kindergarten",
+		grades: "(Mon-LKG-UKG)",
+		fee: "13,800",
+		vat: "12,000 + 1800 VAT",
+	},
+];
