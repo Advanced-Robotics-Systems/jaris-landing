@@ -7,6 +7,9 @@ import {
 	AdmissionProcedureKindergarten,
 	AdmissionProcedureNotice,
 	AdmissionProcedureSteps,
+	DiscoverJaris,
+	Explore,
+	Footer,
 	Header,
 	HeroCarousel,
 	NavbarPlaceholder,
@@ -27,7 +30,10 @@ const Admission = () => {
 				<AdmissionMission />
 				<AdmissionProcedureKindergarten />
 				<AdmissionCTA />
+				<Explore />
+				<DiscoverJaris />
 			</main>
+			<Footer />
 		</>
 	);
 };
