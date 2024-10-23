@@ -1,6 +1,7 @@
+"use client";
+
 import { contactCarouselItems } from "@/data";
-import { Header } from "@/sections";
-import { ContactCarousel } from "@/sections";
+import { Header, ContactCarousel } from "@/sections";
 import { useState } from "react";
 
 export default function Contact() {
@@ -9,11 +10,7 @@ export default function Contact() {
     <>
       <Header />
       <main>
-        <ContactCarousel
-          carouselItems={contactCarouselItems}
-          active={active}
-          setActive={setActive}
-        />
+        <ContactCarousel carouselItems={contactCarouselItems} />
       </main>
     </>
   );

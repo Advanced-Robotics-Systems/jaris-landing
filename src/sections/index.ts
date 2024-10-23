@@ -33,6 +33,7 @@ import AboutTJaris from "./about/about-t-jaris";
 
 // Contact Us
 import ContactCarousel from "./contact/contact-carousel";
+import StaffContactDetails from "./contact/staff-contact-details";
 
 export {
   Header,
@@ -59,4 +60,5 @@ export {
   AboutSJaris,
   AboutTJaris,
   ContactCarousel,
+  StaffContactDetails,
 };
