@@ -91,14 +91,156 @@ export const navItems = [
 	{
 		name: "Portal",
 		link: "",
+		sublinks: [
+			{
+				name: "Gallery",
+				link: "#",
+			},
+			{
+				name: "Academy",
+				link: "#",
+				sublinks: [
+					{
+						name: "Kindergarten",
+						link: "#",
+					},
+					{
+						name: "Extracurricular",
+						link: "#",
+					},
+					{
+						name: "Sports",
+						link: "#",
+					},
+					{
+						name: "Special needs",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "News",
+				link: "#",
+				sublinks: [
+					{
+						name: "News",
+						link: "#",
+					},
+					{
+						name: "Events",
+						link: "#",
+					},
+					{
+						name: "Announcements",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Student",
+				link: "#",
+				sublinks: [
+					{
+						name: "Login",
+						link: "#",
+					},
+					{
+						name: "Classera Login",
+						link: "#",
+					},
+					{
+						name: "Online Results",
+						link: "#",
+					},
+					{
+						name: "Exam Policies",
+						link: "#",
+					},
+					{
+						name: "Classera Support",
+						link: "#",
+					},
+					{
+						name: "Withdrawal",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Teacher",
+				link: "#",
+				sublinks: [
+					{
+						name: "Login",
+						link: "#",
+					},
+					{
+						name: "Staff Contact",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Payment Portal",
+				link: "#",
+				sublinks: [
+					{
+						name: "Bank Details",
+						link: "#",
+					},
+					{
+						name: "Online Payment",
+						link: "#",
+					},
+				],
+			},
+		],
 	},
 	{
 		name: "About",
 		link: "/about",
+		sublinks: [
+			{
+				name: "Who We Are",
+				link: "#",
+			},
+			{
+				name: "Our Schools",
+				link: "#",
+				sublinks: [
+					{
+						name: "FJARIS",
+						link: "#",
+					},
+					{
+						name: "SJARIS",
+						link: "#",
+					},
+					{
+						name: "TJARIS",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Facilities",
+				link: "#",
+			},
+		],
 	},
 	{
 		name: "Contact",
 		link: "/contact",
+		sublinks: [
+			{
+				name: "Contact Us",
+				link: "#",
+			},
+			{
+				name: "My Email Login",
+				link: "#",
+			},
+		],
 	},
 ];
 
