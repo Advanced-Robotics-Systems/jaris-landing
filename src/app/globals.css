@@ -31,6 +31,10 @@
 		@apply text-2xl leading-[38px] sm:text-2xl md:text-3xl lg:text-4xl;
 	}
 
+	.small-text {
+    @apply text-xs leading-[16px] sm:text-sm md:text-base;
+  }
+
 	.underline-animated {
 		position: relative;
 		display: inline-block;

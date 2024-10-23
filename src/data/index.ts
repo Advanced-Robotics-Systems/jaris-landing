@@ -474,3 +474,9 @@ export const admissionFeesData = [
 		vat: "12,000 + 1800 VAT",
 	},
 ];
+
+export const admissionKindergartenAgeGroups = [
+	{ grade: "Nursery/Montessori-I", age: "3 years" },
+	{ grade: "Lower Kindergarten (LKG)", age: "4 years" },
+	{ grade: "Upper Kindergarten (UKG)", age: "5 years" },
+];
