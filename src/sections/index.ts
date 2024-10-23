@@ -31,6 +31,9 @@ import AboutFJaris from "./about/about-f-jaris";
 import AboutSJaris from "./about/about-s-jaris";
 import AboutTJaris from "./about/about-t-jaris";
 
+// Contact Us
+import ContactCarousel from "./contact/contact-carousel";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -50,9 +53,10 @@ export {
   AboutMission,
   AboutFounder,
   CoreValues,
-  Facilities, 
+  Facilities,
   AboutExploreSchool,
   AboutFJaris,
   AboutSJaris,
   AboutTJaris,
-}
+  ContactCarousel,
+};
