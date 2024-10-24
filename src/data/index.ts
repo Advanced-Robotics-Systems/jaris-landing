@@ -558,3 +558,43 @@ export const staffContactDetailsTable = [
     email: "adeel.khaliq@jawahirschool.com",
   },
 ];
+
+export const contactExperienceCards = [
+  {
+    icon: ICONS.phone,
+    title: "Contact Us",
+    subtitle: ["92-000-2951"],
+  },
+  {
+    icon: ICONS.email,
+    title: "Email Us",
+    subtitle: ["JAREC:", "syed@jawahirschool.com"],
+  },
+  {
+    icon: ICONS.mail_box,
+    title: "P.O. Box",
+    subtitle: [
+      "Jawahir Al-Riyadh Educational Company, P.O. Box 19952, Riyadh 11445, Kingdom of Saudi Arabia.",
+    ],
+  },
+  {
+    icon: ICONS.email,
+    title: "JARIS",
+    subtitle: ["aftabahmad_vp@jawahirschool.com", "zahid.jaris@gmail.com"],
+  },
+  {
+    icon: ICONS.email,
+    title: "SJARIS",
+    subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
+  },
+  {
+    icon: ICONS.email,
+    title: "TJARIS (NI)",
+    subtitle: ["zahid.jaris@gmail.com"],
+  },
+  {
+    icon: ICONS.clock,
+    title: "Opening Hours",
+    subtitle: ["SUN - THU : 6.30AM - 12.30PM", "FRI - SAT : closed"],
+  },
+];
