@@ -16,15 +16,15 @@ export const navItems = [
 				sublinks: [
 					{
 						name: "FJARIS",
-						link: "/",
+						link: "/schools/fjaris",
 					},
 					{
 						name: "SJARIS",
-						link: "/",
+						link: "/schools/sjaris",
 					},
 					{
 						name: "TJARIS",
-						link: "/",
+						link: "/schools/tjaris",
 					},
 				],
 			},
