@@ -12,7 +12,7 @@ export const navItems = [
 			},
 			{
 				name: "Our Schools",
-				link: "/",
+				link: "/schools",
 				sublinks: [
 					{
 						name: "FJARIS",
@@ -206,7 +206,7 @@ export const navItems = [
 			},
 			{
 				name: "Our Schools",
-				link: "#",
+				link: "/schools",
 				sublinks: [
 					{
 						name: "FJARIS",
