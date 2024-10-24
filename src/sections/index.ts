@@ -31,6 +31,15 @@ import AboutFJaris from "./about/about-f-jaris";
 import AboutSJaris from "./about/about-s-jaris";
 import AboutTJaris from "./about/about-t-jaris";
 
+// Admission
+import AdmissionProcedure from "./admission/admission-procedure";
+import AdmissionProcedureNotice from "./admission/admission-procedure-notice";
+import AdmissionProcedureSteps from "./admission/admission-procedure-steps";
+import AdmissionFees from "./admission/admission-fees";
+import AdmissionMission from "./admission/admission-mission";
+import AdmissionProcedureKindergarten from "./admission/admission-procedure-kindergarten";
+import AdmissionCTA from "./admission/admission-cta";
+
 // Contact Us
 import ContactCarousel from "./contact/contact-carousel";
 import ContactGetInTouch from "./contact/contact-get-in-touch";
@@ -63,6 +72,13 @@ export {
   AboutFJaris,
   AboutSJaris,
   AboutTJaris,
+  AdmissionProcedure,
+  AdmissionProcedureNotice,
+  AdmissionProcedureSteps,
+  AdmissionFees,
+  AdmissionMission,
+  AdmissionProcedureKindergarten,
+  AdmissionCTA,
   ContactCarousel,
   ContactGetInTouch,
   StaffContactDetails,

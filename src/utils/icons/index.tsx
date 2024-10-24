@@ -11,6 +11,8 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaCheckCircle } from "react-icons/fa";
+import { FaExclamationTriangle } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuClock3 } from "react-icons/lu";
@@ -27,6 +29,8 @@ export const ICONS = {
   youtube: <FaYoutube />,
   linkedin: <FaLinkedin />,
   arrow_right: <FaArrowRightLong />,
+  check_circle: <FaCheckCircle />,
+  caution: <FaExclamationTriangle />,
   phone: <FiPhone />,
   email: <MdOutlineEmail />,
   mail_box: <BsMailboxFlag />,

@@ -91,14 +91,156 @@ export const navItems = [
   {
     name: "Portal",
     link: "",
+    sublinks: [
+      {
+        name: "Gallery",
+        link: "#",
+      },
+      {
+        name: "Academy",
+        link: "#",
+        sublinks: [
+          {
+            name: "Kindergarten",
+            link: "#",
+          },
+          {
+            name: "Extracurricular",
+            link: "#",
+          },
+          {
+            name: "Sports",
+            link: "#",
+          },
+          {
+            name: "Special needs",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "News",
+        link: "#",
+        sublinks: [
+          {
+            name: "News",
+            link: "#",
+          },
+          {
+            name: "Events",
+            link: "#",
+          },
+          {
+            name: "Announcements",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Student",
+        link: "#",
+        sublinks: [
+          {
+            name: "Login",
+            link: "#",
+          },
+          {
+            name: "Classera Login",
+            link: "#",
+          },
+          {
+            name: "Online Results",
+            link: "#",
+          },
+          {
+            name: "Exam Policies",
+            link: "#",
+          },
+          {
+            name: "Classera Support",
+            link: "#",
+          },
+          {
+            name: "Withdrawal",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Teacher",
+        link: "#",
+        sublinks: [
+          {
+            name: "Login",
+            link: "#",
+          },
+          {
+            name: "Staff Contact",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Payment Portal",
+        link: "#",
+        sublinks: [
+          {
+            name: "Bank Details",
+            link: "#",
+          },
+          {
+            name: "Online Payment",
+            link: "#",
+          },
+        ],
+      },
+    ],
   },
   {
     name: "About",
     link: "/about",
+    sublinks: [
+      {
+        name: "Who We Are",
+        link: "#",
+      },
+      {
+        name: "Our Schools",
+        link: "#",
+        sublinks: [
+          {
+            name: "FJARIS",
+            link: "#",
+          },
+          {
+            name: "SJARIS",
+            link: "#",
+          },
+          {
+            name: "TJARIS",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Facilities",
+        link: "#",
+      },
+    ],
   },
   {
     name: "Contact",
     link: "/contact",
+    sublinks: [
+      {
+        name: "Contact Us",
+        link: "#",
+      },
+      {
+        name: "My Email Login",
+        link: "#",
+      },
+    ],
   },
 ];
 
@@ -418,6 +560,67 @@ export const admissionHeroCarouselItems = [
     subtitle: "Find out more about JARIS",
     imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
   },
+];
+
+export const admissionProcedureSteps = [
+  {
+    id: "01",
+    title: "FCFS",
+    description:
+      "Admissions are offered to everyone on first-come-first-serve basis irrespective of nationality, color, caste, creed, race, origin, and social status.",
+  },
+  {
+    id: "02",
+    title: "Assessment Test",
+    description:
+      "The school uses entry test (assessment) as a main tool for admission, however, there is still room for talented students to convince the school leaders about their potential. They can either present their past records or provide enough evidence to justify their unsatisfactory performance in entry test. However, the concerned vice principal may form a committee to decide such cases.",
+  },
+  {
+    id: "03",
+    title: "Samples",
+    description:
+      "Some specimen of the assesment of core subjects have been uploaded on our website for parents/students review in order to prepare for entry test.",
+  },
+  {
+    id: "04",
+    title: "Interview",
+    description:
+      "The entrance test is mandatory whereas interview is aimed at assessing the general intelligence and behavior. Core subjects such as English, Mathematics, Science, Arabic/Urdu and part of General Knowledge are included for assessment and admission. ",
+  },
+  {
+    id: "05",
+    title: "Qualified",
+    description:
+      "After passing the assessment/evaluation, admission will be offered provisionally by issuing a folder to the qualifying students.",
+  },
+];
+
+export const admissionFeesData = [
+  {
+    title: "Secondary",
+    grades: "(10-12)",
+    fee: "19,550",
+    vat: "17,000 + 2550 VAT",
+  },
+  { title: "Middle", grades: "(7-9)", fee: "17,250", vat: "15,000 + 2250 VAT" },
+  {
+    title: "Primary",
+    grades: "(1-6)",
+    fee: "14,950",
+    vat: "13,000 + 1950 VAT",
+  },
+  {
+    title: "Kindergarten",
+    grades: "(Mon-LKG-UKG)",
+    fee: "13,800",
+    vat: "12,000 + 1800 VAT",
+  },
+];
+
+export const admissionKindergartenAgeGroups = [
+  { grade: "Nursery/Montessori-I", age: "3 years" },
+  { grade: "Lower Kindergarten (LKG)", age: "4 years" },
+  { grade: "Upper Kindergarten (UKG)", age: "5 years" },
 ];
 
 // Contact Us
