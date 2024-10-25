@@ -40,6 +40,11 @@ import AdmissionMission from "./admission/admission-mission";
 import AdmissionProcedureKindergarten from "./admission/admission-procedure-kindergarten";
 import AdmissionCTA from "./admission/admission-cta";
 
+// Schools
+import FJarisOverview from "./schools/fjaris/f-jaris-overview";
+
+import SchoolAdmissionCTA from "./schools/shared/school-admission-cta";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -71,4 +76,7 @@ export {
   AdmissionMission,
   AdmissionProcedureKindergarten,
   AdmissionCTA,
+  FJarisOverview,
+
+  SchoolAdmissionCTA,
 }
