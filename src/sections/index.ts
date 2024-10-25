@@ -42,6 +42,7 @@ import AdmissionCTA from "./admission/admission-cta";
 
 // Schools
 import FJarisOverview from "./schools/fjaris/f-jaris-overview";
+import SJarisOverview from "./schools/sjaris/s-jaris-overview";
 
 import SchoolAdmissionCTA from "./schools/shared/school-admission-cta";
 
@@ -77,6 +78,7 @@ export {
   AdmissionProcedureKindergarten,
   AdmissionCTA,
   FJarisOverview,
+  SJarisOverview,
 
   SchoolAdmissionCTA,
 }
