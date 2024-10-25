@@ -594,3 +594,12 @@ export const admissionKindergartenAgeGroups = [
 	{ grade: "Lower Kindergarten (LKG)", age: "4 years" },
 	{ grade: "Upper Kindergarten (UKG)", age: "5 years" },
 ];
+
+// Schools
+export const availableTimes = [
+  { day: "Sunday", time: "6:30 AM – 12:30 PM" },
+  { day: "Monday", time: "6:30 AM – 12:30 PM" },
+  { day: "Tuesday", time: "6:30 AM – 12:30 PM" },
+  { day: "Wednesday", time: "6:30 AM – 12:30 PM" },
+  { day: "Thursday", time: "6:30 AM – 12:30 PM" },
+];
