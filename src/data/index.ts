@@ -5,34 +5,6 @@ export const navItems = [
 	{
 		name: "Home",
 		link: "/",
-		sublinks: [
-			{
-				name: "Who we are",
-				link: "/",
-			},
-			{
-				name: "Our Schools",
-				link: "/schools",
-				sublinks: [
-					{
-						name: "FJARIS",
-						link: "/schools/fjaris",
-					},
-					{
-						name: "SJARIS",
-						link: "/schools/sjaris",
-					},
-					{
-						name: "TJARIS",
-						link: "/schools/tjaris",
-					},
-				],
-			},
-			{
-				name: "Facilities",
-				link: "/",
-			},
-		],
 	},
 	{
 		name: "Admission",
@@ -210,15 +182,15 @@ export const navItems = [
 				sublinks: [
 					{
 						name: "FJARIS",
-						link: "#",
+						link: "/schools/fjaris",
 					},
 					{
 						name: "SJARIS",
-						link: "#",
+						link: "/schools/sjaris",
 					},
 					{
 						name: "TJARIS",
-						link: "#",
+						link: "/schools/tjaris",
 					},
 				],
 			},
