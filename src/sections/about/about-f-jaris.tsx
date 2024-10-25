@@ -20,7 +20,7 @@ const AboutFJaris = () => {
 				</p>
 
 				<div className="flex gap-4 mt-6 flex-wrap">
-					<Link href="#">
+					<Link href="/schools/fjaris">
 						<Button
 							size="lg"
 							variant="bordered"
@@ -32,7 +32,7 @@ const AboutFJaris = () => {
 						</Button>
 					</Link>
 
-					<Link href="#">
+					<Link href="/schools/fjaris">
 						<Button
 							size="lg"
 							variant="bordered"
@@ -44,7 +44,7 @@ const AboutFJaris = () => {
 						</Button>
 					</Link>
 
-					<Link href="#">
+					<Link href="/contact">
 						<Button
 							size="lg"
 							variant="solid"
