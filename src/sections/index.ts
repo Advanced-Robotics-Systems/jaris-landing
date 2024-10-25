@@ -43,7 +43,7 @@ import AdmissionCTA from "./admission/admission-cta";
 // Schools
 import FJarisOverview from "./schools/fjaris/f-jaris-overview";
 import SJarisOverview from "./schools/sjaris/s-jaris-overview";
-
+import TJarisOverview from "./schools/tjaris/t-jaris-overview";
 import SchoolAdmissionCTA from "./schools/shared/school-admission-cta";
 
 export {
@@ -79,6 +79,6 @@ export {
   AdmissionCTA,
   FJarisOverview,
   SJarisOverview,
-
+  TJarisOverview,
   SchoolAdmissionCTA,
 }
