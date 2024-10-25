@@ -20,7 +20,7 @@
 	}
 
 	.subtitle {
-		@apply text-base leading-[19.5px] sm:text-lg md:text-xl;
+		@apply text-base leading-[21.5px] sm:text-lg md:text-xl;
 	}
 
 	.heading-md {
