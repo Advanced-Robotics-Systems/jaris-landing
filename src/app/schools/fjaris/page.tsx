@@ -1,5 +1,5 @@
 import { admissionHeroCarouselItems } from '@/data'
-import { AdmissionFees, FJarisOverview, Footer, Header, HeroCarousel, NavbarPlaceholder, SchoolAdmissionCTA } from '@/sections'
+import { AdmissionFees, Explore, FJarisOverview, Footer, Header, HeroCarousel, NavbarPlaceholder, SchoolAdmissionCTA } from '@/sections'
 import React from 'react'
 
 const FJARIS = () => {
@@ -12,6 +12,7 @@ const FJARIS = () => {
         <FJarisOverview />
         <SchoolAdmissionCTA />
         <AdmissionFees />
+        <Explore />
       </main>
       <Footer />
     </>
