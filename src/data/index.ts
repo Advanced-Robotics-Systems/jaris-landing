@@ -2,6 +2,218 @@ import { ICONS } from "@/utils/icons";
 
 // Navbar
 export const navItems = [
+	{
+		name: "Home",
+		link: "/",
+	},
+	{
+		name: "Admission",
+		link: "/admission",
+		sublinks: [
+			{
+				name: "Admission Info",
+				link: "#",
+			},
+			{
+				name: "Classera",
+				link: "#",
+				sublinks: [
+					{
+						name: "Registration",
+						link: "#",
+					},
+					{
+						name: "Support",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "FAQ",
+				link: "#",
+			},
+			{
+				name: "Curriculum",
+				link: "#",
+				sublinks: [
+					{
+						name: "British",
+						link: "#",
+					},
+					{
+						name: "American",
+						link: "#",
+					},
+					{
+						name: "Pakistan",
+						link: "#",
+					},
+					{
+						name: "Sudan",
+						link: "#",
+					},
+					{
+						name: "Egypt",
+						link: "#",
+					},
+				],
+			},
+		],
+	},
+	{
+		name: "Portal",
+		link: "",
+		sublinks: [
+			{
+				name: "Gallery",
+				link: "#",
+			},
+			{
+				name: "Academy",
+				link: "#",
+				sublinks: [
+					{
+						name: "Kindergarten",
+						link: "#",
+					},
+					{
+						name: "Extracurricular",
+						link: "#",
+					},
+					{
+						name: "Sports",
+						link: "#",
+					},
+					{
+						name: "Special needs",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "News",
+				link: "#",
+				sublinks: [
+					{
+						name: "News",
+						link: "#",
+					},
+					{
+						name: "Events",
+						link: "#",
+					},
+					{
+						name: "Announcements",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Student",
+				link: "#",
+				sublinks: [
+					{
+						name: "Login",
+						link: "#",
+					},
+					{
+						name: "Classera Login",
+						link: "#",
+					},
+					{
+						name: "Online Results",
+						link: "#",
+					},
+					{
+						name: "Exam Policies",
+						link: "#",
+					},
+					{
+						name: "Classera Support",
+						link: "#",
+					},
+					{
+						name: "Withdrawal",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Teacher",
+				link: "#",
+				sublinks: [
+					{
+						name: "Login",
+						link: "#",
+					},
+					{
+						name: "Staff Contact",
+						link: "#",
+					},
+				],
+			},
+			{
+				name: "Payment Portal",
+				link: "#",
+				sublinks: [
+					{
+						name: "Bank Details",
+						link: "#",
+					},
+					{
+						name: "Online Payment",
+						link: "#",
+					},
+				],
+			},
+		],
+	},
+	{
+		name: "About",
+		link: "/about",
+		sublinks: [
+			{
+				name: "Who We Are",
+				link: "#",
+			},
+			{
+				name: "Our Schools",
+				link: "/schools",
+				sublinks: [
+					{
+						name: "FJARIS",
+						link: "/schools/fjaris",
+					},
+					{
+						name: "SJARIS",
+						link: "/schools/sjaris",
+					},
+					{
+						name: "TJARIS",
+						link: "/schools/tjaris",
+					},
+				],
+			},
+			{
+				name: "Facilities",
+				link: "#",
+			},
+		],
+	},
+	{
+		name: "Contact",
+		link: "/contact",
+		sublinks: [
+			{
+				name: "Contact Us",
+				link: "#",
+			},
+			{
+				name: "My Email Login",
+				link: "#",
+			},
+		],
+	},
   {
     name: "Home",
     link: "/",
@@ -242,218 +454,6 @@ export const navItems = [
       },
     ],
   },
-	{
-		name: "Home",
-		link: "/",
-	},
-	{
-		name: "Admission",
-		link: "/admission",
-		sublinks: [
-			{
-				name: "Admission Info",
-				link: "#",
-			},
-			{
-				name: "Classera",
-				link: "#",
-				sublinks: [
-					{
-						name: "Registration",
-						link: "#",
-					},
-					{
-						name: "Support",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "FAQ",
-				link: "#",
-			},
-			{
-				name: "Curriculum",
-				link: "#",
-				sublinks: [
-					{
-						name: "British",
-						link: "#",
-					},
-					{
-						name: "American",
-						link: "#",
-					},
-					{
-						name: "Pakistan",
-						link: "#",
-					},
-					{
-						name: "Sudan",
-						link: "#",
-					},
-					{
-						name: "Egypt",
-						link: "#",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "Portal",
-		link: "",
-		sublinks: [
-			{
-				name: "Gallery",
-				link: "#",
-			},
-			{
-				name: "Academy",
-				link: "#",
-				sublinks: [
-					{
-						name: "Kindergarten",
-						link: "#",
-					},
-					{
-						name: "Extracurricular",
-						link: "#",
-					},
-					{
-						name: "Sports",
-						link: "#",
-					},
-					{
-						name: "Special needs",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "News",
-				link: "#",
-				sublinks: [
-					{
-						name: "News",
-						link: "#",
-					},
-					{
-						name: "Events",
-						link: "#",
-					},
-					{
-						name: "Announcements",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Student",
-				link: "#",
-				sublinks: [
-					{
-						name: "Login",
-						link: "#",
-					},
-					{
-						name: "Classera Login",
-						link: "#",
-					},
-					{
-						name: "Online Results",
-						link: "#",
-					},
-					{
-						name: "Exam Policies",
-						link: "#",
-					},
-					{
-						name: "Classera Support",
-						link: "#",
-					},
-					{
-						name: "Withdrawal",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Teacher",
-				link: "#",
-				sublinks: [
-					{
-						name: "Login",
-						link: "#",
-					},
-					{
-						name: "Staff Contact",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Payment Portal",
-				link: "#",
-				sublinks: [
-					{
-						name: "Bank Details",
-						link: "#",
-					},
-					{
-						name: "Online Payment",
-						link: "#",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "About",
-		link: "/about",
-		sublinks: [
-			{
-				name: "Who We Are",
-				link: "#",
-			},
-			{
-				name: "Our Schools",
-				link: "/schools",
-				sublinks: [
-					{
-						name: "FJARIS",
-						link: "/schools/fjaris",
-					},
-					{
-						name: "SJARIS",
-						link: "/schools/sjaris",
-					},
-					{
-						name: "TJARIS",
-						link: "/schools/tjaris",
-					},
-				],
-			},
-			{
-				name: "Facilities",
-				link: "#",
-			},
-		],
-	},
-	{
-		name: "Contact",
-		link: "/contact",
-		sublinks: [
-			{
-				name: "Contact Us",
-				link: "#",
-			},
-			{
-				name: "My Email Login",
-				link: "#",
-			},
-		],
-	},
 ];
 
 // Footer
@@ -833,4 +833,192 @@ export const admissionKindergartenAgeGroups = [
   { grade: "Nursery/Montessori-I", age: "3 years" },
   { grade: "Lower Kindergarten (LKG)", age: "4 years" },
   { grade: "Upper Kindergarten (UKG)", age: "5 years" },
+];
+
+// Contact Us
+export const contactCarouselItems = [
+  {
+    title: "Contact Us",
+    subtitle: "Find out more about JARIS",
+    imgUrl: "/images/contact/contact-slide-1.jpeg",
+  },
+  {
+    title: "Need Help?",
+    subtitle: "We're here to help. Find our contact information below",
+    imgUrl: "/images/contact/contact-slide-2.jpeg",
+  },
+  {
+    title: "Whatsapp",
+    subtitle: "WhatsApp us and immediately get your info.",
+    imgUrl: "/images/contact/contact-slide-3.jpeg",
+  },
+  {
+    title: "Join US",
+    subtitle: "Join our community and grow to your highest potential.",
+    imgUrl: "/images/contact/contact-slide-4.jpeg",
+  },
+];
+
+export const staffContactDetailsTable = [
+  {
+    role: "Director",
+    name: "Mr. Ahmed Al Malouhi",
+    contact: "785300, 4750484, 4750417",
+    ext: "221",
+    email: "ahmedalmallouhi@jawahirschool.com",
+  },
+  {
+    role: "Head Principal",
+    name: "Mr. Syed Muhammad Ibrahim",
+    contact: "4785300, 4750484, 4750417",
+    ext: "240",
+    email: "syed@jawahirschool.com",
+  },
+  {
+    role: "Principal SJARIS",
+    name: "Mr. Mohammed Al Malouhi",
+    contact: "4794539",
+    ext: "101",
+    email: "mohammedalmalouhi@jawahirschool.com",
+  },
+  {
+    role: "Principal Boys Section",
+    name: "Mr. Khalid Khan",
+    contact: "0505476585, 11-4785300240",
+    ext: "-",
+    email: "khalidali@jawahirschool.com",
+  },
+  {
+    role: "VP American Boys Section",
+    name: "Mr. Liaqat Ali Khan",
+    contact: "2767377, 4794539",
+    ext: "103",
+    email: "liaqat.ali.khan@jawahirschool.com",
+  },
+  {
+    role: "VP British/Pakistani Senior Boys Section",
+    name: "Mr. Aftab Ahmad",
+    contact: "4785300, 4750484, 4750417",
+    ext: "250",
+    email: "aftabahmad_vp@jawahirschool.com",
+  },
+  {
+    role: "VP British/Pakistani Junior Boys Section",
+    name: "Mr. Zahid Faraz",
+    contact: "0505476585/ 0530010274",
+    ext: "-",
+    email: "zahid.jaris@gmail.com",
+  },
+  {
+    role: "Principal Girls Section",
+    name: "Mrs. Amal Sudais Mohammed Al-Sudais",
+    contact: "920002951",
+    ext: "504",
+    email: "amal@jawahirschool.com",
+  },
+  {
+    role: "VP Pakistani Senior Girls Section",
+    name: "Mrs. Shakeela Abbas",
+    contact: "920002951",
+    ext: "404",
+    email: "shakilakhan@jawahirschool.com",
+  },
+  {
+    role: "Principal British Section Middle Girls",
+    name: "Mrs. Lulu",
+    contact: "920002951",
+    ext: "500",
+    email: "lulu@jawahirschool.com",
+  },
+  {
+    role: "VP British Junior Girls Section",
+    name: "Mrs. Rafia Faisal",
+    contact: "920002951",
+    ext: "302",
+    email: "rafiafaisal@jawahirschool.com",
+  },
+  {
+    role: "VP British/Pakistani Kindergarten Section",
+    name: "Mrs. Tasneem Hafeez",
+    contact: "920002951",
+    ext: "147",
+    email: "tasneemhafeez@jawahirschool.com",
+  },
+  {
+    role: "Principal",
+    name: "Mrs. Maram Mohammed Al-Hamza",
+    contact: "920002951",
+    ext: "201",
+    email: "maram@jawahirschool.com",
+  },
+  {
+    role: "VP American Senior Girls Section / Coordinator British Council",
+    name: "Mrs. Sadaf Khushnood Mirza",
+    contact: "920002951, 0534909202",
+    ext: "401",
+    email: "sadaf.jaris@jawahirschool.com",
+  },
+  {
+    role: "Accounts Manager",
+    name: "Dr. Abdullah Abdul Mutlib",
+    contact: "920002951",
+    ext: "301",
+    email: "abdullah@jawahirschool.com",
+  },
+  {
+    role: "Head of Computer Department",
+    name: "Mr. Adeel Khaliq",
+    contact: "-",
+    ext: "-",
+    email: "adeel.khaliq@jawahirschool.com",
+  },
+];
+
+export const contactExperienceCards = [
+  {
+    icon: ICONS.phone,
+    title: "Contact Us",
+    subtitle: ["92-000-2951"],
+  },
+  {
+    icon: ICONS.email,
+    title: "Email Us",
+    subtitle: ["JAREC:", "syed@jawahirschool.com"],
+  },
+  {
+    icon: ICONS.mail_box,
+    title: "P.O. Box",
+    subtitle: [
+      "Jawahir Al-Riyadh Educational Company, P.O. Box 19952, Riyadh 11445, Kingdom of Saudi Arabia.",
+    ],
+  },
+  {
+    icon: ICONS.email,
+    title: "JARIS",
+    subtitle: ["aftabahmad_vp@jawahirschool.com", "zahid.jaris@gmail.com"],
+  },
+  {
+    icon: ICONS.email,
+    title: "SJARIS",
+    subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
+  },
+  {
+    icon: ICONS.email,
+    title: "TJARIS (NI)",
+    subtitle: ["zahid.jaris@gmail.com"],
+  },
+  {
+    icon: ICONS.clock,
+    title: "Opening Hours",
+    subtitle: ["SUN - THU : 6.30AM - 12.30PM", "FRI - SAT : closed"],
+  },
+];
+
+// Schools
+export const availableTimes = [
+  { day: "Sunday", time: "6:30 AM – 12:30 PM" },
+  { day: "Monday", time: "6:30 AM – 12:30 PM" },
+  { day: "Tuesday", time: "6:30 AM – 12:30 PM" },
+  { day: "Wednesday", time: "6:30 AM – 12:30 PM" },
+  { day: "Thursday", time: "6:30 AM – 12:30 PM" },
 ];
