@@ -46,6 +46,14 @@ import SJarisOverview from "./schools/sjaris/s-jaris-overview";
 import TJarisOverview from "./schools/tjaris/t-jaris-overview";
 import SchoolAdmissionCTA from "./schools/shared/school-admission-cta";
 
+// Contact Us
+import ContactCarousel from "./contact/contact-carousel";
+import ContactGetInTouch from "./contact/contact-get-in-touch";
+import StaffContactDetails from "./contact/staff-contact-details";
+import ContactForm from "./contact/contact-form";
+import ContactExperience from "./contact/contact-experience";
+import ContactExperienceCard from "./contact/contact-experience-card";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -65,7 +73,7 @@ export {
   AboutMission,
   AboutFounder,
   CoreValues,
-  Facilities, 
+  Facilities,
   AboutExploreSchool,
   AboutFJaris,
   AboutSJaris,
@@ -81,4 +89,10 @@ export {
   SJarisOverview,
   TJarisOverview,
   SchoolAdmissionCTA,
-}
+  ContactCarousel,
+  ContactGetInTouch,
+  StaffContactDetails,
+  ContactForm,
+  ContactExperience,
+  ContactExperienceCard,
+};

@@ -38,7 +38,7 @@ const SchoolAdmissionCTA = () => {
           <h3 className="subtitle font-semibold">We are available!</h3>
           <ul className="w-full flex flex-col gap-3">
             {availableTimes.map((slot, index) => (
-              <li key={index} className="flex justify-between w-full font-light small-text">
+              <li key={index} className="flex justify-between gap-6 w-full font-light small-text">
                 <span>{slot.day}</span>
                 <span>{slot.time}</span>
               </li>
