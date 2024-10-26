@@ -54,6 +54,10 @@ import ContactForm from "./contact/contact-form";
 import ContactExperience from "./contact/contact-experience";
 import ContactExperienceCard from "./contact/contact-experience-card";
 
+// Facilities
+import FacilitiesOverview from "./facilities/facilities-overview";
+import AllFacilities from "./facilities/all-facilities";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -95,4 +99,6 @@ export {
   ContactForm,
   ContactExperience,
   ContactExperienceCard,
+  FacilitiesOverview,
+  AllFacilities,
 };

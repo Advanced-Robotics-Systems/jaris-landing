@@ -196,7 +196,7 @@ export const navItems = [
 			},
 			{
 				name: "Facilities",
-				link: "#",
+				link: "/facilities",
 			},
 		],
 	},
@@ -781,4 +781,59 @@ export const availableTimes = [
   { day: "Tuesday", time: "6:30 AM – 12:30 PM" },
   { day: "Wednesday", time: "6:30 AM – 12:30 PM" },
   { day: "Thursday", time: "6:30 AM – 12:30 PM" },
+];
+
+// Facilities
+export const facilitiesHeroCarouselItems = [
+  {
+    title: "Facilities",
+    subtitle: "Find out more about JARIS",
+    imgUrl: "/images/facilities/facilities-hero-carousel-slide-1.jpeg",
+  },
+  {
+    title: "Facilities",
+    subtitle: "Find out more about JARIS",
+    imgUrl: "/images/facilities/facilities-hero-carousel-slide-2.jpeg",
+  },
+  {
+    title: "Facilities",
+    subtitle: "Find out more about JARIS",
+    imgUrl: "/images/facilities/facilities-hero-carousel-slide-3.jpeg",
+  },
+  {
+    title: "Facilities",
+    subtitle: "Find out more about JARIS",
+    imgUrl: "/images/facilities/facilities-hero-carousel-slide-4.jpeg",
+  },
+];
+
+export const labData = [
+  {
+    category: "Science",
+    name: "Chemistry Lab",
+    description:
+      "Our Chemistry lab is designed to provide a safe and well-equipped environment for students to explore chemical reactions, compounds, and scientific processes. With modern apparatus and materials, students can perform hands-on experiments, deepening their understanding of chemistry concepts while ensuring safety protocols are adhered to.",
+    imgSrc: "/images/facilities/facilities-chemistry.jpeg",
+  },
+  {
+    category: "Science",
+    name: "Biology Lab",
+    description:
+      "The Biology lab offers students the tools and equipment to study living organisms, ecosystems, and biological processes. Whether through microscope work or dissections, students can investigate the complexity of life forms, enhancing their grasp of both theoretical and practical aspects of biology.",
+    imgSrc: "/images/facilities/facilities-biology.jpeg",
+  },
+  {
+    category: "Science",
+    name: "Physics Lab",
+    description:
+      "In the Physics lab, students experiment with the fundamental principles of motion, energy, electricity, and magnetism. Equipped with advanced tools, the lab provides a platform for students to apply their theoretical knowledge through engaging experiments, fostering a deeper understanding of physical laws and phenomena.",
+    imgSrc: "/images/facilities/facilities-physics.jpeg",
+  },
+  {
+    category: "Technology",
+    name: "Computer Lab",
+    description:
+      "Our Computer labs are equipped with the latest hardware and software to support both programming and digital literacy. With high-speed internet and a variety of applications, students are able to explore coding, software development, data analysis, and more, preparing them for the ever-evolving world of technology.",
+    imgSrc: "/images/facilities/facilities-computer.jpeg",
+  },
 ];
