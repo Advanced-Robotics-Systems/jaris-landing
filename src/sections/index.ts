@@ -59,7 +59,8 @@ import FacilitiesOverview from "./facilities/facilities-overview";
 import AllFacilities from "./facilities/all-facilities";
 
 // Exam
-import ExamNotice from "./exam-policy/exam-notice/exam-notice";
+import ExamNotice from "./exam-policy/exam-notice";
+import ExamPolicyOverview from "./exam-policy/exam-policy-overview";
 
 export {
   Header,
@@ -105,4 +106,5 @@ export {
   FacilitiesOverview,
   AllFacilities,
   ExamNotice,
+  ExamPolicyOverview,
 };
