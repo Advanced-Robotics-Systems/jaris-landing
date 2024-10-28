@@ -861,3 +861,34 @@ export const examPolicyHeroCarouselItems = [
     imgUrl: "/images/exam/exam-hero-carousel-slide-4.jpeg",
   },
 ];
+
+export const examPolicies = [
+  {
+    description:
+      "Help evaluating children thoroughly on all course material taught during the academic year.",
+  },
+  {
+    description:
+      "Make examinations less hectic and help students to perform well by dividing the course material in smaller portions, yet ensuring that they are prepared to face advanced levels of the course in higher grades.",
+  },
+  {
+    description:
+      "Uniform division of course material over equal periods of time followed by well-timed monthly/mid-final terms examinations that ensures uniform distribution of marks across the course material.",
+  },
+  {
+    description:
+      "Having a unified and well planned examination policy across various sections of the school that helps in laying out standard rules for handling issues like new admissions, absentees, re-exams etc.",
+  },
+  {
+    description:
+      "Ensuring that the students take their homework/assignments seriously and also sharing the responsibility of HW surveillance between both home and school.",
+  },
+  {
+    description:
+      "A well-planned examination system supported by a well-planned back office system to ensure timely preparation of exam material, prompt checking/re-checking of papers and confusion to support fault free result preparation at all levels in all sections of the school.",
+  },
+  {
+    description:
+      "The entire yearly curriculum has been divided into two equal portions, and each portion is sub-divided into three segments. The two segments related to monthly examination represent 20% of the total syllabus (supplements assignment, class performance, homework presentation, formative assessments, whereas the third 30% segment includes terminal examination mostly summative assessment.",
+  },
+];

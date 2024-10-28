@@ -2,7 +2,7 @@ import { Image } from "@nextui-org/react";
 
 const ExamPolicyOverview = () => {
   return (
-    <div className="w-full padding bg-bg-primary flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-36 lg:px-36 xl:px-52 2xl:px-72">
+    <div className="w-full padding bg-bg-primary lg:min-h-screen flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-36 lg:px-36 xl:px-52 2xl:px-72">
       {/* Text Section */}
       <div className="flex-1">
         <h3 className="subtitle font-semibold text-jaris-blue">Policies</h3>

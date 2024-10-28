@@ -1,4 +1,4 @@
-import { FaExclamationTriangle } from "react-icons/fa";
+import { ICONS } from "@/utils/icons";
 import { Image } from "@nextui-org/react";
 
 const ExamNotice = () => {
@@ -8,7 +8,7 @@ const ExamNotice = () => {
       <div className="flex items-center justify-between bg-jaris-red-dark rounded-lg p-6 w-full">
         {/* Left Section: Icon and Text */}
         <div className="flex items-center gap-4">
-          <FaExclamationTriangle className="text-jaris-white text-3xl" />
+          <div className="text-jaris-white text-3xl" >{ICONS.caution}</div>
           <div>
             <p className="text-white font-semibold subtitle">NOTIFICATION:</p>
             <p className="text-white">
