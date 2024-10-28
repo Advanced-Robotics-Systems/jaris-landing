@@ -58,6 +58,9 @@ import ContactExperienceCard from "./contact/contact-experience-card";
 import FacilitiesOverview from "./facilities/facilities-overview";
 import AllFacilities from "./facilities/all-facilities";
 
+// Exam
+import ExamNotice from "./exam-policy/exam-notice/exam-notice";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -101,4 +104,5 @@ export {
   ContactExperienceCard,
   FacilitiesOverview,
   AllFacilities,
+  ExamNotice,
 };

@@ -12,7 +12,7 @@ export const navItems = [
 		sublinks: [
 			{
 				name: "Admission Info",
-				link: "#",
+				link: "/admission",
 			},
 			{
 				name: "Classera",
@@ -126,7 +126,7 @@ export const navItems = [
 					},
 					{
 						name: "Exam Policies",
-						link: "#",
+						link: "/exam-policy",
 					},
 					{
 						name: "Classera Support",
@@ -174,7 +174,7 @@ export const navItems = [
 		sublinks: [
 			{
 				name: "Who We Are",
-				link: "#",
+				link: "/about",
 			},
 			{
 				name: "Our Schools",
@@ -206,11 +206,11 @@ export const navItems = [
 		sublinks: [
 			{
 				name: "Contact Us",
-				link: "#",
+				link: "/contact",
 			},
 			{
 				name: "My Email Login",
-				link: "#",
+				link: "https://www/google.com",
 			},
 		],
 	},
@@ -835,5 +835,29 @@ export const labData = [
     description:
       "Our Computer labs are equipped with the latest hardware and software to support both programming and digital literacy. With high-speed internet and a variety of applications, students are able to explore coding, software development, data analysis, and more, preparing them for the ever-evolving world of technology.",
     imgSrc: "/images/facilities/facilities-computer.jpeg",
+  },
+];
+
+// Exam
+export const examPolicyHeroCarouselItems = [
+  {
+    title: "Exam",
+    subtitle: "Find all examination rules.",
+    imgUrl: "/images/exam/exam-hero-carousel-slide-1.jpeg",
+  },
+  {
+    title: "Exam",
+    subtitle: "Find all examination rules.",
+    imgUrl: "/images/exam/exam-hero-carousel-slide-2.jpeg",
+  },
+  {
+    title: "Exam",
+    subtitle: "Find all examination rules.",
+    imgUrl: "/images/exam/exam-hero-carousel-slide-3.jpeg",
+  },
+  {
+    title: "Exam",
+    subtitle: "Find all examination rules.",
+    imgUrl: "/images/exam/exam-hero-carousel-slide-4.jpeg",
   },
 ];
