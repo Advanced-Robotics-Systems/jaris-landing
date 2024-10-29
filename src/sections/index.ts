@@ -63,6 +63,7 @@ import ExamNotice from "./exam-policy/exam-notice";
 import ExamPolicyOverview from "./exam-policy/exam-policy-overview";
 import ExamPolicies from "./exam-policy/exam-policies";
 import ExamRules from "./exam-policy/exam-rules";
+import CurriculumDistribution from "./exam-policy/curriculum-distribution";
 
 export {
   Header,
@@ -111,4 +112,5 @@ export {
   ExamPolicyOverview,
   ExamPolicies,
   ExamRules,
+  CurriculumDistribution,
 };

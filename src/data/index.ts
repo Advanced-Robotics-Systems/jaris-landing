@@ -943,3 +943,36 @@ export const examRules = [
     ],
   },
 ];
+
+export const curriculumDistribution = [
+  {
+    examination: "1st Monthly Examination",
+    carryPercentage: "10%",
+    totalTermCompletion: "10%",
+  },
+  {
+    examination: "2nd Monthly Examination",
+    carryPercentage: "10%",
+    totalTermCompletion: "11 - 20%",
+  },
+  {
+    examination: "Mid Monthly Examination",
+    carryPercentage: "30%",
+    totalTermCompletion: "21 - 50%",
+  },
+  {
+    examination: "3rd Monthly Examination",
+    carryPercentage: "10%",
+    totalTermCompletion: "51 - 60%",
+  },
+  {
+    examination: "4th Monthly Examination",
+    carryPercentage: "10%",
+    totalTermCompletion: "61 - 70%",
+  },
+  {
+    examination: "Final Term Examination",
+    carryPercentage: "30%",
+    totalTermCompletion: "71 - 100%",
+  },
+];
