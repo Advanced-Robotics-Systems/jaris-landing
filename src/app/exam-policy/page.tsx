@@ -1,5 +1,5 @@
 import { examPolicyHeroCarouselItems } from '@/data'
-import { ExamNotice, ExamPolicies, ExamPolicyOverview, Footer, Header, HeroCarousel, NavbarPlaceholder } from '@/sections'
+import { ExamNotice, ExamPolicies, ExamPolicyOverview, ExamRules, Footer, Header, HeroCarousel, NavbarPlaceholder } from '@/sections'
 import React from 'react'
 
 const ExamPolicy = () => {
@@ -12,6 +12,7 @@ const ExamPolicy = () => {
         <ExamNotice />
         <ExamPolicyOverview />
         <ExamPolicies />
+        <ExamRules />
       </main>
       <Footer />
     </>

@@ -210,7 +210,7 @@ export const navItems = [
 			},
 			{
 				name: "My Email Login",
-				link: "https://www/google.com",
+				link: "#",
 			},
 		],
 	},
@@ -890,5 +890,56 @@ export const examPolicies = [
   {
     description:
       "The entire yearly curriculum has been divided into two equal portions, and each portion is sub-divided into three segments. The two segments related to monthly examination represent 20% of the total syllabus (supplements assignment, class performance, homework presentation, formative assessments, whereas the third 30% segment includes terminal examination mostly summative assessment.",
+  },
+];
+
+export const examRules = [
+  {
+    title: "Monthly Examination",
+    content: [
+      "Four monthly formative examinations are conducted during the academic year. The results are part of the evaluation at the time of final result preparation. The students missing 1st or 2nd monthly examination or part of it would only be examined after midterm if they do not obtain 30% marks in the midterm and for 3rd and 4th monthly examination if they do not obtain 50% aggregate marks during both terms. There is no re-examination for the monthly exams under any circumstances.",
+      { note: "In order to maintain healthy competition among the students missing any monthly examination (for any reason) the student will automatically be out of competition and will not be ranked at the end of the year." },
+    ],
+  },
+  {
+    title: "Mid-Term Examination",
+    content: [
+      "The students securing less than 50% marks (including 1st and 2nd monthly examinations) in the compulsory subjects Mathematics Science English and Arabic / Urdu) will be kept in abeyance in order for them to get aggregate 50%marks Mid + Final Terms) until final examination. No repetition is allowed under any circumstance.",
+      { note: "The student missing complete First Term examination either due to joining late or any other reason (sick leave absent) will be examined for the First Term (compulsory subjects) within two weeks at the beginning of the second term." },
+    ],
+  },
+  {
+    title: "Absentees",
+    content: [
+      "Students absent during terminal examinations for any reason (sick or otherwise) and missing any main subject examination will be examined for the missing subjects after one week from the final results. The students missing whole term (Mid or Final) for any reason (sick or otherwise) will be examined within two weeks after the final examination. A separate date sheet indicating dates and days will be issued immediately after the final examination.",
+      { warning: "Warning: Many parents plan for vacation and reserve seats prior to announcing the results and it becomes very difficult to inform them about the supplementary examination. The students showing poor results during the terminal examination should not leave the country until they get confirmation from the school." },
+    ],
+  },
+  {
+    title: "Late Admission",
+    content: [
+      "Students transferring from other schools after mid-term and joining late are required to produce Mid-Term Result Card. The school may take up the matter with the Ministry of Education for such cases and act according to the instructions received from the Ministry.",
+    ],
+  },
+  {
+    title: "Supplementary Examination",
+    content: [
+      "There is only one opportunity for the supplementary examination and any student getting less than 50% marks will repeat again REPEAT the grade.",
+    ],
+  },
+  {
+    title: "Final Term Examination",
+    content: [
+      "The students securing less than 50% marks in the compulsory subjects in the Final Term (including 3rd and 4th monthly examinations will have one chance to re-sit either for Mid or Final Term Re-examination within two weeks' time from the date final results are announced.",
+    ],
+  },
+  {
+    title: "Examination for students transferring from JARIS",
+    content: [
+      "The students who are moving from the school (during First Term) after two Monthly examinations (1st and 2nd) and prior to the Mid-Term Examination to other city or country due to force majeure will be assessed for the portion taught during their presence in the class along with the two monthly results and an examination result card will be issued. The Department of Education does not authenticate such result cards.",
+      { note: "The student moving after first monthly examination will not be given any assessment but such students should give one month advance notice for school leaving certificates prior to leaving the school." },
+      "The students who are moving from the school (during second Term) after completing two monthly examinations (3rd and 4th) and prior to the Final Term Examination to other city or country will be assessed for the portion taught during their presence in the class along with the two monthly examination results and final results card will be issued but no authentication is guaranteed.",
+      { note: "The student moving after 3rd monthly examination will only be given mid-term assessment card along with 3rd monthly examination result." },
+    ],
   },
 ];
