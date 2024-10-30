@@ -2,218 +2,218 @@ import { ICONS } from "@/utils/icons";
 
 // Navbar
 export const navItems = [
-	{
-		name: "Home",
-		link: "/",
-	},
-	{
-		name: "Admission",
-		link: "/admission",
-		sublinks: [
-			{
-				name: "Admission Info",
-				link: "/admission",
-			},
-			{
-				name: "Classera",
-				link: "#",
-				sublinks: [
-					{
-						name: "Registration",
-						link: "#",
-					},
-					{
-						name: "Support",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "FAQ",
-				link: "#",
-			},
-			{
-				name: "Curriculum",
-				link: "#",
-				sublinks: [
-					{
-						name: "British",
-						link: "#",
-					},
-					{
-						name: "American",
-						link: "#",
-					},
-					{
-						name: "Pakistan",
-						link: "#",
-					},
-					{
-						name: "Sudan",
-						link: "#",
-					},
-					{
-						name: "Egypt",
-						link: "#",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "Portal",
-		link: "",
-		sublinks: [
-			{
-				name: "Gallery",
-				link: "#",
-			},
-			{
-				name: "Academy",
-				link: "#",
-				sublinks: [
-					{
-						name: "Kindergarten",
-						link: "#",
-					},
-					{
-						name: "Extracurricular",
-						link: "#",
-					},
-					{
-						name: "Sports",
-						link: "#",
-					},
-					{
-						name: "Special needs",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "News",
-				link: "#",
-				sublinks: [
-					{
-						name: "News",
-						link: "#",
-					},
-					{
-						name: "Events",
-						link: "#",
-					},
-					{
-						name: "Announcements",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Student",
-				link: "#",
-				sublinks: [
-					{
-						name: "Login",
-						link: "#",
-					},
-					{
-						name: "Classera Login",
-						link: "#",
-					},
-					{
-						name: "Online Results",
-						link: "#",
-					},
-					{
-						name: "Exam Policies",
-						link: "/exam-policy",
-					},
-					{
-						name: "Classera Support",
-						link: "#",
-					},
-					{
-						name: "Withdrawal",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Teacher",
-				link: "#",
-				sublinks: [
-					{
-						name: "Login",
-						link: "#",
-					},
-					{
-						name: "Staff Contact",
-						link: "#",
-					},
-				],
-			},
-			{
-				name: "Payment Portal",
-				link: "#",
-				sublinks: [
-					{
-						name: "Bank Details",
-						link: "#",
-					},
-					{
-						name: "Online Payment",
-						link: "#",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "About",
-		link: "/about",
-		sublinks: [
-			{
-				name: "Who We Are",
-				link: "/about",
-			},
-			{
-				name: "Our Schools",
-				link: "/schools",
-				sublinks: [
-					{
-						name: "FJARIS",
-						link: "/schools/fjaris",
-					},
-					{
-						name: "SJARIS",
-						link: "/schools/sjaris",
-					},
-					{
-						name: "TJARIS",
-						link: "/schools/tjaris",
-					},
-				],
-			},
-			{
-				name: "Facilities",
-				link: "/facilities",
-			},
-		],
-	},
-	{
-		name: "Contact",
-		link: "/contact",
-		sublinks: [
-			{
-				name: "Contact Us",
-				link: "/contact",
-			},
-			{
-				name: "My Email Login",
-				link: "#",
-			},
-		],
-	},
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Admission",
+    link: "/admission",
+    sublinks: [
+      {
+        name: "Admission Info",
+        link: "/admission",
+      },
+      {
+        name: "Classera",
+        link: "#",
+        sublinks: [
+          {
+            name: "Registration",
+            link: "#",
+          },
+          {
+            name: "Support",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "FAQ",
+        link: "#",
+      },
+      {
+        name: "Curriculum",
+        link: "#",
+        sublinks: [
+          {
+            name: "British",
+            link: "#",
+          },
+          {
+            name: "American",
+            link: "#",
+          },
+          {
+            name: "Pakistan",
+            link: "#",
+          },
+          {
+            name: "Sudan",
+            link: "#",
+          },
+          {
+            name: "Egypt",
+            link: "#",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Portal",
+    link: "",
+    sublinks: [
+      {
+        name: "Gallery",
+        link: "#",
+      },
+      {
+        name: "Academy",
+        link: "#",
+        sublinks: [
+          {
+            name: "Kindergarten",
+            link: "#",
+          },
+          {
+            name: "Extracurricular",
+            link: "#",
+          },
+          {
+            name: "Sports",
+            link: "#",
+          },
+          {
+            name: "Special needs",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "News",
+        link: "#",
+        sublinks: [
+          {
+            name: "News",
+            link: "#",
+          },
+          {
+            name: "Events",
+            link: "#",
+          },
+          {
+            name: "Announcements",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Student",
+        link: "#",
+        sublinks: [
+          {
+            name: "Login",
+            link: "#",
+          },
+          {
+            name: "Classera Login",
+            link: "#",
+          },
+          {
+            name: "Online Results",
+            link: "#",
+          },
+          {
+            name: "Exam Policies",
+            link: "/exam-policy",
+          },
+          {
+            name: "Classera Support",
+            link: "#",
+          },
+          {
+            name: "Withdrawal",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Teacher",
+        link: "#",
+        sublinks: [
+          {
+            name: "Login",
+            link: "#",
+          },
+          {
+            name: "Staff Contact",
+            link: "#",
+          },
+        ],
+      },
+      {
+        name: "Payment Portal",
+        link: "#",
+        sublinks: [
+          {
+            name: "Bank Details",
+            link: "#",
+          },
+          {
+            name: "Online Payment",
+            link: "#",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "About",
+    link: "/about",
+    sublinks: [
+      {
+        name: "Who We Are",
+        link: "/about",
+      },
+      {
+        name: "Our Schools",
+        link: "/schools",
+        sublinks: [
+          {
+            name: "FJARIS",
+            link: "/schools/fjaris",
+          },
+          {
+            name: "SJARIS",
+            link: "/schools/sjaris",
+          },
+          {
+            name: "TJARIS",
+            link: "/schools/tjaris",
+          },
+        ],
+      },
+      {
+        name: "Facilities",
+        link: "/facilities",
+      },
+    ],
+  },
+  {
+    name: "Contact",
+    link: "/contact",
+    sublinks: [
+      {
+        name: "Contact Us",
+        link: "/contact",
+      },
+      {
+        name: "My Email Login",
+        link: "#",
+      },
+    ],
+  },
 ];
 
 // Footer
@@ -898,21 +898,28 @@ export const examRules = [
     title: "Monthly Examination",
     content: [
       "Four monthly formative examinations are conducted during the academic year. The results are part of the evaluation at the time of final result preparation. The students missing 1st or 2nd monthly examination or part of it would only be examined after midterm if they do not obtain 30% marks in the midterm and for 3rd and 4th monthly examination if they do not obtain 50% aggregate marks during both terms. There is no re-examination for the monthly exams under any circumstances.",
-      { note: "In order to maintain healthy competition among the students missing any monthly examination (for any reason) the student will automatically be out of competition and will not be ranked at the end of the year." },
+      {
+        note: "In order to maintain healthy competition among the students missing any monthly examination (for any reason) the student will automatically be out of competition and will not be ranked at the end of the year.",
+      },
     ],
   },
   {
     title: "Mid-Term Examination",
     content: [
       "The students securing less than 50% marks (including 1st and 2nd monthly examinations) in the compulsory subjects Mathematics Science English and Arabic / Urdu) will be kept in abeyance in order for them to get aggregate 50%marks Mid + Final Terms) until final examination. No repetition is allowed under any circumstance.",
-      { note: "The student missing complete First Term examination either due to joining late or any other reason (sick leave absent) will be examined for the First Term (compulsory subjects) within two weeks at the beginning of the second term." },
+      {
+        note: "The student missing complete First Term examination either due to joining late or any other reason (sick leave absent) will be examined for the First Term (compulsory subjects) within two weeks at the beginning of the second term.",
+      },
     ],
   },
   {
     title: "Absentees",
     content: [
       "Students absent during terminal examinations for any reason (sick or otherwise) and missing any main subject examination will be examined for the missing subjects after one week from the final results. The students missing whole term (Mid or Final) for any reason (sick or otherwise) will be examined within two weeks after the final examination. A separate date sheet indicating dates and days will be issued immediately after the final examination.",
-      { warning: "Warning: Many parents plan for vacation and reserve seats prior to announcing the results and it becomes very difficult to inform them about the supplementary examination. The students showing poor results during the terminal examination should not leave the country until they get confirmation from the school." },
+      {
+        warning:
+          "Warning: Many parents plan for vacation and reserve seats prior to announcing the results and it becomes very difficult to inform them about the supplementary examination. The students showing poor results during the terminal examination should not leave the country until they get confirmation from the school.",
+      },
     ],
   },
   {
@@ -937,9 +944,13 @@ export const examRules = [
     title: "Examination for students transferring from JARIS",
     content: [
       "The students who are moving from the school (during First Term) after two Monthly examinations (1st and 2nd) and prior to the Mid-Term Examination to other city or country due to force majeure will be assessed for the portion taught during their presence in the class along with the two monthly results and an examination result card will be issued. The Department of Education does not authenticate such result cards.",
-      { note: "The student moving after first monthly examination will not be given any assessment but such students should give one month advance notice for school leaving certificates prior to leaving the school." },
+      {
+        note: "The student moving after first monthly examination will not be given any assessment but such students should give one month advance notice for school leaving certificates prior to leaving the school.",
+      },
       "The students who are moving from the school (during second Term) after completing two monthly examinations (3rd and 4th) and prior to the Final Term Examination to other city or country will be assessed for the portion taught during their presence in the class along with the two monthly examination results and final results card will be issued but no authentication is guaranteed.",
-      { note: "The student moving after 3rd monthly examination will only be given mid-term assessment card along with 3rd monthly examination result." },
+      {
+        note: "The student moving after 3rd monthly examination will only be given mid-term assessment card along with 3rd monthly examination result.",
+      },
     ],
   },
 ];
@@ -974,5 +985,71 @@ export const curriculumDistribution = [
     examination: "Final Term Examination",
     carryPercentage: "30%",
     totalTermCompletion: "71 - 100%",
+  },
+];
+
+export const galleryCarouselItems = [
+  {
+    title: "Gallery",
+    subtitle: "Find out more about JARIS",
+    imgUrl:
+      "/images/gallery-news/gallery-carousel/gallery-carousel-slide-1.jpeg",
+  },
+  {
+    title: "Need help?",
+    subtitle: "We’re here to help. Find our contact information below",
+    imgUrl:
+      "/images/gallery-news/gallery-carousel/gallery-carousel-slide-2.jpeg",
+  },
+  {
+    title: "Whatsapp",
+    subtitle: "WhatsApp us and immediately get your info.",
+    imgUrl:
+      "/images/gallery-news/gallery-carousel/gallery-carousel-slide-3.jpeg",
+  },
+  {
+    title: "Join Us",
+    subtitle: "Join our community and grow to your highest potential.",
+    imgUrl:
+      "/images/gallery-news/gallery-carousel/gallery-carousel-slide-3.jpeg",
+  },
+];
+
+export const newsBannerItems = [
+  {
+    title: "Annual Day",
+    description:
+      "Annual Day at Jawahir International School. The Baptist High School saw life and energy being propelled.",
+    imgUrl: "/images/gallery-news/news-banners/news-annual-day.jpeg",
+  },
+  {
+    title: "Sports Gala",
+    description:
+      "The much awaited Annual Sports Day was held on Saturday 16th March.",
+    imgUrl: "/images/gallery-news/news-banners/news-sports-gala.jpeg",
+  },
+  {
+    title: "Tablo",
+    description:
+      "Sports are a great way for kids to have fun, stay fit, improve skills, and make friends.",
+    imgUrl: "/images/gallery-news/news-banners/news-tablo.jpeg",
+  },
+  {
+    title: "Sports Gala",
+    description:
+      "The much awaited Annual Sports Day was held on Saturday 16th March.",
+    imgUrl: "/images/gallery-news/news-banners/news-sports-gala.jpeg",
+  },
+  {
+    title: "Sports Gala",
+    description:
+      "The much awaited Annual Sports Day was held on Saturday 16th March.",
+    imgUrl: "/images/gallery-news/news-banners/news-sports-gala.jpeg",
+  },
+  {
+    title: "Sports Gala",
+    description:
+      "The much awaited Annual Sports Day was held on Saturday 16th March.",
+    imgUrl: "/images/gallery-news/news-banners/news-sports-gala.jpeg",
   },
 ];

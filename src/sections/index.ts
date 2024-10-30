@@ -65,6 +65,11 @@ import ExamPolicies from "./exam-policy/exam-policies";
 import ExamRules from "./exam-policy/exam-rules";
 import CurriculumDistribution from "./exam-policy/curriculum-distribution";
 
+// Gallery & News
+import GalleryCarousel from "./gallery-news/gallery-carousel";
+import News from "./gallery-news/news";
+import NewsBanner from "./gallery-news/news-banner";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -113,4 +118,7 @@ export {
   ExamPolicies,
   ExamRules,
   CurriculumDistribution,
+  GalleryCarousel,
+  News,
+  NewsBanner,
 };
