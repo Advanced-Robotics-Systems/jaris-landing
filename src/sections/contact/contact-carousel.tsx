@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { useState } from "react";
 import { ContactGetInTouch, StaffContactDetails } from "@/sections";
-
+//! contact-pagination only
 const ContactCarousel = ({ carouselItems }: { carouselItems: any }) => {
   const [active, setActive] = useState(false);
   return (
