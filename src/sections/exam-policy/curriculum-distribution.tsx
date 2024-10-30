@@ -16,14 +16,14 @@ export default function CurriculumDistribution() {
         <Table aria-label="Curriculum Distribution">
           <TableHeader className="">
             {columns.map((column, index) => (
-              <TableColumn key={column.key} className={`${index!==0 && "text-center" } bg-jaris-blue text-jaris-white small-text`}>{column.label}</TableColumn>
+              <TableColumn key={column.key} className={`${index!==0 && "text-center" } p-4 bg-jaris-blue text-jaris-white subtitle text-base leading-[25.5px] sm:text-lg md:text-xl;`}>{column.label}</TableColumn>
             ))}
           </TableHeader>
           <TableBody>
             {curriculumDistribution.map((row, index) => (
               <TableRow key={index}>
                 {(columnKey) => (
-                  <TableCell className={`${columnKey!=="examination" && "text-center" } text-jaris-gold-dark small-text`}>{getKeyValue(row, columnKey)}</TableCell>
+                  <TableCell className={`${columnKey!=="examination" && "text-center" } p-3 text-jaris-gold-dark subtitle text-base leading-[21.5px] sm:text-lg md:text-xl;`}>{getKeyValue(row, columnKey)}</TableCell>
                 )}
               </TableRow>
             ))}
