@@ -1,4 +1,4 @@
-import { Footer, Header, NavbarPlaceholder } from '@/sections'
+import { Footer, Header, NavbarPlaceholder, PaymentContact, PaymentOnline } from '@/sections'
 import React from 'react'
 
 const Payment = () => {
@@ -7,7 +7,8 @@ const Payment = () => {
       <Header />
       <NavbarPlaceholder />
       <main>
-
+        <PaymentOnline />
+        <PaymentContact />
       </main>
       <Footer />
     </>

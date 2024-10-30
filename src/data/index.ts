@@ -154,11 +154,11 @@ export const navItems = [
 			},
 			{
 				name: "Payment Portal",
-				link: "#",
+				link: "/payment",
 				sublinks: [
 					{
 						name: "Bank Details",
-						link: "#",
+						link: "/payment",
 					},
 					{
 						name: "Online Payment",
@@ -976,3 +976,16 @@ export const curriculumDistribution = [
     totalTermCompletion: "71 - 100%",
   },
 ];
+
+// Payment
+export const jarisBankDetails = {
+  bank: "AL-RAJHI BANK",
+  accountName: "JAWAHIR AL-RIYADH",
+  accountNumber: "74800002606080810214448",
+};
+
+export const paymentContactDetails = {
+  phone: "92-000-2961",
+  email: "syed@jawahirschool.com",
+  address: "Jawahir Al-Riyadh Educational Company, P.O. Box 19932, Riyadh 11465, Kingdom of Saudi Arabia.",
+}

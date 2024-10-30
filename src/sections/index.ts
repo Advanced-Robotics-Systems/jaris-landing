@@ -65,6 +65,10 @@ import ExamPolicies from "./exam-policy/exam-policies";
 import ExamRules from "./exam-policy/exam-rules";
 import CurriculumDistribution from "./exam-policy/curriculum-distribution";
 
+// Payment
+import PaymentOnline from "./payment/payment-online";
+import PaymentContact from "./payment/payment-contact";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -113,4 +117,6 @@ export {
   ExamPolicies,
   ExamRules,
   CurriculumDistribution,
+  PaymentOnline,
+  PaymentContact,
 };
