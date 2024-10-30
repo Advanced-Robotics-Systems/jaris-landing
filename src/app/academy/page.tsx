@@ -9,6 +9,7 @@ import {
 	HeroCarouselNav,
 	LKGSubjects,
 	NavbarPlaceholder,
+	UKGSubjects,
 } from "@/sections";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -66,6 +67,7 @@ const Academy = () => {
 							exit="exit"
 						>
 							<AcademyUKGOverview />
+							<UKGSubjects />
 						</motion.div>
 					)}
 				</AnimatePresence>

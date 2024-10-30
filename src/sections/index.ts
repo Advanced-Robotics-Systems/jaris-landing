@@ -75,6 +75,7 @@ import AcademyNurseryOverview from "./academy/kindergarten/academy-nursery-overv
 import AcademyLKGOverview from "./academy/lkg/academy-lkg-overview";
 import LKGSubjects from "./academy/lkg/lkg-subjects";
 import AcademyUKGOverview from "./academy/ukg/academy-ukg-overview";
+import UKGSubjects from "./academy/ukg/ukg-subjects";
 
 export {
   Header,
@@ -131,4 +132,5 @@ export {
   AcademyLKGOverview,
   LKGSubjects,
   AcademyUKGOverview,
+  UKGSubjects,
 };
