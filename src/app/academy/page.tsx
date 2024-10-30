@@ -33,42 +33,42 @@ const Academy = () => {
 					active={active}
 					setActive={setActive}
 				/>
-        <AnimatePresence mode="wait">
-				{active === 0 && (
-					<motion.div
-						key="nursery"
-						variants={animationVariants}
-						initial="initial"
-						animate="animate"
-						exit="exit"
-					>
-						<AcademyNurseryOverview />
-					</motion.div>
-				)}
-				{active === 1 && (
-					<motion.div
-						key="lkg"
-						variants={animationVariants}
-						initial="initial"
-						animate="animate"
-						exit="exit"
-					>
-						<AcademyLKGOverview />
-						<LKGSubjects />
-					</motion.div>
-				)}
-				{active === 2 && (
-					<motion.div
-						key="ukg"
-						variants={animationVariants}
-						initial="initial"
-						animate="animate"
-						exit="exit"
-					>
-						<AcademyUKGOverview />
-					</motion.div>
-				)}
-        </AnimatePresence>
+				<AnimatePresence mode="wait">
+					{active === 0 && (
+						<motion.div
+							key="nursery"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<AcademyNurseryOverview />
+						</motion.div>
+					)}
+					{active === 1 && (
+						<motion.div
+							key="lkg"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<AcademyLKGOverview />
+							<LKGSubjects />
+						</motion.div>
+					)}
+					{active === 2 && (
+						<motion.div
+							key="ukg"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<AcademyUKGOverview />
+						</motion.div>
+					)}
+				</AnimatePresence>
 			</main>
 			<Footer />
 		</>
