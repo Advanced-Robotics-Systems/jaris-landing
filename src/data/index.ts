@@ -989,3 +989,23 @@ export const paymentContactDetails = {
   email: "syed@jawahirschool.com",
   address: "Jawahir Al-Riyadh Educational Company, P.O. Box 19932, Riyadh 11465, Kingdom of Saudi Arabia.",
 }
+
+// Academy
+export const academyNurseryNavItems = [
+  {
+    title: "Nursery",
+    subtitle: "Our",
+  },
+  {
+    title: "LKG",
+    subtitle: "Our",
+  },
+  {
+    title: "UKG",
+    subtitle: "Our",
+  },
+  {
+    title: "Montsoiree",
+    subtitle: "Read Our Latest",
+  },
+]
