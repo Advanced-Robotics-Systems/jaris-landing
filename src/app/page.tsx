@@ -11,12 +11,15 @@ import {
 	Explore,
 	DiscoverJaris,
 	Header,
+	NavbarPlaceholder,
+	Footer,
 } from "@/sections";
 
 export default function Home() {
 	return (
 		<>
 		<Header />
+		<NavbarPlaceholder />
 		<main className="">
 			<Hero />
 			<Discover />
@@ -30,6 +33,7 @@ export default function Home() {
 			<Explore />
 			<DiscoverJaris />
 		</main>
+		<Footer />
 		</>
 	);
 }

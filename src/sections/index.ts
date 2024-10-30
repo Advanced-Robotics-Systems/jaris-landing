@@ -7,6 +7,7 @@ import Footer from "./shared/footer";
 
 // Shared
 import HeroCarousel from "./shared/hero-carousel";
+import HeroCarouselNav from "./shared/hero-carousel-nav";
 import Explore from "./shared/explore";
 import DiscoverJaris from "./shared/discover-jaris";
 import CTASchools from "./shared/cta-schools";
@@ -65,6 +66,16 @@ import ExamPolicies from "./exam-policy/exam-policies";
 import ExamRules from "./exam-policy/exam-rules";
 import CurriculumDistribution from "./exam-policy/curriculum-distribution";
 
+// Payment
+import PaymentOnline from "./payment/payment-online";
+import PaymentContact from "./payment/payment-contact";
+
+// Academy
+import AcademyNurseryOverview from "./academy/kindergarten/academy-nursery-overview";
+import AcademyLKGOverview from "./academy/lkg/academy-lkg-overview";
+import LKGSubjects from "./academy/lkg/lkg-subjects";
+import AcademyUKGOverview from "./academy/ukg/academy-ukg-overview";
+
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
 import News from "./gallery-news/news";
@@ -84,6 +95,7 @@ export {
   CTASchools,
   HomeGallery,
   HeroCarousel,
+  HeroCarouselNav,
   Explore,
   DiscoverJaris,
   AboutMission,
@@ -118,6 +130,12 @@ export {
   ExamPolicies,
   ExamRules,
   CurriculumDistribution,
+  PaymentOnline,
+  PaymentContact,
+  AcademyNurseryOverview,
+  AcademyLKGOverview,
+  LKGSubjects,
+  AcademyUKGOverview,
   GalleryCarousel,
   News,
   NewsBanner,
