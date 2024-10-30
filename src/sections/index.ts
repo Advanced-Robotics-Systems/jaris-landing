@@ -73,6 +73,7 @@ import PaymentContact from "./payment/payment-contact";
 // Academy
 import AcademyNurseryOverview from "./academy/kindergarten/academy-nursery-overview";
 import AcademyLKGOverview from "./academy/lkg/academy-lkg-overview";
+import LKGSubjects from "./academy/lkg/lkg-subjects";
 import AcademyUKGOverview from "./academy/ukg/academy-ukg-overview";
 
 export {
@@ -128,5 +129,6 @@ export {
   PaymentContact,
   AcademyNurseryOverview,
   AcademyLKGOverview,
+  LKGSubjects,
   AcademyUKGOverview,
 };
