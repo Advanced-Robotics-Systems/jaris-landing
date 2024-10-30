@@ -70,23 +70,23 @@ export const navItems = [
 			},
 			{
 				name: "Academy",
-				link: "#",
+				link: "/academy",
 				sublinks: [
 					{
 						name: "Kindergarten",
-						link: "#",
+						link: "/academy",
 					},
 					{
 						name: "Extracurricular",
-						link: "#",
+						link: "academy/extracurricular",
 					},
 					{
 						name: "Sports",
-						link: "#",
+						link: "academy/sports",
 					},
 					{
 						name: "Special needs",
-						link: "#",
+						link: "academy/special-needs",
 					},
 				],
 			},
