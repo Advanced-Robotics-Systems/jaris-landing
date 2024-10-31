@@ -2,12 +2,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 import { useState } from "react";
 import { ContactGetInTouch, StaffContactDetails } from "@/sections";
 
 const ContactCarousel = ({ carouselItems }: { carouselItems: any }) => {
   const [active, setActive] = useState(false);
+
   return (
     <>
       <div className="relative w-full padding-y lg:pb-36 bg-jaris-blue ">

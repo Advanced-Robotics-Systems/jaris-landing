@@ -80,6 +80,11 @@ import Montesoiree1Overview from "./academy/montesoiree/montesoiree-1-overview";
 
 import Montesoiree2Overview from "./academy/montesoiree/montesoiree-2-overview";
 
+// Gallery & News
+import GalleryCarousel from "./gallery-news/gallery-carousel";
+import News from "./gallery-news/news";
+import NewsBanner from "./gallery-news/news-banner";
+
 export {
   Header,
   NavbarPlaceholder,
@@ -139,4 +144,7 @@ export {
   Montesoiree1Overview,
   
   Montesoiree2Overview,
+  GalleryCarousel,
+  News,
+  NewsBanner,
 };
