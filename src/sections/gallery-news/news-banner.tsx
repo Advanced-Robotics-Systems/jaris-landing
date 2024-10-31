@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "@nextui-org/react";
+
 const NewsBanner = ({
   title,
   description,
@@ -22,9 +24,13 @@ const NewsBanner = ({
         {/* Title and Description Ends */}
         {/* Button Section Starts */}
         <div>
-          <button className="flex items-center justify-center px-2 py-1 text-xs text-jaris-white font-medium rounded-md bg-jaris-gold hover:bg-jaris-gold-dark transition-background border-none outline-none shadow-[-1px_2px_4px_0_rgba(0,0,0,0.25)]">
+          <Button
+            radius="md"
+            size="sm"
+            className="px-2 py-1 text-xs text-jaris-white font-medium bg-jaris-gold hover:bg-jaris-gold-dark shadow-[-1px_2px_4px_0_rgba(0,0,0,0.25)]"
+          >
             Contact Us
-          </button>
+          </Button>
         </div>
         {/* Button Sections Ends */}
       </div>
