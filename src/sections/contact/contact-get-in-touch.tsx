@@ -10,7 +10,7 @@ const ContactGetInTouch = () => {
           Contact
         </div>
         <div className="text-jaris-gold text-sm sm:text-xl md:text-3xl font-normal mt-3">
-          Have questions? We're ready to help!
+          Have questions? We&apos;re ready to help!
         </div>
       </div>
       <div className="mt-16">
@@ -18,7 +18,7 @@ const ContactGetInTouch = () => {
           Communications
         </div>
         <div className="text-jaris-blue-dark text-base sm:text-4xl md:text-5xl font-medium mt-3">
-          Get in Touch - We're Here to Help!
+          Get in Touch - We&apos;re Here to Help!
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full mt-8">

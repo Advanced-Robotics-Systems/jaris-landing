@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { HTMLProps } from "react";
-
 const NewsBanner = ({
   title,
   description,
