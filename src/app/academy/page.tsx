@@ -8,6 +8,8 @@ import {
 	Header,
 	HeroCarouselNav,
 	LKGSubjects,
+	Montesoiree1Overview,
+	Montesoiree2Overview,
 	NavbarPlaceholder,
 	UKGSubjects,
 } from "@/sections";
@@ -68,6 +70,18 @@ const Academy = () => {
 						>
 							<AcademyUKGOverview />
 							<UKGSubjects />
+						</motion.div>
+					)}
+					{active === 3 && (
+						<motion.div
+							key="montesoiree"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<Montesoiree1Overview />
+							<Montesoiree2Overview />
 						</motion.div>
 					)}
 				</AnimatePresence>

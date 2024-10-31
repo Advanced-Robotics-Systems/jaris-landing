@@ -76,6 +76,9 @@ import AcademyLKGOverview from "./academy/lkg/academy-lkg-overview";
 import LKGSubjects from "./academy/lkg/lkg-subjects";
 import AcademyUKGOverview from "./academy/ukg/academy-ukg-overview";
 import UKGSubjects from "./academy/ukg/ukg-subjects";
+import Montesoiree1Overview from "./academy/montesoiree/montesoiree-1-overview";
+
+import Montesoiree2Overview from "./academy/montesoiree/montesoiree-2-overview";
 
 export {
   Header,
@@ -133,4 +136,7 @@ export {
   LKGSubjects,
   AcademyUKGOverview,
   UKGSubjects,
+  Montesoiree1Overview,
+  
+  Montesoiree2Overview,
 };
