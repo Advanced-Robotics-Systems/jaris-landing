@@ -1,20 +1,12 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 import { useState } from "react";
 import { News } from "@/sections";
 
 const GalleryCarousel = ({ carouselItems }: { carouselItems: any }) => {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index: number, className: any) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-    el: ".pagination-position",
-  };
-
   const [active, setActive] = useState(0);
 
   return (
@@ -32,8 +24,8 @@ const GalleryCarousel = ({ carouselItems }: { carouselItems: any }) => {
             centeredSlides={true}
             spaceBetween={70}
             loop={true}
-            pagination={pagination}
-            modules={[Autoplay, Pagination]}
+            pagination={false}
+            modules={[Autoplay]}
             className="mySwiper cta-swiper w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]"
           >
             {/* Each Slide Render Starts */}
@@ -61,7 +53,6 @@ const GalleryCarousel = ({ carouselItems }: { carouselItems: any }) => {
               </SwiperSlide>
             ))}
             {/* Each Slide Render Ends */}
-            <div className="pagination-position absolute bottom-28 lg:bottom-32 hidden sm:block left-1/4 space-x-2 z-10"></div>
           </Swiper>
         </div>
         {/* Slider Ends */}
