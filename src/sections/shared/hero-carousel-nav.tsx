@@ -19,7 +19,7 @@ const HeroCarouselNav = ({
 
 
 	return (
-		<div className="relative w-full lg:h-[calc(100vh-70px)] padding-y lg:pb-36 bg-jaris-blue">
+		<div className="relative w-full lg:h-[calc(100vh-70px)] padding-b lg:pb-36 bg-jaris-blue">
 			<div className="relative z-20 w-full flex flex-col items-center justify-center gap-44">
 				<Swiper
 					slidesPerView={"auto"}
@@ -60,12 +60,12 @@ const HeroCarouselNav = ({
 				</Swiper>
 			</div>
 
-			{/* Yellow clickable cards */}
-			<div className="absolute w-full padding-x lg:px-36 xl:px-48 bottom-8 lg:bottom-16 left-1/2 transform -translate-x-1/2 flex justify-center flex-wrap gap-4 z-30">
+			{/* Button cards */}
+			<div className="absolute w-full h-28 sm:h-48 bottom-6 lg:bottom-24 flex items-center justify-around z-30">
 				{carouselNavItems.map((item: any, index: number) => (
 					<Card
 						key={index}
-						className={`${active===index ? "bg-jaris-gold-dark" : "bg-jaris-gold"} text-jaris-blue max-sm:min-w-36 flex-1 md:p-4 lg:p-6 lg:h-[140px] xl:h-[180px] hover:bg-jaris-gold/70`}
+						className={`basis-[22.5%] ${active===index ? "bg-jaris-gold" : "bg-jaris-gold-dark"} h-full text-jaris-blue md:p-4 lg:p-6 hover:bg-jaris-gold-dark/70 rounded-md`}
 						isPressable
 						onPress={() => setActive(index)}
 					>
