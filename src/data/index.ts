@@ -1022,6 +1022,49 @@ export const academyNurseryNavItems = [
   },
 ];
 
+export const montesoiree1Programs = [
+  {
+    title: "Form Character",
+    description:
+      "Montesoiree education not only caters to the bare essentials of preschool education but also provides the child with the opportunity of forming character."
+  },
+  {
+    title: "Curriculum",
+    description:
+      "The well-structured curriculum involves sensorial education, the child is learning by the five senses, touch, hearing, sight, taste, and smell."
+  },
+  {
+    title: "Sensorial Method",
+    description:
+      "The best results are known to be obtained by concentrating on one sense at a time. The sensorial material is designed to aid the mind in the development of the intellect."
+  },
+  {
+    title: "Material",
+    description:
+      "Montessori-1 classrooms are equipped with Montessori material and Montessori trained directress."
+  }
+];
+
+export const montesoiree2Subjects = [
+  {
+    title: "English",
+    description: "Learning Alphabets, blending sounds and words."
+  },
+  {
+    title: "Mathematics",
+    description: "Learning numbers, numbers names and counting."
+  },
+  {
+    title: "Exercises of Practical Life",
+    description: "Practicing real life experience through interactive simulative learning methods."
+  },
+  {
+    title: "Sensorial Method",
+    description: "Learning to utilise each senses."
+  }
+];
+
+// Gallery
 export const galleryCarouselItems = [
   {
     title: "Gallery",
@@ -1031,7 +1074,7 @@ export const galleryCarouselItems = [
   },
   {
     title: "Need help?",
-    subtitle: "We’re here to help. Find our contact information below",
+    subtitle: "We're here to help. Find our contact information below",
     imgUrl:
       "/images/gallery-news/gallery-carousel/gallery-carousel-slide-2.jpeg",
   },

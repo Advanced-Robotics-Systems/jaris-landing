@@ -9,7 +9,9 @@ import {
 	HeroCarouselNav,
 	LKGSubjects,
 	Montesoiree1Overview,
+	Montesoiree1Programs,
 	Montesoiree2Overview,
+	Montesoiree2Subjects,
 	NavbarPlaceholder,
 	UKGSubjects,
 } from "@/sections";
@@ -81,7 +83,9 @@ const Academy = () => {
 							exit="exit"
 						>
 							<Montesoiree1Overview />
+							<Montesoiree1Programs />
 							<Montesoiree2Overview />
+							<Montesoiree2Subjects />
 						</motion.div>
 					)}
 				</AnimatePresence>

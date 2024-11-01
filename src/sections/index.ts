@@ -77,8 +77,9 @@ import LKGSubjects from "./academy/lkg/lkg-subjects";
 import AcademyUKGOverview from "./academy/ukg/academy-ukg-overview";
 import UKGSubjects from "./academy/ukg/ukg-subjects";
 import Montesoiree1Overview from "./academy/montesoiree/montesoiree-1-overview";
-
+import Montesoiree1Programs from "./academy/montesoiree/montesoiree-1-programs";
 import Montesoiree2Overview from "./academy/montesoiree/montesoiree-2-overview";
+import Montesoiree2Subjects from "./academy/montesoiree/montesoiree-2-subjects";
 
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
@@ -142,8 +143,9 @@ export {
   AcademyUKGOverview,
   UKGSubjects,
   Montesoiree1Overview,
-  
+  Montesoiree1Programs,
   Montesoiree2Overview,
+  Montesoiree2Subjects,
   GalleryCarousel,
   News,
   NewsBanner,
