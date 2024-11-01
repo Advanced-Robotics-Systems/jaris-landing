@@ -1064,6 +1064,26 @@ export const montesoiree2Subjects = [
   }
 ];
 
+export const montesoiree3Subjects = [
+  {
+    title: "English",
+    description: "Learning blending sounds, words and sentence making."
+  },
+  {
+    title: "Mathematics",
+    description: "Learning numbers, numbers name, addition and subtraction."
+  },
+  {
+    title: "Cultural Subjects",
+    description: "Parts of the plant, jigsaw puzzles, Land and water moulds."
+  },
+  {
+    title: "Please Note...",
+    description: "The presently followed method of teaching for Montessori guarantees the above skills are covered at the end of the academic year."
+  }
+];
+
+
 // Gallery
 export const galleryCarouselItems = [
   {

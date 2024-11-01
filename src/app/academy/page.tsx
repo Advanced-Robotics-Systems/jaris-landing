@@ -4,6 +4,7 @@ import {
 	AcademyLKGOverview,
 	AcademyNurseryOverview,
 	AcademyUKGOverview,
+	CTASchools,
 	Footer,
 	Header,
 	HeroCarouselNav,
@@ -12,6 +13,8 @@ import {
 	Montesoiree1Programs,
 	Montesoiree2Overview,
 	Montesoiree2Subjects,
+	Montesoiree3Overview,
+	Montesoiree3Subjects,
 	NavbarPlaceholder,
 	UKGSubjects,
 } from "@/sections";
@@ -86,9 +89,12 @@ const Academy = () => {
 							<Montesoiree1Programs />
 							<Montesoiree2Overview />
 							<Montesoiree2Subjects />
+							<Montesoiree3Overview />
+							<Montesoiree3Subjects />
 						</motion.div>
 					)}
 				</AnimatePresence>
+				<CTASchools />
 			</main>
 			<Footer />
 		</>

@@ -80,6 +80,8 @@ import Montesoiree1Overview from "./academy/montesoiree/montesoiree-1-overview";
 import Montesoiree1Programs from "./academy/montesoiree/montesoiree-1-programs";
 import Montesoiree2Overview from "./academy/montesoiree/montesoiree-2-overview";
 import Montesoiree2Subjects from "./academy/montesoiree/montesoiree-2-subjects";
+import Montesoiree3Overview from "./academy/montesoiree/montesoiree-3-overview";
+import Montesoiree3Subjects from "./academy/montesoiree/montesoiree-3-subjects";
 
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
@@ -146,6 +148,8 @@ export {
   Montesoiree1Programs,
   Montesoiree2Overview,
   Montesoiree2Subjects,
+  Montesoiree3Overview,
+  Montesoiree3Subjects,
   GalleryCarousel,
   News,
   NewsBanner,

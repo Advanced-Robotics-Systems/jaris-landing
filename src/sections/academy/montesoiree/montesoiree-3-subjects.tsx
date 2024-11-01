@@ -1,16 +1,16 @@
 import React from "react";
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import { montesoiree2Subjects } from "@/data";
+import { montesoiree3Subjects } from "@/data";
 
-const Montesoiree2Subjects = () => {
+const Montesoiree3Subjects = () => {
 	return (
 		<div className="padding bg-jaris-blue lg:px-36 xl:px-48 2xl:px-62">
-			<h3 className="heading-secondary text-jaris-gold-dark font-bold uppercase mb-10">
+			<h3 className="heading-secondary text-jaris-gold font-bold uppercase mb-10">
 				Subjects
 			</h3>
 			
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-				{montesoiree2Subjects.map((subject, index) => (
+				{montesoiree3Subjects.map((subject, index) => (
 					<Card key={index} className="bg-jaris-white/70 rounded-lg shadow-md min-h-[150px]">
 						<CardHeader className="text-jaris-gold-dark font-semibold subtitle">
 							{subject.title}
@@ -25,4 +25,4 @@ const Montesoiree2Subjects = () => {
 	);
 };
 
-export default Montesoiree2Subjects;
+export default Montesoiree3Subjects;
