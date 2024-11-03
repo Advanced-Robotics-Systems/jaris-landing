@@ -1,5 +1,5 @@
 "use client";
-import { academyHeroCarouselItems, academyNurseryNavItems, } from "@/data";
+import { academyHeroCarouselItems, academyNavItems, } from "@/data";
 import {
 	AcademyLKGOverview,
 	AcademyNurseryOverview,
@@ -37,7 +37,7 @@ const Academy = () => {
 			<main>
 				<HeroCarouselNav
 					carouselItems={academyHeroCarouselItems}
-					carouselNavItems={academyNurseryNavItems}
+					carouselNavItems={academyNavItems}
 					active={active}
 					setActive={setActive}
 				/>

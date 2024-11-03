@@ -1026,7 +1026,7 @@ export const academyHeroCarouselItems = [
   },
 ];
 
-export const academyNurseryNavItems = [
+export const academyNavItems = [
   {
     title: "Nursery",
     subtitle: "Our",
@@ -1106,6 +1106,48 @@ export const montesoiree3Subjects = [
   }
 ];
 
+// Extracurricular
+export const extracurricularHeroCarouselItems = [
+  {
+    title: "Nursery",
+    subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+    imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+  },
+  {
+    title: "LKG",
+    subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+    imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+  },
+  {
+    title: "UKG",
+    subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+    imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+  },
+  {
+    title: "Montesoiree",
+    subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+    imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
+  },
+];
+
+export const extracurricularNavItems = [
+  {
+    title: "Nursery",
+    subtitle: "Our",
+  },
+  {
+    title: "LKG",
+    subtitle: "Our",
+  },
+  {
+    title: "UKG",
+    subtitle: "Our",
+  },
+  {
+    title: "Montsoiree",
+    subtitle: "Read Our Latest",
+  },
+];
 
 // Gallery
 export const galleryCarouselItems = [
