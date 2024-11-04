@@ -83,6 +83,10 @@ import Montesoiree2Subjects from "./academy/montesoiree/montesoiree-2-subjects";
 import Montesoiree3Overview from "./academy/montesoiree/montesoiree-3-overview";
 import Montesoiree3Subjects from "./academy/montesoiree/montesoiree-3-subjects";
 
+// Extracurricular
+import ExtracurricularOverview from "./extracurricular/art/extracurricular-overview";
+import ExtracurriculurSubjects from "./extracurricular/art/extracurricular-subjects";
+
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
 import News from "./gallery-news/news";
@@ -153,4 +157,6 @@ export {
   GalleryCarousel,
   News,
   NewsBanner,
+  ExtracurricularOverview,
+  ExtracurriculurSubjects,
 };

@@ -1109,22 +1109,22 @@ export const montesoiree3Subjects = [
 // Extracurricular
 export const extracurricularHeroCarouselItems = [
   {
-    title: "Nursery",
+    title: "Art",
     subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
     imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
   },
   {
-    title: "LKG",
+    title: "Botanic",
     subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
     imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
   },
   {
-    title: "UKG",
+    title: "Baking",
     subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
     imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
   },
   {
-    title: "Montesoiree",
+    title: "Aerobics",
     subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
     imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
   },
@@ -1132,22 +1132,47 @@ export const extracurricularHeroCarouselItems = [
 
 export const extracurricularNavItems = [
   {
-    title: "Nursery",
+    title: "Art",
     subtitle: "Our",
   },
   {
-    title: "LKG",
+    title: "Botanic",
     subtitle: "Our",
   },
   {
-    title: "UKG",
+    title: "Baking",
     subtitle: "Our",
   },
   {
-    title: "Montsoiree",
+    title: "Aerobics",
     subtitle: "Read Our Latest",
   },
 ];
+
+export const artSubjects = [
+  {
+    level: "Tier 1: Beginner level",
+    title: "Foundation of Art",
+    description: "This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
+  },
+  {
+    level: "Tier 1: Beginner level",
+    title: "Foundation of Art",
+    description: "This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
+  },
+  {
+    level: "Tier 1: Beginner level",
+    title: "Foundation of Art",
+    description: "This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
+  },
+];
+
+export const artOverview = {
+  title: "Art Academy",
+  description: "Welcome to the Art Academy at Jawahir Al-Riyadh International School (JARIS), where creativity knows no bounds! Our academy is dedicated to nurturing the artistic talents of students by providing them with the tools, guidance, and inspiration to explore their full potential.",
+  imgSrc: "/images/extracurricular/art-overview.png",
+}
+
 
 // Gallery
 export const galleryCarouselItems = [
