@@ -81,6 +81,27 @@
 		}
 	}
 	
+	.scrollbar-custom {
+		scrollbar-width: thin; 
+		scrollbar-color: #4B5563 transparent;
+	
+		&::-webkit-scrollbar {
+			width: 8px;
+		}
+	
+		&::-webkit-scrollbar-track {
+			background: transparent; 
+		}
+	
+		&::-webkit-scrollbar-thumb {
+			background-color: #4B5563; 
+			border-radius: 4px; 
+		}
+	
+		&::-webkit-scrollbar-thumb:hover {
+			background-color: #6B7280;
+		}
+	}
 
 	.cta-swiper .swiper-pagination-bullet {
     @apply w-[25px] h-[25px] text-center leading-[20px] text-[12px] text-white bg-transparent border-black/70 border-2;
