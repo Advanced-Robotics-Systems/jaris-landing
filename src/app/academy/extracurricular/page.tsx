@@ -1,21 +1,25 @@
 "use client";
 import {
+	aerobicsCTADescription,
 	aerobicsOverview,
 	aerobicsSchedule,
 	aerobicsSubjects,
+	artCTADescription,
 	artOverview,
 	artSchedule,
 	artSubjects,
+	bakingCTADescription,
 	bakingOverview,
 	bakingSchedule,
 	bakingSubjects,
+	botanicCTADescription,
 	botanicOverview,
 	botanicSchedule,
 	botanicSubjects,
 	extracurricularHeroCarouselItems,
 	extracurricularNavItems,
 } from "@/data";
-import { ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
+import { CTASchools, ExtracurricularCTA, ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
@@ -27,6 +31,35 @@ const Extracurriculur = () => {
 		animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 		exit: { opacity: 0, y: 20, transition: { duration: 0.5 } },
 	};
+
+	// Content map containing all data needed for each section
+	const contentMap = [
+		{
+			overview: artOverview,
+			subjects: artSubjects,
+			schedule: artSchedule,
+			cta: { description: artCTADescription, imgSrc: artOverview.imgSrc }
+		},
+		{
+			overview: botanicOverview,
+			subjects: botanicSubjects,
+			schedule: botanicSchedule,
+			cta: { description: botanicCTADescription, imgSrc: botanicOverview.imgSrc }
+		},
+		{
+			overview: bakingOverview,
+			subjects: bakingSubjects,
+			schedule: bakingSchedule,
+			cta: { description: bakingCTADescription, imgSrc: bakingOverview.imgSrc }
+		},
+		{
+			overview: aerobicsOverview,
+			subjects: aerobicsSubjects,
+			schedule: aerobicsSchedule,
+			cta: { description: aerobicsCTADescription, imgSrc: aerobicsOverview.imgSrc }
+		},
+		// Add new section here as needed
+	];
 
 	return (
 		<>
@@ -40,59 +73,23 @@ const Extracurriculur = () => {
 					setActive={setActive}
 				/>
 				<AnimatePresence mode="wait">
-					{active === 0 && (
-						<motion.div
-							key="art"
-							variants={animationVariants}
-							initial="initial"
-							animate="animate"
-							exit="exit"
-						>
-							<ExtracurricularOverview overview={artOverview} />
-							<ExtracurriculurSubjects subjects={artSubjects} />
-							<ExtracurricularSchedule schedule={artSchedule}/>
-						</motion.div>
-					)}
-					{active === 1 && (
-						<motion.div
-							key="botanic"
-							variants={animationVariants}
-							initial="initial"
-							animate="animate"
-							exit="exit"
-						>
-							<ExtracurricularOverview overview={botanicOverview} />
-							<ExtracurriculurSubjects subjects={botanicSubjects} />
-							<ExtracurricularSchedule schedule={botanicSchedule}/>
-						</motion.div>
-					)}
-					{active === 2 && (
-						<motion.div
-							key="botanic"
-							variants={animationVariants}
-							initial="initial"
-							animate="animate"
-							exit="exit"
-						>
-							<ExtracurricularOverview overview={bakingOverview} />
-							<ExtracurriculurSubjects subjects={bakingSubjects} />
-							<ExtracurricularSchedule schedule={bakingSchedule}/>
-						</motion.div>
-					)}
-					{active === 3 && (
-						<motion.div
-							key="botanic"
-							variants={animationVariants}
-							initial="initial"
-							animate="animate"
-							exit="exit"
-						>
-							<ExtracurricularOverview overview={aerobicsOverview} />
-							<ExtracurriculurSubjects subjects={aerobicsSubjects} />
-							<ExtracurricularSchedule schedule={aerobicsSchedule}/>
-						</motion.div>
-					)}
+					<motion.div
+						key={active}
+						variants={animationVariants}
+						initial="initial"
+						animate="animate"
+						exit="exit"
+					>
+						<ExtracurricularOverview overview={contentMap[active].overview} />
+						<ExtracurriculurSubjects subjects={contentMap[active].subjects} />
+						<ExtracurricularSchedule schedule={contentMap[active].schedule} />
+						<ExtracurricularCTA
+							description={contentMap[active].cta.description}
+							imgSrc={contentMap[active].cta.imgSrc}
+						/>
+					</motion.div>
 				</AnimatePresence>
+				<CTASchools />
 			</main>
 			<Footer />
 		</>

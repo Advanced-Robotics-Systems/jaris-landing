@@ -87,6 +87,7 @@ import Montesoiree3Subjects from "./academy/montesoiree/montesoiree-3-subjects";
 import ExtracurricularOverview from "./extracurricular/extracurricular-overview";
 import ExtracurriculurSubjects from "./extracurricular/extracurricular-subjects";
 import ExtracurricularSchedule from "./extracurricular/extracurricular-schedule";
+import ExtracurricularCTA from "./extracurricular/extracurricular-cta";
 
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
@@ -161,4 +162,5 @@ export {
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
+  ExtracurricularCTA,
 };

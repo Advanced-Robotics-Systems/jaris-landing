@@ -1196,6 +1196,8 @@ export const artSchedule = {
 		"This daily schedule allows students to immerse themselves in various forms of art, from painting and drawing to digital design and sculpture. Each day is designed to focus on different aspects of creativity, ensuring that students gain a holistic art education while balancing their other academic commitments.",
 };
 
+export const artCTADescription = "Whether your child is a budding artist or a curious beginner, our Art Academy offers a structured, engaging, and dynamic environment to cultivate their skills and creativity.";
+
 export const botanicOverview = {
 	title: "Botany Academy",
 	description:
@@ -1240,6 +1242,8 @@ export const botanicSchedule = {
 	description:
 		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
 };
+
+export const botanicCTADescription = "Whether your child is a budding botanist or a curious beginner, our Botany Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
 
 export const bakingOverview = {
 	title: "Baking Academy",
@@ -1286,6 +1290,8 @@ export const bakingSchedule = {
 		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
 };
 
+export const bakingCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
+
 export const aerobicsOverview = {
 	title: "Aerobics Academy",
 	description:
@@ -1330,6 +1336,8 @@ export const aerobicsSchedule = {
 	description:
 		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
 };
+
+export const aerobicsCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
 
 // Gallery
 export const galleryCarouselItems = [
