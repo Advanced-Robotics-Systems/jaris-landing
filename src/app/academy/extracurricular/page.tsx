@@ -1,8 +1,17 @@
 "use client";
 import {
+	aerobicsOverview,
+	aerobicsSchedule,
+	aerobicsSubjects,
 	artOverview,
 	artSchedule,
 	artSubjects,
+	bakingOverview,
+	bakingSchedule,
+	bakingSubjects,
+	botanicOverview,
+	botanicSchedule,
+	botanicSubjects,
 	extracurricularHeroCarouselItems,
 	extracurricularNavItems,
 } from "@/data";
@@ -33,7 +42,7 @@ const Extracurriculur = () => {
 				<AnimatePresence mode="wait">
 					{active === 0 && (
 						<motion.div
-							key="nursery"
+							key="art"
 							variants={animationVariants}
 							initial="initial"
 							animate="animate"
@@ -42,6 +51,45 @@ const Extracurriculur = () => {
 							<ExtracurricularOverview overview={artOverview} />
 							<ExtracurriculurSubjects subjects={artSubjects} />
 							<ExtracurricularSchedule schedule={artSchedule}/>
+						</motion.div>
+					)}
+					{active === 1 && (
+						<motion.div
+							key="botanic"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<ExtracurricularOverview overview={botanicOverview} />
+							<ExtracurriculurSubjects subjects={botanicSubjects} />
+							<ExtracurricularSchedule schedule={botanicSchedule}/>
+						</motion.div>
+					)}
+					{active === 2 && (
+						<motion.div
+							key="botanic"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<ExtracurricularOverview overview={bakingOverview} />
+							<ExtracurriculurSubjects subjects={bakingSubjects} />
+							<ExtracurricularSchedule schedule={bakingSchedule}/>
+						</motion.div>
+					)}
+					{active === 3 && (
+						<motion.div
+							key="botanic"
+							variants={animationVariants}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+						>
+							<ExtracurricularOverview overview={aerobicsOverview} />
+							<ExtracurriculurSubjects subjects={aerobicsSubjects} />
+							<ExtracurricularSchedule schedule={aerobicsSchedule}/>
 						</motion.div>
 					)}
 				</AnimatePresence>

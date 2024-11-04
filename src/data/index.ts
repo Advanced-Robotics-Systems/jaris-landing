@@ -1166,13 +1166,13 @@ export const artSubjects = [
 			"This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
 	},
 	{
-		level: "Tier 1: Beginner level",
+		level: "Tier 2: Intermediate level",
 		title: "Foundation of Art",
 		description:
 			"This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
 	},
 	{
-		level: "Tier 1: Beginner level",
+		level: "Tier 3: Advanced level",
 		title: "Foundation of Art",
 		description:
 			"This tier focuses on introducing the basics of drawing, painting, and color theory. Students will learn how to work with various mediums and explore foundational techniques that are crucial to developing strong artistic skills.",
@@ -1194,6 +1194,141 @@ export const artSchedule = {
 	],
 	description:
 		"This daily schedule allows students to immerse themselves in various forms of art, from painting and drawing to digital design and sculpture. Each day is designed to focus on different aspects of creativity, ensuring that students gain a holistic art education while balancing their other academic commitments.",
+};
+
+export const botanicOverview = {
+	title: "Botany Academy",
+	description:
+		"Discover the wonders of nature with the Botany Academy at JARIS. This academy encourages students to explore the science of plants, fostering an appreciation for environmental conservation and sustainability. From understanding plant biology to hands-on gardening, the academy provides a mix of theoretical knowledge and practical application.",
+	imgSrc: "/images/extracurricular/botanic-overview.png",
+};
+
+export const botanicSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Botany",
+		description:
+			"Students are introduced to plant life cycles, basic plant anatomy, and the importance of plants in the ecosystem. Hands-on activities like planting seeds and observing growth are incorporated.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Plant Care",
+		description:
+			"This tier covers topics such as plant genetics, soil science, and biodiversity. Students will also engage in small experiments and garden maintenance.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Botanical Studies",
+		description:
+			"Focuses on advanced topics like horticulture, botany research, and environmental science. Students will undertake independent projects such as cultivating rare plants or designing sustainable gardens.",
+	},
+];
+
+export const botanicSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const bakingOverview = {
+	title: "Baking Academy",
+	description:
+		"For students passionate about culinary arts, the Baking Academy at JARIS provides a fun and educational environment to learn baking from scratch. From bread and pastries to cakes and desserts, students will master techniques, recipes, and decoration skills to become creative bakers.",
+	imgSrc: "/images/extracurricular/baking-overview.png",
+};
+
+export const bakingSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Baking Basics",
+		description:
+			"Students will learn kitchen safety, measuring ingredients, and basic recipes like cookies and cupcakes. Hands-on practice ensures everyone gains confidence in the kitchen.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Baking",
+		description:
+			"More advanced techniques are introduced, such as bread-making, pie crusts, and cake decorating. Students will also learn about the science behind baking.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Baking Techniques",
+		description:
+			"Students will explore advanced pastry techniques, gourmet desserts, and complex recipes. They will also work on personalized projects, such as designing a multi-layered cake.",
+	},
+];
+
+export const bakingSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const aerobicsOverview = {
+	title: "Aerobics Academy",
+	description:
+		"The Aerobics Academy at JARIS promotes physical fitness, energy, and well-being. Designed to enhance cardiovascular endurance, strength, and flexibility, the academy helps students build a love for staying active in a fun and dynamic way.",
+	imgSrc: "/images/extracurricular/aerobics-overview.png",
+};
+
+export const aerobicsSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Aerobics",
+		description:
+			"Students will learn the basics of aerobic exercises, focusing on proper form, light cardio, and stretching routines.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Aerobics",
+		description:
+			"Students will engage in more complex routines, combining strength training with cardio, and learn about proper breathing techniques during workouts.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Aerobic Techniques",
+		description:
+			"This level involves high-intensity interval training (HIIT), endurance challenges, and complex routines that target multiple muscle groups for full-body fitness.",
+	},
+];
+
+export const aerobicsSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
 };
 
 // Gallery
