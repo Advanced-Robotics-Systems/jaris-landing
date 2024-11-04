@@ -78,15 +78,15 @@ export const navItems = [
 					},
 					{
 						name: "Extracurricular",
-						link: "academy/extracurricular",
+						link: "/academy/extracurricular",
 					},
 					{
 						name: "Sports",
-						link: "academy/sports",
+						link: "/academy/sports",
 					},
 					{
 						name: "Special needs",
-						link: "academy/special-needs",
+						link: "/academy/special-needs",
 					},
 				],
 			},
@@ -1338,6 +1338,237 @@ export const aerobicsSchedule = {
 };
 
 export const aerobicsCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
+
+// Sports
+export const sportsHeroCarouselItems = [
+	{
+		title: "Football",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+	},
+	{
+		title: "Basketball",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+	},
+	{
+		title: "Karate",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+	},
+	{
+		title: "Swimming",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
+	},
+];
+
+export const sportsNavItems = [
+	{
+		title: "Art",
+		subtitle: "Our",
+	},
+	{
+		title: "Botanic",
+		subtitle: "Our",
+	},
+	{
+		title: "Baking",
+		subtitle: "Our",
+	},
+	{
+		title: "Aerobics",
+		subtitle: "Read Our Latest",
+	},
+];
+
+export const footballOverview = {
+	title: "Aerobics Academy",
+	description:
+		"The Aerobics Academy at JARIS promotes physical fitness, energy, and well-being. Designed to enhance cardiovascular endurance, strength, and flexibility, the academy helps students build a love for staying active in a fun and dynamic way.",
+	imgSrc: "/images/extracurricular/aerobics-overview.png",
+};
+
+export const footballSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Aerobics",
+		description:
+			"Students will learn the basics of aerobic exercises, focusing on proper form, light cardio, and stretching routines.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Aerobics",
+		description:
+			"Students will engage in more complex routines, combining strength training with cardio, and learn about proper breathing techniques during workouts.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Aerobic Techniques",
+		description:
+			"This level involves high-intensity interval training (HIIT), endurance challenges, and complex routines that target multiple muscle groups for full-body fitness.",
+	},
+];
+
+export const footballSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const footballCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
+
+export const basketballOverview = {
+	title: "Aerobics Academy",
+	description:
+		"The Aerobics Academy at JARIS promotes physical fitness, energy, and well-being. Designed to enhance cardiovascular endurance, strength, and flexibility, the academy helps students build a love for staying active in a fun and dynamic way.",
+	imgSrc: "/images/extracurricular/aerobics-overview.png",
+};
+
+export const basketballSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Aerobics",
+		description:
+			"Students will learn the basics of aerobic exercises, focusing on proper form, light cardio, and stretching routines.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Aerobics",
+		description:
+			"Students will engage in more complex routines, combining strength training with cardio, and learn about proper breathing techniques during workouts.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Aerobic Techniques",
+		description:
+			"This level involves high-intensity interval training (HIIT), endurance challenges, and complex routines that target multiple muscle groups for full-body fitness.",
+	},
+];
+
+export const basketballSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const basketballCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
+
+export const karateOverview = {
+	title: "Aerobics Academy",
+	description:
+		"The Aerobics Academy at JARIS promotes physical fitness, energy, and well-being. Designed to enhance cardiovascular endurance, strength, and flexibility, the academy helps students build a love for staying active in a fun and dynamic way.",
+	imgSrc: "/images/extracurricular/aerobics-overview.png",
+};
+
+export const karateSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Aerobics",
+		description:
+			"Students will learn the basics of aerobic exercises, focusing on proper form, light cardio, and stretching routines.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Aerobics",
+		description:
+			"Students will engage in more complex routines, combining strength training with cardio, and learn about proper breathing techniques during workouts.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Aerobic Techniques",
+		description:
+			"This level involves high-intensity interval training (HIIT), endurance challenges, and complex routines that target multiple muscle groups for full-body fitness.",
+	},
+];
+
+export const karateSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const karateCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
+
+export const swimmingOverview = {
+	title: "Aerobics Academy",
+	description:
+		"The Aerobics Academy at JARIS promotes physical fitness, energy, and well-being. Designed to enhance cardiovascular endurance, strength, and flexibility, the academy helps students build a love for staying active in a fun and dynamic way.",
+	imgSrc: "/images/extracurricular/aerobics-overview.png",
+};
+
+export const swimmingSubjects = [
+	{
+		level: "Tier 1: Beginner level",
+		title: "Introduction to Aerobics",
+		description:
+			"Students will learn the basics of aerobic exercises, focusing on proper form, light cardio, and stretching routines.",
+	},
+	{
+		level: "Tier 2: Intermediate level",
+		title: "Intermediate Aerobics",
+		description:
+			"Students will engage in more complex routines, combining strength training with cardio, and learn about proper breathing techniques during workouts.",
+	},
+	{
+		level: "Tier 3: Advanced level",
+		title: "Advanced Aerobic Techniques",
+		description:
+			"This level involves high-intensity interval training (HIIT), endurance challenges, and complex routines that target multiple muscle groups for full-body fitness.",
+	},
+];
+
+export const swimmingSchedule = {
+	schedule: [
+		{
+			key: "1",
+			day: "Days",
+			detail: "Sunday to Thursday",
+		},
+		{
+			key: "2",
+			day: "Time",
+			detail: "6:30 AM - 12:30 PM",
+		},
+	],
+	description:
+		"This daily schedule allows students to immerse themselves in various forms of Botanical caring techniques. ",
+};
+
+export const swimmingCTADescription = "Whether your child is a budding baker or a curious beginner, our Baking Academy offers a structured, engaging, and dynamic environment to cultivate their skills and passion for the craft.";
 
 // Gallery
 export const galleryCarouselItems = [

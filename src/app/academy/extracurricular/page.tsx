@@ -32,7 +32,6 @@ const Extracurriculur = () => {
 		exit: { opacity: 0, y: 20, transition: { duration: 0.5 } },
 	};
 
-	// Content map containing all data needed for each section
 	const contentMap = [
 		{
 			overview: artOverview,
@@ -58,7 +57,6 @@ const Extracurriculur = () => {
 			schedule: aerobicsSchedule,
 			cta: { description: aerobicsCTADescription, imgSrc: aerobicsOverview.imgSrc }
 		},
-		// Add new section here as needed
 	];
 
 	return (
