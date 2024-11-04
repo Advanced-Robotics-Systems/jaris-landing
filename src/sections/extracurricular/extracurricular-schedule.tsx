@@ -1,5 +1,16 @@
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue } from "@nextui-org/react";
 
+type ScheduleItem = {
+  key: string;
+  day: string;
+  detail: string;
+};
+
+type ArtSchedule = {
+  schedule: ScheduleItem[];
+  description: string;
+};
+
 const columns = [
   {
     key: "day",
@@ -11,7 +22,7 @@ const columns = [
   },
 ];
 
-export default function ExtracurricularSchedule({schedule}: {schedule: any}) {
+export default function ExtracurricularSchedule({schedule}: {schedule: ArtSchedule}) {
   return (
     <section className="flex flex-col lg:flex-row items-center padding bg-bg-primary lg:px-36 xl:px-48 2xl:px-62 lg:py-36 gap-10 lg:gap-20">
       {/* Schedule Table */}
