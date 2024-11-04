@@ -1,3 +1,4 @@
+"use client";
 import { galleryPhotos } from "@/data";
 // import { Image } from "@nextui-org/react";
 import Gallery from "react-photo-gallery";
