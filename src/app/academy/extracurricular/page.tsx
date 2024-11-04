@@ -1,11 +1,12 @@
 "use client";
 import {
 	artOverview,
+	artSchedule,
 	artSubjects,
 	extracurricularHeroCarouselItems,
 	extracurricularNavItems,
 } from "@/data";
-import { ExtracurricularOverview, ExtracurriculurSubjects, Footer, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
+import { ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
@@ -40,6 +41,7 @@ const Extracurriculur = () => {
 						>
 							<ExtracurricularOverview overview={artOverview} />
 							<ExtracurriculurSubjects subjects={artSubjects} />
+							<ExtracurricularSchedule schedule={artSchedule}/>
 						</motion.div>
 					)}
 				</AnimatePresence>
