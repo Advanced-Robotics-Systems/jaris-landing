@@ -6,6 +6,7 @@ import {
 	AcademyUKGOverview,
 	CTASchools,
 	Footer,
+	GalleryPreview,
 	Header,
 	HeroCarouselNav,
 	LKGSubjects,
@@ -94,6 +95,7 @@ const Academy = () => {
 						</motion.div>
 					)}
 				</AnimatePresence>
+				<GalleryPreview />
 				<CTASchools />
 			</main>
 			<Footer />

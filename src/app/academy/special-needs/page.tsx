@@ -1,4 +1,4 @@
-import { Footer, Header, NavbarPlaceholder } from '@/sections'
+import { CTASchools, Footer, GalleryPreview, Header, NavbarPlaceholder } from '@/sections'
 import React from 'react'
 
 const SpecialNeeds = () => {
@@ -8,6 +8,9 @@ const SpecialNeeds = () => {
       <NavbarPlaceholder />
       <main>
 
+
+        <GalleryPreview />
+        <CTASchools />
       </main>
       <Footer />
     </>

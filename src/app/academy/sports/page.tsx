@@ -96,6 +96,7 @@ const Sports = () => {
 						/>
 					</motion.div>
 				</AnimatePresence>
+        <GalleryPreview />
 				<CTASchools />
 			</main>
 			<Footer />

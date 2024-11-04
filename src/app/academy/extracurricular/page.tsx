@@ -19,7 +19,7 @@ import {
 	extracurricularHeroCarouselItems,
 	extracurricularNavItems,
 } from "@/data";
-import { CTASchools, ExtracurricularCTA, ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
+import { CTASchools, ExtracurricularCTA, ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, GalleryPreview, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
@@ -87,6 +87,7 @@ const Extracurriculur = () => {
 						/>
 					</motion.div>
 				</AnimatePresence>
+				<GalleryPreview />
 				<CTASchools />
 			</main>
 			<Footer />
