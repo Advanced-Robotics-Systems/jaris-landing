@@ -1606,6 +1606,32 @@ export const galleryCarouselItems = [
 	},
 ];
 
+export const galleryPhotos = [
+  { src: "/images/about/about-core-values.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-founder.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-hero-carousel-slide-1.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-hero-carousel-slide-2.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-hero-carousel-slide-3.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-hero-carousel-slide-4.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-mission-1.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/about-mission-2.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/facility-biology.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/facility-chemistry.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/facility-computer.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/facility-physics.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/about/tjaris-bg.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/lkg.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/montesoiree1.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/montesoiree2.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/montesoiree3.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/nursery.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/academy/ukg.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/admission/admission-kindergarten-img.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/admission/admission-procedure-bg.png", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+  { src: "/images/admission/admission-procedure-image.jpeg", width: 4, height: 3, sizes: "(min-width: 1024px) 33.3%, (min-width: 768px) 50%, 100%" },
+];
+
+
 export const newsBannerItems = [
 	{
 		title: "Annual Day",

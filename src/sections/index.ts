@@ -11,6 +11,7 @@ import HeroCarouselNav from "./shared/hero-carousel-nav";
 import Explore from "./shared/explore";
 import DiscoverJaris from "./shared/discover-jaris";
 import CTASchools from "./shared/cta-schools";
+import GalleryPreview from "./shared/gallery-preview";
 
 // Home
 import Hero from "./home/hero";
@@ -106,6 +107,7 @@ export {
   Experience,
   Counts,
   CTASchools,
+  GalleryPreview,
   HomeGallery,
   HeroCarousel,
   HeroCarouselNav,
