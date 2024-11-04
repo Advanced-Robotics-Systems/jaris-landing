@@ -90,6 +90,10 @@ import ExtracurriculurSubjects from "./extracurricular/extracurricular-subjects"
 import ExtracurricularSchedule from "./extracurricular/extracurricular-schedule";
 import ExtracurricularCTA from "./extracurricular/extracurricular-cta";
 
+// Special Needs
+import SpNeedsOverview1 from "./special-needs/sp-needs-overview-1";
+import SpNeedsOverview2 from "./special-needs/sp-needs-overview-2";
+
 // Gallery & News
 import GalleryCarousel from "./gallery-news/gallery-carousel";
 import News from "./gallery-news/news";
@@ -165,4 +169,6 @@ export {
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
   ExtracurricularCTA,
+  SpNeedsOverview1,
+  SpNeedsOverview2,
 };

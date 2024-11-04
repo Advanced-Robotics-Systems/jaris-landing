@@ -1578,6 +1578,30 @@ export const swimmingSchedule = {
 export const swimmingCTADescription =
 	"Whether your child is a budding future athlete or a curious beginner, our Swimming offers a structured, engaging, and dynamic environment to cultivate their skills.";
 
+// Special Needs
+export const specialNeedsHeroCarouselItems = [
+	{
+		title: "Special Needs",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+	},
+	{
+		title: "Special Needs",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+	},
+	{
+		title: "Special Needs",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+	},
+	{
+		title: "Special Needs",
+		subtitle: "Join US TO BRIGHTEN YOUR FUTURE",
+		imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
+	},
+];
+
 // Gallery
 export const galleryCarouselItems = [
 	{
