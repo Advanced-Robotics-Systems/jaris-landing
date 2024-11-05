@@ -20,7 +20,7 @@ const SpNeedsOverview2 = () => {
 					</h2>
 					<p className="subtitle text-jaris-blue">
 						The Special Needs Academy at JARIS is dedicated to supporting every
-						student’s journey toward growth, offering them the resources and
+						student&apos;s journey toward growth, offering them the resources and
 						encouragement to thrive both academically and socially. Our
 						experienced educators work closely with each child, ensuring they
 						reach their fullest potential in a nurturing and compassionate
