@@ -95,9 +95,9 @@ import SpNeedsOverview1 from "./special-needs/sp-needs-overview-1";
 import SpNeedsOverview2 from "./special-needs/sp-needs-overview-2";
 
 // Gallery & News
-import GalleryCarousel from "./gallery-news/gallery-carousel";
-import News from "./gallery-news/news";
-import NewsBanner from "./gallery-news/news-banner";
+import GalleryCarousel from "./gallery/gallery-carousel";
+import News from "./gallery/news";
+import NewsBanner from "./gallery/news-banner";
 
 export {
   Header,
