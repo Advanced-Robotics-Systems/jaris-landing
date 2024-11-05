@@ -1,5 +1,19 @@
+"use client";
+
 import Image from "next/image";
-import { Button } from "@nextui-org/react";
+import { useState } from "react";
+
+import {
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  useDisclosure,
+  RadioGroup,
+  Radio,
+} from "@nextui-org/react";
 
 const NewsBanner = ({
   title,
@@ -10,6 +24,8 @@ const NewsBanner = ({
   description: string;
   imgUrl: string;
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="basis-full sm:basis-3/4 md:basis-[49%] flex justify-between items-center h-44 sm:h-52 bg-bg-text rounded-lg px-6 py-5 shadow-[2px_1px_4px_0_rgba(0,0,0,0.1)]">
       {/* Left Side Section Starts */}
@@ -29,7 +45,7 @@ const NewsBanner = ({
             size="sm"
             className="px-2 py-1 text-xs text-jaris-white font-medium bg-jaris-gold hover:bg-jaris-gold-dark shadow-[-1px_2px_4px_0_rgba(0,0,0,0.25)]"
           >
-            Contact Us
+            Read
           </Button>
         </div>
         {/* Button Sections Ends */}

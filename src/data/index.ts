@@ -1780,22 +1780,4 @@ export const newsBannerItems = [
       "Sports are a great way for kids to have fun, stay fit, improve skills, and make friends.",
     imgUrl: "/images/gallery/news-banners/news-tablo.jpeg",
   },
-  {
-    title: "Sports Gala",
-    description:
-      "The much awaited Annual Sports Day was held on Saturday 16th March.",
-    imgUrl: "/images/gallery/news-banners/news-sports-gala.jpeg",
-  },
-  {
-    title: "Sports Gala",
-    description:
-      "The much awaited Annual Sports Day was held on Saturday 16th March.",
-    imgUrl: "/images/gallery/news-banners/news-sports-gala.jpeg",
-  },
-  {
-    title: "Sports Gala",
-    description:
-      "The much awaited Annual Sports Day was held on Saturday 16th March.",
-    imgUrl: "/images/gallery/news-banners/news-sports-gala.jpeg",
-  },
 ];

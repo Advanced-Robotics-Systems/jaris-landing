@@ -15,7 +15,7 @@ const News = () => {
       </div>
       {/* Heading Ends */}
       {/* News Banners Start */}
-      <div className="flex flex-wrap justify-center md:justify-between px-6 sm:px-12 lg:px-24 xl:px-48 gap-y-10 mt-4 sm:mt-8 mb-16 sm:mb-32">
+      <div className="flex flex-wrap justify-center md:justify-between px-6 sm:px-12 lg:px-24 xl:px-48 gap-y-10 mt-4 sm:mt-8 pb-16 sm:pb-32">
         {newsBannerItems.map((item: any, index: number) => (
           <NewsBanner
             title={item.title}
