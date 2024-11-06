@@ -101,6 +101,7 @@ import NewsBanner from "./news/news-banner";
 import PhotoGallery from "./gallery/gallery";
 import Events from "./news/events";
 import EventsBanner from "./news/events-banner";
+import Announcements from "./news/annoucements";
 
 export {
   Header,
@@ -171,6 +172,7 @@ export {
   PhotoGallery,
   Events,
   EventsBanner,
+  Announcements,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
