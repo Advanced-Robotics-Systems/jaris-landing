@@ -98,6 +98,7 @@ import SpNeedsOverview2 from "./special-needs/sp-needs-overview-2";
 import GalleryCarousel from "./news/gallery-carousel";
 import News from "./news/news";
 import NewsBanner from "./news/news-banner";
+import PhotoGallery from "./gallery/gallery";
 
 export {
   Header,
@@ -165,6 +166,7 @@ export {
   GalleryCarousel,
   News,
   NewsBanner,
+  PhotoGallery,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,

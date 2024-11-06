@@ -9,6 +9,7 @@ import {
     HeroCarouselNav,
     NavbarPlaceholder,
     News,
+    PhotoGallery,
 } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -58,6 +59,20 @@ export default function GalleryNews() {
                     setActive={handleTabChange}
                 />
                 <AnimatePresence mode="wait">
+                    {/* Gallery */}
+                    {active === 0 && (
+                        <motion.div
+                            key={active}
+                            variants={animationVariants}
+                            initial="initial"
+                            animate="animate"
+                            exit="exit"
+                        >
+                            <PhotoGallery />
+                        </motion.div>
+                    )}
+
+                    {/* News Page */}
                     {active === 1 && (
                         <motion.div
                             key={active}
@@ -69,6 +84,9 @@ export default function GalleryNews() {
                             <News />
                         </motion.div>
                     )}
+
+                    {/* Baki pages */}
+                    
                 </AnimatePresence>
             </main>
             <Footer />
