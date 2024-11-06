@@ -60,8 +60,7 @@ const NewsBanner = ({
             src={imgUrl}
             alt="Event Image"
             fill
-            objectFit="cover"
-            className="rounded-lg"
+            className="rounded-lg object-cover"
           />
         </div>
         {/* Right Image Section Ends */}

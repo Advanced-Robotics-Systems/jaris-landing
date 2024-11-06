@@ -30,9 +30,7 @@ const AgeCriteria = () => {
         <Image
           src={ageCriteriaImage}
           alt="Age Criteria"
-          className="rounded-lg"
-          objectFit="cover"
-          fill
+          className="rounded-lg object-cover"
         />
       </div>
       {/* Right Side Ends */}

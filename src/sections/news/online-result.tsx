@@ -9,9 +9,7 @@ const OnlineResult = () => {
         <Image
           src={resultImage}
           alt="Background Image"
-          className="rounded-lg"
-          objectFit="cover"
-          fill
+          className="rounded-lg object-cover"
         />
         <div className="absolute w-full h-full rounded-lg bg-gradient-to-b from-[#B1721F0F] to-[#1C406F99]" />
       </div>

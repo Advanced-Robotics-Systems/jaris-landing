@@ -36,9 +36,7 @@ const AnnouncementNews = () => {
         <Image
           src={rightImage}
           alt="Computer Image"
-          className="rounded-lg"
-          objectFit="cover"
-          fill
+          className="rounded-lg object-cover"
         />
       </div>
     </div>

@@ -35,9 +35,7 @@ const PaymentPortal = () => {
           <Image
             src={paymentImage1}
             alt="Payment Left Image"
-            objectFit="cover"
-            className="rounded"
-            fill
+            className="rounded object-cover"
           />
         </div>
         <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] -translate-x-[5%] translate-y-[5%] z-10">
