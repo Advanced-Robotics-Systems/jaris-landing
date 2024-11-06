@@ -25,7 +25,7 @@ const NewsBanner = ({
     longDescription: string;
   };
 }) => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
     <>
@@ -71,32 +71,33 @@ const NewsBanner = ({
         size="3xl"
         backdrop="blur"
         isOpen={isOpen}
-        onClose={onClose}
+        onOpenChange={onOpenChange}
         scrollBehavior="inside"
+        placement="center"
         hideCloseButton
       >
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalBody className="flex flex-row bg-bg-primary">
+              <ModalBody className="flex flex-col sm:flex-row bg-bg-primary">
                 {/* Modal Left Side Starts */}
-                <div className="basis-1/3 flex flex-col gap-y-6 p-3">
+                <div className="basis-full sm:basis-1/3 flex flex-col gap-y-6 p-0 sm:p-2 md:p-3">
                   <Image src={jarisLogo} alt="JARIS Logo" width={206} />
                   <Image
                     src={imgUrl}
                     alt="Banner Picture"
                     width={206}
                     height={182}
-                    className="rounded"
+                    className="rounded hidden sm:block"
                   />
                 </div>
                 {/* Modal Left Side Ends */}
                 {/* Modal Right Side Starts */}
-                <div className="basis-2/3 flex flex-col gap-y-6 p-3">
-                  <h1 className="text-4xl font-bold text-jaris-blue-dark">
+                <div className="basis-full sm:basis-2/3 flex flex-col gap-y-3 sm:gap-y-6 p-0 sm:p-2 md:p-3">
+                  <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-jaris-blue-dark">
                     {title}
                   </h1>
-                  <p className="text-xl font-normal text-justify">
+                  <p className="text-xs sm:text-base md:text-lg lg:text-xl font-normal text-justify">
                     {modal.longDescription == ""
                       ? description
                       : modal.longDescription}
@@ -116,6 +117,7 @@ const NewsBanner = ({
               <ModalFooter className="bg-bg-primary">
                 <Button
                   onPress={onClose}
+                  size="sm"
                   radius="full"
                   className="bg-jaris-blue text-bg-text text-xl"
                   isIconOnly
