@@ -21,6 +21,7 @@ const News = () => {
             title={item.title}
             description={item.description}
             imgUrl={item.imgUrl}
+            modal={item.modal}
             key={index}
           />
         ))}
