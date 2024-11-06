@@ -8,7 +8,7 @@ const PaymentPortal = () => {
     <div className="flex flex-col sm:flex-row max-sm:gap-y-6 justify-between bg-jaris-blue padding">
       {/* Left Side Starts */}
       <div className="basis-full sm:basis-1/3 flex items-center justify-center sm:justify-between max-sm:order-2">
-        <div className="flex flex-col gap-y-14">
+        <div className="flex flex-col gap-y-16">
           <div className="flex flex-col gap-y-6">
             <span className="text-sm text-bg-primary">Payment Portal</span>
             <h1 className="text-4xl text-jaris-gold font-semibold">

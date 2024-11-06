@@ -1,10 +1,11 @@
-import { AgeCriteria, PaymentPortal } from "@/sections";
+import { AgeCriteria, AnnouncementNews, PaymentPortal } from "@/sections";
 
 const Announcements = () => {
   return (
     <div>
       <AgeCriteria />
       <PaymentPortal />
+      <AnnouncementNews />
     </div>
   );
 };

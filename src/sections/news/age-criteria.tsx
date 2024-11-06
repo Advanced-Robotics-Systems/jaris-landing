@@ -11,7 +11,7 @@ const AgeCriteria = () => {
           <h1 className="text-4xl lg:text-6xl xl:text-7xl text-jaris-gold font-semibold">
             Age Criteria
           </h1>
-          <p className="text-base font-normal text-jaris-blue">
+          <p className="text-sm sm:ext-base font-normal text-jaris-blue">
             Age Criteria for KinderGarten and Grade 1. Explore our Kindergartens
             or download below.
           </p>

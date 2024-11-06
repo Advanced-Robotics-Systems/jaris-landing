@@ -102,9 +102,10 @@ import NewsBanner from "./news/news-banner";
 import PhotoGallery from "./gallery/gallery";
 import Events from "./news/events";
 import EventsBanner from "./news/events-banner";
-import Announcements from "./news/annoucements";
+import Announcements from "./news/announcements";
 import AgeCriteria from "./news/age-criteria";
 import PaymentPortal from "./news/payment-portal";
+import AnnouncementNews from "./news/announcement-news";
 
 export {
   Header,
@@ -179,6 +180,7 @@ export {
   Announcements,
   AgeCriteria,
   PaymentPortal,
+  AnnouncementNews,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
