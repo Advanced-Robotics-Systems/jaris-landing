@@ -105,14 +105,14 @@ const Header = () => {
 				<div className="navbar-brand flex items-center h-full">
 					<Link href="/" className="text-2xl font-bold text-jaris-blue px-4">
 						<Image
-							src="/logos/jaris-logo-full.png"
+							src="/logos/jawahir-logo-full-new.png"
 							alt="Jawahir International School"
-							className="max-lg:hidden"
+							className="max-lg:hidden h-16"
 						/>
 						<Image
-							src="/logos/jaris-logo.png"
+							src="/logos/jawahir-logo.png"
 							alt="Jawahir International School"
-							className="lg:hidden"
+							className="lg:hidden h-12"
 						/>
 					</Link>
 				</div>
