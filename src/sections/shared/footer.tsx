@@ -10,7 +10,7 @@ const Footer = () => {
 			<div className="flex flex-col lg:flex-row justify-between items-start gap-16">
 				<div className="flex flex-col gap-10 max-sm:items-center">
 					<Image
-						src="/logos/jaris-logo-full-solid.png"
+						src="/logos/jawahir-logo-full-white.png"
 						alt="JAWAHIR AL-RIYADH INTERNATIONAL SCHOOL"
 						className="w-60 lg:w-80 h-auto"
 					/>
