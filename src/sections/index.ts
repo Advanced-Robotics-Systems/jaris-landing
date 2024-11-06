@@ -100,6 +100,8 @@ import GalleryCarousel from "./news/gallery-carousel";
 import News from "./news/news";
 import NewsBanner from "./news/news-banner";
 import PhotoGallery from "./gallery/gallery";
+import Events from "./news/events";
+import EventsBanner from "./news/events-banner";
 
 export {
   Header,
@@ -169,6 +171,8 @@ export {
   News,
   NewsBanner,
   PhotoGallery,
+  Events,
+  EventsBanner,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
