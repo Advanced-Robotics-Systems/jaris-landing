@@ -103,6 +103,8 @@ import PhotoGallery from "./gallery/gallery";
 import Events from "./news/events";
 import EventsBanner from "./news/events-banner";
 import Announcements from "./news/annoucements";
+import AgeCriteria from "./news/age-criteria";
+import PaymentPortal from "./news/payment-portal";
 
 export {
   Header,
@@ -175,6 +177,8 @@ export {
   Events,
   EventsBanner,
   Announcements,
+  AgeCriteria,
+  PaymentPortal,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
