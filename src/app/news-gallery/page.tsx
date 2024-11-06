@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { newsCarouselItems, newsNavItems } from "@/data";
 import {
   Announcements,
+  CTASchools,
   Events,
   Footer,
   Header,
@@ -115,6 +116,7 @@ export default function GalleryNews() {
             </motion.div>
           )}
         </AnimatePresence>
+        <CTASchools />
       </main>
       <Footer />
     </>
