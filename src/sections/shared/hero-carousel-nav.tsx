@@ -61,7 +61,7 @@ const HeroCarouselNav = ({
 			</div>
 
 			{/* Button cards */}
-			<div className="absolute w-full h-28 sm:h-48 bottom-6 lg:bottom-24 flex items-center justify-around z-30">
+			<div className="absolute w-full h-28 sm:h-48 bottom-4 md:bottom-10 lg:bottom-16 xl:bottom-20 flex items-center justify-around z-30">
 				{carouselNavItems.map((item: any, index: number) => (
 					<Card
 						key={index}
