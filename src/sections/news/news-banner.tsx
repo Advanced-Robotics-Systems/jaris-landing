@@ -11,8 +11,6 @@ import {
   ModalFooter,
   Button,
   useDisclosure,
-  RadioGroup,
-  Radio,
 } from "@nextui-org/react";
 
 const NewsBanner = ({
