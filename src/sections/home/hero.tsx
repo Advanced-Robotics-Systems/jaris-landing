@@ -9,19 +9,20 @@ import { homeCarouselItems } from "@/data";
 
 const Hero = () => {
 	return (
-		<div className="h-screen max-md:h-[50vh]">
+		<div className="relative h-[45vh] md:h-[calc(100vh-70px)]">
 			<Swiper
 				autoplay={{
-					delay: 3500,
+					delay: 4500,
 					disableOnInteraction: false,
 				}}
+				speed={2500}
 				pagination={{
 					dynamicBullets: true,
 				}}
-				allowTouchMove={false}
+				// allowTouchMove={false}
 				loop={true}
 				modules={[Pagination, Autoplay]}
-				className="mySwiper h-full"
+				className="relative mySwiper h-full"
 			>
 				{homeCarouselItems.map((item: any, index: number) => (
 					<SwiperSlide key={index} className="h-full">
@@ -34,6 +35,15 @@ const Hero = () => {
 					</SwiperSlide>
 				))}
 			</Swiper>
+			<div className="absolute w-full bottom-2 md:bottom-4 lg:bottom-8 px-6 lg:px-10 z-10 flex items-center justify-between">
+				<div className="small-text md:subtitle text-jaris-white w-[40%] lg:w-[20%]">
+					An independent, co-educational college preparatory day school for
+					grades KG-12
+				</div>
+				<div className="small-text md:subtitle text-jaris-white w-[30%] text-end">
+					#INSPIRING_FUTURES
+				</div>
+			</div>
 		</div>
 	);
 };
