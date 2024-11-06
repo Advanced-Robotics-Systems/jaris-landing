@@ -55,6 +55,7 @@ import StaffContactDetails from "./contact/staff-contact-details";
 import ContactForm from "./contact/contact-form";
 import ContactExperience from "./contact/contact-experience";
 import ContactExperienceCard from "./contact/contact-experience-card";
+import FAQContents from "./contact/faq-contents";
 
 // Facilities
 import FacilitiesOverview from "./facilities/facilities-overview";
@@ -143,6 +144,7 @@ export {
   ContactForm,
   ContactExperience,
   ContactExperienceCard,
+  FAQContents,
   FacilitiesOverview,
   AllFacilities,
   ExamNotice,
