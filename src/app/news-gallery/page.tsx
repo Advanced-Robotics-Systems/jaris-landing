@@ -4,6 +4,7 @@ import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { newsCarouselItems, newsNavItems } from "@/data";
 import {
+  Announcements,
   Events,
   Footer,
   Header,
@@ -88,7 +89,6 @@ export default function GalleryNews() {
             </motion.div>
           )}
 
-          {/* Baki pages */}
           {/* Events Page */}
           {active === 2 && (
             <motion.div
@@ -99,6 +99,19 @@ export default function GalleryNews() {
               exit="exit"
             >
               <Events />
+            </motion.div>
+          )}
+
+          {/* Announcements Page */}
+          {active === 3 && (
+            <motion.div
+              key={active}
+              variants={animationVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+            >
+              <Announcements />
             </motion.div>
           )}
         </AnimatePresence>

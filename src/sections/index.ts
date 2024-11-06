@@ -102,6 +102,11 @@ import NewsBanner from "./news/news-banner";
 import PhotoGallery from "./gallery/gallery";
 import Events from "./news/events";
 import EventsBanner from "./news/events-banner";
+import Announcements from "./news/announcements";
+import AgeCriteria from "./news/age-criteria";
+import PaymentPortal from "./news/payment-portal";
+import AnnouncementNews from "./news/announcement-news";
+import OnlineResult from "./news/online-result";
 
 export {
   Header,
@@ -173,6 +178,11 @@ export {
   PhotoGallery,
   Events,
   EventsBanner,
+  Announcements,
+  AgeCriteria,
+  PaymentPortal,
+  AnnouncementNews,
+  OnlineResult,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
