@@ -1814,3 +1814,52 @@ export const newsBannerItems = [
     },
   },
 ];
+
+export const eventsBannerItems = [
+  {
+    title: "Junior British / Pakistani (Boys) English Debate Competition",
+    description:
+      "Our junior graders were having a magnificent debate last week about the competency of their teachers ",
+    imgUrl: "/images/gallery/events-banners/events-debate-1.jpeg",
+    modal: {
+      insideImg: "/images/gallery/events-banners/modals/modal-debate-1.jpeg",
+      longDescription:
+        "Our junior graders were having a magnificent debate last week about the competency of their teachers especially related to their treatment with the students. In form of various games to play, the students divided into two groups and spoke about the affection towards the teachers and resentment against them. The committee is finalising the report for our website which will be uploaded soon.",
+    },
+    details: {
+      date: "29 Jun, 2022",
+      time: "8am - 5pm",
+      category: "Event",
+    },
+  },
+  {
+    title: "English Debate Competition British & Pakistani Section for Boys",
+    description: "",
+    imgUrl: "/images/gallery/events-banners/events-debate-2.jpeg",
+    modal: {
+      insideImg: "",
+      longDescription: "",
+    },
+    details: {
+      date: "29 Jun, 2022",
+      time: "8am - 5pm",
+      category: "Event",
+    },
+  },
+  {
+    title: "Edmodo",
+    description:
+      "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017).",
+    imgUrl: "/images/gallery/events-banners/events-edmodo.jpeg",
+    modal: {
+      insideImg: "/images/gallery/events-banners/events-edmodo.jpeg",
+      longDescription:
+        "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017). The accounts for students have already been created which can easily be accessed by using student code both for username and password. The parents can create their own account and ask their children to provide their group code to add them in their account. This will facilitate daily follow-up between the faculty and the parents. You will notice great change by using this program. The more you will use, the more you will learn. Please don’t hesitate to contact our IT team leader Adeel Khaliq (4785300-226) in case of any difficulty, who will either himself or his team member will help and guide you.",
+    },
+    details: {
+      date: "29 Jun, 2022",
+      time: "8am - 5pm",
+      category: "Event",
+    },
+  },
+];
