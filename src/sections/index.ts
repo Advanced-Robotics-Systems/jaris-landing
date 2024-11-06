@@ -106,6 +106,7 @@ import Announcements from "./news/announcements";
 import AgeCriteria from "./news/age-criteria";
 import PaymentPortal from "./news/payment-portal";
 import AnnouncementNews from "./news/announcement-news";
+import OnlineResult from "./news/online-result";
 
 export {
   Header,
@@ -181,6 +182,7 @@ export {
   AgeCriteria,
   PaymentPortal,
   AnnouncementNews,
+  OnlineResult,
   ExtracurricularOverview,
   ExtracurriculurSubjects,
   ExtracurricularSchedule,
