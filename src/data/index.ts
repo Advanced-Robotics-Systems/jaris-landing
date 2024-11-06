@@ -619,6 +619,25 @@ export const contactCarouselItems = [
   },
 ];
 
+export const contactNavItems = [
+	{
+		title: "Contact Us",
+		subtitle: "JARIS",
+	},
+	{
+		title: "Staff",
+		subtitle: "Our",
+	},
+	{
+		title: "Check out",
+		subtitle: "FAQ",
+	},
+	{
+		title: "Access",
+		subtitle: "My Email",
+	},
+]
+
 export const staffContactDetailsTable = [
   {
     role: "Director",
