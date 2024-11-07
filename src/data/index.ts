@@ -341,6 +341,18 @@ export const homePartnerSlides = [
 		title: "Sudan Education Board",
 		imgUrl: "/images/home/sudan-ministry-education.png",
 	},
+	{
+		title: "AP",
+		imgUrl: "/images/home/ap-logo.jpeg",
+	},
+	{
+		title: "SAT",
+		imgUrl: "/images/home/sat.png",
+	},
+	{
+		title: "Cognia",
+		imgUrl: "/images/home/cognia.png",
+	},
 ];
 
 export const counts = [
