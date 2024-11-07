@@ -100,15 +100,6 @@ export default function Contact() {
               <FAQContents />
             </motion.div>
           )}
-          <motion.div
-            key={active}
-            variants={animationVariants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-          >
-            <FAQContents />
-          </motion.div>
         </AnimatePresence>
       </main>
       <Footer />
