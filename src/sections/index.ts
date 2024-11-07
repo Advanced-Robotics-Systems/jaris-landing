@@ -42,6 +42,9 @@ import AdmissionMission from "./admission/admission-mission";
 import AdmissionProcedureKindergarten from "./admission/admission-procedure-kindergarten";
 import AdmissionCTA from "./admission/admission-cta";
 
+// Curriculum
+import AllCurriculums from "./admission/all-curriculums";
+
 // Schools
 import FJarisOverview from "./schools/fjaris/f-jaris-overview";
 import SJarisOverview from "./schools/sjaris/s-jaris-overview";
@@ -141,6 +144,7 @@ export {
   AdmissionMission,
   AdmissionProcedureKindergarten,
   AdmissionCTA,
+  AllCurriculums,
   FJarisOverview,
   SJarisOverview,
   TJarisOverview,
