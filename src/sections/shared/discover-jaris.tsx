@@ -49,7 +49,7 @@ const DiscoverJaris = () => {
 					transition={{ duration: 0.3, delay: 0.9, ease: "easeInOut" }}
 					className="flex items-center justify-start gap-11"
 				>
-					<Link href="#">
+					<Link href="/contact">
 						<Button
 							size="lg"
 							variant="solid"
@@ -60,7 +60,7 @@ const DiscoverJaris = () => {
 							</span>
 						</Button>
 					</Link>
-					<Link href="#">
+					<Link href="/admission">
 						<Button
 							size="lg"
 							variant="solid"
