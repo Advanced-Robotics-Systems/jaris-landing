@@ -34,8 +34,10 @@ const CTASchools = () => {
 						>
 							<div className="relative h-full w-full overflow-hidden rounded-xl">
 								<div
-									className="absolute inset-0 bg-cover filter brightness-75 rounded-xl scale-110"
-									style={{ backgroundImage: `url(${item.imgUrl})` }}
+									className="absolute inset-0 bg-cover rounded-xl scale-110"
+									style={{
+										backgroundImage: `linear-gradient(180deg, rgba(177, 114, 31, 0.1) 0%, #1C406F 100%), url(${item.imgUrl})`,
+									}}
 								/>
 								<div className="relative z-20 h-full padding flex flex-col items-center justify-end gap-5">
 									<h1 className="title font-bold text-bg-text">{item.title}</h1>
@@ -51,20 +53,32 @@ const CTASchools = () => {
 					<div className="heading-md">
 						<p className="text-jaris-gold">Unleash Your Full</p>
 						<p className="text-jaris-gold">Potential With Us</p>
-            <p className="text-bg-text">Start Your Journey Today!</p>
+						<p className="text-bg-text">Start Your Journey Today!</p>
 					</div>
-          <div className="flex items-center justify-center gap-3">
-            <Link href="#">
-              <Button size="lg" variant="bordered" className="border-jaris-gold border-3 rounded-md lg:px-8">
-                <span className="subtitle text-jaris-gold font-semibold">Explore our Schools</span>
-              </Button>
-            </Link>
-            <Link href="#">
-              <Button size="lg" variant="solid" className="bg-jaris-gold rounded-md lg:px-8">
-                <span className="subtitle text-jaris-blue font-semibold">Contact Us</span>
-              </Button>
-            </Link>
-          </div>
+					<div className="flex items-center justify-center gap-3">
+						<Link href="#">
+							<Button
+								size="lg"
+								variant="bordered"
+								className="border-jaris-gold border-3 rounded-md lg:px-8"
+							>
+								<span className="subtitle text-jaris-gold font-semibold">
+									Explore our Schools
+								</span>
+							</Button>
+						</Link>
+						<Link href="#">
+							<Button
+								size="lg"
+								variant="solid"
+								className="bg-jaris-gold rounded-md lg:px-8"
+							>
+								<span className="subtitle text-jaris-blue font-semibold">
+									Contact Us
+								</span>
+							</Button>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</div>
