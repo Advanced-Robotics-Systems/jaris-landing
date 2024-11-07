@@ -15,7 +15,8 @@ import { FaCheckCircle } from "react-icons/fa";
 import { FaExclamationTriangle } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import { LuClock3 } from "react-icons/lu";
+import { LuClock3, LuPlusCircle } from "react-icons/lu";
+import { BiSolidRightArrowCircle } from "react-icons/bi";
 
 export const ICONS = {
   student: <PiStudent />,
@@ -35,4 +36,6 @@ export const ICONS = {
   email: <MdOutlineEmail />,
   mail_box: <BsMailboxFlag />,
   clock: <LuClock3 />,
+  plus_circle: <LuPlusCircle />,
+  right_arrow_circle: <BiSolidRightArrowCircle />,
 };
