@@ -1,3 +1,6 @@
+"use client";
+
+import SplashScreen from "@/components/splash-screen/splash-screen";
 import {
 	Discover,
 	Hero,
@@ -14,26 +17,41 @@ import {
 	NavbarPlaceholder,
 	Footer,
 } from "@/sections";
+import { useState, useEffect } from "react";
 
 export default function Home() {
-	return (
+	const [isLoading, setIsLoading] = useState(true);
+	const [showContent, setShowContent] = useState(false);
+
+	useEffect(() => {
+		const splashTimer = setTimeout(() => {
+			setIsLoading(false);
+			setTimeout(() => setShowContent(true), 500);
+		}, 600);
+
+		return () => clearTimeout(splashTimer);
+	}, []);
+
+	return showContent ? (
 		<>
-		<Header />
-		<NavbarPlaceholder />
-		<main className="">
-			<Hero />
-			<Discover />
-			<JoinUs />
-			<Mission />
-			<CTACommunity />
-			<Experience />
-			<Counts />
-			<CTASchools />
-			<HomeGallery />
-			<Explore />
-			<DiscoverJaris />
-		</main>
-		<Footer />
+			<Header />
+			<NavbarPlaceholder />
+			<main className="">
+				<Hero />
+				<Discover />
+				<JoinUs />
+				<Mission />
+				<CTACommunity />
+				<Experience />
+				<Counts />
+				<CTASchools />
+				<HomeGallery />
+				<Explore />
+				<DiscoverJaris />
+			</main>
+			<Footer />
 		</>
+	) : (
+		<SplashScreen isLoading={isLoading} />
 	);
 }
