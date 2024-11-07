@@ -220,7 +220,7 @@ export const navItems = [
 export const footerLinks = {
 	contact: [
 		{ name: "Contact Us", link: "/contact" },
-		{ name: "Staff Contact", link: "/staff-contact" },
+		{ name: "Staff Contact", link: "/contact?tab=staff" },
 		{ name: "Our Schools", link: "/schools" },
 		{ name: "FAQ", link: "/faq" },
 	],
@@ -228,8 +228,8 @@ export const footerLinks = {
 		{ name: "About", link: "/about" },
 		{ name: "Admission", link: "/admission" },
 		{ name: "Academy", link: "/academy" },
-		{ name: "Photo Gallery", link: "/gallery" },
-		{ name: "News", link: "/news" },
+		{ name: "Photo Gallery", link: "/news-gallery" },
+		{ name: "News", link: "/news-gallery?tab=news" },
 	],
 	login: [
 		{

@@ -98,15 +98,22 @@ const Footer = () => {
 				<p className="text-xs text-jaris-white/60">
 					&copy; 2024 JAWAHIR AL-RIYADH EDUCATION COMPANY
 				</p>
-				<div className="flex gap-4 text-center text-bg-text font-light">
+				<div className="flex gap-4 text-center">
 					{/* School Names */}
-					<span>JARIS</span>
-					<span>SJARIS</span>
-					<span>TJARIS</span>
+					<Link href="/schools/fjaris">
+						<span className="text-bg-text font-light">JARIS</span>
+					</Link>
+					<Link href="/schools/sjaris">
+						<span className="text-bg-text font-light">SJARIS</span>
+					</Link>
+					<Link href="/schools/tjaris">
+						<span className="text-bg-text font-light">TJARIS</span>
+					</Link>
 				</div>
 				<div className="flex gap-4">
 					{footerSocials.map((item, index) => (
 						<Link
+							isDisabled
 							size="lg"
 							key={index}
 							href={item.link}
