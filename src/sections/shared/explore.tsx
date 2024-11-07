@@ -1,3 +1,4 @@
+"use client";
 import { ExploreCard } from '@/components'
 import { exploreItems } from '@/data'
 import React from 'react'
@@ -9,7 +10,7 @@ const Explore = () => {
       <div className='flex items-center justify-center gap-8 flex-wrap'>
         {
           exploreItems.map((item: any, index: number) => (
-            <ExploreCard key={index} title={item.title} description={item.description} />
+            <ExploreCard key={index} title={item.title} description={item.description} link={item.link} />
           ))
         }
       </div>

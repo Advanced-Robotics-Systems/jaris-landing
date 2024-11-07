@@ -272,16 +272,19 @@ export const exploreItems = [
 		title: "News",
 		description:
 			"Stay in the Loop! Explore the Latest Updates and Discover What's Happening Now!",
+		link: "/news-gallery?tab=news",
 	},
 	{
 		title: "Our Schools",
 		description:
 			"Take the First Step Toward Excellence. Explore Our Schools and Find the Perfect Fit for Your Future!",
+		link: "/schools",
 	},
 	{
 		title: "Academy",
 		description:
 			"Unlock Your True Potential! Discover Our Academy and Start Shaping Your Success Today!",
+		link: "/academy",
 	},
 ];
 
