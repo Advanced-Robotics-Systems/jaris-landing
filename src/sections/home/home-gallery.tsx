@@ -13,7 +13,7 @@ const HomeGallery = () => {
 						Discover exciting events held at school in our gallery.
 					</p>
 				</div>
-				<Link href="#">
+				<Link href="/news-gallery">
 					<Button
 						size="lg"
 						variant="solid"
