@@ -23,6 +23,8 @@ const AdmissionProcedure = () => {
 						number already allotted to the candidates through SMS.
 					</p>
 					<Button
+						as="a"
+						href="http://admissionform.jawahirschool.com/"
 						size="lg"
 						radius="full"
 						className="mt-6 bg-jaris-red-dark text-white"
