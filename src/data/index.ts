@@ -297,15 +297,21 @@ export const homeCarouselItems = [
 		imgUrl: "/images/home/home-hero-slide-1.jpeg",
 	},
 	{
-		subtitle: "DISCOVER",
+		subtitle: "FIND",
 		subtitleColored: "YOUR",
-		title: "TALENTS",
+		title: "COMMUNITY",
 		imgUrl: "/images/home/home-hero-slide-2.jpeg",
 	},
 	{
-		subtitle: "DISCOVER",
+		subtitle: "FOLLOW",
 		subtitleColored: "YOUR",
-		title: "TALENTS",
+		title: "PASSION",
+		imgUrl: "/images/home/home-hero-slide-3.png",
+	},
+	{
+		subtitle: "BECOME",
+		subtitleColored: "YOUR",
+		title: "IDEAL",
 		imgUrl: "/images/home/home-hero-slide-3.png",
 	},
 ];
