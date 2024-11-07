@@ -23,7 +23,7 @@ const OnlineResult = () => {
           The result of mid-term for session 2017-2018 uploaded on the website.
           You will check your result by login from the student code. From the
           following link:{" "}
-          <Link href={""} className="underline text-jaris-red">
+          <Link href={"http://result.jawahirschool.com/"} target="_blank" className="underline text-jaris-red">
             Online Result
           </Link>
         </p>

@@ -30,31 +30,31 @@ export const navItems = [
       },
       {
         name: "FAQ",
-        link: "#",
+        link: "/contact?tab=faq",
       },
       {
         name: "Curriculum",
-        link: "#",
+        link: "/curriculum",
         sublinks: [
           {
             name: "British",
-            link: "#",
+            link: "/curriculum",
           },
           {
             name: "American",
-            link: "#",
+            link: "/curriculum",
           },
           {
             name: "Pakistan",
-            link: "#",
+            link: "/curriculum",
           },
           {
             name: "Sudan",
-            link: "#",
+            link: "/curriculum",
           },
           {
             name: "Egypt",
-            link: "#",
+            link: "/curriculum",
           },
         ],
       },
@@ -114,7 +114,7 @@ export const navItems = [
         sublinks: [
           {
             name: "Login",
-            link: "#",
+            link: "http://sms.jawahirschool.com/site/userlogin",
           },
           {
             name: "Classera Login",
@@ -122,7 +122,7 @@ export const navItems = [
           },
           {
             name: "Online Results",
-            link: "#",
+            link: "http://result.jawahirschool.com/",
           },
           {
             name: "Exam Policies",
@@ -144,11 +144,11 @@ export const navItems = [
         sublinks: [
           {
             name: "Login",
-            link: "#",
+            link: "http://sms.jawahirschool.com/site/userlogin",
           },
           {
             name: "Staff Contact",
-            link: "#",
+            link: "/contact?tab=staff",
           },
         ],
       },
@@ -232,9 +232,9 @@ export const footerLinks = {
     { name: "News", link: "/news" },
   ],
   login: [
-    { name: "Student Login", link: "/student-login" },
-    { name: "Teacher Login", link: "/teacher-login" },
-    { name: "Staff Login", link: "/staff-login" },
+    { name: "Student Login", link: "http://sms.jawahirschool.com/site/userlogin" },
+    { name: "Teacher Login", link: "http://sms.jawahirschool.com/site/userlogin" },
+    { name: "Staff Login", link: "http://sms.jawahirschool.com/site/userlogin" },
   ],
 };
 
@@ -629,12 +629,12 @@ export const contactNavItems = [
 		subtitle: "Our",
 	},
 	{
-		title: "Check out",
-		subtitle: "FAQ",
+		title: "FAQ",
+		subtitle: "Check out",
 	},
 	{
-		title: "Access",
-		subtitle: "My Email",
+		title: "My Email",
+		subtitle: "Access",
 	},
 ]
 
