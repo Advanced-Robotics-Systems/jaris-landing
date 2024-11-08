@@ -66,7 +66,7 @@ const AboutFJaris = () => {
 						</Button>
 					</Link>
 
-					<Link href="#">
+					<Link href="http://admissionform.jawahirschool.com/">
 						<Button
 							size="lg"
 							variant="solid"
