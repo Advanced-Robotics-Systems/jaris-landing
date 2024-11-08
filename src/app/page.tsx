@@ -27,7 +27,7 @@ export default function Home() {
 		const splashTimer = setTimeout(() => {
 			setIsLoading(false);
 			setTimeout(() => setShowContent(true), 500);
-		}, 600);
+		}, 300);
 
 		return () => clearTimeout(splashTimer);
 	}, []);
