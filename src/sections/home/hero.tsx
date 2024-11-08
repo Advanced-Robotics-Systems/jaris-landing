@@ -37,8 +37,8 @@ const Hero = () => {
 			</Swiper>
 			<div className="absolute w-full bottom-2 md:bottom-4 lg:bottom-8 px-6 lg:px-10 z-10 flex items-center justify-between">
 				<div className="small-text md:subtitle text-jaris-white w-[40%] lg:w-[20%]">
-					An independent, co-educational college preparatory day school for
-					grades KG-12
+					An independent, college preparatory day school for grades KG to 12,
+					with separate campuses for boys and girls.
 				</div>
 				<div className="small-text md:subtitle text-jaris-white w-[30%] text-end">
 					#INSPIRING_FUTURES
