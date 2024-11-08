@@ -13,7 +13,7 @@ const HeroCarousel = ({carouselItems} : {carouselItems: any}) => {
 	};
 
 	return (
-		<div className='relative w-full lg:h-[calc(100vh-70px)] padding-b pt-10 bg-jaris-blue '>
+		<div className='relative w-full lg:h-[calc(100vh-70px)] pb-12 sm:pb-18 pt-10 bg-jaris-blue '>
 			{/* <div className="absolute inset-0 bg-jaris-blue opacity-75" /> */}
 			<div className="relative z-20 w-full h-full flex flex-col items-center justify-center gap-44">
 				<Swiper
