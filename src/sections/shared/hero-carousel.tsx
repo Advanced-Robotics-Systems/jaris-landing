@@ -13,9 +13,9 @@ const HeroCarousel = ({carouselItems} : {carouselItems: any}) => {
 	};
 
 	return (
-		<div className='relative w-full lg:h-[calc(100vh-70px)] padding-y lg:pb-36 bg-jaris-blue '>
+		<div className='relative w-full lg:h-[calc(100vh-70px)] padding-b pt-10 bg-jaris-blue '>
 			{/* <div className="absolute inset-0 bg-jaris-blue opacity-75" /> */}
-			<div className="relative z-20 w-full flex flex-col items-center justify-center gap-44">
+			<div className="relative z-20 w-full h-full flex flex-col items-center justify-center gap-44">
 				<Swiper
 					slidesPerView={"auto"}
 					centeredSlides={true}
@@ -28,12 +28,12 @@ const HeroCarousel = ({carouselItems} : {carouselItems: any}) => {
 					loop={true}
 					pagination={pagination}
 					modules={[Autoplay, Pagination]}
-					className="mySwiper cta-swiper w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
+					className="mySwiper cta-swiper w-full h-full"
 				>
 					{carouselItems.map((item: any, index: number) => (
 						<SwiperSlide
 							key={index}
-							className="!w-[90%] md:!w-[55%] !h-[85%] md:!h-[90%]"
+							className="!w-[90%] md:!w-[55%] !h-[90%] md:!h-[93%]"
 						>
 							<div className="relative h-full w-full overflow-hidden rounded-xl">
 								<div
