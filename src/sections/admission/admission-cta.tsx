@@ -47,7 +47,7 @@ const AdmissionCTA = () => {
             <Button
               size="lg"
               as="a"
-              href="#"
+              href="/admission/curriculum"
               radius="full"
               className="border border-jaris-white text-jaris-white bg-jaris-white/20"
             >
@@ -79,7 +79,7 @@ const AdmissionCTA = () => {
             <Button
               size="lg"
               as="a"
-              href="#"
+              href="/contact#faq"
               radius="full"
               className="border border-jaris-white text-jaris-white bg-jaris-white/20"
             >
@@ -88,7 +88,7 @@ const AdmissionCTA = () => {
             <Button
               size="lg"
               as="a"
-              href="#"
+              href="/contact"
               radius="full"
               className="bg-jaris-gold text-jaris-white"
             >

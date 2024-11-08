@@ -56,7 +56,7 @@ const CTASchools = () => {
 						<p className="text-bg-text">Start Your Journey Today!</p>
 					</div>
 					<div className="flex items-center justify-center gap-3">
-						<Link href="#">
+						<Link href="/schools">
 							<Button
 								size="lg"
 								variant="bordered"
@@ -67,7 +67,7 @@ const CTASchools = () => {
 								</span>
 							</Button>
 						</Link>
-						<Link href="#">
+						<Link href="/contact">
 							<Button
 								size="lg"
 								variant="solid"

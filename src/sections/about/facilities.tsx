@@ -34,7 +34,7 @@ const Facilities = () => {
 
 			{/* Explore Button Section */}
 			<div className="mt-8">
-				<Link href="/schools">
+				<Link href="/facilities">
 					<Button
 						size="lg"
 						variant="bordered"

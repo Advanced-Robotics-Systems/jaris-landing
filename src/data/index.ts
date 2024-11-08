@@ -272,7 +272,7 @@ export const exploreItems = [
 		title: "News",
 		description:
 			"Stay in the Loop! Explore the Latest Updates and Discover What's Happening Now!",
-		link: "/news-gallery?tab=news",
+		link: "/news-gallery#news",
 	},
 	{
 		title: "Our Schools",
