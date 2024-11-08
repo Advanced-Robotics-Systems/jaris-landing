@@ -4,8 +4,16 @@ import React from "react";
 
 const AboutSJaris = () => {
 	return (
-		<div className="bg-[#62594B] padding lg:px-32 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8">
-			<div className="lg:w-2/3">
+		<div
+			className="relative padding lg:px-32 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8 bg-cover bg-center"
+			style={{
+				backgroundImage: "url(/images/about/sjaris-bg.jpeg)",
+			}}
+		>
+			<div className="absolute inset-0 bg-jaris-gold opacity-50 " />
+			<div className="absolute inset-0 bg-black opacity-40 " />
+
+			<div className="relative z-10 lg:w-2/3">
 				<h1 className="heading-md font-bold text-white">2nd JARIS</h1>
 				<h2 className="text-jaris-gold heading-secondary font-semibold mt-2">
 					American curriculums
@@ -74,7 +82,7 @@ const AboutSJaris = () => {
 			</div>
 
 			{/* Right Curriculum Section */}
-			<div className="lg:w-1/3 flex flex-col lg:flex-row gap-4 lg:justify-end">
+			<div className="relative z-10 lg:w-1/3 flex flex-col lg:flex-row gap-4 lg:justify-end">
 				<div className="p-4 flex flex-col items-center bg-white/20 backdrop-blur-lg rounded-lg">
 					<h3 className="text-white font-semibold text-lg heading-secondary uppercase">
 						Curriculum
