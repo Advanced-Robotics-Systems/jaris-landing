@@ -207,7 +207,7 @@ const Header = () => {
 							radius="sm"
 							className="border-jaris-gold text-jaris-gold"
 						>
-							Register Now
+							Apply Now
 						</Button>
 						<Button
 							as="a"
