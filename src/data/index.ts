@@ -68,28 +68,28 @@ export const navItems = [
 				name: "Gallery",
 				link: "/news-gallery#gallery",
 			},
-			{
-				name: "Academy",
-				link: "/academy",
-				sublinks: [
-					{
-						name: "Kindergarten",
-						link: "/academy",
-					},
-					{
-						name: "Extracurricular",
-						link: "/academy/extracurricular",
-					},
-					{
-						name: "Sports",
-						link: "/academy/sports",
-					},
-					{
-						name: "Special needs",
-						link: "/academy/special-needs",
-					},
-				],
-			},
+			// {
+			// 	name: "Academy",
+			// 	link: "/academy",
+			// 	sublinks: [
+			// 		{
+			// 			name: "Kindergarten",
+			// 			link: "/academy",
+			// 		},
+			// 		{
+			// 			name: "Extracurricular",
+			// 			link: "/academy/extracurricular",
+			// 		},
+			// 		{
+			// 			name: "Sports",
+			// 			link: "/academy/sports",
+			// 		},
+			// 		{
+			// 			name: "Special needs",
+			// 			link: "/academy/special-needs",
+			// 		},
+			// 	],
+			// },
 			{
 				name: "News",
 				link: "/news-gallery#news",
@@ -227,7 +227,7 @@ export const footerLinks = {
 	explore: [
 		{ name: "About", link: "/about" },
 		{ name: "Admission", link: "/admission" },
-		{ name: "Academy", link: "/academy" },
+		// { name: "Academy", link: "/academy" },
 		{ name: "Photo Gallery", link: "/news-gallery" },
 		{ name: "News", link: "/news-gallery#news" },
 	],
