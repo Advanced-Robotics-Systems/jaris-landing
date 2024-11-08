@@ -19,7 +19,7 @@ const HeroCarouselNav = ({
 
 
 	return (
-		<div className="relative w-full lg:h-[calc(100vh-70px)] padding-b lg:pb-36 bg-jaris-blue">
+		<div className="relative w-full h-[40vh] lg:h-[calc(100vh-70px)] padding-b lg:pb-36 bg-jaris-blue">
 			<div className="relative z-20 w-full h-full flex flex-col items-center justify-center gap-44">
 				<Swiper
 					slidesPerView={"auto"}
@@ -61,7 +61,7 @@ const HeroCarouselNav = ({
 			</div>
 
 			{/* Button cards */}
-			<div className="absolute w-full h-28 md:h-38 lg:h-44 xl:h-48 bottom-4 md:bottom-10 lg:bottom-16 xl:bottom-20 flex items-center justify-around z-30">
+			<div className="absolute w-full h-[30%] md:h-[23%] bottom-4 md:bottom-10 lg:bottom-16 xl:bottom-20 flex items-center justify-around z-30">
 				{carouselNavItems.map((item: any, index: number) => (
 					<Card
 						key={index}
