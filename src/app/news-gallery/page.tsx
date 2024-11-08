@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { newsCarouselItems, newsNavItems } from "@/data";
 import {
   Announcements,
@@ -53,7 +53,7 @@ export default function GalleryNews() {
   };
 
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <Header />
       <NavbarPlaceholder />
       <main>
@@ -119,6 +119,6 @@ export default function GalleryNews() {
         <CTASchools />
       </main>
       <Footer />
-    </>
+    </Suspense>
   );
 }

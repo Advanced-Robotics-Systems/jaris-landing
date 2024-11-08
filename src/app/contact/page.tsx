@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { contactCarouselItems, contactNavItems } from "@/data";
 import {
   Header,
@@ -51,7 +51,7 @@ export default function Contact() {
   };
 
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <Header />
       <NavbarPlaceholder />
       <main>
@@ -62,7 +62,7 @@ export default function Contact() {
           setActive={handleTabChange}
         />
         <AnimatePresence mode="wait">
-          {/* Contat Get in Touch */}
+          {/* Contact Get in Touch */}
           {active === 0 && (
             <motion.div
               key={active}
@@ -103,6 +103,6 @@ export default function Contact() {
         </AnimatePresence>
       </main>
       <Footer />
-    </>
+    </Suspense>
   );
 }
