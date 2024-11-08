@@ -30,7 +30,7 @@ export const navItems = [
 			},
 			{
 				name: "FAQ",
-				link: "/contact?tab=faq",
+				link: "/contact#faq",
 			},
 			{
 				name: "Curriculum",
@@ -62,11 +62,11 @@ export const navItems = [
 	},
 	{
 		name: "Portal",
-		link: "#",
+		link: "http://sms.jawahirschool.com/site/userlogin",
 		sublinks: [
 			{
 				name: "Gallery",
-				link: "/news-gallery?tab=gallery",
+				link: "/news-gallery#gallery",
 			},
 			{
 				name: "Academy",
@@ -92,25 +92,25 @@ export const navItems = [
 			},
 			{
 				name: "News",
-				link: "/news-gallery?tab=news",
+				link: "/news-gallery#news",
 				sublinks: [
 					{
 						name: "News",
-						link: "/news-gallery?tab=news",
+						link: "/news-gallery#news",
 					},
 					{
 						name: "Events",
-						link: "/news-gallery?tab=events",
+						link: "/news-gallery#events",
 					},
 					{
 						name: "Announcements",
-						link: "/news-gallery?tab=announcements",
+						link: "/news-gallery#announcements",
 					},
 				],
 			},
 			{
 				name: "Student",
-				link: "#",
+				link: "http://sms.jawahirschool.com/site/userlogin",
 				sublinks: [
 					{
 						name: "Login",
@@ -140,7 +140,7 @@ export const navItems = [
 			},
 			{
 				name: "Teacher",
-				link: "#",
+				link: "http://sms.jawahirschool.com/site/userlogin",
 				sublinks: [
 					{
 						name: "Login",
@@ -148,7 +148,7 @@ export const navItems = [
 					},
 					{
 						name: "Staff Contact",
-						link: "/contact?tab=staff",
+						link: "/contact#staff",
 					},
 				],
 			},
@@ -220,16 +220,16 @@ export const navItems = [
 export const footerLinks = {
 	contact: [
 		{ name: "Contact Us", link: "/contact" },
-		{ name: "Staff Contact", link: "/contact?tab=staff" },
+		{ name: "Staff Contact", link: "/contact#staff" },
 		{ name: "Our Schools", link: "/schools" },
-		{ name: "FAQ", link: "/faq" },
+		{ name: "FAQ", link: "/contact#faq" },
 	],
 	explore: [
 		{ name: "About", link: "/about" },
 		{ name: "Admission", link: "/admission" },
 		{ name: "Academy", link: "/academy" },
 		{ name: "Photo Gallery", link: "/news-gallery" },
-		{ name: "News", link: "/news-gallery?tab=news" },
+		{ name: "News", link: "/news-gallery#news" },
 	],
 	login: [
 		{
