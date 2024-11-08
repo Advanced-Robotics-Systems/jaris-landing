@@ -1,7 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
 import { navItems } from "@/data";
-import { Image, Link } from "@nextui-org/react";
+import {
+	Button,
+	Dropdown,
+	DropdownItem,
+	DropdownMenu,
+	DropdownTrigger,
+	Image,
+	Link,
+} from "@nextui-org/react";
 import { ICONS } from "@/utils/icons";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -101,24 +109,24 @@ const Header = () => {
 				isScrolledPast ? "" : "translate-y-0"
 			} ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
 		>
-			<div className="container mx-auto flex justify-between items-center h-full gap-10">
-				<div className="navbar-brand flex items-center h-full">
-					<Link href="/" className="text-2xl font-bold text-jaris-blue px-4">
+			<div className="w-full flex justify-between items-center h-full gap-10">
+				<div className="navbar-brand flex items-center h-full px-4">
+					<Link href="/" className="text-2xl font-bold text-jaris-blue ">
 						<Image
 							src="/logos/jawahir-logo-full-new.png"
 							alt="Jawahir International School"
-							className="max-lg:hidden h-16"
+							className="max-xl:hidden h-16"
 						/>
 						<Image
 							src="/logos/jawahir-logo.png"
 							alt="Jawahir International School"
-							className="lg:hidden h-12"
+							className="xl:hidden h-12"
 						/>
 					</Link>
 				</div>
 
 				{/* Desktop Menu */}
-				<ul className="hidden md:flex items-center justify-center h-full">
+				<ul className="hidden lg:flex items-center justify-center h-full">
 					{navItems.map((item) => (
 						<li
 							key={item.name}
@@ -189,10 +197,80 @@ const Header = () => {
 							)}
 						</li>
 					))}
+					
+					{/* Quick Links */}
+					<div className="hidden lg:flex items-center gap-3 h-full">
+						<Button
+							as="a"
+							href="http://admissionform.jawahirschool.com/"
+							variant="bordered"
+							radius="sm"
+							className="border-jaris-gold text-jaris-gold"
+						>
+							Register Now
+						</Button>
+						<Button
+							as="a"
+							href="/payment"
+							variant="bordered"
+							radius="sm"
+							className="border-jaris-blue text-jaris-blue font-medium"
+						>
+							E-Payment
+						</Button>
+						<Dropdown
+							placement="bottom-end"
+							className="max-xl:hidden h-full bg-jaris-blue"
+						>
+							<DropdownTrigger className="max-xl:hidden h-full bg-jaris-blue min-w-20 flex items-center justify-center">
+								<div className="flex items-center text-jaris-white focus:outline-none h-full heading-secondary">
+									{ICONS.user}
+								</div>
+							</DropdownTrigger>
+
+							<DropdownMenu
+								aria-label="Profile Actions"
+								variant="flat"
+								className="bg-jaris-blue text-white rounded-md w-48"
+							>
+								<DropdownItem
+									key="student-login"
+									className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
+									endContent={<div className="text-xl">{ICONS.login}</div>}
+									href="http://sms.jawahirschool.com/site/userlogin"
+								>
+									<div className="text-medium">Student Login</div>
+								</DropdownItem>
+								<DropdownItem
+									key="teacher-login"
+									className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
+									endContent={<div className="text-xl">{ICONS.login}</div>}
+									href="http://sms.jawahirschool.com/site/userlogin"
+								>
+									<span className="text-medium">Teacher Login</span>
+								</DropdownItem>
+								<DropdownItem
+									key="staff-login"
+									className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
+									endContent={<div className="text-xl">{ICONS.login}</div>}
+									href="http://sms.jawahirschool.com/site/userlogin"
+								>
+									<span className="text-medium">Staff Login</span>
+								</DropdownItem>
+								<DropdownItem
+									key="online-results"
+									className="flex items-center gap-2 px-4 py-3 text-jaris-red hover:!bg-jaris-white/20 hover:!text-jaris-red"
+									href="http://result.jawahirschool.com/"
+								>
+									<span className="text-medium">Online Results</span>
+								</DropdownItem>
+							</DropdownMenu>
+						</Dropdown>
+					</div>
 				</ul>
 
 				{/* Mobile Menu Toggle */}
-				<div className="md:hidden px-4">
+				<div className="lg:hidden px-4">
 					<button
 						className="text-xl"
 						onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -228,7 +306,7 @@ const Header = () => {
 							animate="visible"
 							exit="exit"
 							variants={mobileMenuVariants}
-							className="md:hidden bg-bg-primary shadow-lg z-50 relative"
+							className="lg:hidden bg-bg-primary shadow-lg z-50 relative"
 						>
 							{navItems.map((item) => (
 								<li key={item.name}>
