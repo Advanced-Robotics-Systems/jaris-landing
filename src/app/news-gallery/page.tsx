@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams, usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState, Suspense } from "react";
 import { newsCarouselItems, newsNavItems } from "@/data";
 import {
@@ -17,28 +17,23 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function GalleryNews() {
-  const searchParams = useSearchParams();
   const pathname = usePathname();
   const router = useRouter();
   const [active, setActive] = useState(0);
 
   const tabNameToIndex: { [key: string]: number } = {
-    gallery: 0,
-    news: 1,
-    events: 2,
-    announcements: 3,
+    "#gallery": 0,
+    "#news": 1,
+    "#events": 2,
+    "#announcements": 3,
   };
   const tabIndexToName = Object.keys(tabNameToIndex);
 
   useEffect(() => {
-    const tabName = searchParams.get("tab");
-    const initialTab =
-      tabName &&
-      tabNameToIndex[tabName as keyof typeof tabNameToIndex] !== undefined
-        ? tabNameToIndex[tabName as keyof typeof tabNameToIndex]
-        : 0;
+    const hash = window.location.hash;
+    const initialTab = tabNameToIndex[hash] ?? 0;
     setActive(initialTab);
-  }, [searchParams]);
+  }, []);
 
   const animationVariants = {
     initial: { opacity: 0, y: 20 },
@@ -49,7 +44,7 @@ export default function GalleryNews() {
   const handleTabChange = (index: number) => {
     setActive(index);
     const tabName = tabIndexToName[index];
-    router.push(`${pathname}?tab=${tabName}`, { scroll: false });
+    router.push(`${pathname}#${tabName}`, { scroll: false });
   };
 
   return (
