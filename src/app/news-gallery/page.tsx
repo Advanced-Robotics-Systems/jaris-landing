@@ -44,7 +44,7 @@ export default function GalleryNews() {
   const handleTabChange = (index: number) => {
     setActive(index);
     const tabName = tabIndexToName[index];
-    router.push(`${pathname}#${tabName}`, { scroll: false });
+    router.push(`${pathname}${tabName}`, { scroll: false });
   };
 
   return (
