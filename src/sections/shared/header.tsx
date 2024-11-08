@@ -199,7 +199,7 @@ const Header = () => {
 					))}
 					
 					{/* Quick Links */}
-					<div className="hidden lg:flex items-center gap-3 h-full">
+					<div className="hidden lg:flex items-center gap-3 h-full ml-3">
 						<Button
 							as="a"
 							href="http://admissionform.jawahirschool.com/"
