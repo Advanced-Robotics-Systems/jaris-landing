@@ -11,7 +11,7 @@ const OnlineResult = () => {
           alt="Background Image"
           className="rounded-lg object-cover"
         />
-        <div className="absolute w-full h-full rounded-lg bg-gradient-to-b from-[#B1721F0F] to-[#1C406F99]" />
+        <div className="absolute inset-0 rounded-lg bg-gradient-to-b from-[#B1721F0F] to-[#1C406F99]" />
       </div>
       {/* Right Side Starts */}
       <div className="absolute left-12 sm:left-1/2 top-1/2 -translate-y-1/2 sm:-translate-x-[10%] bg-jaris-white flex flex-col w-[calc(100%-96px)] sm:w-1/2 h-fit px-6 py-4 sm:px-12 sm:py-8 gap-y-2 md:gap-y-3 lg:gap-y-4 rounded z-10">
@@ -23,7 +23,11 @@ const OnlineResult = () => {
           The result of mid-term for session 2017-2018 uploaded on the website.
           You will check your result by login from the student code. From the
           following link:{" "}
-          <Link href={"http://result.jawahirschool.com/"} target="_blank" className="underline text-jaris-red">
+          <Link
+            href={"http://result.jawahirschool.com/"}
+            target="_blank"
+            className="underline text-jaris-red"
+          >
             Online Result
           </Link>
         </p>
