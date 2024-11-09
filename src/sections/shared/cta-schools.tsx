@@ -1,6 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { ctaSchoolsCarouselItems } from "@/data";
@@ -21,10 +21,15 @@ const CTASchools = () => {
 				<Swiper
 					slidesPerView={"auto"}
 					centeredSlides={true}
+					speed={1500}
+					autoplay={{
+						delay: 4500,
+						disableOnInteraction: false,
+					}}
 					spaceBetween={70}
 					loop={true}
 					pagination={pagination}
-					modules={[Pagination]}
+					modules={[Autoplay, Pagination]}
 					className="mySwiper cta-swiper w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px]"
 				>
 					{ctaSchoolsCarouselItems.map((item: any, index: number) => (
