@@ -33,7 +33,7 @@ const HeroCarousel = ({carouselItems} : {carouselItems: any}) => {
 					{carouselItems.map((item: any, index: number) => (
 						<SwiperSlide
 							key={index}
-							className="!w-[90%] md:!w-[55%] !h-[90%] md:!h-[93%]"
+							className="!w-[90%] md:!w-[55%] !h-[85%] md:!h-[90%]"
 						>
 							<div className="relative h-full w-full overflow-hidden rounded-xl">
 								<div
