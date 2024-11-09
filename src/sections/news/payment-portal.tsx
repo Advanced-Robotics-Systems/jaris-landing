@@ -5,7 +5,7 @@ import paymentImage2 from "@/../public/images/gallery/announcements/payment-port
 
 const PaymentPortal = () => {
   return (
-    <div className="flex flex-col sm:flex-row max-sm:gap-y-6 justify-between bg-jaris-blue padding">
+    <div className="flex flex-col sm:flex-row max-sm:gap-y-6 justify-between bg-jaris-blue padding md:px-20 lg:px-28 xl:px-40 2xl:px-[15%]">
       {/* Left Side Starts */}
       <div className="basis-full sm:basis-1/3 flex items-center justify-center sm:justify-between max-sm:order-2">
         <div className="flex flex-col gap-y-16">
@@ -22,7 +22,7 @@ const PaymentPortal = () => {
           <Button
             size="lg"
             radius="sm"
-            className="bg-jaris-gold text-base sm:text-lg text-jaris-blue font-bold w-3/5 sm:w-4/5 lg:w-1/2"
+            className="bg-jaris-gold text-base sm:text-lg text-jaris-blue font-bold w-3/5 sm:w-4/5 xl:w-1/2"
           >
             Online Payment
           </Button>
@@ -30,15 +30,17 @@ const PaymentPortal = () => {
       </div>
       {/* Left Side Ends */}
       {/* Right Side Starts */}
-      <div className="basis-full min-h-36 sm:basis-1/2 flex items-center justify-center max-sm:order-1">
-        <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] translate-x-[5%] -translate-y-[5%] z-0">
+      <div className="basis-full min-h-36 sm:basis-1/2 flex items-center justify-end max-sm:order-1">
+        <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] 2xl:w-[20vw] 2xl:h-[27vw] translate-x-[5%] -translate-y-[5%] z-0">
           <Image
             src={paymentImage1}
             alt="Payment Left Image"
-            className="rounded object-cover"
+            objectFit="cover"
+            className="rounded"
+            fill
           />
         </div>
-        <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] -translate-x-[5%] translate-y-[5%] z-10">
+        <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] 2xl:w-[20vw] 2xl:h-[27vw] -translate-x-[5%] translate-y-[5%] z-10">
           <Image
             src={paymentImage2}
             alt="Payment Right Image"
@@ -48,6 +50,7 @@ const PaymentPortal = () => {
           />
         </div>
       </div>
+      {/* Right Side Ends */}
     </div>
   );
 };
