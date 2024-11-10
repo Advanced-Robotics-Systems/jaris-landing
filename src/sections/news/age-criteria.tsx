@@ -26,7 +26,7 @@ const AgeCriteria = () => {
       </div>
       {/* Left Side Ends */}
       {/* Right Side Starts */}
-      <div className="basis-full min-h-60 sm:basis-[55%] relative max-sm:order-1">
+      <div className="basis-full min-h-40 sm:min-h-60 sm:basis-[55%] relative max-sm:order-1">
         <Image
           src={ageCriteriaImage}
           alt="Age Criteria"

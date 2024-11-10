@@ -8,7 +8,7 @@ const PaymentPortal = () => {
     <div className="flex flex-col sm:flex-row max-sm:gap-y-6 justify-between bg-jaris-blue padding md:px-20 lg:px-28 xl:px-40 2xl:px-[15%]">
       {/* Left Side Starts */}
       <div className="basis-full sm:basis-1/3 flex items-center justify-center sm:justify-between max-sm:order-2">
-        <div className="flex flex-col gap-y-16">
+        <div className="flex flex-col gap-y-6 sm:gap-y-16">
           <div className="flex flex-col gap-y-6">
             <span className="text-sm text-bg-primary">Payment Portal</span>
             <h1 className="text-4xl text-jaris-gold font-semibold">
@@ -30,7 +30,7 @@ const PaymentPortal = () => {
       </div>
       {/* Left Side Ends */}
       {/* Right Side Starts */}
-      <div className="basis-full min-h-36 sm:basis-1/2 flex items-center justify-end max-sm:order-1">
+      <div className="basis-full min-h-36 sm:basis-1/2 flex items-center justify-center sm:justify-end max-sm:order-1">
         <div className="relative w-[125.8px] h-[170px] sm:w-[148px] sm:h-[200px] lg:w-[222px] lg:h-[300px] xl:w-[296px] xl:h-[400px] 2xl:w-[20vw] 2xl:h-[27vw] translate-x-[5%] -translate-y-[5%] z-0">
           <Image
             src={paymentImage1}

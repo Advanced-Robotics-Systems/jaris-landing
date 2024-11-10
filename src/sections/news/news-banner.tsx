@@ -29,7 +29,7 @@ const NewsBanner = ({
 
   return (
     <>
-      <div className="basis-full sm:basis-3/4 md:basis-[49%] flex justify-between items-center h-44 sm:h-52 bg-bg-text rounded-lg px-6 py-5 shadow-[2px_1px_4px_0_rgba(0,0,0,0.1)]">
+      <div className="basis-full sm:basis-3/4 md:basis-[49%] flex justify-between items-center sm:h-52 bg-bg-text rounded-lg px-6 py-5 shadow-[2px_1px_4px_0_rgba(0,0,0,0.1)]">
         {/* Left Side Section Starts */}
         <div className="basis-1/2 sm:basis-3/5 flex flex-col gap-y-6">
           {/* Title and Description Starts */}

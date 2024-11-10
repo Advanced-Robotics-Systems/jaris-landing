@@ -6,7 +6,7 @@ const AnnouncementNews = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between padding md:px-20 lg:px-28 xl:px-40 2xl:px-[15%] max-lg:gap-y-6">
       {/* Left Side Starts */}
-      <div className="basis-2/5 flex flex-col gap-y-20 max-lg:order-2">
+      <div className="basis-2/5 flex flex-col gap-y-6 sm:gap-y-20 max-lg:order-2">
         <div className="flex flex-col gap-y-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-jaris-gold font-semibold">
             News
@@ -32,7 +32,7 @@ const AnnouncementNews = () => {
       </div>
       {/* Left Side Ends */}
       {/* Right Side Starts */}
-      <div className="basis-1/2 flex items-center min-h-60 sm:min-h-72 md:min-h-96 relative max-lg:order-1">
+      <div className="basis-1/2 flex items-center min-h-40 sm:min-h-72 md:min-h-96 relative max-lg:order-1">
         <Image
           src={rightImage}
           alt="Computer Image"
