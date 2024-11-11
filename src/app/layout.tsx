@@ -10,8 +10,6 @@ const helveticaNeue = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "Jawaris International",
-	description: "",
   icons: {
     icon: "/favicon.ico",
   },
