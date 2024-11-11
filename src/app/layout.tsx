@@ -10,6 +10,15 @@ const helveticaNeue = localFont({
 });
 
 export const metadata: Metadata = {
+	title: "Jawahir-Al-Riyadh International School",
+	description: "Welcome to Jawahir-Al-Riyadh International School",
+	keywords: ["Jawahir-Al-Riyadh", "International School", "Riyadh", "Saudi Arabia"],
+	openGraph: {
+		title: "Jawahir-Al-Riyadh International School",
+		description: "Welcome to Jawahir-Al-Riyadh International School",
+		url: "https://jawahirschool.com",
+		siteName: "Jawahir-Al-Riyadh",
+	},
   icons: {
     icon: "/favicon.ico",
   },
