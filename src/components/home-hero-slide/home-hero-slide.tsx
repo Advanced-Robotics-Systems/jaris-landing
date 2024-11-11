@@ -17,7 +17,7 @@ const HomeHeroSlide = ({
       className={`relative h-full bg-cover bg-center padding flex items-center justify-center`}
       style={{ backgroundImage: `url(${imgUrl})` }}
     >
-      {/* <div className="absolute inset-0 bg-jaris-blue opacity-75" /> */}
+      <div className="absolute inset-0 bg-jaris-blue opacity-35" />
       <motion.div
         initial={{ opacity: 0, x: 40 }}
         whileInView={{ opacity: 1, x: 0 }}
