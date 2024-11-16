@@ -18,6 +18,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { LuClock3, LuPlusCircle } from "react-icons/lu";
 import { BiSolidRightArrowCircle } from "react-icons/bi";
 import { MdLogin } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const ICONS = {
 	student: <PiStudent />,
@@ -41,4 +42,5 @@ export const ICONS = {
 	right_arrow_circle: <BiSolidRightArrowCircle />,
 	user: <FaCircleUser />,
   login: <MdLogin />,
+	whatsapp: <FaWhatsapp />,
 };
