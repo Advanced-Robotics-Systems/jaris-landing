@@ -1,4 +1,5 @@
 import { ICONS } from "@/utils/icons";
+import { act } from "react";
 
 // Navbar
 export const navItems = [
@@ -868,36 +869,42 @@ export const whatsappData = [
     role: "Principal Senior Girls Section",
     language: "Preferably Arabic Language",
     link: "https://wa.me/1234567890",
+    active: false,
   },
   {
     name: "Mrs. Lulu",
     role: "Principal Junior Girls Section",
     language: "Preferably Arabic Language",
     link: "https://wa.me/0987654321",
+    active: true,
   },
   {
     name: "Mrs. Sadaf Khushnood Mirza",
     role: "Vice Principal American Section",
     language: "English Language",
     link: "https://wa.me/1122334455",
+    active: true,
   },
   {
     name: "Mr. Zahid Faraz",
     role: "Head of Junior Boys Section",
     language: "Preferably English Language",
     link: "https://wa.me/6677889900",
+    active: true,
   },
   {
     name: "Mr. Liaqat Ali Khan",
     role: "AP/SAT Coordinator, College Board",
     language: "Head American Section Boys",
     link: "https://wa.me/5566778899",
+    active: true,
   },
   {
     name: "Mr. Syed Muhammad Ibrahim",
     role: "Head Principal",
     language: "Bilingual",
     link: "https://wa.me/4455667788",
+    active: true,
   },
 ];
 
