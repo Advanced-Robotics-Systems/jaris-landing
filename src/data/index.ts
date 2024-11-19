@@ -1,5 +1,4 @@
 import { ICONS } from "@/utils/icons";
-import { act } from "react";
 
 // Navbar
 export const navItems = [
