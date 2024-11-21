@@ -1,5 +1,6 @@
 "use client";
 
+import { WhatsappWidget } from "@/components";
 import SplashScreen from "@/components/splash-screen/splash-screen";
 import {
 	Discover,
@@ -38,6 +39,7 @@ export default function Home() {
 				<>
 					<Header />
 					<NavbarPlaceholder />
+					<WhatsappWidget />
 					<main className="">
 						<Hero />
 						<Discover />

@@ -862,6 +862,51 @@ export const contactExperienceCards = [
   },
 ];
 
+export const whatsappData = [
+  {
+    name: "Mrs. Amal Sudais",
+    role: "Principal Senior Girls Section",
+    language: "Preferably Arabic Language",
+    link: "https://wa.me/966554040157",
+    active: false,
+  },
+  {
+    name: "Mrs. Lulu",
+    role: "Principal Junior Girls Section",
+    language: "Preferably Arabic Language",
+    link: "https://wa.me/966554040037",
+    active: true,
+  },
+  {
+    name: "Mrs. Sadaf Khushnood Mirza",
+    role: "Vice Principal American Section",
+    language: "English Language",
+    link: "https://wa.me/923162389808",
+    active: true,
+  },
+  {
+    name: "Mr. Zahid Faraz",
+    role: "Head of Junior Boys Section",
+    language: "Preferably English Language",
+    link: "https://wa.me/966505476585",
+    active: true,
+  },
+  {
+    name: "Mr. Liaqat Ali Khan",
+    role: "AP/SAT Coordinator, College Board",
+    language: "Head American Section Boys",
+    link: "https://wa.me/966569652152",
+    active: true,
+  },
+  {
+    name: "Mr. Syed Muhammad Ibrahim",
+    role: "Head Principal",
+    language: "Bilingual",
+    link: "https://wa.me/966505150161",
+    active: true,
+  },
+];
+
 // Schools
 export const availableTimes = [
   { day: "Sunday", time: "6:30 AM – 12:30 PM" },
