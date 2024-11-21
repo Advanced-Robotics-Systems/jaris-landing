@@ -126,7 +126,7 @@ const Header = () => {
 				</div>
 
 				{/* Desktop Menu */}
-				<ul className="hidden lg:flex items-center justify-center h-full">
+				<ul className="hidden xl:flex items-center justify-center h-full">
 					{navItems.map((item) => (
 						<li
 							key={item.name}
@@ -270,7 +270,7 @@ const Header = () => {
 				</ul>
 
 				{/* Mobile Menu Toggle */}
-				<div className="lg:hidden px-4">
+				<div className="xl:hidden px-4">
 					<button
 						className="text-xl"
 						onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -281,7 +281,7 @@ const Header = () => {
 							animate={{ opacity: 1, rotate: 0 }}
 							exit={{ opacity: 0, rotate: 90 }}
 							transition={{ duration: 0.3 }}
-							className="heading-md"
+							className="heading-md lg:text-6xl"
 						>
 							{isMobileMenuOpen ? ICONS.close : ICONS.menu}
 						</motion.span>
@@ -306,7 +306,7 @@ const Header = () => {
 							animate="visible"
 							exit="exit"
 							variants={mobileMenuVariants}
-							className="lg:hidden bg-bg-primary shadow-lg z-50 relative"
+							className="xl:hidden bg-bg-primary shadow-lg z-50 relative"
 						>
 							{navItems.map((item) => (
 								<li key={item.name}>
