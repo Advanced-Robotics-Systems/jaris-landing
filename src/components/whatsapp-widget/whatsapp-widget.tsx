@@ -45,7 +45,7 @@ const WhatsappWidget = () => {
 						transition={{ duration: 0.5 }}
 						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-[90%] bg-white shadow-lg border border-gray-200 rounded-lg z-40"
 					>
-						<div className="p-4 bg-green-500 text-white rounded-t-lg">
+						<div className="p-4 bg-whatsapp-green text-white rounded-t-lg">
               <div className="flex items-center space-x-4">
                 <div className="text-2xl w-8">{ICONS.whatsapp}</div>
                 <div>
@@ -64,7 +64,7 @@ const WhatsappWidget = () => {
 									isExternal
 									className="flex items-center space-x-4 hover:bg-gray-100 rounded-lg p-2 transition"
 								>
-									<div className="w-8 h-8 flex items-center justify-center text-2xl text-green-500">
+									<div className="w-8 h-8 flex items-center justify-center text-2xl text-whatsapp-green">
 										{ICONS.whatsapp}
 									</div>
 									<div>

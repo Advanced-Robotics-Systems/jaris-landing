@@ -40,6 +40,7 @@ const config: Config = {
         "jaris-black": "#191818",
         "bg-primary": "#FFF7ED",
         "bg-text": "#FFEED9",
+				"whatsapp-green": "#25D366",
 			},
 		},
 	},
