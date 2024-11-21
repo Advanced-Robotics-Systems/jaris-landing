@@ -29,13 +29,15 @@ const WhatsappWidget = () => {
 						isPanelOpen ? (
 							<span className="text-jaris-white text-2xl">{ICONS.close}</span>
 						) : (
-							<span className="text-jaris-white text-2xl">{ICONS.whatsapp}</span>
+							<span className="text-jaris-white text-2xl">
+								{ICONS.whatsapp}
+							</span>
 						)
 					}
 				/>
 			</motion.div>
-      
-      {/* Slide content */}
+
+			{/* Slide content */}
 			<AnimatePresence>
 				{isPanelOpen && (
 					<motion.div
@@ -46,19 +48,21 @@ const WhatsappWidget = () => {
 						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-[90%] bg-white shadow-lg border border-gray-200 rounded-lg z-40"
 					>
 						<div className="p-4 bg-whatsapp-green text-white rounded-t-lg">
-              <div className="flex items-center space-x-4">
-                <div className="text-2xl w-8">{ICONS.whatsapp}</div>
-                <div>
-                  <h2 className="text-lg font-bold">Start a Conversation</h2>
-                  <p className="text-sm">
-                    Hi! Click one of our members below to chat on <strong>WhatsApp</strong>
-                  </p>
-                </div>
-              </div>
-            </div>
+							<div className="flex items-center space-x-4">
+								<div className="text-2xl w-8">{ICONS.whatsapp}</div>
+								<div>
+									<h2 className="text-lg font-bold">Start a Conversation</h2>
+									<p className="text-sm">
+										Hi! Click one of our members below to chat on{" "}
+										<strong>WhatsApp</strong>
+									</p>
+								</div>
+							</div>
+						</div>
 						<div className="p-4 space-y-4">
-            {whatsappData.map((contact, index) => (
+							{whatsappData.map((contact, index) => (
 								<Link
+									isDisabled={!contact.active}
 									key={index}
 									href={contact.link}
 									isExternal
@@ -68,9 +72,15 @@ const WhatsappWidget = () => {
 										{ICONS.whatsapp}
 									</div>
 									<div>
-										<p className="font-semibold text-jaris-black cursor-pointer">{contact.name}</p>
-										<p className="text-sm text-gray-500 cursor-pointer">{contact.role}</p>
-										<p className="text-sm text-gray-500 cursor-pointer">{contact.language}</p>
+										<p className="font-semibold text-jaris-black cursor-pointer">
+											{contact.name}
+										</p>
+										<p className="text-sm text-gray-500 cursor-pointer">
+											{contact.role}
+										</p>
+										<p className="text-sm text-gray-500 cursor-pointer">
+											{contact.language}
+										</p>
 									</div>
 								</Link>
 							))}
