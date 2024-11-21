@@ -14,7 +14,6 @@ const WhatsappWidget = () => {
 
 	return (
 		<>
-			{/* Fixed WhatsApp Help Icon */}
 			<motion.div
 				className="fixed bottom-5 right-5 z-50"
 				animate={{ rotate: isPanelOpen ? 180 : 0 }}
@@ -35,8 +34,8 @@ const WhatsappWidget = () => {
 					}
 				/>
 			</motion.div>
-
-			{/* Slide-out Panel */}
+      
+      {/* Slide content */}
 			<AnimatePresence>
 				{isPanelOpen && (
 					<motion.div
@@ -44,7 +43,7 @@ const WhatsappWidget = () => {
 						animate={{ y: 0, opacity: 1 }}
 						exit={{ y: 20, opacity: 0 }}
 						transition={{ duration: 0.5 }}
-						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-full bg-white shadow-lg border border-gray-200 rounded-lg z-40"
+						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-[90%] bg-white shadow-lg border border-gray-200 rounded-lg z-40"
 					>
 						<div className="p-4 bg-green-500 text-white rounded-t-lg">
               <div className="flex items-center space-x-4">
