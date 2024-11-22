@@ -45,7 +45,7 @@ const WhatsappWidget = () => {
 						animate={{ y: 0, opacity: 1 }}
 						exit={{ y: 20, opacity: 0 }}
 						transition={{ duration: 0.5 }}
-						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-[90%] bg-white shadow-lg border border-gray-200 rounded-lg z-40"
+						className="fixed bottom-20 lg:bottom-30 right-5 w-96 max-w-[90%] bg-white shadow-lg border border-gray-200 rounded-lg z-[100]"
 					>
 						<div className="p-4 bg-whatsapp-green text-white rounded-t-lg">
 							<div className="flex items-center space-x-4">
@@ -59,7 +59,7 @@ const WhatsappWidget = () => {
 								</div>
 							</div>
 						</div>
-						<div className="p-4 space-y-4">
+						<div className="p-4 space-y-4 overflow-y-auto max-h-[65vh]">
 							{whatsappData.map((contact, index) => (
 								<Link
 									isDisabled={!contact.active}
