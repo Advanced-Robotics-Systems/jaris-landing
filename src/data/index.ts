@@ -367,17 +367,17 @@ export const homePartnerSlides = [
 export const counts = [
   {
     title: "Our Students",
-    count: 750,
+    count: 3500,
     icon: ICONS.student,
   },
   {
     title: "Our Teachers",
-    count: 360,
+    count: 250,
     icon: ICONS.teacher,
   },
   {
     title: "Our Staff",
-    count: 750,
+    count: 350,
     icon: ICONS.staff,
   },
 ];
