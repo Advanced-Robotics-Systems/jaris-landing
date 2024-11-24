@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="flex gap-4">
           {footerSocials.map((item, index) => (
             <Link
-              isDisabled
+              isExternal
               size="lg"
               key={index}
               href={item.link}

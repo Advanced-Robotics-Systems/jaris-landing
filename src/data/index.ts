@@ -250,19 +250,19 @@ export const footerLinks = {
 export const footerSocials = [
   {
     icon: ICONS.instagram,
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/jawahirschools/",
   },
   {
     icon: ICONS.twitter,
-    link: "https://www.twitter.com",
+    link: "https://x.com/JawahirSchools",
   },
   {
     icon: ICONS.youtube,
-    link: "https://www.youtube.com",
+    link: "https://www.youtube.com/@JawahirSchools",
   },
   {
-    icon: ICONS.linkedin,
-    link: "https://www.linkedin.com",
+    icon: ICONS.facebook,
+    link: "https://www.facebook.com/jawahirschool/",
   },
 ];
 
