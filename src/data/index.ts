@@ -312,7 +312,7 @@ export const homeCarouselItems = [
     subtitle: "BECOME",
     subtitleColored: "YOUR",
     title: "IDEAL",
-    imgUrl: "/images/home/home-hero-slide-4.jpg",
+    imgUrl: "/images/home/home-hero-slide-4.jpeg",
   },
 ];
 
