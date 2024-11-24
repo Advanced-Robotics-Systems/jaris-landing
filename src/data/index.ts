@@ -262,7 +262,7 @@ export const footerSocials = [
   },
   {
     icon: ICONS.facebook,
-    link: "https://www.facebook.com/jawahirschool/",
+    link: "https://www.facebook.com/jawahirschools",
   },
 ];
 
