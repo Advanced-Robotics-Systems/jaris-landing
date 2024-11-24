@@ -181,15 +181,15 @@ export const navItems = [
         link: "/schools",
         sublinks: [
           {
-            name: "FJARIS",
+            name: "1st JARIS",
             link: "/schools/fjaris",
           },
           {
-            name: "SJARIS",
+            name: "2nd JARIS",
             link: "/schools/sjaris",
           },
           {
-            name: "TJARIS",
+            name: "3rd JARIS",
             link: "/schools/tjaris",
           },
         ],
@@ -723,7 +723,7 @@ export const staffContactDetailsTable = [
     email: "syed@jawahirschool.com",
   },
   {
-    role: "Principal SJARIS",
+    role: "Principal 2nd JARIS",
     name: "Mr. Mohammed Al Malouhi",
     contact: "4794539",
     ext: "101",
@@ -842,17 +842,17 @@ export const contactExperienceCards = [
   },
   {
     icon: ICONS.email,
-    title: "JARIS",
+    title: "1st JARIS",
     subtitle: ["aftabahmad_vp@jawahirschool.com", "zahid.jaris@gmail.com"],
   },
   {
     icon: ICONS.email,
-    title: "SJARIS",
+    title: "2nd JARIS",
     subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
   },
   {
     icon: ICONS.email,
-    title: "TJARIS (NI)",
+    title: "3rd JARIS (NI)",
     subtitle: ["zahid.jaris@gmail.com"],
   },
   {
