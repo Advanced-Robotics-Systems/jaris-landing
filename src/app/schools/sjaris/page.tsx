@@ -1,3 +1,4 @@
+import { WhatsappWidget } from "@/components";
 import { admissionHeroCarouselItems } from "@/data";
 import { AdmissionFees, Explore, Footer, Header, HeroCarousel, NavbarPlaceholder, SchoolAdmissionCTA, SJarisOverview } from "@/sections";
 
@@ -6,6 +7,7 @@ const SJARIS = () => {
 		<>
 			<Header />
 			<NavbarPlaceholder />
+			<WhatsappWidget />
 			<main>
 				<HeroCarousel carouselItems={admissionHeroCarouselItems} />
 				<SJarisOverview />

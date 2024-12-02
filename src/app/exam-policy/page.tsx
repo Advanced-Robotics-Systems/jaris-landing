@@ -1,4 +1,5 @@
 "use client"
+import { WhatsappWidget } from "@/components";
 import { examPolicyHeroCarouselItems } from "@/data";
 import {
   CTASchools,
@@ -19,6 +20,7 @@ const ExamPolicy = () => {
 		<>
 			<Header />
 			<NavbarPlaceholder />
+			<WhatsappWidget />
 			<main>
 				<HeroCarousel carouselItems={examPolicyHeroCarouselItems} />
 				<ExamNotice />

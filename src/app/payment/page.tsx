@@ -1,3 +1,4 @@
+import { WhatsappWidget } from '@/components'
 import { Footer, Header, NavbarPlaceholder, PaymentContact, PaymentOnline } from '@/sections'
 import React from 'react'
 
@@ -6,6 +7,7 @@ const Payment = () => {
     <>
       <Header />
       <NavbarPlaceholder />
+      <WhatsappWidget/>
       <main>
         <PaymentOnline />
         <PaymentContact />

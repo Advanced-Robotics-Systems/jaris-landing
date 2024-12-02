@@ -13,6 +13,7 @@ import {
   FAQContents,
 } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
+import { WhatsappWidget } from "@/components";
 
 export default function Contact() {
   const pathname = usePathname();
@@ -48,6 +49,7 @@ export default function Contact() {
     <>
       <Header />
       <NavbarPlaceholder />
+      <WhatsappWidget />
       <main>
         <HeroCarouselNav
           carouselItems={contactCarouselItems}

@@ -1,3 +1,4 @@
+import { WhatsappWidget } from "@/components";
 import { admissionHeroCarouselItems } from "@/data";
 import {
 	AdmissionCTA,
@@ -21,6 +22,7 @@ const Admission = () => {
 		<>
 			<Header />
 			<NavbarPlaceholder />
+			<WhatsappWidget />
 			<main>
 				<HeroCarousel carouselItems={admissionHeroCarouselItems} />
 				<AdmissionProcedure />

@@ -1,3 +1,4 @@
+import { WhatsappWidget } from "@/components";
 import { aboutHeroCarouselItems } from "@/data";
 import {
 	AboutExploreSchool,
@@ -35,6 +36,7 @@ const About = () => {
 		<>
 			<Header />
 			<NavbarPlaceholder />
+			<WhatsappWidget />
 			<main>
 				<HeroCarousel carouselItems={aboutHeroCarouselItems} />
 				<AboutMission />

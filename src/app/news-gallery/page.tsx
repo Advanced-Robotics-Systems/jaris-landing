@@ -15,6 +15,7 @@ import {
   PhotoGallery,
 } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
+import { WhatsappWidget } from "@/components";
 
 export default function GalleryNews() {
   const pathname = usePathname();
@@ -51,6 +52,7 @@ export default function GalleryNews() {
     <Suspense fallback={<div>Loading...</div>}>
       <Header />
       <NavbarPlaceholder />
+      <WhatsappWidget />
       <main>
         <HeroCarouselNav
           carouselItems={newsCarouselItems}
