@@ -95,7 +95,7 @@ const AboutSJaris = () => {
 								src={curriculum.imgSrc}
 								alt={curriculum.title}
 								width={90}
-								className="h-auto rounded-none"
+								className={`h-auto ${curriculum.title === 'Jawahir' ? 'rounded-full' : 'rounded-none'}`}
 							/>
 						))}
 					</div>
