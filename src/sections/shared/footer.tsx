@@ -101,19 +101,19 @@ const Footer = () => {
         <div className="flex gap-4 text-center">
           {/* School Names */}
           <Link href="/schools/fjaris">
-            <span className="text-bg-text font-light">JARIS</span>
+            <span className="text-bg-text font-light">1st JARIS</span>
           </Link>
           <Link href="/schools/sjaris">
-            <span className="text-bg-text font-light">SJARIS</span>
+            <span className="text-bg-text font-light">2nd JARIS</span>
           </Link>
           <Link href="/schools/tjaris">
-            <span className="text-bg-text font-light">TJARIS</span>
+            <span className="text-bg-text font-light">3rd JARIS</span>
           </Link>
         </div>
         <div className="flex gap-4">
           {footerSocials.map((item, index) => (
             <Link
-              isDisabled
+              isExternal
               size="lg"
               key={index}
               href={item.link}

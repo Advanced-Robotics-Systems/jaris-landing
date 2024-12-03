@@ -32,13 +32,13 @@ const ContactGetInTouch = () => {
           />
           <div className="flex gap-1 h-12">
             <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              JARIS
+              1st JARIS
             </div>
             <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              SJARIS
+              2nd JARIS
             </div>
             <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              TJARIS
+              3rd JARIS
             </div>
           </div>
         </div>

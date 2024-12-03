@@ -181,15 +181,15 @@ export const navItems = [
         link: "/schools",
         sublinks: [
           {
-            name: "FJARIS",
+            name: "1st JARIS",
             link: "/schools/fjaris",
           },
           {
-            name: "SJARIS",
+            name: "2nd JARIS",
             link: "/schools/sjaris",
           },
           {
-            name: "TJARIS",
+            name: "3rd JARIS",
             link: "/schools/tjaris",
           },
         ],
@@ -250,19 +250,19 @@ export const footerLinks = {
 export const footerSocials = [
   {
     icon: ICONS.instagram,
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/jawahirschools/",
   },
   {
     icon: ICONS.twitter,
-    link: "https://www.twitter.com",
+    link: "https://x.com/JawahirSchools",
   },
   {
     icon: ICONS.youtube,
-    link: "https://www.youtube.com",
+    link: "https://www.youtube.com/@JawahirSchools",
   },
   {
-    icon: ICONS.linkedin,
-    link: "https://www.linkedin.com",
+    icon: ICONS.facebook,
+    link: "https://www.facebook.com/jawahirschools",
   },
 ];
 
@@ -312,7 +312,7 @@ export const homeCarouselItems = [
     subtitle: "BECOME",
     subtitleColored: "YOUR",
     title: "IDEAL",
-    imgUrl: "/images/home/home-hero-slide-4.jpg",
+    imgUrl: "/images/home/home-hero-slide-4.jpeg",
   },
 ];
 
@@ -371,17 +371,17 @@ export const homePartnerSlides = [
 export const counts = [
   {
     title: "Our Students",
-    count: 750,
+    count: 3500,
     icon: ICONS.student,
   },
   {
     title: "Our Teachers",
-    count: 360,
+    count: 250,
     icon: ICONS.teacher,
   },
   {
     title: "Our Staff",
-    count: 750,
+    count: 350,
     icon: ICONS.staff,
   },
 ];
@@ -719,7 +719,7 @@ export const staffContactDetailsTable = [
     email: "syed@jawahirschool.com",
   },
   {
-    role: "Principal SJARIS",
+    role: "Principal 2nd JARIS",
     name: "Mr. Mohammed Al Malouhi",
     contact: "4794539",
     ext: "101",
@@ -838,17 +838,17 @@ export const contactExperienceCards = [
   },
   {
     icon: ICONS.email,
-    title: "JARIS",
+    title: "1st JARIS",
     subtitle: ["aftabahmad_vp@jawahirschool.com", "zahid.jaris@gmail.com"],
   },
   {
     icon: ICONS.email,
-    title: "SJARIS",
+    title: "2nd JARIS",
     subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
   },
   {
     icon: ICONS.email,
-    title: "TJARIS (NI)",
+    title: "3rd JARIS (NI)",
     subtitle: ["zahid.jaris@gmail.com"],
   },
   {
