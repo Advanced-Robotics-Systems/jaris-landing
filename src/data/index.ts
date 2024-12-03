@@ -344,7 +344,7 @@ export const homePartnerSlides = [
   },
   {
     title: "College Board",
-    imgUrl: "/images/home/collegeboard.png",
+    imgUrl: "/images/home/collegeboard.svg",
   },
   {
     title: "Sudan Education Board",
@@ -360,8 +360,12 @@ export const homePartnerSlides = [
   },
   {
     title: "Cognia",
-    imgUrl: "/images/home/cognia.png",
+    imgUrl: "/images/home/cognia.svg",
   },
+  {
+    title: "Edexcel",
+    imgUrl: "/images/home/edexcel.svg",
+  }
 ];
 
 export const counts = [

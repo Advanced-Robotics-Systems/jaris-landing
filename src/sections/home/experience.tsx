@@ -5,8 +5,8 @@ import Marquee from "react-fast-marquee";
 
 const Experience = () => {
 	return (
-		<section className="lg:min-h-screen bg-jaris-blue padding lg:px-24 lg:py-36 flex flex-col items-center justify-center gap-28">
-			<div className="flex flex-col items-center justify-center gap-4">
+		<section className="lg:min-h-screen bg-jaris-blue padding-y flex flex-col items-center justify-center gap-28">
+			<div className="flex flex-col items-center justify-center gap-4 padding-x">
 				<div className="text-jaris-white text-3xl md:text-4xl lg:text-5xl font-bold">
 					Educational Experience
 				</div>
@@ -17,7 +17,7 @@ const Experience = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-center gap-8 lg:gap-16 flex-wrap">
+			<div className="flex items-center justify-center gap-8 lg:gap-16 flex-wrap padding-x">
 				{homeExperiences.map((experience: any, index: number) => (
 					<ExperienceCard
             key={index}
@@ -31,8 +31,8 @@ const Experience = () => {
         <Marquee pauseOnHover className="flex items-center justify-around">
           {
             homePartnerSlides.map((partner: any, index: number) => (
-              <div key={index} className="h-28 min-w-28 flex items-center justify-center p-4 bg-[rgba(26,25,24,0.10)] mx-12 rounded-lg">
-                <Image src={partner.imgUrl} alt={partner.title} className="h-20 w-auto" />
+              <div key={index} className="h-14 lg:h-28 min-w-14 lg:min-w-28 flex items-center justify-center px-4 py-2 bg-[rgba(26,25,24,0.10)] mx-12 rounded-lg">
+                <Image src={partner.imgUrl} alt={partner.title} className="h-10 lg:h-20 w-auto" />
               </div>
             ))
           }
