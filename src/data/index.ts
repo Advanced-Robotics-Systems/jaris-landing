@@ -493,10 +493,6 @@ export const fJarisCurriculumImages = [
     imgSrc: "/logos/jaris-logo-solid.jpeg",
   },
   {
-    title: "Islamabad",
-    imgSrc: "/images/home/islamabad-board.png",
-  },
-  {
     title: "Cambridge",
     imgSrc: "/images/about/cambridge-white.png",
   },
@@ -509,7 +505,7 @@ export const sJarisCurriculumImages = [
   },
   {
     title: "College Board",
-    imgSrc: "/images/home/collegeboard.png",
+    imgSrc: "/images/home/collegeboard.svg",
   },
   {
     title: "AP",
@@ -531,12 +527,8 @@ export const tJarisCurriculumImages = [
     imgSrc: "/logos/jaris-logo-solid.jpeg",
   },
   {
-    title: "Islamabad",
-    imgSrc: "/images/home/islamabad-board.png",
-  },
-  {
     title: "Edexcel",
-    imgSrc: "/images/home/edexcel.png",
+    imgSrc: "/images/home/edexcel.svg",
   },
   {
     title: "Cambridge",
