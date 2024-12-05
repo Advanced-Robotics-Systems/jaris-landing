@@ -19,10 +19,10 @@ const HomeHeroSlide = ({
     >
       <div className="absolute inset-0 bg-jaris-blue opacity-35" />
       <motion.div
-        initial={{ opacity: 0, x: 40 }}
+        initial={{ opacity: 0, x: 60 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.2, ease: "easeInOut" }}
-        className="relative flex flex-col items-center justify-center pt-20 md:pt-40 lg:pt-60"
+        transition={{ duration: 0.6, delay: 1, ease: "easeInOut" }}
+        className="relative flex flex-col items-center justify-center pt-5 sm:pt-20 md:pt-40 lg:pt-60"
       >
         <div className="heading-secondary font-[500]">
           <span className="text-white">{subtitle}</span>{" "}
