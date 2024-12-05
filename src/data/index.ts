@@ -331,24 +331,12 @@ export const homeExperiences = [
 
 export const homePartnerSlides = [
   {
-    title: "Islamabad Board",
-    imgUrl: "/images/home/islamabad-board.png",
-  },
-  {
-    title: "Egypt Education Board",
-    imgUrl: "/images/home/egypt-ministry-education.png",
-  },
-  {
     title: "Cambridge",
     imgUrl: "/images/home/cambridge.png",
   },
   {
     title: "College Board",
     imgUrl: "/images/home/collegeboard.svg",
-  },
-  {
-    title: "Sudan Education Board",
-    imgUrl: "/images/home/sudan-ministry-education.png",
   },
   {
     title: "AP",
