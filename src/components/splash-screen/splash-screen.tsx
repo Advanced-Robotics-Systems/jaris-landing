@@ -12,7 +12,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading }) => {
 					initial={{ y: 0 }}
 					animate={{ y: 0 }}
 					exit={{ y: "-100vh" }}
-					transition={{ duration: 0.5, ease: "easeInOut" }}
+					transition={{ duration: 1, ease: "easeInOut" }}
 					className="relative h-screen bg-jaris-blue flex items-center justify-center padding overflow-hidden"
 				>
 					<div className="absolute inset-0 -bottom-3/4 bg-[url(/images/home/splash-bg.png)] bg-cover bg-center opacity-10" />

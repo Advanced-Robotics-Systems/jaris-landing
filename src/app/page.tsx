@@ -27,8 +27,8 @@ export default function Home() {
 	useEffect(() => {
 		const splashTimer = setTimeout(() => {
 			setIsLoading(false);
-			setTimeout(() => setShowContent(true), 500);
-		}, 300);
+			setTimeout(() => setShowContent(true), 1000);
+		}, 1000);
 
 		return () => clearTimeout(splashTimer);
 	}, []);
