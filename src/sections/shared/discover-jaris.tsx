@@ -47,7 +47,7 @@ const DiscoverJaris = () => {
 					initial={{ opacity: 0, y: -20 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.3, delay: 0.9, ease: "easeInOut" }}
-					className="flex items-center justify-start gap-11"
+					className="flex items-center justify-center gap-11 flex-wrap"
 				>
 					<Link href="/contact">
 						<Button
@@ -68,6 +68,17 @@ const DiscoverJaris = () => {
 						>
 							<span className="subtitle text-jaris-blue font-semibold">
 								Apply Now
+							</span>
+						</Button>
+					</Link>
+					<Link href="/schools">
+						<Button
+							size="lg"
+							variant="solid"
+							className="bg-jaris-gold rounded-md lg:px-8"
+						>
+							<span className="subtitle text-jaris-blue font-semibold">
+								Our Schools
 							</span>
 						</Button>
 					</Link>
