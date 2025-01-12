@@ -3,8 +3,16 @@ import { motion } from "framer-motion";
 
 const JoinUs = () => {
 	return (
-		<div className="h-[60vh] lg:h-[75vh] bg-jaris-blue flex items-center justify-center">
-			<div className="title font-bold flex gap-3 md:gap-5">
+		<div className="md:min-h-screen relative lg:h-[75vh]  flex items-center justify-center overflow-hidden">
+			<video
+				className="absolute top-0 left-0 w-full h-full object-cover z-0 scale-110"
+				src="/videos/discover-jaris-bg.mp4"
+				autoPlay
+				loop
+				muted
+			/>
+			<div className="absolute inset-0 bg-jaris-blue opacity-75 " />
+			<div className="relative z-20 title font-bold flex gap-3 md:gap-5">
 				<motion.div
 					initial={{ opacity: 0, x: -20 }}
 					whileInView={{ opacity: 1, x: 0 }}
