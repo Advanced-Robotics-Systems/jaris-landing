@@ -115,13 +115,13 @@ const Header = () => {
             <Image
               src="/logos/jawahir-logo-full-new.png"
               alt="Jawahir International School"
-              className="h-12 xl:h-16"
+              className="hidden sm:h-12 xl:h-16"
             />
-            {/* <Image
+            <Image
 							src="/logos/jawahir-logo.png"
 							alt="Jawahir International School"
-							className="xl:hidden h-12"
-						/> */}
+							className="sm:hidden h-10"
+						/>
           </Link>
         </div>
 
