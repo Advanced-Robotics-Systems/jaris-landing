@@ -318,14 +318,14 @@ export const homeCarouselItems = [
 
 export const homeExperiences = [
   {
+    title: "One of the Top Schools in Saudi Arabia",
+    subtitle:
+      "Jaris stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
+  },
+  {
     title: "20 Nationalities Represented",
     subtitle:
       "Our campus proudly represents 20 nationalities, fostering a tapestry of cultures and viewpoints. This multicultural environment enriches education, nurtures global awareness and promotes unity among students.",
-  },
-  {
-    title: "90% School Attendance rate",
-    subtitle:
-      "With a remarkable 90% attendance rate, our school empowers students for successful futures, Our education equips graduates with skills, knowledge and confidence to excel in higher education and beyond.",
   },
 ];
 
