@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const JoinUs = () => {
 	return (
-		<div className="md:min-h-screen relative lg:h-[75vh]  flex items-center justify-center overflow-hidden">
+		<div className="relative md:h-[60vh] lg:h-[75vh] flex items-center justify-center overflow-hidden">
 			<video
 				className="absolute top-0 left-0 w-full h-full object-cover z-0 scale-110"
 				src="/videos/discover-jaris-bg.mp4"
