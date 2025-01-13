@@ -115,7 +115,7 @@ const Header = () => {
             <Image
               src="/logos/jawahir-logo-full-new.png"
               alt="Jawahir International School"
-              className="hidden sm:h-12 xl:h-16"
+              className="max-sm:hidden sm:h-12 xl:h-16"
             />
             <Image
 							src="/logos/jawahir-logo.png"
