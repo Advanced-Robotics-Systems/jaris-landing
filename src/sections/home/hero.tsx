@@ -37,7 +37,7 @@ const Hero = () => {
 			</Swiper>
 
 			{/* Hero bottom texts */}
-			<div className="absolute w-full bottom-2 md:bottom-4 lg:bottom-8 px-6 lg:px-10 z-10 flex items-start justify-between">
+			<div className="absolute w-full bottom-2 md:bottom-4 lg:bottom-8 max-sm:right-2 px-6 lg:px-10 z-10 flex items-start justify-between">
 				<div className="small-text md:subtitle text-jaris-white w-[40%] lg:w-[20%]">
 					An independent, college preparatory day school for grades KG to 12,
 					with separate campuses for boys and girls.

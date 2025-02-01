@@ -291,6 +291,12 @@ export const exploreItems = [
 // Home
 export const homeCarouselItems = [
   {
+    subtitle: "BECOME",
+    subtitleColored: "YOUR",
+    title: "IDEAL",
+    imgUrl: "/images/home/home-hero-slide-4.jpeg",
+  },
+  {
     subtitle: "DISCOVER",
     subtitleColored: "YOUR",
     title: "TALENTS",
@@ -307,12 +313,6 @@ export const homeCarouselItems = [
     subtitleColored: "YOUR",
     title: "PASSION",
     imgUrl: "/images/home/home-hero-slide-3.png",
-  },
-  {
-    subtitle: "BECOME",
-    subtitleColored: "YOUR",
-    title: "IDEAL",
-    imgUrl: "/images/home/home-hero-slide-4.jpeg",
   },
 ];
 
@@ -353,7 +353,7 @@ export const homePartnerSlides = [
   {
     title: "Edexcel",
     imgUrl: "/images/home/edexcel.svg",
-  }
+  },
 ];
 
 export const counts = [
