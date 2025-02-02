@@ -24,11 +24,11 @@ const HomeHeroSlide = ({
         transition={{ duration: 0.6, delay: 1, ease: "easeInOut" }}
         className="relative flex flex-col items-center justify-center pt-5 sm:pt-20 md:pt-40 lg:pt-60"
       >
-        <div className="heading-secondary font-[500]">
+        <div className="text-xl leading-[38px] sm:text-2xl md:text-3xl lg:text-4xl font-[500]">
           <span className="text-white">{subtitle}</span>{" "}
           <span className="text-jaris-gold">{subtitleColored}</span>
         </div>
-        <div className="title font-[700] text-white">{title}</div>
+        <div className="text-4xl leading-[58px] sm:text-6xl md:text-7xl lg:text-8xl font-[700] text-white">{title}</div>
       </motion.div>
     </div>
   );
