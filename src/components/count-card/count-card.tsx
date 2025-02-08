@@ -18,8 +18,8 @@ const CountCard = ({
   const isInView = useInView(countRef, { once: true });
 
   return (
-    <Card className="relative w-[300px] h-[300px] bg-jaris-yellow ">
-      <div className="absolute inset-0 top-14 left-10 bg-[url('/logos/jaris-sports-logo.png')] opacity-10 " />
+    <Card className="relative w-[300px] h-[300px] bg-jaris-yellow/35 backdrop-blur-sm">
+      {/* <div className="absolute inset-0 top-14 left-10 blur opacity-10 " /> */}
       <CardBody className="w-full flex flex-col items-center justify-center gap-4">
         <p className="text-xl md:text-3xl lg:text-4xl text-jaris-blue">
           {icon}
