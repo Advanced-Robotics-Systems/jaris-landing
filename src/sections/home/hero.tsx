@@ -9,7 +9,7 @@ import { homeCarouselItems } from "@/data";
 
 const Hero = () => {
 	return (
-		<div className="relative h-[45vh] md:h-[calc(100vh-70px)]">
+		<div className="relative h-[calc(100vh-70px)]">
 			<Swiper
 				autoplay={{
 					delay: 4500,
