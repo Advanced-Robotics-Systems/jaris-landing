@@ -1,8 +1,9 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { EffectFade, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
+import 'swiper/css/effect-fade';
 import "swiper/css/pagination";
 import { HomeHeroSlide } from "@/components";
 import { homeCarouselItems } from "@/data";
@@ -15,13 +16,14 @@ const Hero = () => {
 					delay: 4500,
 					disableOnInteraction: false,
 				}}
-				speed={2500}
+				speed={2000}
+        effect={'fade'}
 				pagination={{
 					dynamicBullets: true,
 				}}
 				// allowTouchMove={false}
 				loop={true}
-				modules={[Pagination, Autoplay]}
+				modules={[EffectFade, Pagination, Autoplay]}
 				className="relative mySwiper h-full"
 			>
 				{homeCarouselItems.map((item: any, index: number) => (
