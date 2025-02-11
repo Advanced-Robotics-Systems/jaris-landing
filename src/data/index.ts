@@ -377,24 +377,23 @@ export const counts = [
 export const ctaSchoolsCarouselItems = [
   {
     title: "INSPIRATION",
-    subtitle: "I fell in love with photography in ninth grade at HW.",
+    subtitle:
+      "Inspiration ignites the soul, turning dreams into action and ideas into reality.",
     imgUrl: "/images/home/cta-school-carousel-slide-1.png",
   },
   {
     title: "LEADERSHIP",
-    subtitle:
-      "I have grown so much as an entrepreneur and person leading the HW Inc. summer entrepreneurship camp.",
+    subtitle: "I have grown so much as a person leading my class at JARIS.",
     imgUrl: "/images/home/cta-school-carousel-slide-2.jpeg",
   },
   {
     title: "TEAMWORK",
-    subtitle: "I tried tackle football this year and really enjoyed it.",
+    subtitle: "I tried football this year and really enjoyed it.",
     imgUrl: "/images/home/cta-school-carousel-slide-3.jpeg",
   },
   {
     title: "RESILIENCE",
-    subtitle:
-      "I have definitely grown academically at Harvard-Westlake and learned how to manage my time better.",
+    subtitle: "I have definitely grown my physical strength at JARIS.",
     imgUrl: "/images/home/cta-school-carousel-slide-4.jpeg",
   },
 ];
@@ -529,7 +528,7 @@ export const admissionHeroCarouselItems = [
   {
     title: "Admission",
     subtitle: "Find out more about JARIS",
-    imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+    imgUrl: "/images/about/about-hero-carousel-slide-1.jpg",
   },
   {
     title: "Admission",
