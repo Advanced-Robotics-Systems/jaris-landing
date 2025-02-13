@@ -13,7 +13,7 @@ const DiscoverJaris = () => {
 				muted
 			/>
 			<div className="absolute inset-0 bg-jaris-blue opacity-75 " />
-			<div className="relative z-20 flex flex-col items-center justify-center gap-20">
+			<div className="relative z-20 flex flex-col items-center justify-center gap-12 md:gap-16 lg:gap-20">
 				<div className="w-full text-center">
 					<motion.h2
 						initial={{ opacity: 0, x: 20 }}

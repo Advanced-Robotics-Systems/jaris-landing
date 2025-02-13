@@ -17,7 +17,7 @@ const CTASchools = () => {
   return (
     <div className="relative w-full padding-y lg:py-36 bg-[url('/images/home/_DSC0188-Enhanced-NR.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-jaris-blue opacity-75" />
-      <div className="relative z-20 w-full flex flex-col items-center justify-center gap-44">
+      <div className="relative z-20 w-full flex flex-col items-center justify-center gap-28 sm:gap-32 md:gap-44">
         <Swiper
           slidesPerView={"auto"}
           centeredSlides={true}
@@ -54,7 +54,7 @@ const CTASchools = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex flex-col items-start justify-center gap-12">
+        <div className="flex flex-col items-start justify-center gap-10 md:gap-12 ">
           <div className="heading-md">
             <p className="text-jaris-gold">Unleash Your Full</p>
             <p className="text-jaris-gold">Potential With Us</p>
@@ -65,10 +65,10 @@ const CTASchools = () => {
               <Button
                 size="lg"
                 variant="bordered"
-                className="border-jaris-gold border-3 rounded-md lg:px-8"
+                className="border-jaris-gold border-3 rounded-md  lg:px-8"
               >
                 <span className="subtitle text-jaris-gold font-semibold">
-                  Explore our Schools
+                  Explore <span className="hidden md:inline">Our</span> Schools
                 </span>
               </Button>
             </Link>

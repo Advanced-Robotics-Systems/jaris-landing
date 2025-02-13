@@ -1,4 +1,5 @@
 import { admissionFeesData } from "@/data";
+import { ICONS } from "@/utils/icons";
 import {
 	Card,
 	CardHeader,
@@ -11,7 +12,7 @@ const AdmissionFees = () => {
 	const pdfUrl = "/files/fee-structure 23-24.pdf";
 
 	return (
-		<div className="padding bg-jaris-blue lg:px-56 xl:px-72 md:py-40 flex flex-col items-center justify-center gap-16">
+		<div className="padding bg-jaris-blue lg:px-56 xl:px-72 md:py-40 flex flex-col items-center justify-center gap-12 md:gap-16">
 			{/* Title Section */}
 			<div className="flex justify-between items-center w-full mb-8">
 				<div>
@@ -28,7 +29,8 @@ const AdmissionFees = () => {
 					target="_blank"
 					className="border border-jaris-white text-jaris-white bg-jaris-white/20"
 				>
-					Download Detailed Fee Info
+					<span className="text-xl -mr-2 sm:mr-0">{ICONS.download}</span>
+					 Fee Info
 				</Button>
 			</div>
 
@@ -77,7 +79,7 @@ const AdmissionFees = () => {
 					target="_blank"
 					className="bg-jaris-white/20 border border-jaris-white text-jaris-white"
 				>
-					View Bank Details
+					<span className=" hidden sm:inline-block">View</span> Bank Details
 				</Button>
 				<Button
 					size="lg"
@@ -87,7 +89,7 @@ const AdmissionFees = () => {
 					download
 					className="bg-jaris-gold text-jaris-white"
 				>
-					Download PDF
+					<span className="text-2xl sm:hidden">{ICONS.download}</span> <span className=" hidden sm:inline-block">Download</span> PDF
 				</Button>
 			</div>
 		</div>

@@ -75,7 +75,7 @@ const AdmissionCTA = () => {
             <h3 className="heading-secondary font-semibold">Join us</h3>
             <p className="subtitle mt-4">Explore JARIS and find your place with us.</p>
           </div>
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 flex flex-col md:flex-row gap-4">
             <Button
               size="lg"
               as="a"

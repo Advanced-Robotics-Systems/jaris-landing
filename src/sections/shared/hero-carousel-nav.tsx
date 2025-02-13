@@ -19,7 +19,7 @@ const HeroCarouselNav = ({
 
 
 	return (
-		<div className="relative w-full h-[40vh] lg:h-[calc(100vh-70px)] padding-b lg:pb-36 bg-jaris-blue">
+		<div className="relative w-full h-[42vh] lg:h-[calc(100vh-70px)]  pb-10 sm:pb-20 lg:pb-36 bg-jaris-blue pt-10">
 			<div className="relative z-20 w-full h-full flex flex-col items-center justify-center gap-44">
 				<Swiper
 					slidesPerView={"auto"}
@@ -46,7 +46,7 @@ const HeroCarouselNav = ({
 										backgroundImage: `linear-gradient(180deg, rgba(177, 34, 31, 0.1) 10%, rgba(28, 64, 111, 1) 100%), url(${item.imgUrl})`,
 									}}
 								/>
-								<div className="relative z-20 h-full padding flex flex-col items-center justify-end gap-5">
+								<div className="relative z-20 h-full padding flex flex-col items-center justify-end gap-0 md:gap-5">
 									<h1 className="title font-bold text-bg-text uppercase">
 										{item.title}
 									</h1>
@@ -69,8 +69,8 @@ const HeroCarouselNav = ({
 						isPressable
 						onPress={() => setActive(index)}
 					>
-						<CardBody className="items-center justify-center overflow-hidden">
-              <p className="small-text text-white">{item.subtitle}</p>
+						<CardBody className="items-center justify-center overflow-hidden px-1">
+              <p className="small-text text-white text-center">{item.subtitle}</p>
               <p className="w-full text-center subtitle xl:heading-secondary font-semibold text-jaris-white">{item.title}</p>
             </CardBody>
 					</Card>
