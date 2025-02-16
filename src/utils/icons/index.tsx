@@ -1,7 +1,7 @@
 import { PiStudent } from "react-icons/pi";
 import { PiChalkboardTeacher } from "react-icons/pi";
 import { BsPersonWorkspace, BsMailboxFlag } from "react-icons/bs";
-import { MdChevronRight } from "react-icons/md";
+import { MdChevronRight, MdOutlineFileDownload } from "react-icons/md";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import {
@@ -43,4 +43,5 @@ export const ICONS = {
   user: <FaCircleUser />,
   login: <MdLogin />,
   whatsapp: <FaWhatsapp />,
+  download: <MdOutlineFileDownload />,
 };

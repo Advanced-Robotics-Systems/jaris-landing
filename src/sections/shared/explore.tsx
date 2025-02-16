@@ -5,7 +5,7 @@ import React from "react";
 
 const Explore = () => {
   return (
-    <div className="relative padding bg-jaris-blue-light flex flex-col items-center justify-center gap-20">
+    <div className="relative padding bg-jaris-blue-light flex flex-col items-center justify-center gap-12 md:gap-16 lg:gap-20">
       <h2 className="heading-secondary font-bold text-bg-text">
         More to Explore
       </h2>

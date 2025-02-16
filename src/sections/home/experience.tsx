@@ -5,9 +5,9 @@ import Marquee from "react-fast-marquee";
 
 const Experience = () => {
   return (
-    <section className="relative lg:min-h-screen bg-jaris-blue padding-y flex flex-col items-center justify-center gap-28">
+    <section className="relative lg:min-h-screen bg-jaris-blue padding-y flex flex-col items-center justify-center gap-10 sm:gap-14 md:gap-20 lg:gap-28">
       <div className="flex flex-col items-center justify-center gap-4 padding-x">
-        <div className="text-jaris-white text-3xl md:text-4xl lg:text-5xl font-bold">
+        <div className="text-jaris-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
           Educational Experience
         </div>
         <div className="text-jaris-white subtitle tracking-wide lg:w-[85%] text-center">

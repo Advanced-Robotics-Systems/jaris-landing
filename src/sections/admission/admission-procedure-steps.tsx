@@ -17,7 +17,7 @@ const AdmissionProcedureSteps = () => {
           >
             <Card className="bg-white shadow-md h-full">
               <CardBody className="p-6">
-                <div className="text-jaris-gold font-semibold subtitle mb-8">{step.id}</div>
+                <div className="text-jaris-gold font-semibold subtitle mb-5 md:mb-8">{step.id}</div>
                 <div className="text-jaris-blue heading-secondary font-semibold mb-4">{step.title}</div>
                 <div className="text-jaris-black subtitle">{step.description}</div>
               </CardBody>
