@@ -26,7 +26,7 @@ export default function GalleryNews() {
     "#gallery": 0,
     "#news": 1,
     "#events": 2,
-    "#announcements": 3,
+    // "#announcements": 3,
   };
   const tabIndexToName = Object.keys(tabNameToIndex);
 
@@ -101,7 +101,7 @@ export default function GalleryNews() {
           )}
 
           {/* Announcements Page */}
-          {active === 3 && (
+          {/* {active === 3 && (
             <motion.div
               key={active}
               variants={animationVariants}
@@ -111,7 +111,7 @@ export default function GalleryNews() {
             >
               <Announcements />
             </motion.div>
-          )}
+          )} */}
         </AnimatePresence>
         <CTASchools />
       </main>

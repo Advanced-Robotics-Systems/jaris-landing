@@ -118,10 +118,10 @@ const Header = () => {
               className="max-sm:hidden sm:h-12 xl:h-16"
             />
             <Image
-							src="/logos/jawahir-logo.png"
-							alt="Jawahir International School"
-							className="sm:hidden h-10"
-						/>
+              src="/logos/jawahir-logo.png"
+              alt="Jawahir International School"
+              className="sm:hidden h-10"
+            />
           </Link>
         </div>
 
@@ -134,13 +134,19 @@ const Header = () => {
               onMouseEnter={() => handleMouseEnter(item.name)}
               onMouseLeave={handleMouseLeave}
             >
-              <Link
-                size="lg"
-                href={item.link}
-                className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center"
-              >
-                {item.name}
-              </Link>
+              {item.link ? (
+                <Link
+                  size="lg"
+                  href={item.link}
+                  className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center"
+                >
+                  {item.name}
+                </Link>
+              ) : (
+                <div className="px-8 py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none">
+                  {item.name}
+                </div>
+              )}
               {item.sublinks && isOpen === item.name && (
                 <motion.ul
                   initial="hidden"

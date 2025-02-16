@@ -8,7 +8,7 @@ export const navItems = [
   },
   {
     name: "Admission",
-    link: "/admission",
+    // link: "/admission",
     sublinks: [
       {
         name: "Admission Info",
@@ -62,7 +62,7 @@ export const navItems = [
   },
   {
     name: "Portal",
-    link: "http://sms.jawahirschool.com/site/userlogin",
+    // link: "http://sms.jawahirschool.com/site/userlogin",
     sublinks: [
       {
         name: "Gallery",
@@ -93,20 +93,10 @@ export const navItems = [
       {
         name: "News",
         link: "/news-gallery#news",
-        sublinks: [
-          {
-            name: "News",
-            link: "/news-gallery#news",
-          },
-          {
-            name: "Events",
-            link: "/news-gallery#events",
-          },
-          {
-            name: "Announcements",
-            link: "/news-gallery#announcements",
-          },
-        ],
+      },
+      {
+        name: "Events",
+        link: "/news-gallery#events",
       },
       {
         name: "Student",
@@ -170,7 +160,7 @@ export const navItems = [
   },
   {
     name: "About",
-    link: "/about",
+    // link: "/about",
     sublinks: [
       {
         name: "Who We Are",
@@ -1762,10 +1752,10 @@ export const newsNavItems = [
     title: "Events",
     subtitle: "Our",
   },
-  {
-    title: "Announcements",
-    subtitle: "Check",
-  },
+  // {
+  //   title: "Announcements",
+  //   subtitle: "Check",
+  // },
 ];
 
 export const galleryPhotos = [
