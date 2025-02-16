@@ -317,13 +317,22 @@ const Header = () => {
               {navItems.map((item) => (
                 <li key={item.name}>
                   <div className="flex items-center">
-                    <Link
-                      size="lg"
-                      className="px-4 py-3 text-jaris-blue font-medium"
-                      href={item.link}
-                    >
-                      {item.name}
-                    </Link>
+                    {item.link ? (
+                      <Link
+                        size="lg"
+                        className="px-4 py-3 text-jaris-blue font-medium"
+                        href={item.link}
+                      >
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <div
+                        className="px-4 py-3 text-jaris-blue font-medium text-lg mt-[1px]"
+                        onClick={() => toggleMobileSubMenu(item.name)}
+                      >
+                        {item.name}
+                      </div>
+                    )}
                     {item.sublinks && (
                       <button
                         onClick={() => toggleMobileSubMenu(item.name)}

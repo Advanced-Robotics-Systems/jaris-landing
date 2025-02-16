@@ -4,7 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState, Suspense } from "react";
 import { newsCarouselItems, newsNavItems } from "@/data";
 import {
-  Announcements,
+  // Announcements,
   CTASchools,
   Events,
   Footer,
