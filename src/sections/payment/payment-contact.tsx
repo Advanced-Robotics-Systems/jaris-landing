@@ -1,6 +1,13 @@
 import { paymentContactDetails } from "@/data";
 import { ICONS } from "@/utils/icons";
-import { Button, Card, CardBody, CardFooter, CardHeader, Image } from "@nextui-org/react";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  Image,
+} from "@nextui-org/react";
 
 const PaymentContact = () => {
   return (
@@ -21,7 +28,8 @@ const PaymentContact = () => {
         </CardHeader>
         <CardBody className="flex flex-col gap-4">
           <p className="subtitle">
-            If you have any queries, Get In Touch. If you require some assistance, Get In Touch!
+            If you have any queries, Get In Touch. If you require some
+            assistance, Get In Touch!
           </p>
           <div className="subtitle flex gap-2 items-center">
             <span className="text-jaris-gold">{ICONS.phone}</span>
@@ -32,12 +40,22 @@ const PaymentContact = () => {
             <p>{paymentContactDetails.email}</p>
           </div>
           <div className="subtitle flex gap-2 items-center">
-            <span className="text-jaris-gold self-start pt-1">{ICONS.mail_box}</span>
+            <span className="text-jaris-gold self-start pt-1">
+              {ICONS.mail_box}
+            </span>
             <p>{paymentContactDetails.address}</p>
           </div>
         </CardBody>
         <CardFooter>
-          <Button as="a" href="/contact" size="lg" className="mt-4" color="warning">Contact Us</Button>
+          <Button
+            as="a"
+            href="/contact"
+            size="lg"
+            className="mt-4"
+            color="warning"
+          >
+            Contact Us
+          </Button>
         </CardFooter>
       </Card>
     </div>

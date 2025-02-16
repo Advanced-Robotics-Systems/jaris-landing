@@ -4,7 +4,7 @@ export const faqContents = [
     question:
       "What age does the school accept students in Pre-school, KG 1, KG 2, Grade 1?",
     answer:
-      "Jawahir AlRiyadh International School accepts students from 3 years old for Pre-school, 4 years old for KG 1, 5 years old for KG 2, and 6 years old for Grade 1.",
+      "Jawahir Al-Riyadh International School accepts students from 3 years old for Pre-school, 4 years old for KG 1, 5 years old for KG 2, and 6 years old for Grade 1.",
   },
   {
     id: 2,
@@ -15,29 +15,29 @@ export const faqContents = [
   {
     id: 3,
     question:
-      "Jawahir AlRiyadh International School (JARIS) is a SAT testing center. Can my student register for the exam through the school?",
+      "Jawahir Al-Riyadh International School (JARIS) is a SAT testing center. Can my student register for the exam through the school?",
     answer:
-      "Yes, your student can register for the SAT exam directly through Jawahir AlRiyadh International School as it is a registered SAT testing center.",
+      "Yes, your student can register for the SAT exam directly through Jawahir Al-Riyadh International School as it is a registered SAT testing center.",
   },
   {
     id: 4,
     question:
       "What age does the school accept students in Pre-school, KG 1, KG 2, Grade 1?",
     answer:
-      "Yes, your student can register for the SAT exam directly through Jawahir AlRiyadh International School as it is a registered SAT testing center.",
+      "Pre-school: 3 years, KG 1: 4 years, KG 2: 5 years, Grade 1: 6 years.",
   },
   {
     id: 5,
     question:
       "My child is registered in another SAT testing center. Can he/she change to your center?",
     answer:
-      "Yes, students can transfer their SAT registration to Jawahir AlRiyadh International School. Parents should contact the current testing center and make the necessary arrangements to transfer.",
+      "Yes, students can transfer their SAT registration to Jawahir Al-Riyadh International School. Parents should contact the current testing center and make the necessary arrangements to transfer.",
   },
   {
     id: 6,
-    question: "Is Jawahir AlRiyadh International School Accredited?",
+    question: "Is Jawahir Al-Riyadh International School Accredited?",
     answer:
-      "Yes, Jawahir AlRiyadh International School is accredited by international educational organizations, ensuring high standards in curriculum and teaching.",
+      "Yes, Jawahir Al-Riyadh International School is accredited by international educational organizations, ensuring high standards in curriculum and teaching.",
   },
   {
     id: 7,
@@ -67,35 +67,35 @@ export const faqContents = [
   {
     id: 11,
     question:
-      "Who oversees Jawahir AlRiyadh International School (JARIS) and makes curriculum decisions?",
+      "Who oversees Jawahir Al-Riyadh International School (JARIS) and makes curriculum decisions?",
     answer:
       "The school is overseen by a board of educational experts who work in line with international standards to make curriculum and policy decisions.",
   },
   {
     id: 12,
     question:
-      "Why should I choose Jawahir AlRiyadh over other international schools in Riyadh?",
+      "Why should I choose Jawahir Al-Riyadh over other international schools in Riyadh?",
     answer:
-      "Jawahir AlRiyadh offers a high-quality, internationally accredited curriculum, a focus on holistic student development, state-of-the-art facilities, and a diverse community that prepares students for global success.",
+      "Jawahir Al-Riyadh offers a high-quality, internationally accredited curriculum, a focus on holistic student development, state-of-the-art facilities, and a diverse community that prepares students for global success.",
   },
   {
     id: 13,
     question:
-      "How do I enroll my student at Jawahir AlRiyadh International School?",
+      "How do I enroll my student at Jawahir Al-Riyadh International School?",
     answer:
       "To enroll, visit the school's admissions page, fill out the online application, submit the required documents, and schedule an interview with the admissions team.",
   },
   {
     id: 14,
     question:
-      "What academic calendar does Jawahir AlRiyadh International School follow?",
+      "What academic calendar does Jawahir Al-Riyadh International School follow?",
     answer:
       "The school follows a standard academic calendar, starting in August and concluding in June, with holidays and breaks throughout the year as per Saudi regulations.",
   },
   {
     id: 15,
     question:
-      "Does Jawahir AlRiyadh International School offer extracurricular activities?",
+      "Does Jawahir Al-Riyadh International School offer extracurricular activities?",
     answer:
       "Yes, the school offers a wide range of extracurricular activities, including sports, music, art, and various clubs to foster student development beyond academics.",
   },
@@ -121,7 +121,7 @@ export const faqContents = [
   },
   {
     id: 19,
-    question: "Does Jawahir AlRiyadh International School offer sports?",
+    question: "Does Jawahir Al-Riyadh International School offer sports?",
     answer:
       "Yes, the school offers a wide range of sports, including football, basketball, swimming, and more.",
   },

@@ -7,7 +7,8 @@ const AboutSJaris = () => {
     <div
       className="relative padding lg:px-32 md:py-32 lg:py-48 xl:py-56 flex flex-col lg:flex-row justify-between items-start gap-8 bg-cover bg-center"
       style={{
-        backgroundImage: "url(/images/about/sjaris-bg.jpeg)",
+        backgroundImage:
+          "url(/images/gallery/new-gallery-pictures/_DSC0219-Enhanced-NR.jpg)",
       }}
     >
       <div className="absolute inset-0 bg-jaris-gold opacity-50 " />
@@ -82,28 +83,32 @@ const AboutSJaris = () => {
         </div>
       </div>
 
-			{/* Right Curriculum Section */}
-			<div className="relative z-10 lg:w-1/3 flex flex-col lg:flex-row gap-4 lg:justify-end">
-				<div className="p-4 flex flex-col items-center bg-white/20 backdrop-blur-lg rounded-lg">
-					<h3 className="text-white font-semibold text-lg heading-secondary uppercase">
-						Curriculum
-					</h3>
-					<hr className="left-1/2 w-full mt-2 border-t-[1px] border-white opacity-60" />
-					<div className="flex lg:flex-col gap-6 mt-4 items-center justify-center flex-wrap">
-						{sJarisCurriculumImages.map((curriculum, index) => (
-							<Image
-								key={index}
-								src={curriculum.imgSrc}
-								alt={curriculum.title}
-								width={90}
-								className={`h-auto ${curriculum.title === 'Jawahir' ? 'rounded-full' : 'rounded-none'}`}
-							/>
-						))}
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+      {/* Right Curriculum Section */}
+      <div className="relative z-10 lg:w-1/3 flex flex-col lg:flex-row gap-4 lg:justify-end">
+        <div className="p-4 flex flex-col items-center bg-white/20 backdrop-blur-lg rounded-lg">
+          <h3 className="text-white font-semibold text-lg heading-secondary uppercase">
+            Curriculum
+          </h3>
+          <hr className="left-1/2 w-full mt-2 border-t-[1px] border-white opacity-60" />
+          <div className="flex lg:flex-col gap-6 mt-4 items-center justify-center flex-wrap">
+            {sJarisCurriculumImages.map((curriculum, index) => (
+              <Image
+                key={index}
+                src={curriculum.imgSrc}
+                alt={curriculum.title}
+                width={90}
+                className={`h-auto ${
+                  curriculum.title === "Jawahir"
+                    ? "rounded-full"
+                    : "rounded-none"
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default AboutSJaris;

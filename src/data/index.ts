@@ -35,28 +35,28 @@ export const navItems = [
       {
         name: "Curriculum",
         link: "/admission/curriculum",
-        sublinks: [
-          {
-            name: "British",
-            link: "/admission/curriculum",
-          },
-          {
-            name: "American",
-            link: "/admission/curriculum",
-          },
-          {
-            name: "Pakistan",
-            link: "/admission/curriculum",
-          },
-          {
-            name: "Sudan",
-            link: "/admission/curriculum",
-          },
-          {
-            name: "Egypt",
-            link: "/admission/curriculum",
-          },
-        ],
+        // sublinks: [
+        //   {
+        //     name: "British",
+        //     link: "/admission/curriculum",
+        //   },
+        //   {
+        //     name: "American",
+        //     link: "/admission/curriculum",
+        //   },
+        //   {
+        //     name: "Pakistan",
+        //     link: "/admission/curriculum",
+        //   },
+        //   {
+        //     name: "Sudan",
+        //     link: "/admission/curriculum",
+        //   },
+        //   {
+        //     name: "Egypt",
+        //     link: "/admission/curriculum",
+        //   },
+        // ],
       },
     ],
   },
@@ -203,16 +203,16 @@ export const navItems = [
   {
     name: "Contact",
     link: "/contact",
-    sublinks: [
-      {
-        name: "Contact Us",
-        link: "/contact",
-      },
-      {
-        name: "My Email Login",
-        link: "#",
-      },
-    ],
+    // sublinks: [
+    //   {
+    //     name: "Contact Us",
+    //     link: "/contact",
+    //   },
+    //   {
+    //     name: "My Email Login",
+    //     link: "#",
+    //   },
+    // ],
   },
 ];
 
@@ -336,7 +336,7 @@ export const homePartnerSlides = [
   },
   {
     title: "College Board",
-    imgUrl: "/images/home/collegeboard.svg",
+    imgUrl: "/images/home/collegeBoard.svg",
   },
   {
     title: "AP",
@@ -402,23 +402,23 @@ export const ctaSchoolsCarouselItems = [
 export const aboutHeroCarouselItems = [
   {
     title: "About Us",
-    subtitle: "Find out more about JARIS",
-    imgUrl: "/images/about/about-hero-carousel-slide-1.jpeg",
+    subtitle: "Your journey starts here",
+    imgUrl: "/images/about/about-hero-carousel-slide-1.jpg",
   },
   {
     title: "About Us",
-    subtitle: "Find out more about JARIS",
-    imgUrl: "/images/about/about-hero-carousel-slide-2.jpeg",
+    subtitle: "Become a part of JARIS",
+    imgUrl: "/images/about/about-hero-carousel-slide-2.jpg",
   },
   {
     title: "About Us",
-    subtitle: "Find out more about JARIS",
-    imgUrl: "/images/about/about-hero-carousel-slide-3.jpeg",
+    subtitle: "Our state-of-the-art sports facilities",
+    imgUrl: "/images/about/about-hero-carousel-slide-3.jpg",
   },
   {
     title: "About Us",
-    subtitle: "Find out more about JARIS",
-    imgUrl: "/images/about/about-hero-carousel-slide-4.jpeg",
+    subtitle: "Experience an organised and modern facilities",
+    imgUrl: "/images/about/about-hero-carousel-slide-4.jpg",
   },
 ];
 
@@ -470,15 +470,15 @@ export const facilities = [
   },
   {
     title: "Computer Lab",
-    imgUrl: "/images/about/facility-computer.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0210-Enhanced-NR.jpg",
   },
 ];
 
 export const fJarisCurriculumImages = [
-  {
-    title: "Jawahir",
-    imgSrc: "/logos/jaris-logo-solid.jpeg",
-  },
+  // {
+  //   title: "Jawahir",
+  //   imgSrc: "/logos/jaris-logo-solid.jpeg",
+  // },
   {
     title: "Cambridge",
     imgSrc: "/images/about/cambridge-white.png",
@@ -486,13 +486,13 @@ export const fJarisCurriculumImages = [
 ];
 
 export const sJarisCurriculumImages = [
-  {
-    title: "Jawahir",
-    imgSrc: "/logos/jaris-logo-solid.jpeg",
-  },
+  // {
+  //   title: "Jawahir",
+  //   imgSrc: "/logos/jaris-logo-solid.jpeg",
+  // },
   {
     title: "College Board",
-    imgSrc: "/images/home/collegeboard.svg",
+    imgSrc: "/images/home/collegeBoard.svg",
   },
   {
     title: "AP",
@@ -509,10 +509,10 @@ export const sJarisCurriculumImages = [
 ];
 
 export const tJarisCurriculumImages = [
-  {
-    title: "Jawahir",
-    imgSrc: "/logos/jaris-logo-solid.jpeg",
-  },
+  // {
+  //   title: "Jawahir",
+  //   imgSrc: "/logos/jaris-logo-solid.jpeg",
+  // },
   {
     title: "Edexcel",
     imgSrc: "/images/home/edexcel.svg",
@@ -657,17 +657,17 @@ export const contactCarouselItems = [
   {
     title: "Need Help?",
     subtitle: "We're here to help. Find our contact information below",
-    imgUrl: "/images/contact/contact-slide-2.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0170-Enhanced-NR.jpg",
   },
   {
     title: "Whatsapp",
     subtitle: "WhatsApp us and immediately get your info.",
-    imgUrl: "/images/contact/contact-slide-3.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0254-Enhanced-NR.jpg",
   },
   {
     title: "Join US",
     subtitle: "Join our community and grow to your highest potential.",
-    imgUrl: "/images/contact/contact-slide-4.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0264-Enhanced-NR.jpg",
   },
 ];
 
@@ -684,10 +684,10 @@ export const contactNavItems = [
     title: "FAQ",
     subtitle: "Check out",
   },
-  {
-    title: "My Email",
-    subtitle: "Access",
-  },
+  // {
+  //   title: "My Email",
+  //   subtitle: "Access",
+  // },
 ];
 
 export const staffContactDetailsTable = [
@@ -841,7 +841,7 @@ export const contactExperienceCards = [
   {
     icon: ICONS.clock,
     title: "Opening Hours",
-    subtitle: ["SUN - THU : 6.30AM - 12.30PM", "FRI - SAT : closed"],
+    subtitle: ["SUN - THU : 6.30AM - 12.30PM", "FRI - SAT : CLOSED"],
   },
 ];
 
@@ -957,7 +957,7 @@ export const labData = [
     name: "Computer Lab",
     description:
       "Our Computer labs are equipped with the latest hardware and software to support both programming and digital literacy. With high-speed internet and a variety of applications, students are able to explore coding, software development, data analysis, and more, preparing them for the ever-evolving world of technology.",
-    imgSrc: "/images/facilities/facilities-computer.jpeg",
+    imgSrc: "/images/gallery/new-gallery-pictures/_DSC0210-Enhanced-NR.jpg",
   },
 ];
 
@@ -1730,22 +1730,22 @@ export const newsCarouselItems = [
   {
     title: "Gallery",
     subtitle: "Find out more about JARIS",
-    imgUrl: "/images/gallery/gallery-carousel/gallery-carousel-slide-1.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0293-Enhanced-NR.jpg",
   },
   {
     title: "Need help?",
     subtitle: "We're here to help. Find our contact information below",
-    imgUrl: "/images/gallery/gallery-carousel/gallery-carousel-slide-2.jpeg",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0165-Enhanced-NR.jpg",
   },
   {
-    title: "Whatsapp",
-    subtitle: "WhatsApp us and immediately get your info.",
-    imgUrl: "/images/gallery/gallery-carousel/gallery-carousel-slide-3.jpeg",
+    title: "Culture",
+    subtitle: "Celebrating Diverse Cultures",
+    imgUrl: "/images/gallery/new-gallery-pictures/nursery.jpeg",
   },
   {
-    title: "Join Us",
-    subtitle: "Join our community and grow to your highest potential.",
-    imgUrl: "/images/gallery/gallery-carousel/gallery-carousel-slide-3.jpeg",
+    title: "Sports",
+    subtitle: "Fostering Competitive Sport Activities",
+    imgUrl: "/images/gallery/new-gallery-pictures/_DSC0342-Enhanced-NR.jpg",
   },
 ];
 
