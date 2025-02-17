@@ -3,7 +3,10 @@ import React from "react";
 
 const AdmissionProcedure = () => {
   return (
-    <div className="relative h-full lg:h-screen bg-[url('/images/admission/admission-procedure-bg.jpg')] bg-cover bg-center padding md:py-40 lg:px-56 xl:px-72">
+    <div
+      className="relative h-full lg:h-screen bg-[url('/images/admission/admission-procedure-bg.jpg')] bg-cover bg-center padding md:py-40 lg:px-56 xl:px-72"
+      id="admission-procedure"
+    >
       <div className="absolute inset-0 bg-bg-primary/90" />
 
       <div className="relative z-20 flex flex-col md:flex-row items-center justify-between gap-8">

@@ -1,20 +1,24 @@
 import { availableTimes } from "@/data";
 import { Button, Card, CardBody } from "@nextui-org/react";
+import Link from "next/link";
 
 const SchoolAdmissionCTA = () => {
   return (
     <div className="padding bg-jaris-white flex max-lg:flex-col items-center justify-center gap-8 lg:gap-12 lg:px-64 xl:px-80 2xl:px-96">
       <Card className="bg-jaris-white shadow-lg p-6 flex-1">
         <div className="flex flex-col items-start gap-4">
-          <h3 className="heading-secondary text-jaris-blue font-semibold">Interested?</h3>
+          <h3 className="heading-secondary text-jaris-blue font-semibold">
+            Interested?
+          </h3>
           <p className="subtitle text-jaris-black">
-            To learn about the admission procedure, check Admission. Or you can apply now online.
+            To learn about the admission procedure, check Admission. Or you can
+            apply now online.
           </p>
           <div className="flex flex-wrap gap-4 w-full">
             <Button
               size="lg"
-              as="a"
-              href="#"
+              as={Link}
+              href="/admission#admission-procedure"
               radius="full"
               className="flex-1 min-w-[150px] border border-jaris-gold text-jaris-gold bg-jaris-gold/20"
             >
@@ -23,7 +27,7 @@ const SchoolAdmissionCTA = () => {
             <Button
               size="lg"
               as="a"
-              href="#"
+              href="http://admissionform.jawahirschool.com/"
               radius="full"
               className="flex-1 min-w-[150px] bg-jaris-gold text-jaris-white"
             >
@@ -38,7 +42,10 @@ const SchoolAdmissionCTA = () => {
           <h3 className="subtitle font-semibold">We are available!</h3>
           <ul className="w-full flex flex-col gap-3">
             {availableTimes.map((slot, index) => (
-              <li key={index} className="flex justify-between gap-6 w-full font-light small-text">
+              <li
+                key={index}
+                className="flex justify-between gap-6 w-full font-light small-text"
+              >
                 <span>{slot.day}</span>
                 <span>{slot.time}</span>
               </li>

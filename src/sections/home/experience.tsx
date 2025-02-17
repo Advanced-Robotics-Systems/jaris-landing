@@ -28,7 +28,10 @@ const Experience = () => {
       </div>
 
       <div className="w-full">
-        <Marquee pauseOnHover className="flex items-center justify-around">
+        <Marquee
+          pauseOnHover
+          className="flex items-center justify-around select-none"
+        >
           {homePartnerSlides.map((partner: any, index: number) => (
             <div
               key={index}

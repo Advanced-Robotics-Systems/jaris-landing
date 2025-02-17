@@ -310,7 +310,7 @@ export const homeExperiences = [
   {
     title: "One of the Top Schools in Saudi Arabia",
     subtitle:
-      "Jaris stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
+      "JARIS stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
   },
   {
     title: "20 Nationalities Represented",
