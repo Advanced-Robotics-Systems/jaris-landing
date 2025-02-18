@@ -1,4 +1,5 @@
 import { ContactExperience, ContactForm } from "@/sections";
+import { MapComponent } from "@/components";
 import Image from "next/image";
 import mapImage from "../../../public/images/contact/contact-map-image.jpg";
 
@@ -22,26 +23,14 @@ const ContactGetInTouch = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full mt-8">
-        <div className="w-full md:w-1/2 flex flex-col bg-bg-text px-2 pt-3 pb-8">
-          <Image
+        {/* <Image
             src={mapImage}
             alt="Map Image"
             width={586}
             height={502}
             // objectFit="cover"
-          />
-          <div className="flex gap-1 h-12">
-            <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              1st JARIS
-            </div>
-            <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              2nd JARIS
-            </div>
-            <div className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
-              3rd JARIS
-            </div>
-          </div>
-        </div>
+          /> */}
+        <MapComponent />
         <ContactForm />
       </div>
       <ContactExperience />

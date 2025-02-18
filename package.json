@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
+    "@vis.gl/react-maplibre": "^8.0.1",
     "framer-motion": "^11.9.0",
+    "maplibre-gl": "^5.1.0",
     "next": "14.2.13",
     "react": "^18",
     "react-countup": "^6.5.3",

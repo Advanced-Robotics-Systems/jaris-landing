@@ -3,6 +3,7 @@ import ExperienceCard from "./experience-card/experience-card";
 import CountCard from "./count-card/count-card";
 import ExploreCard from "./explore-card/explore-card";
 import WhatsappWidget from "./whatsapp-widget/whatsapp-widget";
+import MapComponent from "./map-component/map-component";
 
 export {
   HomeHeroSlide,
@@ -10,4 +11,5 @@ export {
   CountCard,
   ExploreCard,
   WhatsappWidget,
-}
+  MapComponent,
+};
