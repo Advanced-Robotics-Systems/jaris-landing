@@ -825,7 +825,7 @@ export const contactExperienceCards = [
   },
   {
     icon: ICONS.email,
-    title: "3rd JARIS (NI)",
+    title: "3rd JARIS",
     subtitle: ["zahid.jaris@gmail.com"],
   },
   {

@@ -24,7 +24,7 @@ export default function Contact() {
     "#getintouch": 0,
     "#staff": 1,
     "#faq": 2,
-    "#myemail": 3,
+    // "#myemail": 3,
   };
 
   useEffect(() => {
