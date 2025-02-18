@@ -9,24 +9,24 @@ import "maplibre-gl/dist/maplibre-gl.css";
 const locations = [
   {
     name: "1st JARIS",
-    // latitude: 24.67376139412055,
-    // longitude: 46.72046574868544,
-    latitude: 24.673761,
-    longitude: 46.720466,
+    latitude: 24.67376139412055,
+    longitude: 46.72046574868544,
+    // latitude: 24.673761,
+    // longitude: 46.720466,
   },
   {
     name: "2nd JARIS",
-    // latitude: 24.666693923205354,
-    // longitude: 46.70306593318544,
-    latitude: 24.666694,
-    longitude: 46.703066,
+    latitude: 24.666693923205354,
+    longitude: 46.70306593318544,
+    // latitude: 24.666694,
+    // longitude: 46.703066,
   },
   {
     name: "3rd JARIS",
-    // latitude: 24.666759071766748,
-    // longitude: 46.70879792698207,
-    latitude: 24.666759,
-    longitude: 46.708798,
+    latitude: 24.666759071766748,
+    longitude: 46.70879792698207,
+    // latitude: 24.666759,
+    // longitude: 46.708798,
   },
 ];
 
@@ -74,13 +74,22 @@ const MapComponent = () => {
       </div>
       <div className="flex gap-1 h-12 bg-bg-text">
         <ButtonGroup>
-          <Button className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
+          <Button
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            onPress={() => setCurrentSchool(0)}
+          >
             1st JARIS
           </Button>
-          <Button className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
+          <Button
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            onPress={() => setCurrentSchool(1)}
+          >
             2nd JARIS
           </Button>
-          <Button className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background">
+          <Button
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            onPress={() => setCurrentSchool(2)}
+          >
             3rd JARIS
           </Button>
         </ButtonGroup>
