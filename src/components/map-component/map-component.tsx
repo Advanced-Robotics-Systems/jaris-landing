@@ -2,7 +2,7 @@
 
 import { Button, ButtonGroup } from "@nextui-org/react";
 import { Map, Marker, useMap } from "@vis.gl/react-maplibre";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
 
 import "maplibre-gl/dist/maplibre-gl.css";
 
@@ -11,16 +11,19 @@ const locations = [
     name: "1st JARIS",
     latitude: 24.67376139412055,
     longitude: 46.72046574868544,
+    link: "https://maps.app.goo.gl/hZ1akMiPkMF7idE2A?g_st=com.google.maps.preview.copy",
   },
   {
     name: "2nd JARIS",
     latitude: 24.666693923205354,
     longitude: 46.70306593318544,
+    link: "https://maps.app.goo.gl/9zQsL4rdoA2ZJ5bPA?g_st=com.google.maps.preview.copy",
   },
   {
     name: "3rd JARIS",
     latitude: 24.666759071766748,
     longitude: 46.70879792698207,
+    link: "https://maps.app.goo.gl/gdzRK9yG2GpEEeJZ8?g_st=com.google.maps.preview.copy",
   },
 ];
 
@@ -97,7 +100,7 @@ const CustomMarker = ({
   isS,
   setIsS,
 }: {
-  item: { latitude: number; longitude: number };
+  item: { name: string; latitude: number; longitude: number; link: string };
   currentS: number;
   isS: boolean;
   setIsS: Dispatch<SetStateAction<boolean>>;
@@ -121,7 +124,14 @@ const CustomMarker = ({
   }, [map, currentS, isS]);
 
   return (
-    <Marker longitude={item.longitude} latitude={item.latitude} color="black" />
+    <Marker
+      longitude={item.longitude}
+      latitude={item.latitude}
+      color="black"
+      onClick={() => {
+        window.open(item.link, "_blank");
+      }}
+    />
   );
 };
 
