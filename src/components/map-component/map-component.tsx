@@ -1,26 +1,26 @@
 "use client";
 
 import { Button, ButtonGroup } from "@nextui-org/react";
-import { Map, Marker, useMap } from "@vis.gl/react-maplibre";
+import { Map, Marker, Popup, useMap } from "@vis.gl/react-maplibre";
 import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
 
 import "maplibre-gl/dist/maplibre-gl.css";
 
 const locations = [
   {
-    name: "1st JARIS",
+    name: "First Jawahir Al-Riyadh International School",
     latitude: 24.67376139412055,
     longitude: 46.72046574868544,
     link: "https://maps.app.goo.gl/hZ1akMiPkMF7idE2A?g_st=com.google.maps.preview.copy",
   },
   {
-    name: "2nd JARIS",
+    name: "Second Jawahir Al-Riyadh International School",
     latitude: 24.666693923205354,
     longitude: 46.70306593318544,
     link: "https://maps.app.goo.gl/9zQsL4rdoA2ZJ5bPA?g_st=com.google.maps.preview.copy",
   },
   {
-    name: "3rd JARIS",
+    name: "Third Jawahir Al-Riyadh International School",
     latitude: 24.666759071766748,
     longitude: 46.70879792698207,
     link: "https://maps.app.goo.gl/gdzRK9yG2GpEEeJZ8?g_st=com.google.maps.preview.copy",
@@ -40,7 +40,7 @@ const MapComponent = () => {
   };
 
   return (
-    <div className="w-full md:w-1/2 flex flex-col gap-y-3 bg-bg-text px-2 pt-3 pb-8">
+    <div className="w-full md:w-1/2 flex flex-col gap-y-3 bg-bg-text px-2 pt-3 pb-8 rounded-lg">
       <div className="w-full h-[500px]">
         <Map
           initialViewState={{
@@ -55,6 +55,7 @@ const MapComponent = () => {
             width: "100%",
             height: "100%",
             overflow: "hidden",
+            borderRadius: "8px",
           }}
         >
           {locations.map((item, index) => (
@@ -68,8 +69,8 @@ const MapComponent = () => {
           ))}
         </Map>
       </div>
-      <div className="flex gap-1 h-12 bg-bg-text">
-        <ButtonGroup>
+      <div className="flex items-center justify-between h-12 bg-bg-text">
+        <ButtonGroup className="h-full">
           <Button
             className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
             onPress={() => handlePress(0)}
@@ -89,6 +90,9 @@ const MapComponent = () => {
             3rd JARIS
           </Button>
         </ButtonGroup>
+        <span className="text-gray-400">
+          Click on the Map Marker to open in Google Maps!
+        </span>
       </div>
     </div>
   );
@@ -124,14 +128,31 @@ const CustomMarker = ({
   }, [map, currentS, isS]);
 
   return (
-    <Marker
-      longitude={item.longitude}
-      latitude={item.latitude}
-      color="black"
-      onClick={() => {
-        window.open(item.link, "_blank");
-      }}
-    />
+    <>
+      <Marker
+        longitude={item.longitude}
+        latitude={item.latitude}
+        color="black"
+        onClick={() => {
+          window.open(item.link, "_blank");
+        }}
+        style={{
+          cursor: "pointer",
+        }}
+      />
+      <Popup
+        longitude={item.longitude}
+        latitude={item.latitude}
+        closeButton={false}
+        closeOnClick={false}
+        anchor="bottom"
+        offset={[0, -35]}
+      >
+        <span className="inline-block text-sm font-semibold text-black text-center">
+          {item.name}
+        </span>
+      </Popup>
+    </>
   );
 };
 
