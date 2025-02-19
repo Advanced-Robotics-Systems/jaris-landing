@@ -9,18 +9,21 @@ import "maplibre-gl/dist/maplibre-gl.css";
 const locations = [
   {
     name: "First Jawahir Al-Riyadh International School",
+    shortName: "1st JARIS",
     latitude: 24.67376139412055,
     longitude: 46.72046574868544,
     link: "https://maps.app.goo.gl/hZ1akMiPkMF7idE2A?g_st=com.google.maps.preview.copy",
   },
   {
     name: "Second Jawahir Al-Riyadh International School",
+    shortName: "2nd JARIS",
     latitude: 24.666693923205354,
     longitude: 46.70306593318544,
     link: "https://maps.app.goo.gl/9zQsL4rdoA2ZJ5bPA?g_st=com.google.maps.preview.copy",
   },
   {
     name: "Third Jawahir Al-Riyadh International School",
+    shortName: "3rd JARIS",
     latitude: 24.666759071766748,
     longitude: 46.70879792698207,
     link: "https://maps.app.goo.gl/gdzRK9yG2GpEEeJZ8?g_st=com.google.maps.preview.copy",
@@ -30,6 +33,7 @@ const locations = [
 const MapComponent = () => {
   const [currentSchool, setCurrentSchool] = useState(0);
   const [isSame, setIsSame] = useState(false);
+  const [zoom, setZoom] = useState(16);
 
   const handlePress = (x: number) => {
     if (x == currentSchool) {
@@ -48,6 +52,9 @@ const MapComponent = () => {
             longitude: locations[0].longitude,
             zoom: 16,
           }}
+          onZoom={(e) => setZoom(e.viewState.zoom)}
+          minZoom={12}
+          maxZoom={17}
           mapStyle="https://tiles.openfreemap.org/styles/liberty"
           attributionControl={false}
           style={{
@@ -65,6 +72,7 @@ const MapComponent = () => {
               currentS={currentSchool}
               isS={isSame}
               setIsS={setIsSame}
+              zoom={zoom}
             />
           ))}
         </Map>
@@ -103,11 +111,13 @@ const CustomMarker = ({
   currentS,
   isS,
   setIsS,
+  zoom,
 }: {
-  item: { name: string; latitude: number; longitude: number; link: string };
+  item: (typeof locations)[0];
   currentS: number;
   isS: boolean;
   setIsS: Dispatch<SetStateAction<boolean>>;
+  zoom: number;
 }) => {
   const { current: map } = useMap();
 
@@ -140,18 +150,26 @@ const CustomMarker = ({
           cursor: "pointer",
         }}
       />
-      <Popup
-        longitude={item.longitude}
-        latitude={item.latitude}
-        closeButton={false}
-        closeOnClick={false}
-        anchor="bottom"
-        offset={[0, -35]}
-      >
-        <span className="inline-block text-sm font-semibold text-black text-center">
-          {item.name}
-        </span>
-      </Popup>
+      {zoom > 12.85 && (
+        <Popup
+          longitude={item.longitude}
+          latitude={item.latitude}
+          closeButton={false}
+          closeOnClick={false}
+          anchor="bottom"
+          offset={[0, -35]}
+        >
+          {zoom > 14.4 ? (
+            <span className="inline-block text-sm font-semibold text-black text-center">
+              {item.name}
+            </span>
+          ) : (
+            <span className="inline-block text-xs font-semibold text-black text-center">
+              {item.shortName}
+            </span>
+          )}
+        </Popup>
+      )}
     </>
   );
 };
