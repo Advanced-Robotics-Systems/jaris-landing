@@ -44,8 +44,8 @@ const MapComponent = () => {
   };
 
   return (
-    <div className="w-full md:w-1/2 flex flex-col gap-y-3 bg-bg-text px-2 pt-3 pb-8 rounded-lg">
-      <div className="w-full h-[500px]">
+    <div className="w-full md:w-1/2 flex flex-col items-center gap-y-3 bg-bg-text px-2 pt-3 pb-8 rounded-lg">
+      <div className="w-full h-64 sm:h-96 lg:h-[500px]">
         <Map
           initialViewState={{
             latitude: locations[0].latitude,
@@ -77,28 +77,28 @@ const MapComponent = () => {
           ))}
         </Map>
       </div>
-      <div className="flex items-center justify-between h-12 bg-bg-text">
-        <ButtonGroup className="h-full">
+      <div className="flex flex-col xl:flex-row items-center gap-2 justify-between w-full xl:h-12 bg-bg-text">
+        <ButtonGroup fullWidth size="sm" className="max-w-96 h-12 xl:h-full">
           <Button
-            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full flex-1 cursor-pointer hover:bg-black/20 transition-background"
             onPress={() => handlePress(0)}
           >
             1st JARIS
           </Button>
           <Button
-            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full flex-1 cursor-pointer hover:bg-black/20 transition-background"
             onPress={() => handlePress(1)}
           >
             2nd JARIS
           </Button>
           <Button
-            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full w-28 cursor-pointer hover:bg-black/20 transition-background"
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full flex-1 cursor-pointer hover:bg-black/20 transition-background"
             onPress={() => handlePress(2)}
           >
             3rd JARIS
           </Button>
         </ButtonGroup>
-        <span className="text-gray-400">
+        <span className="text-gray-400 text-center">
           Click on the Map Marker to open in Google Maps!
         </span>
       </div>
