@@ -135,7 +135,7 @@ const CustomMarker = ({
       });
       setIsS(false);
     }
-  }, [map, currentS, isS]);
+  }, [map, currentS, isS, setIsS]);
 
   return (
     <>
