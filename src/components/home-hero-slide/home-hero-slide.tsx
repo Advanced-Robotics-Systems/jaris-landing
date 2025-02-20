@@ -2,11 +2,13 @@
 import { motion } from "framer-motion";
 
 const HomeHeroSlide = ({
+  index,
   subtitle,
   subtitleColored,
   title,
   imgUrl,
 }: {
+  index: number;
   subtitle: string;
   subtitleColored: string;
   title: string;
@@ -14,7 +16,9 @@ const HomeHeroSlide = ({
 }) => {
   return (
     <div
-      className={`relative h-full bg-cover bg-center padding flex items-center justify-center`}
+      className={`relative h-full bg-cover padding flex items-center justify-center ${
+        index == 1 ? "bg-[80%_center]" : index == 2 ? "bg-top" : "bg-center"
+      }`}
       style={{ backgroundImage: `url(${imgUrl})` }}
     >
       <div className="absolute inset-0 bg-jaris-blue opacity-35" />
@@ -28,7 +32,9 @@ const HomeHeroSlide = ({
           <span className="text-white">{subtitle}</span>{" "}
           <span className="text-jaris-gold">{subtitleColored}</span>
         </div>
-        <div className="text-4xl leading-[58px] sm:text-6xl md:text-7xl lg:text-8xl font-[700] text-white">{title}</div>
+        <div className="text-4xl leading-[58px] sm:text-6xl md:text-7xl lg:text-8xl font-[700] text-white">
+          {title}
+        </div>
       </motion.div>
     </div>
   );

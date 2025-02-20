@@ -86,7 +86,7 @@ const MapComponent = () => {
             1st JARIS
           </Button>
           <Button
-            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full flex-1 cursor-pointer hover:bg-black/20 transition-background"
+            className="flex items-center justify-center bg-jaris-white text-jaris-blue text-xs text-center font-bold h-full flex-1 cursor-pointer hover:bg-black/20 transition-background border-x border-gray-300"
             onPress={() => handlePress(1)}
           >
             2nd JARIS

@@ -114,18 +114,18 @@ export const navItems = [
             name: "Online Results",
             link: "http://result.jawahirschool.com/",
           },
-          {
-            name: "Exam Policies",
-            link: "/exam-policy",
-          },
-          {
-            name: "Classera Support",
-            link: "#",
-          },
-          {
-            name: "Withdrawal",
-            link: "#",
-          },
+          // {
+          //   name: "Exam Policies",
+          //   link: "/exam-policy",
+          // },
+          // {
+          //   name: "Classera Support",
+          //   link: "#",
+          // },
+          // {
+          //   name: "Withdrawal",
+          //   link: "#",
+          // },
         ],
       },
       {
@@ -145,16 +145,6 @@ export const navItems = [
       {
         name: "Payment Portal",
         link: "/payment",
-        sublinks: [
-          {
-            name: "Bank Details",
-            link: "/payment",
-          },
-          {
-            name: "Online Payment",
-            link: "#",
-          },
-        ],
       },
     ],
   },
@@ -290,19 +280,19 @@ export const homeCarouselItems = [
     subtitle: "DISCOVER",
     subtitleColored: "YOUR",
     title: "TALENTS",
-    imgUrl: "/images/home/home-hero-slide-1.jpeg",
+    imgUrl: "/images/home/home-hero-slide-1.JPG",
   },
   {
     subtitle: "FIND",
     subtitleColored: "YOUR",
     title: "COMMUNITY",
-    imgUrl: "/images/home/home-hero-slide-2.jpeg",
+    imgUrl: "/images/home/home-hero-slide-2.JPG",
   },
   {
     subtitle: "FOLLOW",
     subtitleColored: "YOUR",
     title: "PASSION",
-    imgUrl: "/images/home/home-hero-slide-3.png",
+    imgUrl: "/images/home/home-hero-slide-3.JPG",
   },
 ];
 
@@ -369,7 +359,7 @@ export const ctaSchoolsCarouselItems = [
     title: "INSPIRATION",
     subtitle:
       "Inspiration ignites the soul, turning dreams into action and ideas into reality.",
-    imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+    imgUrl: "/images/home/cta-school-carousel-slide-1.JPG",
   },
   {
     title: "LEADERSHIP",

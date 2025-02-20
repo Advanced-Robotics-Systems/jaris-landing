@@ -15,7 +15,7 @@ const PaymentContact = () => {
       {/* Image Section */}
       <div className="flex-1">
         <Image
-          src="/images/payment/payment-image.jpeg"
+          src="/images/payment/payment-image.jpg"
           alt="Contact"
           className="rounded-lg w-full h-auto"
         />
