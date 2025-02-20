@@ -2084,7 +2084,7 @@ export const newsBannerItems = [
     modal: {
       insideImg: "/images/gallery/news-banners/modals/modal-annual-day.jpeg",
       longDescription:
-        "Annual Day at Jawahir International School. The Baptist High School saw life and energy being propelled into an 'ethos inspiring vision' formulated by the school this year. Next came the Primary students with their depiction of compassionate mother nature being ravaged by the reckless insensitive actions of man. Through song and dance they inculcated Eco-friendly attitudes.",
+        "Annual Day at Jawahir International School. The High School saw life and energy being propelled into an 'ethos inspiring vision' formulated by the school this year. Next came the Primary students with their depiction of compassionate mother nature being ravaged by the reckless insensitive actions of man. Through song and dance they inculcated Eco-friendly attitudes.",
     },
   },
   {
