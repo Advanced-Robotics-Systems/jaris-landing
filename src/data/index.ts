@@ -143,6 +143,10 @@ export const navItems = [
         ],
       },
       {
+        name: "My Email",
+        link: "https://www.jawahirschool.com:2096/",
+      },
+      {
         name: "Payment Portal",
         link: "/payment",
       },
