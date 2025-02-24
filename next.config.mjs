@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/cpanel",
-        destination: "http://admin.jawahirschool.com:2083",
+        destination: "http://mail.jawahirschool.com:2083",
         permanent: true,
       },
       {
         source: "/whm",
-        destination: "http://admin.jawahirschool.com:2087",
+        destination: "http://mail.jawahirschool.com:2087",
         permanent: true,
       },
     ];
