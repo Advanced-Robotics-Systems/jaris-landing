@@ -96,7 +96,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
         <p className="text-xs text-jaris-white/60">
-          &copy; 2024 JAWAHIR AL-RIYADH EDUCATION COMPANY
+          &copy; 2025 JAWAHIR AL-RIYADH EDUCATIONAL COMPANY
         </p>
         <div className="flex gap-4 text-center">
           {/* School Names */}
