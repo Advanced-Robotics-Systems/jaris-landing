@@ -144,7 +144,7 @@ export const navItems = [
       },
       {
         name: "My Email",
-        link: "https://mail.jawahirschool.com:2096/",
+        link: "https://p3plzcpnl506288.prod.phx3.secureserver.net:2096",
       },
       {
         name: "Payment Portal",

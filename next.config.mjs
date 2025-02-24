@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/cpanel",
-        destination: "http://mail.jawahirschool.com:2083",
+        destination: "https://p3plzcpnl506288.prod.phx3.secureserver.net:2083",
         permanent: true,
       },
       {
         source: "/whm",
-        destination: "http://mail.jawahirschool.com:2087",
+        destination: "https://p3plzcpnl506288.prod.phx3.secureserver.net:2087",
         permanent: true,
       },
     ];
