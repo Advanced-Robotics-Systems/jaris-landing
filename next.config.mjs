@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: "/whm",
-        destination: "http://admin.jawahirschool.com:2086",
+        destination: "http://admin.jawahirschool.com:2087",
         permanent: true,
       },
     ];
