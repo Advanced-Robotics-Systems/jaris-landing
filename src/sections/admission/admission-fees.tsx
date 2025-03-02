@@ -7,6 +7,7 @@ import {
   CardFooter,
   Button,
 } from "@nextui-org/react";
+import Link from "next/link";
 
 const AdmissionFees = () => {
   const pdfUrl = "/files/fee-structure 23-24.pdf";
@@ -29,7 +30,7 @@ const AdmissionFees = () => {
           target="_blank"
           className="border border-jaris-white text-jaris-white bg-jaris-white/20"
         >
-          <span className="text-xl -mr-2 sm:mr-0">{ICONS.download}</span>
+          <span className="text-xl -mr-2">{ICONS.download}</span>
           Fee Info
         </Button>
       </div>
@@ -47,8 +48,15 @@ const AdmissionFees = () => {
               </div>
             </CardHeader>
             <CardBody className="p-6 text-center text-jaris-blue">
-              <div className="heading-secondary font-bold">
-                <span className="subtitle">SAR</span> {fee.fee}
+              <div className="heading-secondary font-bold flex flex-wrap items-center justify-center gap-x-1">
+                {/* eslint-disable @next/next/no-img-element */}
+                <img
+                  src="/logos/Saudi_Riyal_Symbol-2-jaris_blue.svg"
+                  alt="SAR"
+                  className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 inline-block"
+                />
+                {/* eslint-enable @next/next/no-img-element */}
+                {fee.fee}
               </div>
             </CardBody>
             <CardFooter className="p-4 text-center">
@@ -76,13 +84,11 @@ const AdmissionFees = () => {
         <Button
           size="lg"
           radius="full"
-          as="a"
-          href={pdfUrl}
-          target="_blank"
+          as={Link}
+          href="/payment"
           className="bg-jaris-white/20 border border-jaris-white text-jaris-white"
         >
-          <span className=" hidden sm:inline-block -mr-2">View</span>Bank
-          Details
+          <span className="hidden sm:inline-block -mr-2">View</span>Bank Details
         </Button>
         <Button
           size="lg"
@@ -92,8 +98,8 @@ const AdmissionFees = () => {
           download
           className="bg-jaris-gold text-jaris-white"
         >
-          <span className="text-2xl sm:hidden">{ICONS.download}</span>{" "}
-          <span className=" hidden sm:inline-block -mr-2">Download</span>PDF
+          <span className="text-2xl sm:hidden -mr-2">{ICONS.download}</span>
+          <span className="hidden sm:inline-block -mr-2">Download</span>PDF
         </Button>
       </div>
     </div>
