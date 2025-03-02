@@ -53,7 +53,7 @@ const AdmissionFees = () => {
                 <img
                   src="/logos/Saudi_Riyal_Symbol-2-jaris_blue.svg"
                   alt="SAR"
-                  className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 inline-block"
+                  className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 inline-block mt-[1px] sm:mt-[1.1px] lg:mt-1"
                 />
                 {/* eslint-enable @next/next/no-img-element */}
                 {fee.fee}
