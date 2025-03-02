@@ -59,7 +59,7 @@ const AdmissionProcedureKindergarten = () => {
             alt="Admission in Kindergarten"
             width={400}
             height={300}
-            className="rounded-lg"
+            className="rounded-lg object-cover object-[75%_center]"
           />
         </div>
       </div>
