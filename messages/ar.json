@@ -1,4 +1,39 @@
 {
+  "header": {
+    "Home": "الصفحة الرئيسية",
+    "Admission": "القبول",
+    "Admission Info": "معلومات القبول",
+    "Classera": "Classera",
+    "Registration": "التسجيل",
+    "Support": "الدعم",
+    "FAQ": "FAQ",
+    "Curriculum": "المناهج الدراسية",
+    "Portal": "البوابة الإلكترونية",
+    "Gallery": "معرض الصور",
+    "News": "الأخبار",
+    "Events": "الفعاليات",
+    "Student": "الطلاب",
+    "Login": "تسجيل الدخول",
+    "Classera Login": "Classera تسجيل الدخول إلى",
+    "Online Results": "النتائج عبر الإنترنت",
+    "Teacher": "المدرسين",
+    "Staff Contact": "الاتصال بالموظفين",
+    "My Email": "بريدي الإلكتروني",
+    "Payment Portal": "بوابة الدفع",
+    "About": "عن جواهر",
+    "Who We Are": "من نحن",
+    "Our Schools": "مدارسنا",
+    "1st JARIS": "1st JARIS",
+    "2nd JARIS": "2nd JARIS",
+    "3rd JARIS": "3rd JARIS",
+    "Facilities": "المرافق",
+    "Contact": "تواصل معنا",
+    "apply": "قدم طلبك الآن",
+    "ePayment": "الدفع الإلكتروني",
+    "studentLogin": "تسجيل دخول الطالب",
+    "teacherLogin": "تسجيل دخول المعلم",
+    "staffLogin": "تسجيل دخول الموظف"
+  },
   "homepage": {
     "hero": {
       "BECOME": "",
@@ -13,7 +48,7 @@
       "FOLLOW": "",
       "YOUR4": "اتبع",
       "PASSION": "شغفك",
-      "bottomText": "مدرسة نهارية مستقلة تحضيرية للصفوف من الروضة إلى 12، مع حرم جامعي منفصل للبنين والبنات"
+      "bottomText": "مدرسة نهارية مستقلة للصفوف من الروضة إلى الثانوي، مع وجود أقسام منفصلة للبنين والبنات"
     }
   }
 }

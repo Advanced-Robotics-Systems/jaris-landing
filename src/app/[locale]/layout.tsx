@@ -13,9 +13,14 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-const helveticaNeue = localFont({
-  src: "./fonts/HelveticaNeueW23.woff",
-  variable: "--font-helvetica-neue",
+// const helveticaNeue = localFont({
+//   src: "./fonts/HelveticaNeueW23.woff",
+//   variable: "--font-helvetica-neue",
+//   weight: "100 900",
+// });
+
+const notoSansArabic = localFont({
+  src: "./fonts/NotoSansArabic-VariableFont_wdth,wght.ttf",
   weight: "100 900",
 });
 
@@ -75,7 +80,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${helveticaNeue.variable} antialiased`}>
+      <body
+        className={`${
+          locale === "ar" ? notoSansArabic.className : ""
+        } antialiased`}
+      >
         <NextIntlClientProvider messages={messages}>
           <NextUIProvider>{children}</NextUIProvider>
         </NextIntlClientProvider>

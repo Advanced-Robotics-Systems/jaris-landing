@@ -12,6 +12,7 @@ import {
 } from "@nextui-org/react";
 import { ICONS } from "@/utils/icons";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocale, useTranslations } from "next-intl";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<string | null>(null);
@@ -97,11 +98,20 @@ const Header = () => {
     exit: { opacity: 0, x: -20, transition: { duration: 0.2 } },
   };
 
+  const subDropdownVariantsRight = {
+    hidden: { opacity: 0, x: 20 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.3 } },
+    exit: { opacity: 0, x: -20, transition: { duration: 0.2 } },
+  };
+
   const mobileMenuVariants = {
     hidden: { height: 0, opacity: 0 },
     visible: { height: "auto", opacity: 1, transition: { duration: 0.3 } },
     exit: { height: 0, opacity: 0, transition: { duration: 0.2 } },
   };
+
+  const t = useTranslations("header");
+  const locale = useLocale();
 
   return (
     <nav
@@ -140,11 +150,11 @@ const Header = () => {
                   href={item.link}
                   className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center"
                 >
-                  {item.name}
+                  {t(item.name)}
                 </Link>
               ) : (
                 <div className="px-8 py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none">
-                  {item.name}
+                  {t(item.name)}
                 </div>
               )}
               {item.sublinks && isOpen === item.name && (
@@ -164,13 +174,22 @@ const Header = () => {
                       <Link
                         size="lg"
                         href={sub.link}
-                        className="px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10"
+                        className={`px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10 ${
+                          locale === "ar" ? "flex-row-reverse" : ""
+                        }`}
                       >
-                        <div>{sub.name}</div>
+                        <div className={locale === "ar" ? "text-right" : ""}>
+                          {t(sub.name)}
+                        </div>
                         {sub.sublinks && (
                           <span
-                            className={`transition-transform duration-300 ${
-                              isSubOpen === sub.name ? "rotate-90 " : "rotate-0"
+                            className={`transition-transform duration-300 
+                            ${
+                              isSubOpen === sub.name
+                                ? "rotate-90"
+                                : locale === "en"
+                                ? "rotate-0"
+                                : "rotate-180"
                             }`}
                           >
                             {ICONS.link_right}
@@ -182,16 +201,24 @@ const Header = () => {
                           initial="hidden"
                           animate="visible"
                           exit="exit"
-                          variants={subDropdownVariants}
-                          className="absolute left-full top-0 bg-bg-primary shadow-lg z-50 group-hover:block min-w-[200px]"
+                          variants={
+                            locale === "en"
+                              ? subDropdownVariants
+                              : subDropdownVariantsRight
+                          }
+                          className={`absolute ${
+                            locale === "en" ? "left-full" : "right-full"
+                          } top-0 bg-bg-primary shadow-lg z-50 group-hover:block min-w-[200px]`}
                         >
                           {sub.sublinks.map((subSub) => (
                             <li key={subSub.name}>
                               <Link
                                 href={subSub.link}
-                                className="block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200"
+                                className={`block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200 ${
+                                  locale === "ar" ? "text-right" : ""
+                                }`}
                               >
-                                {subSub.name}
+                                {t(subSub.name)}
                               </Link>
                             </li>
                           ))}
@@ -213,7 +240,7 @@ const Header = () => {
               radius="sm"
               className="border-jaris-gold text-jaris-gold"
             >
-              Apply Now
+              {t("apply")}
             </Button>
             <Button
               as="a"
@@ -222,7 +249,7 @@ const Header = () => {
               radius="sm"
               className="border-jaris-blue text-jaris-blue font-medium"
             >
-              E-Payment
+              {t("ePayment")}
             </Button>
             <Dropdown
               placement="bottom-end"
@@ -241,34 +268,88 @@ const Header = () => {
               >
                 <DropdownItem
                   key="student-login"
-                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
-                  endContent={<div className="text-xl">{ICONS.login}</div>}
+                  className={`flex ${
+                    locale === "ar" ? "flex-row-reverse" : ""
+                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  endContent={
+                    <div
+                      className={`text-xl ${
+                        locale === "ar" ? "rotate-180" : ""
+                      }`}
+                    >
+                      {ICONS.login}
+                    </div>
+                  }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <div className="text-medium">Student Login</div>
+                  <div
+                    className={`text-medium ${
+                      locale === "ar" ? "text-right" : ""
+                    }`}
+                  >
+                    {t("studentLogin")}
+                  </div>
                 </DropdownItem>
                 <DropdownItem
                   key="teacher-login"
-                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
-                  endContent={<div className="text-xl">{ICONS.login}</div>}
+                  className={`flex ${
+                    locale === "ar" ? "flex-row-reverse" : ""
+                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  endContent={
+                    <div
+                      className={`text-xl ${
+                        locale === "ar" ? "rotate-180" : ""
+                      }`}
+                    >
+                      {ICONS.login}
+                    </div>
+                  }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <span className="text-medium">Teacher Login</span>
+                  <div
+                    className={`text-medium ${
+                      locale === "ar" ? "text-right" : ""
+                    }`}
+                  >
+                    {t("teacherLogin")}
+                  </div>
                 </DropdownItem>
                 <DropdownItem
                   key="staff-login"
-                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
-                  endContent={<div className="text-xl">{ICONS.login}</div>}
+                  className={`flex ${
+                    locale === "ar" ? "flex-row-reverse" : ""
+                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  endContent={
+                    <div
+                      className={`text-xl ${
+                        locale === "ar" ? "rotate-180" : ""
+                      }`}
+                    >
+                      {ICONS.login}
+                    </div>
+                  }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <span className="text-medium">Staff Login</span>
+                  <div
+                    className={`text-medium ${
+                      locale === "ar" ? "text-right" : ""
+                    }`}
+                  >
+                    {t("staffLogin")}
+                  </div>
                 </DropdownItem>
                 <DropdownItem
                   key="online-results"
                   className="flex items-center gap-2 px-4 py-3 text-jaris-red hover:!bg-jaris-white/20 hover:!text-jaris-red"
                   href="http://result.jawahirschool.com/"
                 >
-                  <span className="text-medium">Online Results</span>
+                  <div
+                    className={`text-medium ${
+                      locale === "ar" ? "text-right" : ""
+                    }`}
+                  >
+                    {t("Online Results")}
+                  </div>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
@@ -323,14 +404,14 @@ const Header = () => {
                         className="px-4 py-3 text-jaris-blue font-medium"
                         href={item.link}
                       >
-                        {item.name}
+                        {t(item.name)}
                       </Link>
                     ) : (
                       <div
                         className="px-4 py-3 text-jaris-blue font-medium text-lg mt-[1px]"
                         onClick={() => toggleMobileSubMenu(item.name)}
                       >
-                        {item.name}
+                        {t(item.name)}
                       </div>
                     )}
                     {item.sublinks && (
@@ -365,7 +446,7 @@ const Header = () => {
                                 size="lg"
                                 className="px-4 py-3 text-jaris-blue"
                               >
-                                {sub.name}
+                                {t(sub.name)}
                               </Link>
                               {sub.sublinks && (
                                 <button
@@ -402,7 +483,7 @@ const Header = () => {
                                           href={subSub.link}
                                           className="block px-4 py-2 text-jaris-blue"
                                         >
-                                          {subSub.name}
+                                          {t(subSub.name)}
                                         </Link>
                                       </li>
                                     ))}
