@@ -13,6 +13,7 @@ import {
 import { ICONS } from "@/utils/icons";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
+import { linkHelper } from "@/utils/link-helper";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<string | null>(null);
@@ -121,7 +122,10 @@ const Header = () => {
     >
       <div className="w-full flex justify-between items-center h-full gap-10">
         <div className="navbar-brand flex items-center h-full px-4">
-          <Link href="/" className="text-2xl font-bold text-jaris-blue ">
+          <Link
+            href={linkHelper(locale, "/")}
+            className="text-2xl font-bold text-jaris-blue "
+          >
             <Image
               src="/logos/jawahir-logo-full-new.png"
               alt="Jawahir International School"
@@ -147,7 +151,7 @@ const Header = () => {
               {item.link ? (
                 <Link
                   size="lg"
-                  href={item.link}
+                  href={linkHelper(locale, item.link)}
                   className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center"
                 >
                   {t(item.name)}
@@ -173,7 +177,7 @@ const Header = () => {
                     >
                       <Link
                         size="lg"
-                        href={sub.link}
+                        href={linkHelper(locale, sub.link)}
                         className={`px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10 ${
                           locale === "ar" ? "flex-row-reverse" : ""
                         }`}
@@ -213,7 +217,7 @@ const Header = () => {
                           {sub.sublinks.map((subSub) => (
                             <li key={subSub.name}>
                               <Link
-                                href={subSub.link}
+                                href={linkHelper(locale, subSub.link)}
                                 className={`block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200 ${
                                   locale === "ar" ? "text-right" : ""
                                 }`}
@@ -244,7 +248,7 @@ const Header = () => {
             </Button>
             <Button
               as="a"
-              href="/payment"
+              href={linkHelper(locale, "/payment")}
               variant="bordered"
               radius="sm"
               className="border-jaris-blue text-jaris-blue font-medium"
@@ -397,12 +401,16 @@ const Header = () => {
             >
               {navItems.map((item) => (
                 <li key={item.name}>
-                  <div className="flex items-center">
+                  <div
+                    className={`flex ${
+                      locale === "ar" ? "flex-row-reverse" : ""
+                    } items-center`}
+                  >
                     {item.link ? (
                       <Link
                         size="lg"
                         className="px-4 py-3 text-jaris-blue font-medium"
-                        href={item.link}
+                        href={linkHelper(locale, item.link)}
                       >
                         {t(item.name)}
                       </Link>
@@ -420,7 +428,9 @@ const Header = () => {
                         className={`p-0 flex items-center justify-center transition-transform duration-300 ${
                           openMobileSubMenu === item.name
                             ? "rotate-90 "
-                            : "rotate-0"
+                            : locale === "en"
+                            ? "rotate-0"
+                            : "rotate-180"
                         }`}
                       >
                         <span className={` w-full text-left text-jaris-blue`}>
@@ -436,13 +446,17 @@ const Header = () => {
                         animate="visible"
                         exit="exit"
                         variants={mobileMenuVariants}
-                        className="pl-4"
+                        className={locale === "en" ? "pl-4" : "pr-4"}
                       >
                         {item.sublinks.map((sub) => (
                           <li key={sub.name}>
-                            <div className="flex items-center">
+                            <div
+                              className={`flex ${
+                                locale === "ar" ? "flex-row-reverse" : ""
+                              } items-center`}
+                            >
                               <Link
-                                href={sub.link}
+                                href={linkHelper(locale, sub.link)}
                                 size="lg"
                                 className="px-4 py-3 text-jaris-blue"
                               >
@@ -456,7 +470,9 @@ const Header = () => {
                                   className={`p-0 flex items-center justify-center transition-transform duration-300 ${
                                     openMobileSubSubMenu === sub.name
                                       ? "rotate-90 "
-                                      : "rotate-0"
+                                      : locale === "en"
+                                      ? "rotate-0"
+                                      : "rotate-180"
                                   }`}
                                 >
                                   <span
@@ -475,13 +491,17 @@ const Header = () => {
                                     animate="visible"
                                     exit="exit"
                                     variants={mobileMenuVariants}
-                                    className="pl-4"
+                                    className={
+                                      locale === "en" ? "pl-4" : "pr-4"
+                                    }
                                   >
                                     {sub.sublinks.map((subSub) => (
                                       <li key={subSub.name}>
                                         <Link
-                                          href={subSub.link}
-                                          className="block px-4 py-2 text-jaris-blue"
+                                          href={linkHelper(locale, subSub.link)}
+                                          className={`block px-4 py-2 text-jaris-blue ${
+                                            locale === "ar" ? "text-right" : ""
+                                          }`}
                                         >
                                           {t(subSub.name)}
                                         </Link>

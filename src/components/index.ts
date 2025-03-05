@@ -4,6 +4,7 @@ import CountCard from "./count-card/count-card";
 import ExploreCard from "./explore-card/explore-card";
 import WhatsappWidget from "./whatsapp-widget/whatsapp-widget";
 import MapComponent from "./map-component/map-component";
+import LocaleSwitcher from "./locale-switcher/locale-switcher";
 
 export {
   HomeHeroSlide,
@@ -12,4 +13,5 @@ export {
   ExploreCard,
   WhatsappWidget,
   MapComponent,
+  LocaleSwitcher,
 };
