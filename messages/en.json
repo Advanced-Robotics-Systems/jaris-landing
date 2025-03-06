@@ -34,6 +34,23 @@
     "teacherLogin": "Teacher Login",
     "staffLogin": "Staff Login"
   },
+  "shared": {
+    "ctaSchools": {
+      "swiper": {
+        "INSPIRATION": "INSPIRATION",
+        "inspirationQuote": "\"Inspiration ignites the soul, turning dreams into action and ideas into reality.\"",
+        "LEADERSHIP": "LEADERSHIP",
+        "leadershipQuote": "\"I have grown so much as a person leading my class at JARIS.\"",
+        "TEAMWORK": "TEAMWORK",
+        "teamworkQuote": "\"I tried football this year and really enjoyed it.\"",
+        "RESILIENCE": "RESILIENCE",
+        "resilienceQuote": "\"I have grown my physical strength at JARIS.\""
+      },
+      "unleash": "Unleash Your Full",
+      "potential": "Potential With Us",
+      "journey": "Start Your Journey Today!"
+    }
+  },
   "homepage": {
     "hero": {
       "BECOME": "BECOME",
@@ -76,21 +93,6 @@
       "Our Students": "Our Students",
       "Our Teachers": "Our Teachers",
       "Our Staff": "Our Staff"
-    },
-    "ctaSchools": {
-      "swiper": {
-        "INSPIRATION": "INSPIRATION",
-        "inspirationQuote": "\"Inspiration ignites the soul, turning dreams into action and ideas into reality.\"",
-        "LEADERSHIP": "LEADERSHIP",
-        "leadershipQuote": "\"I have grown so much as a person leading my class at JARIS.\"",
-        "TEAMWORK": "TEAMWORK",
-        "teamworkQuote": "\"I tried football this year and really enjoyed it.\"",
-        "RESILIENCE": "RESILIENCE",
-        "resilienceQuote": "\"I have grown my physical strength at JARIS.\""
-      },
-      "unleash": "Unleash Your Full",
-      "potential": "Potential With Us",
-      "journey": "Start Your Journey Today!"
     }
   }
 }

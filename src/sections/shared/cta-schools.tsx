@@ -5,14 +5,18 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { ctaSchoolsCarouselItems } from "@/data";
 import { Button, Link } from "@nextui-org/react";
+import { useLocale, useTranslations } from "next-intl";
 
-const CTASchools = ({ t, locale }: { t: any; locale: string }) => {
+const CTASchools = () => {
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: any) {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
+
+  const t = useTranslations("shared.ctaSchools");
+  const locale = useLocale();
 
   return (
     <div className="relative w-full padding-y lg:py-36 bg-[url('/images/home/_DSC0188-Enhanced-NR.jpg')] bg-cover bg-center">
@@ -50,10 +54,10 @@ const CTASchools = ({ t, locale }: { t: any; locale: string }) => {
                   }`}
                 >
                   <h1 className="title font-bold text-bg-text">
-                    {t(`ctaSchools.swiper.${item.title}`)}
+                    {t(`swiper.${item.title}`)}
                   </h1>
                   <p className="subtitle text-bg-primary text-center">
-                    {t(`ctaSchools.swiper.${item.subtitle}`)}
+                    {t(`swiper.${item.subtitle}`)}
                   </p>
                 </div>
               </div>

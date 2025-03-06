@@ -34,6 +34,20 @@
     "teacherLogin": "تسجيل دخول المعلم",
     "staffLogin": "تسجيل دخول الموظف"
   },
+  "shared": {
+    "ctaSchools": {
+      "swiper": {
+        "INSPIRATION": "الإلهام",
+        "inspirationQuote": "\"الإلهام يشعل الروح، ويحول الأحلام إلى أفعال والأفكار إلى واقع ملموس.\"",
+        "LEADERSHIP": "القيادة",
+        "leadershipQuote": "\"لقد نضجت كثيراً كشخص يقود صفي في مدرسة JARIS.\"",
+        "TEAMWORK": "العمل الجماعي",
+        "teamworkQuote": "\"لقد جربت كرة القدم هذا العام واستمتعت بها حقاً.\"",
+        "RESILIENCE": "المرونة",
+        "resilienceQuote": "\"لقد نمت قوتي البدنية في JARIS.\""
+      }
+    }
+  },
   "homepage": {
     "hero": {
       "BECOME": "",
@@ -76,18 +90,6 @@
       "Our Students": "طلابنا",
       "Our Teachers": "مدرسونا",
       "Our Staff": "موظفونا"
-    },
-    "ctaSchools": {
-      "swiper": {
-        "INSPIRATION": "الإلهام",
-        "inspirationQuote": "\"الإلهام يشعل الروح، ويحول الأحلام إلى أفعال والأفكار إلى واقع ملموس.\"",
-        "LEADERSHIP": "القيادة",
-        "leadershipQuote": "\"لقد نضجت كثيراً كشخص يقود صفي في مدرسة JARIS.\"",
-        "TEAMWORK": "العمل الجماعي",
-        "teamworkQuote": "\"لقد جربت كرة القدم هذا العام واستمتعت بها حقاً.\"",
-        "RESILIENCE": "المرونة",
-        "resilienceQuote": "\"لقد نمت قوتي البدنية في JARIS.\""
-      }
     }
   }
 }

@@ -48,12 +48,12 @@ export default function Home() {
           <main className="">
             <Hero t={t} locale={locale} />
             <Discover t={t} locale={locale} />
-            <JoinUs t={t} locale={locale} />
+            <JoinUs t={t} />
             {/* <Mission /> */}
             <CTACommunity t={t} />
             <Experience t={t} locale={locale} />
             <Counts t={t} locale={locale} />
-            <CTASchools t={t} locale={locale} />
+            <CTASchools />
             <HomeGallery />
             <Explore />
             <DiscoverJaris />

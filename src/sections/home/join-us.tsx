@@ -2,7 +2,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-const JoinUs = ({ t, locale }: { t: any; locale: string }) => {
+const JoinUs = ({ t }: { t: any }) => {
   // const [width, setWidth] = useState("50%");
   // const [locked, setLocked] = useState(false);
   // const sectionRef = useRef<HTMLDivElement>(null);
@@ -60,16 +60,16 @@ const JoinUs = ({ t, locale }: { t: any; locale: string }) => {
         style={{ width }}
         className="relative h-screen hidden md:flex items-center justify-center overflow-hidden whitespace-nowrap text-ellipsis"
       >
-        <JoinUsBody t={t} locale={locale} />
+        <JoinUsBody t={t} />
       </motion.div>
       <div className="relative h-[50vh] w-full md:hidden flex items-center justify-center overflow-hidden">
-        <JoinUsBody t={t} locale={locale} />
+        <JoinUsBody t={t} />
       </div>
     </div>
   );
 };
 
-const JoinUsBody = ({ t, locale }: { t: any; locale: string }) => {
+const JoinUsBody = ({ t }: { t: any }) => {
   return (
     <>
       <video
