@@ -49,6 +49,11 @@
       "YOUR4": "YOUR",
       "PASSION": "PASSION",
       "bottomText": "An independent, college preparatory day school for grades KG to 12, with separate campuses for boys and girls."
-    }
+    },
+    "discover": {
+      "topText": "Discover a world of",
+      "bottomText": "endless potential."
+    },
+    "joinUs": {}
   }
 }
