@@ -1,11 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { useLocale, useTranslations } from "next-intl";
 
-const Discover = () => {
-  const t = useTranslations("homepage.discover");
-  const locale = useLocale();
-
+const Discover = ({ t, locale }: { t: any; locale: string }) => {
   return (
     <div
       className={`sticky top-0 h-screen max-md:h-[50vh] bg-bg-primary padding flex flex-col ${
@@ -19,7 +15,7 @@ const Discover = () => {
         viewport={{ once: true }}
         className="heading-md"
       >
-        {t("topText")}
+        {t("discover.topText")}
       </motion.p>
       <motion.p
         initial={{ opacity: 0, x: 20 }}
@@ -28,7 +24,7 @@ const Discover = () => {
         viewport={{ once: true }}
         className="heading-md underline-animated"
       >
-        {t("bottomText")}
+        {t("discover.bottomText")}
       </motion.p>
     </div>
   );

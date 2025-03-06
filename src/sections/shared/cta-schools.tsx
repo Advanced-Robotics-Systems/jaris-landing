@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { ctaSchoolsCarouselItems } from "@/data";
 import { Button, Link } from "@nextui-org/react";
 
-const CTASchools = () => {
+const CTASchools = ({ t, locale }: { t: any; locale: string }) => {
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: any) {
@@ -44,10 +44,16 @@ const CTASchools = () => {
                     backgroundImage: `linear-gradient(180deg, rgba(177, 114, 31, 0.1) 0%, #1C406F 100%), url(${item.imgUrl})`,
                   }}
                 />
-                <div className="relative z-20 h-full padding flex flex-col items-center justify-end gap-5">
-                  <h1 className="title font-bold text-bg-text">{item.title}</h1>
+                <div
+                  className={`relative z-20 h-full padding flex flex-col items-center justify-end ${
+                    locale === "en" ? "gap-5" : "gap-10"
+                  }`}
+                >
+                  <h1 className="title font-bold text-bg-text">
+                    {t(`ctaSchools.swiper.${item.title}`)}
+                  </h1>
                   <p className="subtitle text-bg-primary text-center">
-                    {item.subtitle}
+                    {t(`ctaSchools.swiper.${item.subtitle}`)}
                   </p>
                 </div>
               </div>

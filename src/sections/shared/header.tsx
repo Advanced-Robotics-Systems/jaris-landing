@@ -152,12 +152,12 @@ const Header = () => {
                 <Link
                   size="lg"
                   href={linkHelper(locale, item.link)}
-                  className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center"
+                  className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center text-center"
                 >
                   {t(item.name)}
                 </Link>
               ) : (
-                <div className="px-8 py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none">
+                <div className="px-8 py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none text-center">
                   {t(item.name)}
                 </div>
               )}
@@ -178,13 +178,9 @@ const Header = () => {
                       <Link
                         size="lg"
                         href={linkHelper(locale, sub.link)}
-                        className={`px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10 ${
-                          locale === "ar" ? "flex-row-reverse" : ""
-                        }`}
+                        className="px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10"
                       >
-                        <div className={locale === "ar" ? "text-right" : ""}>
-                          {t(sub.name)}
-                        </div>
+                        <div>{t(sub.name)}</div>
                         {sub.sublinks && (
                           <span
                             className={`transition-transform duration-300 
@@ -218,9 +214,7 @@ const Header = () => {
                             <li key={subSub.name}>
                               <Link
                                 href={linkHelper(locale, subSub.link)}
-                                className={`block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200 ${
-                                  locale === "ar" ? "text-right" : ""
-                                }`}
+                                className="block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200"
                               >
                                 {t(subSub.name)}
                               </Link>
@@ -236,7 +230,11 @@ const Header = () => {
           ))}
 
           {/* Quick Links */}
-          <div className="hidden lg:flex items-center gap-3 h-full ml-3">
+          <div
+            className={`hidden lg:flex items-center gap-3 h-full ${
+              locale === "en" ? "ml-3" : "mr-3"
+            }`}
+          >
             <Button
               as="a"
               href="http://admissionform.jawahirschool.com/"
@@ -272,9 +270,7 @@ const Header = () => {
               >
                 <DropdownItem
                   key="student-login"
-                  className={`flex ${
-                    locale === "ar" ? "flex-row-reverse" : ""
-                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
                   endContent={
                     <div
                       className={`text-xl ${
@@ -286,19 +282,11 @@ const Header = () => {
                   }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <div
-                    className={`text-medium ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {t("studentLogin")}
-                  </div>
+                  <div className="text-medium">{t("studentLogin")}</div>
                 </DropdownItem>
                 <DropdownItem
                   key="teacher-login"
-                  className={`flex ${
-                    locale === "ar" ? "flex-row-reverse" : ""
-                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
                   endContent={
                     <div
                       className={`text-xl ${
@@ -310,19 +298,11 @@ const Header = () => {
                   }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <div
-                    className={`text-medium ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {t("teacherLogin")}
-                  </div>
+                  <div className="text-medium">{t("teacherLogin")}</div>
                 </DropdownItem>
                 <DropdownItem
                   key="staff-login"
-                  className={`flex ${
-                    locale === "ar" ? "flex-row-reverse" : ""
-                  } items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white`}
+                  className="flex items-center gap-2 px-4 py-3 hover:!bg-jaris-white/20 hover:!text-jaris-white"
                   endContent={
                     <div
                       className={`text-xl ${
@@ -334,26 +314,14 @@ const Header = () => {
                   }
                   href="http://sms.jawahirschool.com/site/userlogin"
                 >
-                  <div
-                    className={`text-medium ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {t("staffLogin")}
-                  </div>
+                  <div className="text-medium">{t("staffLogin")}</div>
                 </DropdownItem>
                 <DropdownItem
                   key="online-results"
                   className="flex items-center gap-2 px-4 py-3 text-jaris-red hover:!bg-jaris-white/20 hover:!text-jaris-red"
                   href="http://result.jawahirschool.com/"
                 >
-                  <div
-                    className={`text-medium ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {t("Online Results")}
-                  </div>
+                  <div className="text-medium">{t("Online Results")}</div>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
@@ -401,11 +369,7 @@ const Header = () => {
             >
               {navItems.map((item) => (
                 <li key={item.name}>
-                  <div
-                    className={`flex ${
-                      locale === "ar" ? "flex-row-reverse" : ""
-                    } items-center`}
-                  >
+                  <div className="flex items-center">
                     {item.link ? (
                       <Link
                         size="lg"
@@ -450,11 +414,7 @@ const Header = () => {
                       >
                         {item.sublinks.map((sub) => (
                           <li key={sub.name}>
-                            <div
-                              className={`flex ${
-                                locale === "ar" ? "flex-row-reverse" : ""
-                              } items-center`}
-                            >
+                            <div className="flex items-center">
                               <Link
                                 href={linkHelper(locale, sub.link)}
                                 size="lg"
@@ -499,9 +459,7 @@ const Header = () => {
                                       <li key={subSub.name}>
                                         <Link
                                           href={linkHelper(locale, subSub.link)}
-                                          className={`block px-4 py-2 text-jaris-blue ${
-                                            locale === "ar" ? "text-right" : ""
-                                          }`}
+                                          className="block px-4 py-2 text-jaris-blue"
                                         >
                                           {t(subSub.name)}
                                         </Link>

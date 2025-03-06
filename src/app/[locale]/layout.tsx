@@ -79,7 +79,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
       <body
         className={`${
           locale === "ar" ? notoSansArabic.className : ""

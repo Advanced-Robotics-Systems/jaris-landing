@@ -303,13 +303,15 @@ export const homeCarouselItems = [
 export const homeExperiences = [
   {
     title: "One of the Top Schools in Saudi Arabia",
-    subtitle:
-      "JARIS stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
+    // subtitle:
+    //   "JARIS stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
+    subtitle: "topSchoolsDesc",
   },
   {
     title: "20 Nationalities Represented",
-    subtitle:
-      "Our campus proudly represents 20 nationalities, fostering a tapestry of cultures and viewpoints. This multicultural environment enriches education, nurtures global awareness and promotes unity among students.",
+    // subtitle:
+    // "Our campus proudly represents 20 nationalities, fostering a tapestry of cultures and viewpoints. This multicultural environment enriches education, nurtures global awareness and promotes unity among students.",
+    subtitle: "nationalitiesDesc",
   },
 ];
 
@@ -361,23 +363,27 @@ export const counts = [
 export const ctaSchoolsCarouselItems = [
   {
     title: "INSPIRATION",
-    subtitle:
-      "Inspiration ignites the soul, turning dreams into action and ideas into reality.",
+    // subtitle:
+    //   '"Inspiration ignites the soul, turning dreams into action and ideas into reality."',
+    subtitle: "inspirationQuote",
     imgUrl: "/images/home/cta-school-carousel-slide-1.JPG",
   },
   {
     title: "LEADERSHIP",
-    subtitle: "I have grown so much as a person leading my class at JARIS.",
+    // subtitle: '"I have grown so much as a person leading my class at JARIS."',
+    subtitle: "leadershipQuote",
     imgUrl: "/images/home/cta-school-carousel-slide-2.jpeg",
   },
   {
     title: "TEAMWORK",
-    subtitle: "I tried football this year and really enjoyed it.",
+    // subtitle: '"I tried football this year and really enjoyed it."',
+    subtitle: "teamworkQuote",
     imgUrl: "/images/home/cta-school-carousel-slide-3.jpeg",
   },
   {
     title: "RESILIENCE",
-    subtitle: "I have definitely grown my physical strength at JARIS.",
+    // subtitle: '"I have grown my physical strength at JARIS."',
+    subtitle: "resilienceQuote",
     imgUrl: "/images/home/cta-school-carousel-slide-4.jpeg",
   },
 ];

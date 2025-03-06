@@ -2,7 +2,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-const JoinUs = () => {
+const JoinUs = ({ t, locale }: { t: any; locale: string }) => {
   // const [width, setWidth] = useState("50%");
   // const [locked, setLocked] = useState(false);
   // const sectionRef = useRef<HTMLDivElement>(null);
@@ -60,16 +60,16 @@ const JoinUs = () => {
         style={{ width }}
         className="relative h-screen hidden md:flex items-center justify-center overflow-hidden whitespace-nowrap text-ellipsis"
       >
-        <JoinUsBody />
+        <JoinUsBody t={t} locale={locale} />
       </motion.div>
       <div className="relative h-[50vh] w-full md:hidden flex items-center justify-center overflow-hidden">
-        <JoinUsBody />
+        <JoinUsBody t={t} locale={locale} />
       </div>
     </div>
   );
 };
 
-const JoinUsBody = () => {
+const JoinUsBody = ({ t, locale }: { t: any; locale: string }) => {
   return (
     <>
       <video
@@ -88,7 +88,7 @@ const JoinUsBody = () => {
           viewport={{ once: true }}
           className="text-jaris-gold"
         >
-          JOIN US AT
+          {t("joinUs.textGold")}
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 20 }}
@@ -97,7 +97,7 @@ const JoinUsBody = () => {
           viewport={{ once: true }}
           className="text-white"
         >
-          JARIS
+          {t("joinUs.textWhite")}
         </motion.div>
       </div>
     </>

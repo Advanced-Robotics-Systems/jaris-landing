@@ -18,6 +18,7 @@ import {
   NavbarPlaceholder,
   Footer,
 } from "@/sections";
+import { useLocale, useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
     return () => clearTimeout(splashTimer);
   }, []);
 
+  const locale = useLocale();
+  const t = useTranslations("homepage");
+
   return (
     <>
       {showContent ? (
@@ -42,14 +46,14 @@ export default function Home() {
           <WhatsappWidget />
           <LocaleSwitcher />
           <main className="">
-            <Hero />
-            <Discover />
-            <JoinUs />
+            <Hero t={t} locale={locale} />
+            <Discover t={t} locale={locale} />
+            <JoinUs t={t} locale={locale} />
             {/* <Mission /> */}
-            <CTACommunity />
-            <Experience />
-            <Counts />
-            <CTASchools />
+            <CTACommunity t={t} />
+            <Experience t={t} locale={locale} />
+            <Counts t={t} locale={locale} />
+            <CTASchools t={t} locale={locale} />
             <HomeGallery />
             <Explore />
             <DiscoverJaris />
