@@ -61,7 +61,7 @@ export default function Home() {
           <Footer />
         </>
       ) : (
-        <SplashScreen isLoading={isLoading} t={t} locale={locale} />
+        <SplashScreen isLoading={isLoading} t={t} />
       )}
     </>
   );

@@ -3,14 +3,9 @@ import { AnimatePresence, motion } from "framer-motion";
 interface SplashScreenProps {
   isLoading: boolean;
   t: any;
-  locale: string;
 }
 
-const SplashScreen: React.FC<SplashScreenProps> = ({
-  isLoading,
-  t,
-  locale,
-}) => {
+const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading, t }) => {
   return (
     <AnimatePresence>
       {isLoading && (
