@@ -38,7 +38,7 @@ const AdmissionFees = () => {
       {/* Fee Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
         {admissionFeesData.map((fee, index) => (
-          <Card key={index} className="bg-white shadow-md">
+          <Card key={index} className="bg-transparent shadow-md">
             <CardHeader className="p-4 text-center bg-[#005A79] flex-col">
               <div className="text-jaris-white text-xl font-semibold">
                 {fee.title}
@@ -47,7 +47,7 @@ const AdmissionFees = () => {
                 {fee.grades}
               </div>
             </CardHeader>
-            <CardBody className="p-6 text-center text-jaris-blue">
+            <CardBody className="p-6 text-center text-jaris-blue bg-white">
               <div className="heading-secondary font-bold flex flex-wrap items-center justify-center gap-x-1">
                 {/* eslint-disable @next/next/no-img-element */}
                 <img
@@ -59,7 +59,7 @@ const AdmissionFees = () => {
                 {fee.fee}
               </div>
             </CardBody>
-            <CardFooter className="p-4 text-center">
+            <CardFooter className="p-4 text-center bg-white">
               <div className="w-full text-jaris-blue text-sm lg:text-base flex items-center justify-center">
                 {fee.vat}
               </div>
