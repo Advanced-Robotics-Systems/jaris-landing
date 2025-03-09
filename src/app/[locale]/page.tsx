@@ -54,14 +54,14 @@ export default function Home() {
             <Experience t={t} locale={locale} />
             <Counts t={t} locale={locale} />
             <CTASchools />
-            <HomeGallery />
+            <HomeGallery t={t} locale={locale} />
             <Explore />
             <DiscoverJaris />
           </main>
           <Footer />
         </>
       ) : (
-        <SplashScreen isLoading={isLoading} />
+        <SplashScreen isLoading={isLoading} t={t} locale={locale} />
       )}
     </>
   );

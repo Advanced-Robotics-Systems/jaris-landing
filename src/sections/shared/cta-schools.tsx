@@ -66,30 +66,36 @@ const CTASchools = () => {
         </Swiper>
         <div className="flex flex-col items-start justify-center gap-10 md:gap-12 ">
           <div className="heading-md">
-            <p className="text-jaris-gold">Unleash Your Full</p>
-            <p className="text-jaris-gold">Potential With Us</p>
-            <p className="text-bg-text">Start Your Journey Today!</p>
+            <p className="text-jaris-gold">{t("unleash")}</p>
+            <p className="text-jaris-gold">{t("potential")}</p>
+            <p className="text-bg-text">{t("journey")}</p>
           </div>
-          <div className="flex items-center justify-center gap-3">
-            <Link href="/schools">
+          <div
+            className={`flex ${
+              locale === "ar" ? "flex-row-reverse" : ""
+            } items-center justify-center gap-3`}
+          >
+            <Link href={`/${locale}/schools`}>
               <Button
                 size="lg"
                 variant="bordered"
                 className="border-jaris-gold border-3 rounded-md  lg:px-8"
               >
                 <span className="subtitle text-jaris-gold font-semibold">
-                  Explore <span className="hidden md:inline">Our</span> Schools
+                  {t("buttons.explore")}{" "}
+                  <span className="hidden md:inline">{t("buttons.our")}</span>{" "}
+                  {t("buttons.schools")}
                 </span>
               </Button>
             </Link>
-            <Link href="/contact">
+            <Link href={`/${locale}/contact`}>
               <Button
                 size="lg"
                 variant="solid"
                 className="bg-jaris-gold rounded-md lg:px-8"
               >
                 <span className="subtitle text-jaris-blue font-semibold">
-                  Contact Us
+                  {t("buttons.contact")}
                 </span>
               </Button>
             </Link>

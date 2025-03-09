@@ -1,26 +1,26 @@
 import { Button, Image, Link } from "@nextui-org/react";
 import React from "react";
 
-const HomeGallery = () => {
+const HomeGallery = ({ t, locale }: { t: any; locale: string }) => {
   return (
     <div className="relative bg-bg-primary lg:h-screen padding lg:px-24 xl:px-48 xl:p-64 lg:py-28 flex max-lg:flex-col-reverse items-center justify-center gap-24 lg:gap-8">
       <div className="flex flex-col items-start gap-12 flex-1 ">
         <div className="flex flex-col gap-1">
           <h4 className="heading-secondary font-bold text-jaris-blue">
-            Photo Gallery
+            {t("homeGallery.title")}
           </h4>
           <p className="subtitle text-jaris-gold-dark">
-            Discover exciting events held at school in our gallery.
+            {t("homeGallery.description")}
           </p>
         </div>
-        <Link href="/news-gallery">
+        <Link href={`/${locale}/news-gallery`}>
           <Button
             size="lg"
             variant="solid"
             className="border-jaris-blue bg-transparent border-3 rounded-md lg:px-8"
           >
             <span className="subtitle text-jaris-blue font-semibold">
-              View Gallery
+              {t("homeGallery.buttonText")}
             </span>
           </Button>
         </Link>

@@ -123,7 +123,7 @@ const Header = () => {
       <div className="w-full flex justify-between items-center h-full gap-10">
         <div className="navbar-brand flex items-center h-full px-4">
           <Link
-            href={linkHelper(locale, "/")}
+            href={`/${locale}`}
             className="text-2xl font-bold text-jaris-blue "
           >
             <Image
@@ -246,7 +246,7 @@ const Header = () => {
             </Button>
             <Button
               as="a"
-              href={linkHelper(locale, "/payment")}
+              href={`/${locale}/payment`}
               variant="bordered"
               radius="sm"
               className="border-jaris-blue text-jaris-blue font-medium"

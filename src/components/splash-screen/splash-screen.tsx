@@ -2,9 +2,15 @@ import { AnimatePresence, motion } from "framer-motion";
 
 interface SplashScreenProps {
   isLoading: boolean;
+  t: any;
+  locale: string;
 }
 
-const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading }) => {
+const SplashScreen: React.FC<SplashScreenProps> = ({
+  isLoading,
+  t,
+  locale,
+}) => {
   return (
     <AnimatePresence>
       {isLoading && (
@@ -18,13 +24,13 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading }) => {
           <div className="absolute inset-0 -bottom-3/4 bg-[url(/images/home/splash-bg.png)] bg-cover bg-center opacity-10" />
           <div className="relative z-10 flex flex-col items-center justify-center">
             <h3 className="heading-secondary text-jaris-white font-semibold mb-4">
-              Welcome to
+              {t("splashScreen.head")}
             </h3>
             <h1 className="title text-jaris-white font-bold mb-2 text-center">
-              JAWAHIR AL-RIYADH
+              {t("splashScreen.main")}
             </h1>
             <h3 className="heading-md text-jaris-gold font-semibold">
-              Educational Company
+              {t("splashScreen.footer")}
             </h3>
           </div>
         </motion.div>

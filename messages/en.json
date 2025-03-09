@@ -48,10 +48,41 @@
       },
       "unleash": "Unleash Your Full",
       "potential": "Potential With Us",
-      "journey": "Start Your Journey Today!"
+      "journey": "Start Your Journey Today!",
+      "buttons": {
+        "explore": "Explore",
+        "our": "Our",
+        "schools": "Schools",
+        "contact": "Contact Us"
+      }
+    },
+    "explore": {
+      "title": "More to Explore",
+      "cards": {
+        "News": "News",
+        "newsDesc": "Stay in the Loop! Explore the Latest Updates and Discover What's Happening Now!",
+        "Our Schools": "Our Schools",
+        "ourSchoolsDesc": "Take the First Step Toward Excellence. Explore Our Schools and Find the Perfect Fit for Your Future!",
+        "Academy": "Academy",
+        "academyDesc": "Unlock Your True Potential! Discover Our Academy and Start Shaping Your Success Today!"
+      }
+    },
+    "discoverJaris": {
+      "discover": "DISCOVER",
+      "jaris": "JARIS",
+      "buttons": {
+        "contact": "Contact Us",
+        "apply": "Apply Now",
+        "schools": "Our Schools"
+      }
     }
   },
   "homepage": {
+    "splashScreen": {
+      "head": "Welcome to",
+      "main": "JAWAHIR AL-RIYADH",
+      "footer": "Educational Company"
+    },
     "hero": {
       "BECOME": "BECOME",
       "YOUR1": "YOUR",
@@ -93,6 +124,11 @@
       "Our Students": "Our Students",
       "Our Teachers": "Our Teachers",
       "Our Staff": "Our Staff"
+    },
+    "homeGallery": {
+      "title": "Photo Gallery",
+      "description": "Discover exciting events held at school in our gallery.",
+      "buttonText": "View Gallery"
     }
   }
 }
