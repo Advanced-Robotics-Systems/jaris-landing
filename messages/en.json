@@ -75,6 +75,35 @@
         "apply": "Apply Now",
         "schools": "Our Schools"
       }
+    },
+    "footer": {
+      "joinNewsletter": "Join our newsletter to stay up to date on features and releases",
+      "soon": "Coming Soon",
+      "loginTitle": "Login",
+      "exploreTitle": "Explore",
+      "contactTitle": "Contact",
+      "links": {
+        "contact": {
+          "Contact Us": "Contact Us",
+          "Staff Contact": "Staff Contact",
+          "Our Schools": "Our Schools",
+          "FAQ": "FAQ"
+        },
+        "explore": {
+          "About": "About",
+          "Admission": "Admission",
+          "Photo Gallery": "Photo Gallery",
+          "News": "News"
+        },
+        "login": {
+          "Student Login": "Student Login",
+          "Teacher Login": "Teacher Login",
+          "Staff Login": "Staff Login"
+        }
+      },
+      "bottom": {
+        "copyright": "JAWAHIR AL-RIYADH EDUCATIONAL COMPANY"
+      }
     }
   },
   "homepage": {

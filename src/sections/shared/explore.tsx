@@ -11,11 +11,7 @@ const Explore = () => {
   return (
     <div className="relative padding bg-jaris-blue-light flex flex-col items-center justify-center gap-12 md:gap-16 lg:gap-20">
       <h2 className="heading-secondary font-bold text-bg-text">{t("title")}</h2>
-      <div
-        className={`flex ${
-          locale === "ar" ? "flex-row-reverse" : ""
-        } items-center justify-center gap-8 flex-wrap`}
-      >
+      <div className="flex items-center justify-center gap-8 flex-wrap">
         {exploreItems.map((item: any, index: number) => (
           <ExploreCard
             key={index}

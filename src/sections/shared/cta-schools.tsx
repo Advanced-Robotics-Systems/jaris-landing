@@ -70,11 +70,7 @@ const CTASchools = () => {
             <p className="text-jaris-gold">{t("potential")}</p>
             <p className="text-bg-text">{t("journey")}</p>
           </div>
-          <div
-            className={`flex ${
-              locale === "ar" ? "flex-row-reverse" : ""
-            } items-center justify-center gap-3`}
-          >
+          <div className="flex items-center justify-center gap-3">
             <Link href={`/${locale}/schools`}>
               <Button
                 size="lg"

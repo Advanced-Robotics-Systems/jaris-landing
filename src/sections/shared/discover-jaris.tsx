@@ -51,9 +51,7 @@ const DiscoverJaris = () => {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.9, ease: "easeInOut" }}
-          className={`flex ${
-            locale === "ar" ? "flex-row-reverse" : ""
-          } items-center justify-center gap-11 flex-wrap`}
+          className="flex items-center justify-center gap-11 flex-wrap"
         >
           <Link href={`/${locale}/contact`}>
             <Button

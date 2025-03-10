@@ -14,6 +14,7 @@ import { ICONS } from "@/utils/icons";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { linkHelper } from "@/utils/link-helper";
+import { LangButton } from "@/components";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<string | null>(null);
@@ -120,7 +121,7 @@ const Header = () => {
         isScrolledPast ? "" : "translate-y-0"
       } ${isNavbarVisible ? "translate-y-0" : "-translate-y-full"}`}
     >
-      <div className="w-full flex justify-between items-center h-full gap-10">
+      <div className="w-full flex justify-between items-center h-full">
         <div className="navbar-brand flex items-center h-full px-4">
           <Link
             href={`/${locale}`}
@@ -139,6 +140,8 @@ const Header = () => {
           </Link>
         </div>
 
+        <LangButton />
+
         {/* Desktop Menu */}
         <ul className="hidden xl:flex items-center justify-center h-full">
           {navItems.map((item) => (
@@ -152,12 +155,12 @@ const Header = () => {
                 <Link
                   size="lg"
                   href={linkHelper(locale, item.link)}
-                  className="px-8 py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center text-center"
+                  className="px-5 py-4 2xl:px-8 2xl:py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center text-center"
                 >
                   {t(item.name)}
                 </Link>
               ) : (
-                <div className="px-8 py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none text-center">
+                <div className="px-5 py-4 2xl:px-8 2xl:py-4 mt-[1px] text-jaris-blue text-lg font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center select-none text-center">
                   {t(item.name)}
                 </div>
               )}

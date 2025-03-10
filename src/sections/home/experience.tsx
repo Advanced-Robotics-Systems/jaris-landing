@@ -15,11 +15,7 @@ const Experience = ({ t, locale }: { t: any; locale: string }) => {
         </div>
       </div>
 
-      <div
-        className={`flex ${
-          locale === "ar" ? "flex-row-reverse" : ""
-        } items-center justify-center gap-8 lg:gap-16 flex-wrap padding-x`}
-      >
+      <div className="flex items-center justify-center gap-8 lg:gap-16 flex-wrap padding-x">
         {homeExperiences.map((experience: any, index: number) => (
           <ExperienceCard
             key={index}

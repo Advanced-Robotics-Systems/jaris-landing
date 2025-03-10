@@ -75,6 +75,35 @@
         "apply": "قدم طلبك الآن",
         "schools": "مدارسنا"
       }
+    },
+    "footer": {
+      "joinNewsletter": "انضم إلى نشرتنا الإخبارية لتبقى على اطلاع على آخر المستجدات المتعلقة بالميزات والإصدارات",
+      "soon": "قريباً",
+      "loginTitle": "تسجيل الدخول",
+      "exploreTitle": "استكشف",
+      "contactTitle": "تواصل معنا",
+      "links": {
+        "contact": {
+          "Contact Us": "تواصل معنا",
+          "Staff Contact": "جهات اتصال الموظفين",
+          "Our Schools": "مدارسنا",
+          "FAQ": "FAQ"
+        },
+        "explore": {
+          "About": "عن جواهر",
+          "Admission": "القبول",
+          "Photo Gallery": "معرض الصور",
+          "News": "الأخبار"
+        },
+        "login": {
+          "Student Login": "تسجيل دخول الطالب",
+          "Teacher Login": "تسجيل دخول المعلم",
+          "Staff Login": "تسجيل دخول الموظف"
+        }
+      },
+      "bottom": {
+        "copyright": "شركة جواهر الرياض التعليمية"
+      }
     }
   },
   "homepage": {
