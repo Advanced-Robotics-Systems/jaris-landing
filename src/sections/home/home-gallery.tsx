@@ -1,7 +1,7 @@
-import { Button, Image, Link } from "@nextui-org/react";
-import React from "react";
+import { Button, Image } from "@nextui-org/react";
+import { Link } from "@/i18n/navigation";
 
-const HomeGallery = ({ t, locale }: { t: any; locale: string }) => {
+const HomeGallery = ({ t }: { t: any }) => {
   return (
     <div className="relative bg-bg-primary lg:h-screen padding lg:px-24 xl:px-48 xl:p-64 lg:py-28 flex max-lg:flex-col-reverse items-center justify-center gap-24 lg:gap-8">
       <div className="flex flex-col items-start gap-12 flex-1 ">
@@ -13,7 +13,7 @@ const HomeGallery = ({ t, locale }: { t: any; locale: string }) => {
             {t("homeGallery.description")}
           </p>
         </div>
-        <Link href={`/${locale}/news-gallery`}>
+        <Link href="/news-gallery">
           <Button
             size="lg"
             variant="solid"

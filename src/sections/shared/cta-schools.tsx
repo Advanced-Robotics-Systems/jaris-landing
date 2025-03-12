@@ -4,7 +4,8 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { ctaSchoolsCarouselItems } from "@/data";
-import { Button, Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
+import { Link } from "@/i18n/navigation";
 import { useLocale, useTranslations } from "next-intl";
 
 const CTASchools = () => {
@@ -71,7 +72,7 @@ const CTASchools = () => {
             <p className="text-bg-text">{t("journey")}</p>
           </div>
           <div className="flex items-center justify-center gap-3">
-            <Link href={`/${locale}/schools`}>
+            <Link href="/schools">
               <Button
                 size="lg"
                 variant="bordered"
@@ -84,7 +85,7 @@ const CTASchools = () => {
                 </span>
               </Button>
             </Link>
-            <Link href={`/${locale}/contact`}>
+            <Link href="/contact">
               <Button
                 size="lg"
                 variant="solid"

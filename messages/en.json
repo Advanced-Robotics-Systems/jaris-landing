@@ -34,6 +34,15 @@
     "teacherLogin": "Teacher Login",
     "staffLogin": "Staff Login"
   },
+  "whatsappWidget": {
+    "title": "Start a Conversation",
+    "subtitle": "Hi! Click one of our members below to chat on",
+    "contacts": {
+      "Jawahir Al-Riyadh Educational Company": "Jawahir Al-Riyadh Educational Company",
+      "Help Desk": "Help Desk",
+      "English / Arabic": "English / Arabic"
+    }
+  },
   "shared": {
     "ctaSchools": {
       "swiper": {

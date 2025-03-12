@@ -53,7 +53,7 @@ export default function Home() {
             <Experience t={t} locale={locale} />
             <Counts t={t} />
             <CTASchools />
-            <HomeGallery t={t} locale={locale} />
+            <HomeGallery t={t} />
             <Explore />
             <DiscoverJaris />
           </main>

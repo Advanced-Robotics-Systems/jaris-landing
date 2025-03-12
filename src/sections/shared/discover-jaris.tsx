@@ -1,11 +1,11 @@
 "use client";
-import { Button, Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
+import { Link } from "@/i18n/navigation";
 import { motion } from "framer-motion";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
 const DiscoverJaris = () => {
   const t = useTranslations("shared.discoverJaris");
-  const locale = useLocale();
 
   return (
     <div className="md:h-screen relative padding-x py-32 w-full flex flex-col justify-center items-center gap-8 overflow-hidden">
@@ -53,7 +53,7 @@ const DiscoverJaris = () => {
           transition={{ duration: 0.3, delay: 0.9, ease: "easeInOut" }}
           className="flex items-center justify-center gap-11 flex-wrap"
         >
-          <Link href={`/${locale}/contact`}>
+          <Link href="/contact">
             <Button
               size="lg"
               variant="solid"
@@ -64,7 +64,7 @@ const DiscoverJaris = () => {
               </span>
             </Button>
           </Link>
-          <Link href={`/${locale}/admission`}>
+          <Link href="/admission">
             <Button
               size="lg"
               variant="solid"
@@ -75,7 +75,7 @@ const DiscoverJaris = () => {
               </span>
             </Button>
           </Link>
-          <Link href={`/${locale}/schools`}>
+          <Link href="/schools">
             <Button
               size="lg"
               variant="solid"

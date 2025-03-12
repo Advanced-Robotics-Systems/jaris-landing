@@ -1,10 +1,9 @@
 import { Image, Input } from "@nextui-org/react";
 import { footerLinks, footerSocials } from "@/data";
-import { Link } from "@nextui-org/react";
+import { Link } from "@/i18n/navigation";
 import { ICONS } from "@/utils/icons";
-import { linkHelper } from "@/utils/link-helper";
 
-const InnerFooter = ({ t, locale }: { t: any; locale: string }) => {
+const InnerFooter = ({ t }: { t: any }) => {
   return (
     <footer className="w-full bg-jaris-blue padding lg:px-36 text-bg-text flex flex-col gap-16 lg:gap-32">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-16">
@@ -43,7 +42,7 @@ const InnerFooter = ({ t, locale }: { t: any; locale: string }) => {
               {footerLinks.contact.map((item, index) => (
                 <li key={index}>
                   <Link
-                    href={linkHelper(locale, item.link)}
+                    href={item.link}
                     className="text-jaris-white text-sm md:text-medium"
                   >
                     {t(`links.contact.${item.name}`)}
@@ -62,7 +61,7 @@ const InnerFooter = ({ t, locale }: { t: any; locale: string }) => {
               {footerLinks.explore.map((item, index) => (
                 <li key={index}>
                   <Link
-                    href={linkHelper(locale, item.link)}
+                    href={item.link}
                     className="text-jaris-white text-sm md:text-medium"
                   >
                     {t(`links.explore.${item.name}`)}
@@ -81,7 +80,7 @@ const InnerFooter = ({ t, locale }: { t: any; locale: string }) => {
               {footerLinks.login.map((item, index) => (
                 <li key={index}>
                   <Link
-                    href={linkHelper(locale, item.link)}
+                    href={item.link}
                     className="text-jaris-white text-sm md:text-medium"
                   >
                     {t(`links.login.${item.name}`)}
@@ -113,11 +112,11 @@ const InnerFooter = ({ t, locale }: { t: any; locale: string }) => {
         <div className="flex gap-4">
           {footerSocials.map((item, index) => (
             <Link
-              isExternal
-              size="lg"
               key={index}
               href={item.link}
-              className="text-bg-text"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-bg-text text-lg"
             >
               {item.icon}
             </Link>

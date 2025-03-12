@@ -8,12 +8,11 @@ import {
   DropdownMenu,
   DropdownTrigger,
   Image,
-  Link,
 } from "@nextui-org/react";
+import { Link } from "@/i18n/navigation";
 import { ICONS } from "@/utils/icons";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import { linkHelper } from "@/utils/link-helper";
 import { LangButton } from "@/components";
 
 const Header = () => {
@@ -123,10 +122,7 @@ const Header = () => {
     >
       <div className="w-full flex justify-between items-center h-full">
         <div className="navbar-brand flex items-center h-full px-4">
-          <Link
-            href={`/${locale}`}
-            className="text-2xl font-bold text-jaris-blue "
-          >
+          <Link href="/" className="text-2xl font-bold text-jaris-blue ">
             <Image
               src="/logos/jawahir-logo-full-new.png"
               alt="Jawahir International School"
@@ -153,9 +149,8 @@ const Header = () => {
             >
               {item.link ? (
                 <Link
-                  size="lg"
-                  href={linkHelper(locale, item.link)}
-                  className="px-5 py-4 2xl:px-8 2xl:py-4 text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center text-center"
+                  href={item.link}
+                  className="px-5 py-4 2xl:px-8 2xl:py-4 mt-[1px] text-jaris-blue font-medium hover:bg-jaris-blue-hover transition duration-200 rounded h-full flex items-center justify-center text-center text-lg"
                 >
                   {t(item.name)}
                 </Link>
@@ -179,9 +174,8 @@ const Header = () => {
                       onMouseEnter={() => handleSubMouseEnter(sub.name)}
                     >
                       <Link
-                        size="lg"
-                        href={linkHelper(locale, sub.link)}
-                        className="px-4 py-3 text-jaris-blue hover:bg-jaris-blue-hover transition duration-200 flex gap-10"
+                        href={sub.link}
+                        className="px-4 py-3 text-jaris-blue text-lg hover:bg-jaris-blue-hover transition duration-200 flex gap-10"
                       >
                         <div>{t(sub.name)}</div>
                         {sub.sublinks && (
@@ -216,7 +210,7 @@ const Header = () => {
                           {sub.sublinks.map((subSub) => (
                             <li key={subSub.name}>
                               <Link
-                                href={linkHelper(locale, subSub.link)}
+                                href={subSub.link}
                                 className="block px-4 py-2 text-jaris-gold-dark hover:bg-jaris-blue-hover transition duration-200"
                               >
                                 {t(subSub.name)}
@@ -375,9 +369,8 @@ const Header = () => {
                   <div className="flex items-center">
                     {item.link ? (
                       <Link
-                        size="lg"
                         className="px-4 py-3 text-jaris-blue font-medium"
-                        href={linkHelper(locale, item.link)}
+                        href={item.link}
                       >
                         {t(item.name)}
                       </Link>
@@ -419,8 +412,7 @@ const Header = () => {
                           <li key={sub.name}>
                             <div className="flex items-center">
                               <Link
-                                href={linkHelper(locale, sub.link)}
-                                size="lg"
+                                href={sub.link}
                                 className="px-4 py-3 text-jaris-blue"
                               >
                                 {t(sub.name)}
@@ -461,7 +453,7 @@ const Header = () => {
                                     {sub.sublinks.map((subSub) => (
                                       <li key={subSub.name}>
                                         <Link
-                                          href={linkHelper(locale, subSub.link)}
+                                          href={subSub.link}
                                           className="block px-4 py-2 text-jaris-blue"
                                         >
                                           {t(subSub.name)}
