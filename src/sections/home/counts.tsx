@@ -1,7 +1,7 @@
 import { CountCard } from "@/components";
 import { counts } from "@/data";
 
-const Counts = ({ t, locale }: { t: any; locale: string }) => {
+const Counts = ({ t }: { t: any }) => {
   return (
     <div className="relative padding bg-[url('/images/home/_DSC0164-Enhanced-NR.jpg')] bg-cover bg-bottom">
       <div className="absolute inset-0 bg-jaris-blue opacity-75" />

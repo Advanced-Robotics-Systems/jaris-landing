@@ -51,7 +51,7 @@ export default function Home() {
             {/* <Mission /> */}
             <CTACommunity t={t} />
             <Experience t={t} locale={locale} />
-            <Counts t={t} locale={locale} />
+            <Counts t={t} />
             <CTASchools />
             <HomeGallery t={t} locale={locale} />
             <Explore />

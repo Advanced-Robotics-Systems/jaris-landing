@@ -146,13 +146,13 @@
         "One of the Top Schools in Saudi Arabia": "One of the Top Schools in Saudi Arabia",
         "topSchoolsDesc": "JARIS stands out as a leading institution in Saudi Arabia, renowned for its exceptional academic programs and holistic approach to education. Committed to excellence, it nurtures future leaders through world-class facilities and dedicated faculty.",
         "20 Nationalities Represented": "20 Nationalities Represented",
-        "nationalitiesDesc": "Our campus proudly represents 20 nationalities, fostering a tapestry of cultures and viewpoints. This multicultural environment enriches education, nurtures global awareness and promotes unity among students."
+        "nationalitiesDesc": "Our campuses proudly represents 20 nationalities, fostering a tapestry of cultures and viewpoints. This multicultural environment enriches education, nurtures global awareness and promotes unity among students."
       }
     },
     "counts": {
-      "Our Students": "Our Students",
-      "Our Teachers": "Our Teachers",
-      "Our Staff": "Our Staff"
+      "Students": "Students",
+      "Teachers": "Teachers",
+      "Staff": "Staff"
     },
     "homeGallery": {
       "title": "Photo Gallery",
