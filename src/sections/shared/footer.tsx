@@ -101,13 +101,13 @@ const Footer = () => {
         <div className="flex gap-4 text-center">
           {/* School Names */}
           <Link href="/schools/fjaris">
-            <span className="text-bg-text font-light">1st JARIS</span>
+            <span className="text-bg-text font-light">First JARIS</span>
           </Link>
           <Link href="/schools/sjaris">
-            <span className="text-bg-text font-light">2nd JARIS</span>
+            <span className="text-bg-text font-light">Second JARIS</span>
           </Link>
           <Link href="/schools/tjaris">
-            <span className="text-bg-text font-light">3rd JARIS</span>
+            <span className="text-bg-text font-light">Third JARIS</span>
           </Link>
         </div>
         <div className="flex gap-4">

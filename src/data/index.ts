@@ -696,15 +696,15 @@ export const staffContactDetailsTable = [
     ext: "101",
     email: "mohammedalmalouhi@jawahirschool.com",
   },
+  // {
+  //   role: "Principal Boys Section",
+  //   name: "Mr. Khalid Khan",
+  //   contact: "0505476585, 11-4785300240",
+  //   ext: "-",
+  //   email: "khalidali@jawahirschool.com",
+  // },
   {
-    role: "Principal Boys Section",
-    name: "Mr. Khalid Khan",
-    contact: "0505476585, 11-4785300240",
-    ext: "-",
-    email: "khalidali@jawahirschool.com",
-  },
-  {
-    role: "VP American Boys Section",
+    role: "VP American Boys Section (Coordinator College Board, Cognia)",
     name: "Mr. Liaqat Ali Khan",
     contact: "2767377, 4794539",
     ext: "103",
@@ -809,17 +809,20 @@ export const contactExperienceCards = [
   },
   {
     icon: ICONS.email,
-    title: "1st JARIS",
+    title: "First JARIS (British Cambridge Curriculum)",
     subtitle: ["aftabahmad_vp@jawahirschool.com", "zahid.jaris@gmail.com"],
   },
   {
     icon: ICONS.email,
-    title: "2nd JARIS",
-    subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
+    title: "Second JARIS (American Curriculum, Cognia Accredited)",
+    subtitle: [
+      "faisal@jawahirschool.com",
+      "liaqat.ali.khan_vp@jawahirschool.com",
+    ],
   },
   {
     icon: ICONS.email,
-    title: "3rd JARIS",
+    title: "Third JARIS (British Cambridge Curriculum)",
     subtitle: ["zahid.jaris@gmail.com"],
   },
   {
