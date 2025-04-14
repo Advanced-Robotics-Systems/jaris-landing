@@ -815,10 +815,7 @@ export const contactExperienceCards = [
   {
     icon: ICONS.email,
     title: "Second JARIS (American Curriculum, Cognia Accredited)",
-    subtitle: [
-      "faisal@jawahirschool.com",
-      "liaqat.ali.khan_vp@jawahirschool.com",
-    ],
+    subtitle: ["liaqat.ali.khan_vp@jawahirschool.com"],
   },
   {
     icon: ICONS.email,
