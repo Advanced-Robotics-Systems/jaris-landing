@@ -1,5 +1,14 @@
-import { specialNeedsHeroCarouselItems } from '@/data'
-import { CTASchools, Footer, GalleryPreview, Header, HeroCarousel, NavbarPlaceholder, SpNeedsOverview1, SpNeedsOverview2 } from '@/sections'
+import { specialNeedsHeroCarouselItems } from "@/data";
+import {
+  CTASchools,
+  Footer,
+  GalleryPreview,
+  Header,
+  HeroCarousel,
+  NavbarPlaceholder,
+  SpNeedsOverview1,
+  SpNeedsOverview2,
+} from "@/sections";
 
 const SpecialNeeds = () => {
   return (
@@ -15,7 +24,7 @@ const SpecialNeeds = () => {
       </main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default SpecialNeeds
+export default SpecialNeeds;

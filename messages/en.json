@@ -168,5 +168,116 @@
       "description": "Discover exciting events held at school in our gallery.",
       "buttonText": "View Gallery"
     }
+  },
+  "admissionPage": {
+    "hero": {
+      "Admission": "ADMISSION",
+      "subtitle1": "Your journey starts here",
+      "subtitle2": "Become a part of JARIS",
+      "subtitle3": "Our state-of-the-art sports facilities",
+      "subtitle4": "Experience an organised and modern facilities"
+    },
+    "procedure": {
+      "title": "Admission Procedure",
+      "detailsStart": "The school registers interested candidates who can easily apply online via the link ",
+      "onlineAdmission": "online admission.",
+      "detailsEnd": " After clicking the registration/admission icon and providing information by the parents, the admin office follows up using the ID number already allotted to the candidates through SMS",
+      "buttonText": "Admission Form"
+    },
+    "notice": "New openings to all grades are announced every academic year prior to school closure for summer vacation. However, the Principal may consider granting admissions on reserved seats to those deserving students who will be joining from abroad any time of the year, provided Ministry of Education (Department of Foreign and National Education) approves such admission.",
+    "procedureStep": {
+      "title": "Admission Procedure",
+      "steps": {
+        "title1": "FCFS",
+        "description1": "Admissions are offered to everyone on first-come-first-serve basis irrespective of nationality, color, caste, creed, race, origin, and social status.",
+        "title2": "Assessment Test",
+        "description2": "The school uses entry test (assessment) as a main tool for admission, however, there is still room for talented students to convince the school leaders about their potential. They can either present their past records or provide enough evidence to justify their unsatisfactory performance in entry test. However, the concerned vice principal may form a committee to decide such cases.",
+        "title3": "Samples",
+        "description3": "Some specimen of the assesment of core subjects have been uploaded on our website for parents/students review in order to prepare for entry test.",
+        "title4": "Interview",
+        "description4": "The entrance test is mandatory whereas interview is aimed at assessing the general intelligence and behavior. Core subjects such as English, Mathematics, Science, Arabic/Urdu and part of General Knowledge are included for assessment and admission.",
+        "title5": "Qualified",
+        "description5": "After passing the assessment/evaluation, admission will be offered provisionally by issuing a folder to the qualifying students."
+      }
+    },
+    "fees": {
+      "title": "Prices and Fee Structure",
+      "subtitle": "Fees",
+      "buttonText1": "Fee Info",
+      "buttonText2": "Download",
+      "buttonText3": "Bank Details",
+      "buttonSubText3": "View",
+      "feesCard": {
+        "title1": "Secondary",
+        "title2": "Middle",
+        "title3": "Primary",
+        "title4": "Kindergarten"
+      }
+    },
+    "mission": {
+      "subtitle": "Admission Procedure",
+      "title": "Admission Checklist",
+      "item1": "A Completed Admission Form",
+      "item2": "Mother's & Father's valid Passport (copy)",
+      "item3": "Student's valid Passport (copy)",
+      "item4": "Mother's & Father's valid Iqama (copy)",
+      "item5": "Student's valid Iqama (copy). (Present original for verification)",
+      "item6": "Copy of Birth Certificate. (Present original for verification)",
+      "item7": "Copy of the vaccination Certificate. (Present original for verification)",
+      "item8": "An owing letter from the sponsor",
+      "item9": "A Statement from the Guardian mentioning Reasons for Admission in the School",
+      "item10": "Five copies of the very recent color photographs",
+      "item11": "Residence Map. (Location)",
+      "item12": "School Leaving Certificate & All Previous years Progress Reports (Results Cards) starting grade I from the previous School & duly attested from the Ministry of Foreign Affairs and Saudi Embassy if the student is coming from abroad"
+    },
+    "kindergarten": {
+      "subtitle": "Admission Procedure",
+      "title": "Admission in Kindergarten",
+      "details1": "As Jawahir Al-Riyadh International School pursues an International Curriculum, we prefer and encourage parents to enroll students at an early age. Our system of education requires at least 3 years of pre-schooling in order for students to be adequately fluent in English language prior to promoting to grade I (one).",
+      "details2": " The parents interested to admit their children in Nursery or Montessori grades need to bring their children directly for interview and physical assessment at the time of admission along with the copies of birth certificate (in order to verify the date of birth) and vaccination card.",
+      "ageGroups": {
+        "grade1": "Nursery/Montessori-I",
+        "grade2": "Lower Kindergarten (LKG)",
+        "grade3": "Upper Kindergarten (UKG)",
+        "age1": "3 years",
+        "age2": "4 years",
+        "age3": "5 years"
+      },
+      "notes": {
+        "note1": "A screening interview with the Principal, (if needed) will be conducted by the Principal himself and his decision will be final.",
+        "note2": "  JARIS cannot guarantee the admission if the documents mentioned above are not presented."
+      },
+      "caution": {
+        "title": "CAUTION:",
+        "details": "JARIS reserves the right to deny enrolments to any applicants at any time during the process in case there are reasons to believe that enrolment would not be in the best interest of the applicant or the school. As soon as the above documents are received along with the prescribed fee, JARIS will take up the matter with the concerned authorities in the Education Department (Ministry of Education) and in case the admission is not approved, JARIS will not be obligated to grant the admission and in this case the fee will be refunded."
+      }
+    },
+    "ctaCard": {
+      "title1": "Classera",
+      "title2": "Curriculum",
+      "title3": "Join Us",
+      "details1": "Login Classera Here",
+      "details2": "View comprehensive list of our curriculums",
+      "details3": "Explore JARIS and find your place with us.",
+      "buttonText1": "Login Classera",
+      "buttonText2": "View Curriculum",
+      "buttonText3": "View FAQs",
+      "buttonText4": "Contact Us"
+    },
+    "curriculums": {
+      "title": "Our Curriculums",
+      "subtitle": "Find exactly what you need from JARIS",
+      "title1": "British",
+      "title2": "American",
+      "title3": "Pakistan",
+      "title4": "Sudan",
+      "title5": "Egypt",
+      "description1": "Known for its structured approach and rigorous standards, the British Curriculum emphasizes depth in subjects and encourages analytical thinking. Students work through key stages, leading to internationally recognized qualifications such as IGCSE and A-levels, preparing them for top universities worldwide.",
+      "description2": "Focused on a holistic and flexible approach, the American Curriculum balances core academic subjects with a wide variety of electives. It emphasizes continuous assessment and caters to individual learning styles, culminating in a high school diploma and preparation for college admission in the U.S. and globally.",
+      "description3": "Rooted in national standards, the Pakistani Curriculum emphasizes core subjects with a strong focus on languages, sciences, and Islamic studies. It is structured to prepare students for the Secondary School Certificate (SSC) and Higher Secondary School Certificate (HSSC) exams, which are gateways to higher education in Pakistan and abroad.",
+      "description4": "The Sudanese Curriculum includes subjects focused on national and cultural knowledge alongside general academics. It prepares students for the Sudanese Certificate, emphasizing both academic and ethical development, and is recognized by universities across Sudan and other Arab-speaking countries.",
+      "description5": "The Egyptian Curriculum is designed to meet the educational standards set by Egypt's Ministry of Education, focusing on Arabic language, science, mathematics, and humanities. It prepares students for the Egyptian Thanaweya Amma (General Secondary Education Certificate), recognized in Egypt and many other countries.",
+      "buttonText": "View Curriculum"
+    }
   }
 }

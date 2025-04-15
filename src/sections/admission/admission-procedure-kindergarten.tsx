@@ -23,7 +23,12 @@ const tableColumns = [
   },
 ];
 
-const AdmissionProcedureKindergarten = () => {
+const AdmissionProcedureKindergarten = ({ t }: { t: any }) => {
+  const tableRowData = admissionKindergartenAgeGroups.map((item) => ({
+    grade: t(`kindergarten.ageGroups.${item.grade}`),
+    age: t(`kindergarten.ageGroups.${item.age}`),
+  }));
+
   return (
     <div className="padding bg-jaris-white flex flex-col gap-16 lg:px-64 xl:px-80 2xl:px-96">
       {/* Top Section */}
@@ -31,24 +36,16 @@ const AdmissionProcedureKindergarten = () => {
         {/* Text Content */}
         <div className="xl:w-1/2">
           <h3 className="subtitle text-jaris-blue font-semibold">
-            Admission Procedure
+            {t(`kindergarten.subtitle`)}
           </h3>
           <h2 className="heading-secondary text-jaris-gold font-semibold">
-            Admission in Kindergarten
+            {t(`kindergarten.title`)}
           </h2>
           <p className="subtitle text-jaris-black mt-4">
-            As Jawahir Al-Riyadh International School pursues an International
-            Curriculum, we prefer and encourage parents to enroll students at an
-            early age. Our system of education requires at least 3 years of
-            pre-schooling in order for students to be adequately fluent in
-            English language prior to promoting to grade I (one).
+            {t(`kindergarten.details1`)}
           </p>
           <p className="subtitle text-jaris-black mt-4">
-            The parents interested to admit their children in Nursery or
-            Montessori grades need to bring their children directly for
-            interview and physical assessment at the time of admission along
-            with the copies of birth certificate (in order to verify the date of
-            birth) and vaccination card.
+            {t(`kindergarten.details2`)}
           </p>
         </div>
 
@@ -80,7 +77,7 @@ const AdmissionProcedureKindergarten = () => {
             </TableColumn>
           )}
         </TableHeader>
-        <TableBody items={admissionKindergartenAgeGroups}>
+        <TableBody items={tableRowData}>
           {(item) => (
             <TableRow
               key={item.grade}
@@ -104,19 +101,13 @@ const AdmissionProcedureKindergarten = () => {
           <div className="flex-shrink-0 text-jaris-gold">
             {ICONS.check_circle}
           </div>
-          <span className="subtitle">
-            A screening interview with the Principal, (if needed) will be
-            conducted by the Principal himself and his decision will be final.
-          </span>
+          <span className="subtitle">{t(`kindergarten.notes.note1`)}</span>
         </li>
         <li className="flex items-start gap-3">
           <div className="flex-shrink-0 text-jaris-gold">
             {ICONS.check_circle}
           </div>
-          <span className="subtitle">
-            JARIS cannot guarantee the admission if the documents mentioned
-            above are not presented.
-          </span>
+          <span className="subtitle">{t(`kindergarten.notes.note2`)}</span>
         </li>
       </ul>
 
@@ -128,18 +119,10 @@ const AdmissionProcedureKindergarten = () => {
           </span>
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-jaris-red subtitle">
-              CAUTION:
+              {t(`kindergarten.caution.title`)}
             </div>
             <div className="text-jaris-blue small-text">
-              JARIS reserves the right to deny enrolments to any applicants at
-              any time during the process in case there are reasons to believe
-              that enrolment would not be in the best interest of the applicant
-              or the school. As soon as the above documents are received along
-              with the prescribed fee, JARIS will take up the matter with the
-              concerned authorities in the Education Department (Ministry of
-              Education) and in case the admission is not approved, JARIS will
-              not be obligated to grant the admission and in this case the fee
-              will be refunded.
+              {t(`kindergarten.caution.details`)}
             </div>
           </div>
         </div>
