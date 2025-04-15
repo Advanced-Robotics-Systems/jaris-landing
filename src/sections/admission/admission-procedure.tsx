@@ -1,7 +1,7 @@
 import { Button, Image } from "@nextui-org/react";
 import React from "react";
 
-const AdmissionProcedure = () => {
+const AdmissionProcedure = ({ t, locale }: { t: any; locale: string }) => {
   return (
     <div
       className="relative h-full lg:h-screen bg-[url('/images/admission/admission-procedure-bg.jpg')] bg-cover bg-center padding md:py-40 lg:px-56 xl:px-72"
@@ -10,20 +10,22 @@ const AdmissionProcedure = () => {
       <div className="absolute inset-0 bg-bg-primary/90" />
 
       <div className="relative z-20 flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="text-left max-w-lg">
-          <span className="text-jaris-blue text-base sm:text-lg md:text-xl font-semibold uppercase">
-            Admission Procedure
+        <div
+          className={`max-w-lg ${locale === "ar" ? "text-right" : "text-left"}`}
+        >
+          <span className="text-jaris-blue text-base sm:text-lg md:text-xl font-semibold uppercase ">
+            {t(`procedure.title`)}
           </span>
           <h2 className="heading-md text-jaris-gold mt-2">
-            Admission Procedure
+            {t(`procedure.title`)}
           </h2>
           <p className="text-jaris-blue-dark subtitle mt-4 leading-6 md:leading-8">
-            The school registers interested candidates who can easily apply
-            online via the link{" "}
-            <span className="underline-animated-small">online admission</span>.
-            After clicking the registration/admission icon and providing
-            information by the parents, the admin office follows up using the ID
-            number already allotted to the candidates through SMS.
+            {t(`procedure.detailsStart`)}
+            <span className="underline-animated-small">
+              {" "}
+              {t(`procedure.onlineAdmission`)}
+            </span>
+            {t(`procedure.detailsEnd`)}
           </p>
           <Button
             as="a"
@@ -32,7 +34,7 @@ const AdmissionProcedure = () => {
             radius="full"
             className="mt-6 bg-jaris-red-dark text-white"
           >
-            Admission form
+            {t(`procedure.buttonText`)}
           </Button>
         </div>
 

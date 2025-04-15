@@ -1,6 +1,6 @@
 import { Button, Image, Card } from "@nextui-org/react";
 
-const AdmissionCTA = () => {
+const AdmissionCTA = ({ t }: { t: any }) => {
   return (
     <div className="padding bg-bg-primary grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12 lg:py-36 lg:px-64 xl:px-80 2xl:px-96">
       {/* Classera Section */}
@@ -8,8 +8,10 @@ const AdmissionCTA = () => {
         {/* Left Side: Text and Button */}
         <div className="flex flex-col justify-between w-2/3 p-6">
           <div>
-            <h3 className="heading-secondary font-semibold">Classera</h3>
-            <p className="subtitle mt-4">Login Classera Here</p>
+            <h3 className="heading-secondary font-semibold">
+              {t(`ctaCard.title1`)}
+            </h3>
+            <p className="subtitle mt-4"> {t(`ctaCard.details1`)}</p>
           </div>
           <div className="mt-6">
             <Button
@@ -19,7 +21,7 @@ const AdmissionCTA = () => {
               radius="full"
               className="border border-jaris-white text-jaris-white bg-jaris-white/20"
             >
-              Login Classera
+              {t(`ctaCard.buttonText1`)}
             </Button>
           </div>
         </div>
@@ -40,8 +42,10 @@ const AdmissionCTA = () => {
         {/* Left Side: Text and Button */}
         <div className="flex flex-col justify-between w-2/3 p-6">
           <div>
-            <h3 className="heading-secondary font-semibold">Curriculum</h3>
-            <p className="subtitle mt-4">View comprehensive list of our curriculums</p>
+            <h3 className="heading-secondary font-semibold">
+              {t(`ctaCard.title2`)}
+            </h3>
+            <p className="subtitle mt-4">{t(`ctaCard.details2`)}</p>
           </div>
           <div className="mt-6">
             <Button
@@ -51,7 +55,7 @@ const AdmissionCTA = () => {
               radius="full"
               className="border border-jaris-white text-jaris-white bg-jaris-white/20"
             >
-              View Curriculum
+              {t(`ctaCard.buttonText2`)}
             </Button>
           </div>
         </div>
@@ -72,8 +76,10 @@ const AdmissionCTA = () => {
         {/* Left Side: Text and Button */}
         <div className="flex flex-col justify-between w-2/3 p-6">
           <div>
-            <h3 className="heading-secondary font-semibold">Join us</h3>
-            <p className="subtitle mt-4">Explore JARIS and find your place with us.</p>
+            <h3 className="heading-secondary font-semibold">
+              {t(`ctaCard.title3`)}
+            </h3>
+            <p className="subtitle mt-4">{t(`ctaCard.details3`)}</p>
           </div>
           <div className="mt-6 flex flex-col md:flex-row gap-4">
             <Button
@@ -83,7 +89,7 @@ const AdmissionCTA = () => {
               radius="full"
               className="border border-jaris-white text-jaris-white bg-jaris-white/20"
             >
-              View FAQs
+              {t(`ctaCard.buttonText3`)}
             </Button>
             <Button
               size="lg"
@@ -92,7 +98,7 @@ const AdmissionCTA = () => {
               radius="full"
               className="bg-jaris-gold text-jaris-white"
             >
-              Contact Us
+              {t(`ctaCard.buttonText4`)}
             </Button>
           </div>
         </div>

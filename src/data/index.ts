@@ -520,22 +520,22 @@ export const tJarisCurriculumImages = [
 export const admissionHeroCarouselItems = [
   {
     title: "Admission",
-    subtitle: "Your journey starts here",
+    subtitle: "subtitle1",
     imgUrl: "/images/about/about-hero-carousel-slide-1.jpg",
   },
   {
     title: "Admission",
-    subtitle: "Become a part of JARIS",
+    subtitle: "subtitle2",
     imgUrl: "/images/about/about-hero-carousel-slide-2.jpg",
   },
   {
     title: "Admission",
-    subtitle: "Our state-of-the-art sports facilities",
+    subtitle: "subtitle3",
     imgUrl: "/images/about/about-hero-carousel-slide-3.jpg",
   },
   {
     title: "Admission",
-    subtitle: "Experience an organised and modern facilities",
+    subtitle: "subtitle4",
     imgUrl: "/images/about/about-hero-carousel-slide-4.jpg",
   },
 ];
@@ -543,62 +543,78 @@ export const admissionHeroCarouselItems = [
 export const admissionProcedureSteps = [
   {
     id: "01",
-    title: "FCFS",
-    description:
-      "Admissions are offered to everyone on first-come-first-serve basis irrespective of nationality, color, caste, creed, race, origin, and social status.",
+    title: "title1",
+    description: "description1",
   },
   {
     id: "02",
-    title: "Assessment Test",
-    description:
-      "The school uses entry test (assessment) as a main tool for admission, however, there is still room for talented students to convince the school leaders about their potential. They can either present their past records or provide enough evidence to justify their unsatisfactory performance in entry test. However, the concerned vice principal may form a committee to decide such cases.",
+    title: "title2",
+    description: "description2",
   },
   {
     id: "03",
-    title: "Samples",
-    description:
-      "Some specimen of the assesment of core subjects have been uploaded on our website for parents/students review in order to prepare for entry test.",
+    title: "title3",
+    description: "description3",
   },
   {
     id: "04",
-    title: "Interview",
-    description:
-      "The entrance test is mandatory whereas interview is aimed at assessing the general intelligence and behavior. Core subjects such as English, Mathematics, Science, Arabic/Urdu and part of General Knowledge are included for assessment and admission. ",
+    title: "title4",
+    description: "description4",
   },
   {
     id: "05",
-    title: "Qualified",
-    description:
-      "After passing the assessment/evaluation, admission will be offered provisionally by issuing a folder to the qualifying students.",
+    title: "title5",
+    description: "description5",
   },
 ];
 
 export const admissionFeesData = [
   {
-    title: "Secondary",
+    title: "title1",
     grades: "(10-12)",
     fee: "19,550",
     vat: "17,000 + 2550 VAT",
   },
-  { title: "Middle", grades: "(7-9)", fee: "17,250", vat: "15,000 + 2250 VAT" },
+  { title: "title2", grades: "(7-9)", fee: "17,250", vat: "15,000 + 2250 VAT" },
   {
-    title: "Primary",
+    title: "title3",
     grades: "(1-6)",
     fee: "14,950",
     vat: "13,000 + 1950 VAT",
   },
   {
-    title: "Kindergarten",
+    title: "title4",
     grades: "(Mon-LKG-UKG)",
     fee: "13,800",
     vat: "12,000 + 1800 VAT",
   },
 ];
 
+export const missionItems = [
+  { item: "item1" },
+  { item: "item2" },
+  { item: "item3" },
+  { item: "item4" },
+  { item: "item5" },
+  { item: "item6" },
+  {
+    item: "item7",
+  },
+  { item: "item8" },
+  {
+    item: "item9",
+  },
+  { item: "item10" },
+  { item: "item11" },
+  {
+    item: "item12",
+  },
+];
+
 export const admissionKindergartenAgeGroups = [
-  { grade: "Nursery/Montessori-I", age: "3 years" },
-  { grade: "Lower Kindergarten (LKG)", age: "4 years" },
-  { grade: "Upper Kindergarten (UKG)", age: "5 years" },
+  { grade: "grade1", age: "age1" },
+  { grade: "grade2", age: "age2" },
+  { grade: "grade3", age: "age3" },
 ];
 
 // Curriculum
