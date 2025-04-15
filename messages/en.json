@@ -263,6 +263,21 @@
       "buttonText2": "View Curriculum",
       "buttonText3": "View FAQs",
       "buttonText4": "Contact Us"
+    },
+    "curriculums": {
+      "title": "Our Curriculums",
+      "subtitle": "Find exactly what you need from JARIS",
+      "title1": "British",
+      "title2": "American",
+      "title3": "Pakistan",
+      "title4": "Sudan",
+      "title5": "Egypt",
+      "description1": "Known for its structured approach and rigorous standards, the British Curriculum emphasizes depth in subjects and encourages analytical thinking. Students work through key stages, leading to internationally recognized qualifications such as IGCSE and A-levels, preparing them for top universities worldwide.",
+      "description2": "Focused on a holistic and flexible approach, the American Curriculum balances core academic subjects with a wide variety of electives. It emphasizes continuous assessment and caters to individual learning styles, culminating in a high school diploma and preparation for college admission in the U.S. and globally.",
+      "description3": "Rooted in national standards, the Pakistani Curriculum emphasizes core subjects with a strong focus on languages, sciences, and Islamic studies. It is structured to prepare students for the Secondary School Certificate (SSC) and Higher Secondary School Certificate (HSSC) exams, which are gateways to higher education in Pakistan and abroad.",
+      "description4": "The Sudanese Curriculum includes subjects focused on national and cultural knowledge alongside general academics. It prepares students for the Sudanese Certificate, emphasizing both academic and ethical development, and is recognized by universities across Sudan and other Arab-speaking countries.",
+      "description5": "The Egyptian Curriculum is designed to meet the educational standards set by Egypt's Ministry of Education, focusing on Arabic language, science, mathematics, and humanities. It prepares students for the Egyptian Thanaweya Amma (General Secondary Education Certificate), recognized in Egypt and many other countries.",
+      "buttonText": "View Curriculum"
     }
   }
 }

@@ -621,37 +621,32 @@ export const admissionKindergartenAgeGroups = [
 export const curriculums = [
   {
     id: 1,
-    title: "British",
-    description:
-      "Known for its structured approach and rigorous standards, the British Curriculum emphasizes depth in subjects and encourages analytical thinking. Students work through key stages, leading to internationally recognized qualifications such as IGCSE and A-levels, preparing them for top universities worldwide.",
+    title: "title1",
+    description: "description1",
     image: "/images/curriculum/british.jpeg",
   },
   {
     id: 2,
-    title: "American",
-    description:
-      "Focused on a holistic and flexible approach, the American Curriculum balances core academic subjects with a wide variety of electives. It emphasizes continuous assessment and caters to individual learning styles, culminating in a high school diploma and preparation for college admission in the U.S. and globally.",
+    title: "title2",
+    description: "description2",
     image: "/images/curriculum/american.jpeg",
   },
   {
     id: 3,
-    title: "Pakistan",
-    description:
-      "Rooted in national standards, the Pakistani Curriculum emphasizes core subjects with a strong focus on languages, sciences, and Islamic studies. It is structured to prepare students for the Secondary School Certificate (SSC) and Higher Secondary School Certificate (HSSC) exams, which are gateways to higher education in Pakistan and abroad.",
+    title: "title3",
+    description: "description3",
     image: "/images/curriculum/pakistan.jpeg",
   },
   {
     id: 4,
-    title: "Sudan",
-    description:
-      "The Sudanese Curriculum includes subjects focused on national and cultural knowledge alongside general academics. It prepares students for the Sudanese Certificate, emphasizing both academic and ethical development, and is recognized by universities across Sudan and other Arab-speaking countries.",
+    title: "title4",
+    description: "description4",
     image: "/images/curriculum/sudan.jpeg",
   },
   {
     id: 5,
-    title: "Egypt",
-    description:
-      "The Egyptian Curriculum is designed to meet the educational standards set by Egypt's Ministry of Education, focusing on Arabic language, science, mathematics, and humanities. It prepares students for the Egyptian Thanaweya Amma (General Secondary Education Certificate), recognized in Egypt and many other countries.",
+    title: "title5",
+    description: "description5",
     image: "/images/curriculum/egypt.jpeg",
   },
 ];
