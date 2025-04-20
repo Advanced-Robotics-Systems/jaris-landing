@@ -17,6 +17,7 @@ import {
   NavbarPlaceholder,
 } from "@/sections";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 
 export const metadata: Metadata = {
@@ -37,14 +38,16 @@ export const metadata: Metadata = {
   },
 };
 
-const About = () => {
+const About = async () => {
+  const t = await getTranslations("aboutPage");
+
   return (
     <>
       <Header />
       <NavbarPlaceholder />
       <WhatsappWidget />
       <main>
-        <HeroCarousel carouselItems={aboutHeroCarouselItems} />
+        <HeroCarousel t={t} carouselItems={aboutHeroCarouselItems} />
         <AboutMission />
         <AboutFounder />
         <CoreValues />

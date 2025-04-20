@@ -9,14 +9,17 @@ import {
   SpNeedsOverview1,
   SpNeedsOverview2,
 } from "@/sections";
+import { getTranslations } from "next-intl/server";
 
-const SpecialNeeds = () => {
+const SpecialNeeds = async () => {
+  const t = await getTranslations("academy.specialNeeds");
+
   return (
     <>
       <Header />
       <NavbarPlaceholder />
       <main>
-        <HeroCarousel carouselItems={specialNeedsHeroCarouselItems} />
+        <HeroCarousel t={t} carouselItems={specialNeedsHeroCarouselItems} />
         <SpNeedsOverview1 />
         <SpNeedsOverview2 />
         <GalleryPreview />
