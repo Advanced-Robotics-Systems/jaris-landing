@@ -9,7 +9,7 @@ import {
 } from "@nextui-org/react";
 import Link from "next/link";
 
-const AdmissionFees = () => {
+const AdmissionFees = ({ t, locale }: { t: any; locale: string }) => {
   const pdfUrl = "/files/fee-structure 23-24.pdf";
 
   return (
@@ -18,9 +18,12 @@ const AdmissionFees = () => {
       <div className="flex justify-between items-center w-full mb-8">
         <div>
           <h2 className="heading-secondary font-semibold text-jaris-white">
-            Prices and Fee Structure
+            {t(`fees.title`)}
           </h2>
-          <h3 className="subtitle text-jaris-gold font-semibold">Fees</h3>
+          <h3 className="subtitle text-jaris-gold font-semibold">
+            {" "}
+            {t(`fees.subtitle`)}
+          </h3>
         </div>
         <Button
           size="lg"
@@ -31,7 +34,7 @@ const AdmissionFees = () => {
           className="border border-jaris-white text-jaris-white bg-jaris-white/20"
         >
           <span className="text-xl -mr-2">{ICONS.download}</span>
-          Fee Info
+          {t(`fees.buttonText1`)}
         </Button>
       </div>
 
@@ -41,7 +44,7 @@ const AdmissionFees = () => {
           <Card key={index} className="bg-white shadow-md">
             <CardHeader className="p-4 text-center bg-[#005A79] flex-col">
               <div className="text-jaris-white text-xl font-semibold">
-                {fee.title}
+                {t(`fees.feesCard.${fee.title}`)}
               </div>
               <div className="text-jaris-white text-sm lg:text-base">
                 {fee.grades}
@@ -88,7 +91,14 @@ const AdmissionFees = () => {
           href="/payment"
           className="bg-jaris-white/20 border border-jaris-white text-jaris-white"
         >
-          <span className="hidden sm:inline-block -mr-2">View</span>Bank Details
+          <span
+            className={`hidden sm:inline-block ${
+              locale === "ar" ? "-ml-2" : "-mr-2"
+            } `}
+          >
+            {t(`fees.buttonSubText3`)}
+          </span>
+          {t(`fees.buttonText3`)}
         </Button>
         <Button
           size="lg"
@@ -99,7 +109,14 @@ const AdmissionFees = () => {
           className="bg-jaris-gold text-jaris-white"
         >
           <span className="text-2xl sm:hidden -mr-2">{ICONS.download}</span>
-          <span className="hidden sm:inline-block -mr-2">Download</span>PDF
+          <span
+            className={`hidden sm:inline-block ${
+              locale === "ar" ? "-ml-2" : "-mr-2"
+            } `}
+          >
+            {t(`fees.buttonText2`)}
+          </span>
+          PDF
         </Button>
       </div>
     </div>
