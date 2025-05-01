@@ -1732,39 +1732,39 @@ export const specialNeedsHeroCarouselItems = [
 // Gallery
 export const newsCarouselItems = [
   {
-    title: "Gallery",
-    subtitle: "Find out more about JARIS",
+    title: "title1",
+    subtitle: "subtitle1",
     imgUrl: "/images/gallery/new-gallery-pictures/_DSC0293-Enhanced-NR.jpg",
   },
   {
-    title: "Need help?",
-    subtitle: "We're here to help. Find our contact information below",
+    title: "title2",
+    subtitle: "subtitle2",
     imgUrl: "/images/gallery/new-gallery-pictures/_DSC0165-Enhanced-NR.jpg",
   },
   {
-    title: "Culture",
-    subtitle: "Celebrating Diverse Cultures",
+    title: "title3",
+    subtitle: "subtitle3",
     imgUrl: "/images/gallery/new-gallery-pictures/nursery.jpeg",
   },
   {
-    title: "Sports",
-    subtitle: "Fostering Competitive Sport Activities",
+    title: "title4",
+    subtitle: "subtitle4",
     imgUrl: "/images/gallery/new-gallery-pictures/_DSC0342-Enhanced-NR.jpg",
   },
 ];
 
 export const newsNavItems = [
   {
-    title: "Gallery",
-    subtitle: "Explore Our",
+    title: "title1",
+    subtitle: "subtitle1",
   },
   {
-    title: "News",
-    subtitle: "Our",
+    title: "title2",
+    subtitle: "subtitle2",
   },
   {
-    title: "Events",
-    subtitle: "Our",
+    title: "title3",
+    subtitle: "subtitle3",
   },
   // {
   //   title: "Announcements",
@@ -2101,31 +2101,26 @@ export const galleryPhotos = [
 
 export const newsBannerItems = [
   {
-    title: "Annual Day",
-    description:
-      "Annual Day at Jawahir International School. The Baptist High School saw life and energy being propelled.",
+    title: "title1",
+    description: "description1",
     imgUrl: "/images/gallery/news-banners/news-annual-day.jpeg",
     modal: {
       insideImg: "/images/gallery/news-banners/modals/modal-annual-day.jpeg",
-      longDescription:
-        "Annual Day at Jawahir International School. The High School saw life and energy being propelled into an 'ethos inspiring vision' formulated by the school this year. Next came the Primary students with their depiction of compassionate mother nature being ravaged by the reckless insensitive actions of man. Through song and dance they inculcated Eco-friendly attitudes.",
+      longDescription: "longDescription1",
     },
   },
   {
-    title: "Sports Gala",
-    description:
-      "The much awaited Annual Sports Day was held on Saturday 16th March.",
+    title: "title2",
+    description: "description2",
     imgUrl: "/images/gallery/news-banners/news-sports-gala.jpeg",
     modal: {
       insideImg: "/images/gallery/news-banners/modals/modal-sports-gala.jpeg",
-      longDescription:
-        "The much awaited Annual Sports Gala was held on Saturday 16th March. The fantastic turnout from the parents and the pleasant weather were the perfect boost for the students on their very first sports day at the Jawahir International School.",
+      longDescription: "longDescription2",
     },
   },
   {
-    title: "Tablo",
-    description:
-      "Sports are a great way for kids to have fun, stay fit, improve skills, and make friends.",
+    title: "title3",
+    description: "description3",
     imgUrl: "/images/gallery/news-banners/news-tablo.jpeg",
     modal: {
       insideImg: "",
@@ -2136,49 +2131,45 @@ export const newsBannerItems = [
 
 export const eventsBannerItems = [
   {
-    title: "Junior British / Pakistani (Boys) English Debate Competition",
-    description:
-      "Our junior graders were having a magnificent debate last week about the competency of their teachers ",
+    title: "title1",
+    description: "description1",
     imgUrl: "/images/gallery/events-banners/events-debate-1.jpeg",
     modal: {
       insideImg: "/images/gallery/events-banners/modals/modal-debate-1.jpeg",
-      longDescription:
-        "Our junior graders were having a magnificent debate last week about the competency of their teachers especially related to their treatment with the students. In form of various games to play, the students divided into two groups and spoke about the affection towards the teachers and resentment against them. The committee is finalising the report for our website which will be uploaded soon.",
+      longDescription: "longDescription1",
     },
     details: {
-      date: "29 Jun, 2022",
-      time: "8am - 5pm",
-      category: "Event",
+      date: "date1",
+      time: "time1",
+      category: "category1",
     },
   },
   {
-    title: "English Debate Competition British & Pakistani Section for Boys",
-    description: "",
+    title: "title2",
+    description: "description2",
     imgUrl: "/images/gallery/events-banners/events-debate-2.jpeg",
     modal: {
       insideImg: "",
-      longDescription: "",
+      longDescription: "longDescription2",
     },
     details: {
-      date: "29 Jun, 2022",
-      time: "8am - 5pm",
-      category: "Event",
+      date: "date2",
+      time: "time2",
+      category: "category2",
     },
   },
   {
-    title: "Edmodo",
-    description:
-      "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017).",
+    title: "title3",
+    description: "description3",
     imgUrl: "/images/gallery/events-banners/events-edmodo.jpeg",
     modal: {
       insideImg: "/images/gallery/events-banners/events-edmodo.jpeg",
-      longDescription:
-        "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017). The accounts for students have already been created which can easily be accessed by using student code both for username and password. The parents can create their own account and ask their children to provide their group code to add them in their account. This will facilitate daily follow-up between the faculty and the parents. You will notice great change by using this program. The more you will use, the more you will learn. Please don’t hesitate to contact our IT team leader Adeel Khaliq (4785300-226) in case of any difficulty, who will either himself or his team member will help and guide you.",
+      longDescription: "longDescription3",
     },
     details: {
-      date: "29 Jun, 2022",
-      time: "8am - 5pm",
-      category: "Event",
+      date: "date2",
+      time: "time3",
+      category: "category3",
     },
   },
 ];

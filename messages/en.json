@@ -279,5 +279,95 @@
       "description5": "The Egyptian Curriculum is designed to meet the educational standards set by Egypt's Ministry of Education, focusing on Arabic language, science, mathematics, and humanities. It prepares students for the Egyptian Thanaweya Amma (General Secondary Education Certificate), recognized in Egypt and many other countries.",
       "buttonText": "View Curriculum"
     }
+  },
+  "newsGalleryPage": {
+    "hero": {
+      "title1": "Gallery",
+      "title2": "Need help?",
+      "title3": "Culture",
+      "title4": "Sports",
+      "subtitle1": "Find out more about JARIS",
+      "subtitle2": "We're here to help. Find our contact information below",
+      "subtitle3": "Celebrating Diverse Cultures",
+      "subtitle4": "Fostering Competitive Sport Activities",
+      "newsNav": {
+        "title1": "Gallery",
+        "title2": "News",
+        "title3": "Events",
+        "subtitle1": "Explore Our",
+        "subtitle2": "Our",
+        "subtitle3": "Our"
+      }
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "subtitle": "Have fun Exploring our Gallery",
+      "gallery": "Gallery",
+      "next": "Next",
+      "prev": "Prev"
+    },
+    "news": {
+      "title": "Explore Our Latest News",
+      "subtitle": "Discover more of JARIS",
+      "newsCard": {
+        "buttonTxt": "Read",
+        "title1": "Annual Day",
+        "title2": "Sports Gala",
+        "title3": "Tablo",
+        "description1": "Annual Day at Jawahir International School. The Baptist High School saw life and energy being propelled.",
+        "description2": "The much awaited Annual Sports Day was held on Saturday 16th March.",
+        "description3": "Sports are a great way for kids to have fun, stay fit, improve skills, and make friends.",
+        "longDescription1": "Annual Day at Jawahir International School. The High School saw life and energy being propelled into an 'ethos inspiring vision' formulated by the school this year. Next came the Primary students with their depiction of compassionate mother nature being ravaged by the reckless insensitive actions of man. Through song and dance they inculcated Eco-friendly attitudes.",
+        "longDescription2": "The much awaited Annual Sports Gala was held on Saturday 16th March. The fantastic turnout from the parents and the pleasant weather were the perfect boost for the students on their very first sports day at the Jawahir International School.",
+        "longDescription3": ""
+      }
+    },
+    "events": {
+      "title": "Explore Our Latest Events",
+      "subtitle": "Discover more of JARIS",
+      "eventsCard": {
+        "buttonTxt": "Read",
+        "title1": "Junior British / Pakistani (Boys) English Debate Competition",
+        "title2": "English Debate Competition British & Pakistani Section for Boys",
+        "title3": "Edmodo",
+        "description1": "Our junior graders were having a magnificent debate last week about the competency of their teachers ",
+        "description2": "",
+        "description3": "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017).",
+        "longDescription1": "Our junior graders were having a magnificent debate last week about the competency of their teachers especially related to their treatment with the students. In form of various games to play, the students divided into two groups and spoke about the affection towards the teachers and resentment against them. The committee is finalising the report for our website which will be uploaded soon.",
+        "longDescription2": "",
+        "longDescription3": "We are pleased to inform you that we will be using Edmodo (www.edmodo.com) starting new academic year (2016-2017). The accounts for students have already been created which can easily be accessed by using student code both for username and password. The parents can create their own account and ask their children to provide their group code to add them in their account. This will facilitate daily follow-up between the faculty and the parents. You will notice great change by using this program. The more you will use, the more you will learn. Please don't hesitate to contact our IT team leader Adeel Khaliq (4785300-226) in case of any difficulty, who will either himself or his team member will help and guide you.",
+        "eventDetails": "Event Details",
+        "date": "Date",
+        "time": "Time",
+        "category": "Category",
+        "date1": "29 Jun, 2022",
+        "date2": "29 Jun, 2022",
+        "date3": "29 Jun, 2022",
+        "time1": "8am - 5pm",
+        "time2": "8am - 5pm",
+        "time3": "8am - 5pm",
+        "category1": "Event",
+        "category2": "Event",
+        "category3": "Event"
+      }
+    }
+  },
+  "paymentPage": {
+    "onlinePayment": {
+      "title": "PAY WITH CARD",
+      "subtitle": " Now JARIS accepts card payments. So you can pay easily and effortlessly.",
+      "underDev": " (This feature is still under development)",
+      "buttonText1": "Pay Online",
+      "bankDetails": "Bank Details",
+      "bank": "Bank",
+      "accountNumber": "Account Number",
+      "accountHolder": "Account Holder",
+      "buttonText2": "Copy"
+    },
+    "contact": {
+      "title": "Get in touch",
+      "subtitle": "If you have any queries, Get In Touch. If you require some assistance, Get In Touch!",
+      "buttonText": "Contact Us"
+    }
   }
 }

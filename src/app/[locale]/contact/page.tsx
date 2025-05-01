@@ -14,6 +14,7 @@ import {
 } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 import { WhatsappWidget } from "@/components";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
   const pathname = usePathname();
@@ -45,6 +46,8 @@ export default function Contact() {
     exit: { opacity: 0, y: 20, transition: { duration: 0.5 } },
   };
 
+const t=useTranslations('contact');
+
   return (
     <>
       <Header />
@@ -56,6 +59,7 @@ export default function Contact() {
           carouselNavItems={contactNavItems}
           active={active}
           setActive={handleTabChange}
+          t={t}
         />
         <AnimatePresence mode="wait">
           {/* Contact Get in Touch */}

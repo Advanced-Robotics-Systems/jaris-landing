@@ -21,6 +21,7 @@ import {
 } from "@/data";
 import { CTASchools, ExtracurricularCTA, ExtracurricularOverview, ExtracurricularSchedule, ExtracurriculurSubjects, Footer, GalleryPreview, Header, HeroCarouselNav, NavbarPlaceholder } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 const Sports = () => {
@@ -68,6 +69,8 @@ const Sports = () => {
 		},
 	];
 
+	const t=useTranslations("sportsPage");
+
 	return (
 		<>
 			<Header />
@@ -78,6 +81,7 @@ const Sports = () => {
 					carouselNavItems={sportsNavItems}
 					active={active}
 					setActive={setActive}
+					t={t}
 				/>
 				<AnimatePresence mode="wait">
 					<motion.div

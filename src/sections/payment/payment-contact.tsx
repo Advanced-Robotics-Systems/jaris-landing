@@ -9,7 +9,7 @@ import {
   Image,
 } from "@nextui-org/react";
 
-const PaymentContact = () => {
+const PaymentContact = ({ t, locale }: { t: any; locale: string }) => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between padding bg-bg-primary lg:px-64 xl:px-80 2xl:px-96 gap-16">
       {/* Image Section */}
@@ -24,13 +24,16 @@ const PaymentContact = () => {
       {/* Contact Information Section */}
       <Card className="flex-1 bg-jaris-blue text-jaris-white rounded-lg p-6">
         <CardHeader>
-          <h3 className="sm:text-xl lg:text-2xl font-semibold">Get in touch</h3>
+          <h3 className="sm:text-xl lg:text-2xl font-semibold">
+            {t("contact.title")}
+          </h3>
         </CardHeader>
-        <CardBody className="flex flex-col gap-4">
-          <p className="subtitle">
-            If you have any queries, Get In Touch. If you require some
-            assistance, Get In Touch!
-          </p>
+        <CardBody
+          className={`flex flex-col gap-4 ${
+            locale === "en" ? "text-left" : "text-right"
+          }`}
+        >
+          <p className="subtitle">{t("contact.subtitle")}</p>
           <div className="subtitle flex gap-2 items-center">
             <span className="text-jaris-gold">{ICONS.phone}</span>
             <p>{paymentContactDetails.phone}</p>
@@ -54,7 +57,7 @@ const PaymentContact = () => {
             className="mt-4"
             color="warning"
           >
-            Contact Us
+            {t("contact.buttonText")}
           </Button>
         </CardFooter>
       </Card>
