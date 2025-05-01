@@ -17,6 +17,7 @@ const EventsBanner = ({
   imgUrl,
   modal,
   details,
+  t,
 }: {
   title: string;
   description: string;
@@ -30,6 +31,7 @@ const EventsBanner = ({
     time: string;
     category: string;
   };
+  t: any;
 }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
@@ -40,9 +42,11 @@ const EventsBanner = ({
         <div className="basis-1/2 sm:basis-3/5 flex flex-col gap-y-6">
           {/* Title and Description Starts */}
           <div className="flex flex-col gap-y-1">
-            <h1 className="text-base text-jaris-blue font-medium">{title}</h1>
+            <h1 className="text-base text-jaris-blue font-medium">
+              {t(`events.eventsCard.${title}`)}
+            </h1>
             <p className="text-[9px] text-jaris-blue font-normal">
-              {description}
+              {t(`events.eventsCard.${description}`)}
             </p>
           </div>
           {/* Title and Description Ends */}
@@ -54,7 +58,7 @@ const EventsBanner = ({
               className="px-2 py-1 text-xs text-jaris-white font-medium bg-jaris-gold hover:bg-jaris-gold-dark shadow-[-1px_2px_4px_0_rgba(0,0,0,0.25)]"
               onPress={onOpen}
             >
-              Read
+              {t("events.eventsCard.buttonTxt")}
             </Button>
           </div>
           {/* Button Sections Ends */}
@@ -101,30 +105,30 @@ const EventsBanner = ({
                   {/* Event Details Starts */}
                   <div className="flex flex-col gap-y-3">
                     <h1 className="text-base text-jaris-gold-dark font-bold">
-                      Event Details
+                      {t("events.eventsCard.eventDetails")}
                     </h1>
                     <div className="flex flex-col">
                       <span className="text-[#586A86] text-sm font-bold">
-                        Date
+                        {t("events.eventsCard.date")}
                       </span>
                       <span className="text-black text-xs font-bold">
-                        {details.date}
+                        {t(`events.eventsCard.${details.date}`)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-[#586A86] text-sm font-bold">
-                        Time
+                        {t("events.eventsCard.time")}
                       </span>
                       <span className="text-black text-xs font-bold">
-                        {details.time}
+                        {t(`events.eventsCard.${details.time}`)}
                       </span>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-[#586A86] text-sm font-bold">
-                        Category
+                        {t("events.eventsCard.category")}
                       </span>
                       <span className="text-black text-xs font-bold">
-                        {details.category}
+                        {t(`events.eventsCard.${details.category}`)}
                       </span>
                     </div>
                   </div>
@@ -134,12 +138,16 @@ const EventsBanner = ({
                 {/* Modal Right Side Starts */}
                 <div className="basis-full sm:basis-2/3 flex flex-col gap-y-3 sm:gap-y-6 p-0 sm:p-2 md:p-3">
                   <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-jaris-blue-dark">
-                    {title}
+                    {t(`events.eventsCard.${title}`)}
                   </h1>
                   <p className="text-xs sm:text-base md:text-lg lg:text-xl font-normal text-justify">
-                    {modal.longDescription == ""
-                      ? description
-                      : modal.longDescription}
+                    {t(
+                      `events.eventsCard.${
+                        modal.longDescription == ""
+                          ? description
+                          : modal.longDescription
+                      }`
+                    )}
                   </p>
                   <Image
                     src={imgUrl}

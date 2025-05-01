@@ -16,6 +16,7 @@ const NewsBanner = ({
   description,
   imgUrl,
   modal,
+  t,
 }: {
   title: string;
   description: string;
@@ -24,6 +25,7 @@ const NewsBanner = ({
     insideImg: string;
     longDescription: string;
   };
+  t: any;
 }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
@@ -34,9 +36,11 @@ const NewsBanner = ({
         <div className="basis-1/2 sm:basis-3/5 flex flex-col gap-y-6">
           {/* Title and Description Starts */}
           <div className="flex flex-col gap-y-1">
-            <h1 className="text-base text-jaris-blue font-medium">{title}</h1>
+            <h1 className="text-base text-jaris-blue font-medium">
+              {t(`news.newsCard.${title}`)}
+            </h1>
             <p className="text-[9px] text-jaris-blue font-normal">
-              {description}
+              {t(`news.newsCard.${description}`)}
             </p>
           </div>
           {/* Title and Description Ends */}
@@ -48,7 +52,7 @@ const NewsBanner = ({
               className="px-2 py-1 text-xs text-jaris-white font-medium bg-jaris-gold hover:bg-jaris-gold-dark shadow-[-1px_2px_4px_0_rgba(0,0,0,0.25)]"
               onPress={onOpen}
             >
-              Read
+              {t("news.newsCard.buttonTxt")}
             </Button>
           </div>
           {/* Button Sections Ends */}
@@ -94,12 +98,16 @@ const NewsBanner = ({
                 {/* Modal Right Side Starts */}
                 <div className="basis-full sm:basis-2/3 flex flex-col gap-y-3 sm:gap-y-6 p-0 sm:p-2 md:p-3">
                   <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-jaris-blue-dark">
-                    {title}
+                    {t(`news.newsCard.${title}`)}
                   </h1>
                   <p className="text-xs sm:text-base md:text-lg lg:text-xl font-normal text-justify">
-                    {modal.longDescription == ""
-                      ? description
-                      : modal.longDescription}
+                    {t(
+                      `news.newsCard.${
+                        modal.longDescription == ""
+                          ? description
+                          : modal.longDescription
+                      }`
+                    )}
                   </p>
                   {modal.insideImg != "" && (
                     <Image

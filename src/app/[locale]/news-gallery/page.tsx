@@ -16,6 +16,7 @@ import {
 } from "@/sections";
 import { AnimatePresence, motion } from "framer-motion";
 import { WhatsappWidget } from "@/components";
+import { useTranslations } from "next-intl";
 
 export default function GalleryNews() {
   const pathname = usePathname();
@@ -48,6 +49,8 @@ export default function GalleryNews() {
     router.push(`${pathname}${tabName}`, { scroll: false });
   };
 
+  const t = useTranslations("newsGalleryPage");
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Header />
@@ -59,6 +62,7 @@ export default function GalleryNews() {
           carouselNavItems={newsNavItems}
           active={active}
           setActive={handleTabChange}
+          t={t}
         />
         <AnimatePresence mode="wait">
           {/* Gallery */}
@@ -70,7 +74,7 @@ export default function GalleryNews() {
               animate="animate"
               exit="exit"
             >
-              <PhotoGallery />
+              <PhotoGallery t={t} />
             </motion.div>
           )}
 
@@ -83,7 +87,7 @@ export default function GalleryNews() {
               animate="animate"
               exit="exit"
             >
-              <News />
+              <News t={t} />
             </motion.div>
           )}
 
@@ -96,7 +100,7 @@ export default function GalleryNews() {
               animate="animate"
               exit="exit"
             >
-              <Events />
+              <Events t={t} />
             </motion.div>
           )}
 

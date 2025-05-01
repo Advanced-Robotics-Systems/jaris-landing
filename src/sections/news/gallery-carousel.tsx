@@ -6,7 +6,7 @@ import "swiper/css";
 import { useState } from "react";
 import { News } from "@/sections";
 
-const GalleryCarousel = ({ carouselItems }: { carouselItems: any }) => {
+const GalleryCarousel = ({ carouselItems, t }: { carouselItems: any; t:any; }) => {
   const [active, setActive] = useState(0);
 
   return (
@@ -138,7 +138,7 @@ const GalleryCarousel = ({ carouselItems }: { carouselItems: any }) => {
         </div>
         {/* Horizontal Buttons End */}
       </div>
-      {active == 1 && <News />}
+      {active == 1 && <News t={t} />}
     </>
   );
 };
