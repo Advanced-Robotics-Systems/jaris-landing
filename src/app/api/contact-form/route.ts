@@ -1,28 +1,27 @@
-import { NextResponse } from "next/server";
+import { EmailTemplate } from "@/components";
+import { ReactElement } from "react";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
   const formData = await request.json();
-  console.log(formData);
 
   try {
-    const scriptUrl = process.env.WEB_APP_URL as string;
-    console.log(scriptUrl);
-
-    const res = await fetch(scriptUrl, {
-      method: "POST",
-      body: new URLSearchParams(formData),
+    const { data, error } = await resend.emails.send({
+      from: "Acme <onboarding@resend.dev>",
+      to: ["abrarhussain.arsystems@gmail.com"],
+      subject: "JARIS Website Form Submisssion",
+      react: EmailTemplate(formData) as ReactElement,
     });
 
-    if (!res.ok) {
-      throw new Error("Failed to submit form data");
+    if (error) {
+      // @ts-expect-error: error object has the field 'statusCode' but the 'ErrorResponse' interface doesn't have it
+      return Response.json({ error }, { status: error.statusCode });
     }
 
-    return NextResponse.json({ message: "Form submitted successfully!" });
+    return Response.json(data);
   } catch (error) {
-    console.error(error);
-    return NextResponse.json(
-      { message: "Error submitting form. Server side." },
-      { status: 500 }
-    );
+    return Response.json({ error }, { status: 500 });
   }
 }

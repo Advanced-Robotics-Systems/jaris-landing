@@ -154,7 +154,7 @@ const ContactForm = () => {
               onChange={handleTextAreaChange}
               value={formData.contact_message}
               required
-              maxLength={1000}
+              maxLength={1500}
             ></textarea>
           </div>
         </div>
@@ -172,8 +172,8 @@ const ContactForm = () => {
             status === "Submitted Successfully!"
               ? "text-green-600"
               : status === "Error During Submission. Please Retry."
-              ? "text-red-600"
-              : "text-jaris-blue-dark"
+                ? "text-red-600"
+                : "text-jaris-blue-dark"
           } absolute left-2`}
         >
           {status}
