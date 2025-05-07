@@ -154,7 +154,7 @@ const ContactForm = () => {
               onChange={handleTextAreaChange}
               value={formData.contact_message}
               required
-              maxLength={2000}
+              maxLength={1000}
             ></textarea>
           </div>
         </div>
