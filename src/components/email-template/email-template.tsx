@@ -35,7 +35,8 @@ export const EmailTemplate: FC<Readonly<EmailTemplateProps>> = ({
     style={{
       backgroundColor: "#FAFAFA",
       color: "#3B5174",
-      padding: "8px 16px",
+      paddingLeft: "16px",
+      paddingRight: "16px",
       borderRadius: "16px",
     }}
   >
