@@ -1,17 +1,16 @@
 import { coreValues } from "@/data";
 import { Image } from "@nextui-org/react";
 
-const CoreValues = () => {
+const CoreValues = ({ t }: { t: any }) => {
   return (
     <div className="w-full lg:min-h-screen bg-bg-primary padding sm:px-8 sm:py-12 lg:px-36 xl:px-56 lg:py-24 flex flex-col lg:flex-row gap-12 items-center justify-center">
       {/* Left Text Section */}
       <div className="lg:flex-[2]">
         <h2 className="text-jaris-blue-dark text-3xl lg:text-4xl font-bold">
-          Core Values
+          {t("coreValue.coreValues")}
         </h2>
         <p className="text-jaris-gold text-base md:text-lg mt-2 lg:mt-4">
-          Our core values guide us to our greatest goals. We abide by these
-          rules to propel our students to their highest success.
+          {t("coreValue.details")}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
@@ -25,10 +24,10 @@ const CoreValues = () => {
               {/* Core Value Text */}
               <div className="flex flex-col justify-start w-full">
                 <h3 className="text-jaris-blue-dark text-xl font-semibold">
-                  {value.title}
+                  {t(`coreValue.${value.title}`)}
                 </h3>
                 <p className="text-jaris-blue-light text-base mt-2">
-                  {value.description}
+                  {t(`coreValue.${value.description}`)}
                 </p>
               </div>
             </div>

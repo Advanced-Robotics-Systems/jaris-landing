@@ -1,3 +1,4 @@
+"use client";
 import { WhatsappWidget } from "@/components";
 import { aboutHeroCarouselItems } from "@/data";
 import {
@@ -17,10 +18,11 @@ import {
   NavbarPlaceholder,
 } from "@/sections";
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import React from "react";
 
-export const metadata: Metadata = {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const metadata: Metadata = {
   title: "About Us | Jawahir Al Riyadh",
   description: "Learn more about Jawahir Al Riyadh International School",
   keywords: [
@@ -38,8 +40,8 @@ export const metadata: Metadata = {
   },
 };
 
-const About = async () => {
-  const t = await getTranslations("aboutPage");
+const About = () => {
+  const t = useTranslations("aboutPage");
 
   return (
     <>
@@ -48,14 +50,14 @@ const About = async () => {
       <WhatsappWidget />
       <main>
         <HeroCarousel t={t} carouselItems={aboutHeroCarouselItems} />
-        <AboutMission />
-        <AboutFounder />
-        <CoreValues />
-        <Facilities />
-        <AboutExploreSchool />
-        <AboutFJaris />
-        <AboutSJaris />
-        <AboutTJaris />
+        <AboutMission t={t} />
+        <AboutFounder t={t} />
+        <CoreValues t={t} />
+        <Facilities t={t} />
+        <AboutExploreSchool t={t} />
+        <AboutFJaris t={t} />
+        <AboutSJaris t={t} />
+        <AboutTJaris t={t} />
         <Explore />
         <DiscoverJaris />
       </main>

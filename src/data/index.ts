@@ -394,75 +394,69 @@ export const ctaSchoolsCarouselItems = [
 // About
 export const aboutHeroCarouselItems = [
   {
-    title: "About Us",
-    subtitle: "Your journey starts here",
+    title: "aboutUs",
+    subtitle: "subtitle1",
     imgUrl: "/images/about/about-hero-carousel-slide-1.jpg",
   },
   {
-    title: "About Us",
-    subtitle: "Become a part of JARIS",
+    title: "aboutUs",
+    subtitle: "subtitle2",
     imgUrl: "/images/about/about-hero-carousel-slide-2.jpg",
   },
   {
-    title: "About Us",
-    subtitle: "Our state-of-the-art sports facilities",
+    title: "aboutUs",
+    subtitle: "subtitle3",
     imgUrl: "/images/about/about-hero-carousel-slide-3.jpg",
   },
   {
-    title: "About Us",
-    subtitle: "Experience an organised and modern facilities",
+    title: "aboutUs",
+    subtitle: "subtitle4",
     imgUrl: "/images/about/about-hero-carousel-slide-4.jpg",
   },
 ];
 
 export const coreValues = [
   {
-    title: "Diversity",
-    description:
-      "We recognize, respect, and value diversity as a positive learning influence in developing active thinkers and learners.",
+    title: "title1",
+    description: "description1",
   },
   {
-    title: "Growth",
-    description:
-      "We create an environment in which continuous improvement is embedded in our culture for teaching life, not just exams.",
+    title: "title2",
+    description: "description2",
   },
   {
-    title: "Communication",
-    description:
-      "We believe in an environment where all stakeholders are given the opportunity for ongoing, open, two-way communication.",
+    title: "title3",
+    description: "description3",
   },
   {
-    title: "Passion",
-    description:
-      "We believe that each employee and parent understands their role to actively support student learning and eliminate passive thinking from teachers, parents, and students.",
+    title: "title4",
+    description: "description4",
   },
   {
-    title: "Logical",
-    description:
-      "We believe that decisions based on facts, data, and input from parents and teachers are in the best interest of the students.",
+    title: "title5",
+    description: "description5",
   },
   {
-    title: "Safety",
-    description:
-      "We believe that a safe, clean, and healthy environment is necessary for learning.",
+    title: "title6",
+    description: "description6",
   },
 ];
 
 export const facilities = [
   {
-    title: "Chemistry Lab",
+    title: "title1",
     imgUrl: "/images/about/facility-chemistry.jpeg",
   },
   {
-    title: "Physics Lab",
+    title: "title2",
     imgUrl: "/images/about/facility-physics.jpeg",
   },
   {
-    title: "Biology Lab",
+    title: "title3",
     imgUrl: "/images/about/facility-biology.jpeg",
   },
   {
-    title: "Computer Lab",
+    title: "title4",
     imgUrl: "/images/gallery/new-gallery-pictures/_DSC0210-Enhanced-NR.jpg",
   },
 ];
@@ -903,64 +897,60 @@ export const whatsappData = [
 
 // Schools
 export const availableTimes = [
-  { day: "Sunday", time: "6:30 AM – 12:30 PM" },
-  { day: "Monday", time: "6:30 AM – 12:30 PM" },
-  { day: "Tuesday", time: "6:30 AM – 12:30 PM" },
-  { day: "Wednesday", time: "6:30 AM – 12:30 PM" },
-  { day: "Thursday", time: "6:30 AM – 12:30 PM" },
+  { day: "day1", time: "time" },
+  { day: "day2", time: "time" },
+  { day: "day3", time: "time" },
+  { day: "day4", time: "time" },
+  { day: "day5", time: "time" },
 ];
 
 // Facilities
 export const facilitiesHeroCarouselItems = [
   {
-    title: "Facilities",
-    subtitle: "Find out more about JARIS",
+    title: "title",
+    subtitle: "subtitle",
     imgUrl: "/images/facilities/facilities-hero-carousel-slide-1.jpeg",
   },
   {
-    title: "Facilities",
-    subtitle: "Find out more about JARIS",
+    title: "title",
+    subtitle: "subtitle",
     imgUrl: "/images/facilities/facilities-hero-carousel-slide-2.jpeg",
   },
   {
-    title: "Facilities",
-    subtitle: "Find out more about JARIS",
+    title: "title",
+    subtitle: "subtitle",
     imgUrl: "/images/facilities/facilities-hero-carousel-slide-3.jpeg",
   },
   {
-    title: "Facilities",
-    subtitle: "Find out more about JARIS",
+    title: "title",
+    subtitle: "subtitle",
     imgUrl: "/images/facilities/facilities-hero-carousel-slide-4.jpeg",
   },
 ];
 
 export const labData = [
   {
-    category: "Science",
-    name: "Chemistry Lab",
-    description:
-      "Our Chemistry lab is designed to provide a safe and well-equipped environment for students to explore chemical reactions, compounds, and scientific processes. With modern apparatus and materials, students can perform hands-on experiments, deepening their understanding of chemistry concepts while ensuring safety protocols are adhered to.",
+    category: "scienceLab",
+    name: "name1",
+    description: "description1",
     imgSrc: "/images/facilities/facilities-chemistry.jpeg",
   },
   {
-    category: "Science",
-    name: "Biology Lab",
-    description:
-      "The Biology lab offers students the tools and equipment to study living organisms, ecosystems, and biological processes. Whether through microscope work or dissections, students can investigate the complexity of life forms, enhancing their grasp of both theoretical and practical aspects of biology.",
+    category: "scienceLab",
+    name: "name2",
+    description: "description2",
     imgSrc: "/images/facilities/facilities-biology.jpeg",
   },
   {
-    category: "Science",
-    name: "Physics Lab",
-    description:
-      "In the Physics lab, students experiment with the fundamental principles of motion, energy, electricity, and magnetism. Equipped with advanced tools, the lab provides a platform for students to apply their theoretical knowledge through engaging experiments, fostering a deeper understanding of physical laws and phenomena.",
+    category: "scienceLab",
+    name: "name3",
+    description: "description3",
     imgSrc: "/images/facilities/facilities-physics.jpeg",
   },
   {
-    category: "Technology",
-    name: "Computer Lab",
-    description:
-      "Our Computer labs are equipped with the latest hardware and software to support both programming and digital literacy. With high-speed internet and a variety of applications, students are able to explore coding, software development, data analysis, and more, preparing them for the ever-evolving world of technology.",
+    category: "technologyLab",
+    name: "name4",
+    description: "description4",
     imgSrc: "/images/gallery/new-gallery-pictures/_DSC0210-Enhanced-NR.jpg",
   },
 ];
