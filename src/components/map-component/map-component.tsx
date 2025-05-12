@@ -12,21 +12,21 @@ const locations = [
     shortName: "1st JARIS",
     latitude: 24.67376139412055,
     longitude: 46.72046574868544,
-    link: "https://maps.app.goo.gl/hZ1akMiPkMF7idE2A?g_st=com.google.maps.preview.copy",
+    link: "https://maps.app.goo.gl/eFrrf9gdjxkWTtJ58",
   },
   {
     name: "Second Jawahir Al-Riyadh International School",
     shortName: "2nd JARIS",
-    latitude: 24.666693923205354,
-    longitude: 46.70306593318544,
-    link: "https://maps.app.goo.gl/9zQsL4rdoA2ZJ5bPA?g_st=com.google.maps.preview.copy",
+    latitude: 24.67951705954089,
+    longitude: 46.721798275619086,
+    link: "https://maps.app.goo.gl/UjTKJryDtM7BMBDH9",
   },
   {
     name: "Third Jawahir Al-Riyadh International School",
     shortName: "3rd JARIS",
     latitude: 24.666759071766748,
     longitude: 46.70879792698207,
-    link: "https://maps.app.goo.gl/gdzRK9yG2GpEEeJZ8?g_st=com.google.maps.preview.copy",
+    link: "https://maps.app.goo.gl/6aoqnpki2NJXXJoT6",
   },
 ];
 
