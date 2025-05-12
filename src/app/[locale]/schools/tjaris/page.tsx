@@ -1,3 +1,4 @@
+"use client";
 import { WhatsappWidget } from "@/components";
 import { admissionHeroCarouselItems } from "@/data";
 import {
@@ -10,11 +11,11 @@ import {
   SchoolAdmissionCTA,
   TJarisOverview,
 } from "@/sections";
-import { getLocale, getTranslations } from "next-intl/server";
+import { useLocale, useTranslations } from "next-intl";
 
-const TJARIS = async () => {
-  const t = await getTranslations();
-  const locale = await getLocale();
+const TJARIS = () => {
+  const t = useTranslations("admissionPage");
+  const locale = useLocale();
 
   return (
     <>

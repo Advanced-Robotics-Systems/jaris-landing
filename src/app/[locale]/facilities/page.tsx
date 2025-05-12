@@ -1,3 +1,5 @@
+"use client";
+
 import { WhatsappWidget } from "@/components";
 import { facilitiesHeroCarouselItems } from "@/data";
 import {
@@ -9,10 +11,10 @@ import {
   HeroCarousel,
   NavbarPlaceholder,
 } from "@/sections";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-const Facilities = async () => {
-  const t = await getTranslations("facilities");
+const Facilities = () => {
+  const t = useTranslations("aboutPage.facilities");
   return (
     <>
       <Header />
@@ -20,8 +22,8 @@ const Facilities = async () => {
       <WhatsappWidget />
       <main>
         <HeroCarousel t={t} carouselItems={facilitiesHeroCarouselItems} />
-        <FacilitiesOverview />
-        <AllFacilities />
+        <FacilitiesOverview t={t} />
+        <AllFacilities t={t} />
         <CTASchools />
       </main>
       <Footer />

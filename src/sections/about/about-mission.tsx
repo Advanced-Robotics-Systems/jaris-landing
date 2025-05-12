@@ -1,7 +1,7 @@
 import { Image } from "@nextui-org/react";
 import React from "react";
 
-const AboutMission = () => {
+const AboutMission = ({ t }: { t: any }) => {
   return (
     <div className="bg-bg-primary padding-y lg:px-32 flex flex-col items-center gap-12">
       {/* Top Section */}
@@ -9,16 +9,13 @@ const AboutMission = () => {
         {/* Mission Text 1 */}
         <div className="p-8 rounded-lg lg:flex-1">
           <h3 className="text-jaris-blue-dark text-xl md:text-2xl font-semibold">
-            Our Mission
+            {t("mission.ourMission")}
           </h3>
           <h2 className="text-jaris-gold text-2xl md:text-3xl lg:text-4xl font-bold leading-snug mt-4">
-            Empowering Future Leaders Through Innovative Education
+            {t("mission.title1")}
           </h2>
           <p className="text-base md:text-lg text-jaris-blue-light mt-4">
-            To create a dynamic educational community where students are
-            inspired to actively engage in their learning, supported by teachers
-            and technology, and prepared to confidently take on the challenges
-            of the modern world.
+            {t("mission.details1")}
           </p>
         </div>
 
@@ -37,18 +34,13 @@ const AboutMission = () => {
         {/* Mission Text 2 */}
         <div className="p-8 rounded-lg lg:flex-1">
           <h3 className="text-jaris-blue-dark text-xl md:text-2xl font-semibold">
-            Our Mission
+            {t("mission.ourMission")}
           </h3>
           <h2 className="text-jaris-gold text-2xl md:text-3xl lg:text-4xl font-bold leading-snug mt-4">
-            Creating An Environment For Growth And Leadership
+            {t("mission.title2")}
           </h2>
           <p className="text-base md:text-lg text-jaris-blue-light mt-4">
-            To provide a creative, innovative, and nurturing learning
-            environment that empowers students through a student-centered
-            approach, preparing them to excel in a competitive world. By
-            fostering enthusiasm for learning, equipping classrooms with
-            advanced technology, and supporting individualized education, we aim
-            to guide each student towards their full potential.
+            {t("mission.details2")}
           </p>
         </div>
 

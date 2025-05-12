@@ -369,5 +369,121 @@
       "subtitle": "If you have any queries, Get In Touch. If you require some assistance, Get In Touch!",
       "buttonText": "Contact Us"
     }
+  },
+  "aboutPage": {
+    "hero": {
+      "aboutUs": "About Us",
+      "subtitle1": "Your journey starts here",
+      "subtitle2": "Become a part of JARIS",
+      "subtitle3": "Our state-of-the-art sports facilities",
+      "subtitle4": "Experience an organised and modern facilities"
+    },
+    "mission": {
+      "ourMission": "Our Mission",
+      "title1": "Empowering Future Leaders Through Innovative Education",
+      "details1": "To create a dynamic educational community where students are inspired to actively engage in their learning, supported by teachers and technology, and prepared to confidently take on the challenges of the modern world.",
+      "title2": "  Creating An Environment For Growth And Leadership",
+      "details2": " To provide a creative, innovative, and nurturing learning environment that empowers students through a student-centered approach, preparing them to excel in a competitive world. By fostering enthusiasm for learning, equipping classrooms with advanced technology, and supporting individualized education, we aim to guide each student towards their full potential."
+    },
+    "founder": {
+      "ourFounders": "Our Founders",
+      "title": "Our Journey began 30 years ago..",
+      "details": "The founders of Jawahir Al-Riyadh Educational Company (JAREC) have past history of 30 years of schooling whereas officially JAREC was established in the year 1998. From the day of inception, it marked emerging new dimensions in the field of education."
+    },
+    "coreValue": {
+      "coreValues": "Core Values",
+      "details": "Our core values guide us to our greatest goals. We abide by these rules to propel our students to their highest success.",
+      "title1": "Diversity",
+      "title2": "Growth",
+      "title3": "Communication",
+      "title4": "Passion",
+      "title5": "Logical",
+      "title6": "Safety",
+      "description1": "We recognize, respect, and value diversity as a positive learning influence in developing active thinkers and learners.",
+      "description2": "We create an environment in which continuous improvement is embedded in our culture for teaching life, not just exams.",
+      "description3": "We believe in an environment where all stakeholders are given the opportunity for ongoing, open, two-way communication.",
+      "description4": "We believe that each employee and parent understands their role to actively support student learning and eliminate passive thinking from teachers, parents, and students.",
+      "description5": "We believe that decisions based on facts, data, and input from parents and teachers are in the best interest of the students.",
+      "description6": "We believe that a safe, clean, and healthy environment is necessary for learning."
+    },
+    "facilitie": {
+      "ourFacilities": "Our Facilities",
+      "description": "For more information contact our teachers in work hours.",
+      "title1": "Chemistry Lab",
+      "title2": "Physics Lab",
+      "title3": "Biology Lab",
+      "title4": "Computer Lab",
+      "buttonTxt": "Explore Facilities"
+    },
+    "school": {
+      "ourSchools": "Our Schools",
+      "description": "Explore our Schools and discover your path to excellence."
+    },
+    "fJaris": {
+      "subtitle": "British/Pakistani curriculums",
+      "grade": "Boys: grade 6-12",
+      "description": "Jawahir Al-Riyadh International School (JARIS) is a subsidiary of Jawahir Al-Riyadh Educational Company (JAREC). JARIS founders are included in the First Batch of Saudi Educationists getting licenses as soon as the royal decree was issued authorizing Saudis to establish International Schools."
+    },
+    "sJaris": {
+      "subtitle": "American curriculums",
+      "gradeGirls": "Girls section: Boys grade KG-5, Girls grade KG-12",
+      "gradeBoys": " Boys section: Only boys 6-12",
+      "description": "Second Jawahir Al-Riyadh International School (2nd JARIS), an educational powerhouse established in 1998 with the Saudi Ministry of Education. Our commitment to excellence is showcased through our affiliation with Advance-Ed, an American Affiliation , since December 2015, 2nd JARIS proudly Board."
+    },
+    "tJaris": {
+      "subtitle": "British/Pakistani curriculums",
+      "grade": "Boys grades KG-5 and girls grades KG-12",
+      "description": " Third Jawahir Rl-Riyadh International School (3rd JARIS) is the recently (the independent) opening of Jawahir Al-Riyadh Educational Company (JAREC) for female students managed by female educationists. Most of the teaching staff already serving with JAREC were relocated in this important phase of the COMPANY."
+    },
+    "commonTxt": {
+      "curriculum": "Curriculum",
+      "buttonTxt1": "Explore JARIS",
+      "buttonTxt2": "Visit Site",
+      "buttonTxt3": "Contact Us",
+      "buttonTxt4": "Apply Now"
+    },
+    "jarisOverview": {
+      "title": "Who We Are",
+      "subtitle": "Jawahir Al-Riyadh International School (JARIS) is a subsidiary of Jawahir Al-Riyadh Educational Company (JAREC).",
+      "description": "JARIS founders are included in the First Batch of Saudi Educationists getting licenses as soon as the royal decree was issued authorizing Saudis to establish International Schools.Proudly JAREC possesses it's own campuses for accommodating thousands of students.State-of-the-Art LABORATORIES, LIBRARIES, PLAYING GROUNDS, and SPACIOUS HALLS FOR EXTRACURRICULAR ACTIVITIES.The Campuses are located in the Centre of the city, easy to approach. JARIS has an affiliation with famous International Educational Boards both in Britain and Pakistan. The teachers are very experienced, well-known, and famous for their commitment to Education.",
+      "curriculum": "Curriculum"
+    },
+    "admissionCTA": {
+      "title": "Interested?",
+      "subtitle": "To learn about the admission procedure, check Admission. Or you can apply now online.",
+      "buttonTxt1": "Admission Procedure",
+      "buttonTxt2": "Apply Now",
+      "avilable": "We are available!",
+      "day1": "Sunday",
+      "day2": "Monday",
+      "day3": "Tuesday",
+      "day4": "Wednesday",
+      "day5": "Thursday",
+      "time": "6:30 AM - 12:30 PM"
+    },
+    "facilities": {
+      "hero": {
+        "title": "Facilities",
+        "subtitle": "Find out more about JARIS"
+      },
+      "facilitiesOverview": {
+        "title": "Our Facilities",
+        "description": "At our school, we provide state-of-the-art facilities to ensure a holistic learning experience for every student. Our campus is equipped with modern labs, spacious classrooms, advanced technology, and a wide range of resources to support both academic and extracurricular pursuits. We are committed to creating a conducive environment where students can explore, learn, and grow to their fullest potential."
+      },
+      "allFacilities": {
+        "title": "Our Laboratories",
+        "description": "Our students are provided with the best facilities to provide latest scientific education.",
+        "scienceLab": "Science",
+        "technologyLab": "Technology",
+        "name1": "Chemistry Lab",
+        "name2": "Biology Lab",
+        "name3": "Physics Lab",
+        "name4": "Computer Lab",
+        "description1": "Our Chemistry lab is designed to provide a safe and well-equipped environment for students to explore chemical reactions, compounds, and scientific processes. With modern apparatus and materials, students can perform hands-on experiments, deepening their understanding of chemistry concepts while ensuring safety protocols are adhered to.",
+        "description2": "The Biology lab offers students the tools and equipment to study living organisms, ecosystems, and biological processes. Whether through microscope work or dissections, students can investigate the complexity of life forms, enhancing their grasp of both theoretical and practical aspects of biology.",
+        "description3": "In the Physics lab, students experiment with the fundamental principles of motion, energy, electricity, and magnetism. Equipped with advanced tools, the lab provides a platform for students to apply their theoretical knowledge through engaging experiments, fostering a deeper understanding of physical laws and phenomena.",
+        "description4": "Our Computer labs are equipped with the latest hardware and software to support both programming and digital literacy. With high-speed internet and a variety of applications, students are able to explore coding, software development, data analysis, and more, preparing them for the ever-evolving world of technology."
+      }
+    }
   }
 }
